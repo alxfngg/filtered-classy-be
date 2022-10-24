@@ -1,6 +1,7 @@
 """
     scrape.py - code that scrapes the ORC course pages for Classy, a CS 98 project
     Author: Henry Kim
+    Course: CS 98
     Term: Fall 2022
 """
 

@@ -1,0 +1,3882 @@
+Course: ANTH 35
+Required: [['ANTH *', 'LACS *']]
+Counts: [1]
+
+Course: ANTH 37
+Required: [['ANTH *', 'LACS *']]
+Counts: [1]
+
+Course: ANTH 43
+Required: [['ANTH 6']]
+Counts: [1]
+
+Course: ANTH 48
+Required: [['ANTH *', 'REL *']]
+Counts: [1]
+
+Course: ANTH 50.46
+Required: [['BIOL 12', 'BIOL 19', 'BIOL 13', 'BIOL 14', 'BIOL 15', 'BIOL 16', 'EARS 2']]
+Counts: [1]
+
+Course: ANTH 54
+Required: [['ANTH *']]
+Counts: [2]
+
+Course: ANTH 85
+Required: [['IP']]
+Counts: [1]
+
+Course: ANTH 87
+Required: [['IP']]
+Counts: [1]
+
+Course: ANTH 88
+Required: [['IP']]
+Counts: [1]
+
+Course: ASCL 70.22
+Required: [['ASCL *']]
+Counts: [1]
+
+Course: CHIN 31
+Required: [['CHIN 23']]
+Counts: [1]
+
+Course: CHIN 32
+Required: [['CHIN 23']]
+Counts: [1]
+
+Course: CHIN 33
+Required: [['CHIN 23']]
+Counts: [1]
+
+Course: CHIN 41
+Required: [['CHIN 31-33']]
+Counts: [2]
+
+Course: CHIN 42
+Required: [['CHIN 31-33']]
+Counts: [2]
+
+Course: JAPN 31
+Required: [['JAPN 23']]
+Counts: [1]
+
+Course: JAPN 32
+Required: [['JAPN 31']]
+Counts: [1]
+
+Course: JAPN 33
+Required: [['JAPN 32']]
+Counts: [1]
+
+Course: JAPN 41
+Required: [['JAPN 31-33']]
+Counts: [2]
+
+Course: JAPN 42
+Required: [['JAPN 41']]
+Counts: [1]
+
+Course: JAPN 43
+Required: [['JAPN 41', 'JAPN 42']]
+Counts: [1]
+
+Course: BIOL 21
+Required: [['BIOL 15', 'BIOL 16']]
+Counts: [1]
+
+Course: BIOL 22
+Required: [['BIOL 16']]
+Counts: [1]
+
+Course: BIOL 23
+Required: [['BIOL 15', 'BIOL 16']]
+Counts: [1]
+
+Course: BIOL 24
+Required: [['BIOL 15', 'BIOL 16']]
+Counts: [1]
+
+Course: BIOL 25
+Required: [['BIOL 12', 'BIOL 19', 'BIOL 13', 'BIOL 14', 'BIOL 15', 'BIOL 16']]
+Counts: [1]
+
+Course: BIOL 26
+Required: [['BIOL 16', 'ENVS 2', 'GEOG 3']]
+Counts: [1]
+
+Course: BIOL 27
+Required: [['BIOL 15', 'BIOL 16']]
+Counts: [1]
+
+Course: BIOL 28
+Required: [['BIOL 12', 'BIOL 19', 'BIOL 13', 'BIOL 14', 'BIOL 15', 'BIOL 16', 'EARS 2']]
+Counts: [1]
+
+Course: BIOL 29
+Required: [['BIOL 11+']]
+Counts: [2]
+
+Course: BIOL 31
+Required: [['BIOL 12', 'BIOL 19', 'BIOL 13', 'BIOL 14', 'BIOL 15', 'BIOL 16']]
+Counts: [1]
+
+Course: BIOL 32
+Required: [['BIOL 12', 'BIOL 19', 'BIOL 13', 'BIOL 14', 'BIOL 15', 'BIOL 16', 'PSYC 6']]
+Counts: [1]
+
+Course: BIOL 35
+Required: [['BIOL 12', 'BIOL 19', 'BIOL 14', 'PSYC 6']]
+Counts: [1]
+
+Course: BIOL 37
+Required: [['BIOL 12', 'BIOL 19']]
+Counts: [1]
+
+Course: BIOL 40
+Required: [['BIOL 12', 'BIOL 19'], ['CHEM 52', 'CHEM 58']]
+Counts: [1, 1]
+
+Course: BIOL 41
+Required: [['BIOL 12', 'BIOL 19']]
+Counts: [1]
+
+Course: BIOL 42
+Required: [['BIOL 12', 'BIOL 19', 'BIOL 13']]
+Counts: [1]
+
+Course: BIOL 43
+Required: [['BIOL 12', 'BIOL 19', 'BIOL 13']]
+Counts: [1]
+
+Course: BIOL 45
+Required: [['BIOL 13']]
+Counts: [1]
+
+Course: BIOL 46
+Required: [['BIOL 12', 'BIOL 19', 'BIOL 13', 'BIOL 16']]
+Counts: [1]
+
+Course: BIOL 47
+Required: [['BIOL 13 OR BIOL 15']]
+Counts: [1]
+
+Course: BIOL 48
+Required: [['BIOL 12', 'BIOL 19', 'BIOL 13', 'BIOL 14', 'BIOL 15', 'BIOL 16']]
+Counts: [1]
+
+Course: BIOL 50.01
+Required: [['BIOL 16'], ['BIOL 21-32']]
+Counts: [1, 1]
+
+Course: BIOL 50.02
+Required: [['BIOL 16'], ['BIOL 21-31', 'BIOL 46', 'BIOL 48']]
+Counts: [1, 1]
+
+Course: BIOL 51
+Required: [['BIOL 16'], ['BIOL 22-32']]
+Counts: [1, 1]
+
+Course: BIOL 53
+Required: [['BIOL 15', 'BIOL 16'], ['BIOL 21', 'BIOL 22', 'BIOL 23', 'BIOL 24', 'BIOL 25', 'BIOL 27', 'BIOL 28', 'BIOL 29', 'BIOL 31', 'BIOL 46']]
+Counts: [1, 1]
+
+Course: BIOL 54
+Required: [['BIOL 16'], ['BIOL 21-32']]
+Counts: [1, 1]
+
+Course: BIOL 55
+Required: [['BIOL 16'], ['1 BIOL 21-32']]
+Counts: [1, 1]
+Recommended: ['BIOL 15']
+
+Course: BIOL 56
+Required: [['BIOL 55']]
+Counts: [1]
+
+Course: BIOL 57
+Required: [['BIOL 55'], ['BIOL 56']]
+Counts: [1, 1]
+
+Course: BIOL 58
+Required: [['BIOL 15'], ['BIOL 16'], ['BIOL 21-32']]
+Counts: [1, 1, 1]
+
+Course: BIOL 59
+Required: [['BIOL 29']]
+Counts: [1]
+
+Course: BIOL 59.01
+Required: [['BIOL 29', 'QSS 15', 'GOVT 10', 'ECON 10', 'SOCY 10', 'PSYC 10']]
+Counts: [1]
+
+Course: BIOL 60.01
+Required: [['BIOL 21-32', 'BIOL 47', 'BIOL 48']]
+Counts: [1]
+
+Course: BIOL 60.02
+Required: [['BIOL 15'], ['BIOL 21', 'BIOL 23', 'BIOL 24', 'BIOL 27', 'BIOL 28', 'BIOL 32', 'BIOL 37', 'BIOL 47']]
+Counts: [1, 1]
+
+Course: BIOL 63
+Required: [['BIOL 40', 'BIOL 41', 'BIOL 43', 'BIOL 45', 'BIOL 47', 'CHEM 41']]
+Counts: [1]
+
+Course: BIOL 66
+Required: [['BIOL 12', 'BIOL 19'], ['BIOL 13'], ['BIOL 40', 'BIOL 41', 'BIOL 43', 'BIOL 45', 'CHEM 41']]
+Counts: [1, 1, 1]
+
+Course: BIOL 69
+Required: [['BIOL 12', 'BIOL 19'], ['BIOL 13'], ['BIOL 37', 'BIOL 40', 'BIOL 41', 'BIOL 43', 'BIOL 45', 'CHEM 41']]
+Counts: [1, 1, 1]
+
+Course: BIOL 70
+Required: [['BIOL 12', 'BIOL 19'], ['BIOL 13'], ['BIOL 40', 'BIOL 41', 'BIOL 45', 'CHEM 41'], ['IP']]
+Counts: [1, 1, 1, 1]
+
+Course: BIOL 71
+Required: [['BIOL 12', 'BIOL 19'], ['BIOL 13'], ['BIOL 40', 'BIOL 41', 'BIOL 43', 'BIOL 45', 'CHEM 41']]
+Counts: [1, 1, 1]
+
+Course: BIOL 72
+Required: [['BIOL 29']]
+Counts: [1]
+
+Course: BIOL 73
+Required: [['BIOL 72'], ['IP']]
+Counts: [1, 1]
+
+Course: BIOL 74
+Required: [['BIOL 35', 'PSYC 35', 'BIOL 40', 'BIOL 41', 'BIOL 43', 'BIOL 45', 'PSYC 6', 'PSYC 65']]
+Counts: [2]
+
+Course: BIOL 74.01
+Required: [['BIOL 12', 'BIOL 13', 'BIOL 14', 'BIOL 49', 'BIOL 35', 'PSYC 6', 'PSYC 35', 'PSYC 46', 'PSYC 65']]
+Counts: [2]
+
+Course: BIOL 74.02
+Required: [[' BIOL 12', 'BIOL 13', 'BIOL 14', 'BIOL 35', 'BIOL 49', 'PSYC 6', 'PSYC 35', 'PSYC 46', 'PSYC 65']]
+Counts: [2]
+
+Course: BIOL 76
+Required: [['BIOL 12', 'BIOL 19'], ['BIOL 13'], ['BIOL 40', 'BIOL 41', 'BIOL 43', 'BIOL 45', 'BIOL 47', 'CHEM 41']]
+Counts: [1, 1, 1]
+
+Course: BIOL 78
+Required: [['BIOL 13'], ['BIOL 40', 'CHEM 41']]
+Counts: [1, 1, 1]
+Recommended: ['BIOL 2', 'BIOL 14', 'BIOL 37']
+
+Course: BIOL 95
+Required: [['BIOL *'], ['IP']]
+Counts: [3, 1]
+
+Course: BIOL 96
+Required: [['BIOL 95'], ['IP']]
+Counts: [1, 1]
+
+Course: BIOL 97
+Required: [['BIOL 20+'], ['IP']]
+Counts: [2, 1]
+
+Course: BIOL 98
+Required: [['BIOL 97']]
+Counts: [1]
+
+Course: BIOL 99
+Required: [['BIOL 97']]
+Counts: [1]
+
+Course: CHEM 6
+Required: [['MATH 3'], ['CHEM 5']]
+Counts: [1, 1]
+
+Course: CHEM 40
+Required: [['CHEM 6', 'CHEM 10'], ['PHYS 13', 'PHYS 15', 'PHYS 4'], ['MATH 8']]
+Counts: [1, 1, 1]
+
+Course: CHEM 41
+Required: [['CHEM 52', 'CHEM 58']]
+Counts: [1]
+
+Course: CHEM 42
+Required: [['CHEM 40', 'CHEM 76'], ['CHEM 41']]
+Counts: [1, 1]
+
+Course: CHEM 51
+Required: [['CHEM 6', 'CHEM 10']]
+Counts: [1]
+
+Course: CHEM 52
+Required: [['CHEM 6', 'CHEM 10'], ['CHEM 51', 'CHEM 57']]
+Counts: [1, 1]
+
+Course: CHEM 57
+Required: [['IP'], ['CHEM 6', 'CHEM 10']]
+Counts: [1, 1]
+
+Course: CHEM 58
+Required: [['CHEM 57']]
+Counts: [1]
+
+Course: CHEM 63
+Required: [['CHEM 51', 'CHEM 57']]
+Counts: [1]
+
+Course: CHEM 64
+Required: [['CHEM 51', 'CHEM 57']]
+Counts: [1]
+
+Course: CHEM 75
+Required: [['CHEM 6', 'CHEM 10'], ['PHYS 13', 'PHYS 15', 'PHYS 4'], ['MATH 8']]
+Counts: [1, 1, 1]
+
+Course: CHEM 76
+Required: [['CHEM 75'], ['CHEM 64']]
+Counts: [1, 1]
+
+Course: CHEM 87
+Required: [['CP']]
+Counts: [1]
+
+Course: CHEM 91
+Required: [['CHEM 64'], ['CHEM 52', 'CHEM 58']]
+Counts: [1, 1]
+
+Course: CHEM 92
+Required: [['CHEM 64'], ['CHEM 41', 'BIOL 40']]
+Counts: [1, 1]
+
+Course: CHEM 93
+Required: [['CHEM 52', 'CHEM 58']]
+Counts: [1]
+
+Course: CHEM 95.02
+Required: [['CHEM 41'], ['CHEM 42', 'CHEM 76']]
+Counts: [1, 1]
+
+Course: CHEM 95.03
+Required: [['CHEM 41'], ['CHEM 42', 'CHEM 76']]
+Counts: [1, 1]
+
+Course: CHEM 96.01
+Required: [['MATH 13'], ['CHEM 76']]
+Counts: [1, 1]
+
+Course: CHEM 96.02
+Required: [['MATH 13'], ['CHEM 76']]
+Counts: [1, 1]
+
+Course: CHEM 96.03
+Required: [['CHEM 76']]
+Counts: [1]
+
+Course: CHEM 96.04
+Required: [['CHEM 75']]
+Counts: [1]
+
+Course: CHEM 96.07
+Required: [['CHEM 76', 'PHYS 24', 'ENGS 24']]
+Counts: [1]
+
+Course: CHEM 96.08
+Required: [['MATH 13'], ['CHEM 76']]
+Counts: [1, 1]
+
+Course: CLST 30.01
+Required: [['CLST 6', 'CLST 14', 'CLST 15', 'CLST 20', 'CLST 21', 'CLST 22', 'GRK 11'], ['CP']]
+Counts: [3, 1]
+
+Course: CLST 30.02
+Required: [['CLST 6', 'CLST 14', 'CLST 15', 'CLST 20', 'CLST 21', 'CLST 22', 'GRK 11'], ['CP']]
+Counts: [3, 1]
+
+Course: CLST 31
+Required: [['CLST 6', 'CLST 14', 'CLST 15', 'CLST 20', 'CLST 21', 'CLST 22', 'GRK 11'], ['CP']]
+Counts: [3, 1]
+
+Course: CLST 87
+Required: [['IP']]
+Counts: [1]
+
+Course: GRK 3
+Required: [['GRK 1']]
+Counts: [1]
+
+Course: GRK 10
+Required: [['GRK 3']]
+Counts: [1]
+
+Course: GRK 20
+Required: [['GRK 10']]
+Counts: [1]
+
+Course: GRK 24
+Required: [['GRK 10']]
+Counts: [1]
+
+Course: GRK 26
+Required: [['GRK 10']]
+Counts: [1]
+
+Course: GRK 29
+Required: [['GRK 10']]
+Counts: [1]
+
+Course: GRK 87
+Required: [['IP']]
+Counts: [1]
+
+Course: LAT 3
+Required: [['LAT 1']]
+Counts: [1]
+
+Course: LAT 15
+Required: [['LAT 3', 'LAT 10']]
+Counts: [1]
+
+Course: LAT 28
+Required: [['LAT 10']]
+Counts: [1]
+
+Course: LAT 87
+Required: [['IP']]
+Counts: [1]
+
+Course: COGS 2
+Required: [['PSYC 1', 'PSYC 6', 'COSC 1']]
+Counts: [1]
+
+Course: COGS 25
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: COGS 26
+Required: [['PHIL *', 'COGS *', 'COSC *']]
+Counts: [1]
+
+Course: COGS 44
+Required: [['COSC 10']]
+Counts: [1]
+Recommended: ['COSC 30']
+
+Course: COGS 50.04
+Required: [['PHIL *', 'COGS *']]
+Counts: [1]
+
+Course: COSC 10
+Required: [['COSC 1', 'ENGS 20']]
+Counts: [1]
+
+Course: COSC 16
+Required: [['PSYC 1', 'PSYC 6', 'COSC 1', 'ENGS 20']]
+Counts: [1]
+
+Course: COSC 23.01
+Required: [['COSC 22']]
+Counts: [1]
+
+Course: COSC 25.02
+Required: [['COSC 25.01'], ['IP']]
+Counts: [1, 1]
+
+Course: COSC 27
+Required: [['COSC 22'], ['COSC 24', 'COSC 23.01']]
+Counts: [1, 1]
+
+Course: COSC 28
+Required: [['COSC 27'], ['IP']]
+Counts: [1, 1]
+
+Course: COSC 30
+Required: [['MATH 3'], ['COSC 10']]
+Counts: [1, 1]
+
+Course: COSC 31
+Required: [['COSC 10'], ['COSC 30']]
+Counts: [1, 1]
+
+Course: COSC 32
+Required: [['COSC 31']]
+Counts: [1]
+
+Course: COSC 34
+Required: [['COSC 30'], ['COSC 31']]
+Counts: [1, 1]
+
+Course: COSC 35
+Required: [['COSC 31']]
+Counts: [1]
+
+Course: COSC 36
+Required: [['COSC 31']]
+Counts: [1]
+
+Course: COSC 39
+Required: [['COSC 30', 'COSC 31']]
+Counts: [1]
+
+Course: COSC 40
+Required: [['COSC 39']]
+Counts: [1]
+
+Course: COSC 49.04
+Required: [['COSC 31']]
+Counts: [1]
+
+Course: COSC 49.06
+Required: [['COSC 31']]
+Counts: [1]
+
+Course: COSC 49.08
+Required: [['COSC 31']]
+Counts: [1]
+
+Course: COSC 49.09
+Required: [['COSC 31'], ['MATH 22', 'MATH 24']]
+Counts: [1, 1]
+
+Course: COSC 49.10
+Required: [['COSC 31']]
+Counts: [1]
+
+Course: COSC 50
+Required: [['COSC 10']]
+Counts: [1]
+
+Course: COSC 51
+Required: [['COSC 1', 'ENGS 20']]
+Counts: [1]
+
+Course: COSC 52
+Required: [['COSC 10']]
+Counts: [1]
+
+Course: COSC 55
+Required: [['COSC 50']]
+Counts: [1]
+Recommended: ['COSC 51']
+
+Course: COSC 56
+Required: [['ENGS 20', 'COSC 1'], ['COSC 10']]
+Counts: [1, 1]
+
+Course: COSC 57
+Required: [['COSC 50']]
+Counts: [1, 1]
+Recommended: ['COSC 51']
+
+Course: COSC 58
+Required: [['COSC 50'], ['COSC 51']]
+Counts: [1, 1]
+
+Course: COSC 59
+Required: [['COSC 10'], ['COSC 30']]
+Counts: [1, 1]
+Recommended: ['COSC 51']
+
+Course: COSC 60
+Required: [['COSC 30'], ['COSC 50']]
+Counts: [1, 1]
+Recommended: ['COSC 51']
+
+Course: COSC 61
+Required: [['COSC 50']]
+Counts: [1]
+
+Course: COSC 62
+Required: [['COSC 30'], ['COSC 50']]
+Counts: [1]
+Recommended: ['COSC 51']
+
+Course: COSC 63
+Required: [['ENGS 20', 'COSC 50']]
+Counts: [1]
+
+Course: COSC 63.01
+Required: [['COSC 10']]
+Counts: [1]
+
+Course: COSC 65
+Required: [['COSC 10']]
+Counts: [1]
+
+Course: COSC 66
+Required: [['COSC 10']]
+Counts: [1]
+
+Course: COSC 67
+Required: [['COSC 10']]
+Counts: [1]
+
+Course: COSC 68
+Required: [['COSC 58']]
+Counts: [1]
+
+Course: COSC 69.08
+Required: [['COSC 60']]
+Counts: [1]
+
+Course: COSC 69.14
+Required: [['COSC 10']]
+Counts: [1]
+Recommended: ['COSC 30']
+
+Course: COSC 69.15
+Required: [['COSC 70']]
+Counts: [1]
+Recommended: ['COSC 50']
+
+Course: COSC 70
+Required: [['MATH 3'], ['COSC 1']]
+Counts: [1]
+Recommended: ['COSC 10']
+
+Course: COSC 71
+Required: [['COSC 1'], ['COSC 10', 'ENGS 20'], ['ENGS 22', 'MATH 23']]
+Counts: [1, 1, 1]
+
+Course: COSC 72
+Required: [['COSC 1']]
+Counts: [1]
+
+Course: COSC 73
+Required: [['COSC 10'], ['COSC 70']]
+Counts: [1]
+Recommended: ['COSC 50']
+
+Course: COSC 74
+Required: [['COSC 1', 'ENGS 20'], ['COSC 70', 'MATH 22', 'MATH 24']]
+Counts: [1, 1]
+
+Course: COSC 75
+Required: [['COSC 10'], ['COSC 70', 'MATH 22', 'MATH 24']]
+Counts: [1, 1]
+Recommended: ['COSC 30']
+
+Course: COSC 76
+Required: [['COSC 10']]
+Counts: [1, 1]
+Recommended: ['COSC 30']
+
+Course: COSC 77
+Required: [['COSC 50'], ['COSC 70', 'MATH 22', 'MATH 24']]
+Counts: [1, 1]
+
+Course: COSC 78
+Required: [['COSC 74']]
+Counts: [1]
+
+Course: COSC 81
+Required: [['COSC 1'], ['COSC 70', 'MATH 22', 'MATH 24']]
+Counts: [1]
+Recommended: ['COSC 10']
+
+Course: COSC 83
+Required: [['COSC 1', 'ENGS 20'], ['COSC 70', 'MATH 22', 'MATH 24']]
+Counts: [1, 1]
+
+Course: COSC 84
+Required: [['COSC 1', 'ENGS 20'], ['COSC 70', 'MATH 22', 'MATH 24']]
+Counts: [1, 1]
+
+Course: COSC 86
+Required: [['COSC 10']]
+Counts: [1]
+
+Course: COSC 87
+Required: [['COSC 70'], ['COSC 50']]
+Counts: [1, 1]
+
+Course: COSC 89.11
+Required: [['COSC 50']]
+Counts: [1]
+
+Course: COSC 89.13
+Required: [['COSC 10'], ['MATH 8']]
+Counts: [1, 1]
+
+Course: COSC 89.14
+Required: [['COSC 67']]
+Counts: [1]
+
+Course: COSC 89.18
+Required: [['COSC 10']]
+Counts: [1]
+
+Course: COSC 89.19
+Required: [['COSC 50'], ['COSC 77']]
+Counts: [1, 1]
+
+Course: COSC 89.20
+Required: [['COSC 74']]
+Counts: [1]
+
+Course: COSC 89.21
+Required: [['COSC 10'], ['COSC 74', 'MATH 10']]
+Counts: [1, 1]
+
+Course: COSC 89.23
+Required: [['COSC 10'], ['MATH 3'], ['COSC 74', 'MATH 10']]
+Counts: [1, 1, 1]
+
+Course: COSC 89.24
+Required: [['COSC 76']]
+Counts: [1]
+
+Course: COSC 89.25
+Required: [['COSC 76']]
+Counts: [1]
+Recommended: ['COSC 70']
+
+Course: COSC 89.26
+Required: [['COSC 50']]
+Counts: [1]
+Recommended: ['COSC 55', 'COSC 58', 'COSC 60', 'COSC 62', 'COSC 67', 'COSC 91']
+
+Course: COSC 89.27
+Required: [['COSC 74']]
+Counts: [1]
+
+Course: COSC 91
+Required: [['IP']]
+Counts: [1]
+
+Course: COSC 98.01
+Required: [['COSC 50-89']]
+Counts: [3]
+
+Course: COSC 98.02
+Required: [['COSC 98.01']]
+Counts: [1]
+
+Course: COSC 99.02
+Required: [['COSC 99.01']]
+Counts: [1]
+
+Course: EARS 17
+Required: [['EARS *'], ['MATH 3']]
+Counts: [1, 1]
+
+Course: EARS 18
+Required: [['EARS 1', 'EARS 2', 'EARS 3', 'EARS 4', 'EARS 5', 'EARS 6', 'EARS 8', 'EARS 9']]
+Counts: [1]
+
+Course: EARS 31
+Required: [['EARS 1', 'EARS 2', 'EARS 3', 'EARS 4', 'EARS 5', 'EARS 6', 'EARS 8', 'EARS 9']]
+Counts: [1]
+
+Course: EARS 32
+Required: [['BIOL 12', 'BIOL 19', 'BIOL 13', 'BIOL 14', 'BIOL 15', 'BIOL 16', 'EARS 2']]
+Counts: [1]
+
+Course: EARS 34
+Required: [['CHEM 5', 'CHEM 10'], ['EARS 1', 'EARS 2', 'EARS 3', 'EARS 4', 'EARS 5', 'EARS 6', 'EARS 8', 'EARS 9']]
+Counts: [1, 1]
+
+Course: EARS 35
+Required: [['ENVS 2', 'EARS 1', 'EARS 2', 'EARS 3', 'EARS 4', 'EARS 5', 'EARS 6', 'EARS 8', 'EARS 9', 'CHEM 5'], ['ENVS 12+', 'EARS 30+']]
+Counts: [1, 1]
+
+Course: EARS 37
+Required: [['EARS 1', 'EARS 2', 'EARS 3', 'EARS 4', 'EARS 5', 'EARS 6', 'EARS 8', 'EARS 9']]
+Counts: [1]
+
+Course: EARS 38
+Required: [['EARS 1', 'EARS 2', 'EARS 3', 'EARS 4', 'EARS 5', 'EARS 6', 'EARS 8', 'EARS 9']]
+Counts: [1]
+
+Course: EARS 40
+Required: [['EARS 1', 'EARS 2', 'EARS 3', 'EARS 4', 'EARS 5', 'EARS 6', 'EARS 8', 'EARS 9']]
+Counts: [1]
+Recommended: ['CHEM 5']
+
+Course: EARS 45
+Required: [['EARS 40']]
+Counts: [1]
+
+Course: EARS 46
+Required: [['EARS 40']]
+Counts: [1]
+
+Course: EARS 47
+Required: [['EARS 40']]
+Counts: [1]
+
+Course: EARS 51
+Required: [['EARS 40'], ['CHEM 5']]
+Counts: [1, 1]
+
+Course: EARS 52
+Required: [['EARS 40']]
+Counts: [1]
+
+Course: EARS 58
+Required: [['EARS 40'], ['EARS 45'], ['EARS 46'], ['EARS 47']]
+Counts: [1]
+Recommended: ['EARS 38']
+
+Course: EARS 59
+Required: [['EARS 40']]
+Counts: [1]
+
+Course: EARS 62
+Required: [['CHEM 5'], ['CHEM 6']]
+Counts: [1, 1]
+
+Course: EARS 64
+Required: [['MATH 3']]
+Counts: [1, 1]
+Recommended: ['PHYS 3', 'PHYS 13']
+
+Course: EARS 65
+Required: [['EARS 1', 'EARS 2', 'EARS 3', 'EARS 4', 'EARS 5', 'EARS 6', 'EARS 8', 'EARS 9', 'GEOG 3']]
+Counts: [1]
+
+Course: EARS 66
+Required: [['MATH 3']]
+Counts: [1]
+
+Course: EARS 67
+Required: [['MATH 23']]
+Counts: [1]
+
+Course: EARS 70
+Required: [['PHYS 3'], ['MATH 3']]
+Counts: [1]
+Recommended: ['EARS 33']
+
+Course: EARS 71
+Required: [['EARS 16', 'EARS 33', 'BIOL 23']]
+Counts: [1]
+
+Course: EARS 73
+Required: [['CHEM 5']]
+Counts: [1]
+
+Course: EARS 74
+Required: [['CHEM 5'], ['EARS 62']]
+Counts: [1, 1]
+
+Course: EARS 75
+Required: [['EARS 15', 'ENGS 172']]
+Counts: [1]
+
+Course: EARS 76
+Required: [['MATH 3'], ['EARS 16', 'EARS 33', 'BIOL 53', 'ENGS 43']]
+Counts: [1, 1]
+
+Course: EARS 77
+Required: [['GEOG 50', 'GEOG 51', 'EARS 65']]
+Counts: [1]
+
+Course: EARS 78
+Required: [['MATH 8'], ['EARS 14', 'EARS 15']]
+Counts: [1, 1]
+
+Course: EARS 87
+Required: [['IP']]
+Counts: [1]
+
+Course: EARS 88
+Required: [['CP']]
+Counts: [1]
+
+Course: EARS 89
+Required: [['IP']]
+Counts: [1]
+
+Course: EARS 91
+Required: [['EARS 87', 'EARS 89']]
+Counts: [1]
+
+Course: ECON 3
+Required: [['MATH 1']]
+Counts: [1]
+
+Course: ECON 10
+Required: [['MATH 1']]
+Counts: [1]
+Recommended: ['MATH 1']
+
+Course: ECON 15
+Required: [['ECON 1']]
+Counts: [1]
+
+Course: ECON 16
+Required: [['ECON 1']]
+Counts: [1]
+
+Course: ECON 17
+Required: [['ECON 1']]
+Counts: [1]
+
+Course: ECON 20
+Required: [['ECON 10'], ['MATH 3']]
+Counts: [1, 1]
+
+Course: ECON 21
+Required: [['ECON 1'], ['MATH 3']]
+Counts: [1, 1]
+
+Course: ECON 22
+Required: [['ECON 1'], ['MATH 3']]
+Counts: [1, 1]
+
+Course: ECON 24
+Required: [['ECON 1'], ['ECON 10']]
+Counts: [1, 1]
+
+Course: ECON 25
+Required: [['ECON 1'], ['MATH 3'], ['ECON 10'], ['ECON 21']]
+Counts: [1, 1, 1, 1]
+
+Course: ECON 26
+Required: [['ECON 1']]
+Counts: [1]
+
+Course: ECON 27
+Required: [['ECON 1']]
+Counts: [1]
+
+Course: ECON 28
+Required: [['ECON 1']]
+Counts: [1]
+
+Course: ECON 29
+Required: [['ECON 22']]
+Counts: [1]
+
+Course: ECON 32
+Required: [['ECON 1'], ['ECON 10'], ['ECON 22']]
+Counts: [1, 1, 1]
+
+Course: ECON 35
+Required: [['ECON 1'], ['ECON 10'], ['MATH 3']]
+Counts: [1, 1, 1]
+
+Course: ECON 36
+Required: [['ECON 10'], ['ECON 21'], ['ECON 26']]
+Counts: [1, 1, 1]
+
+Course: ECON 37
+Required: [['ECON 1']]
+Counts: [1]
+
+Course: ECON 38
+Required: [['ECON 1'], ['ECON 10']]
+Counts: [1, 1]
+
+Course: ECON 39
+Required: [['ECON 1']]
+Counts: [1]
+
+Course: ECON 57
+Required: [['ECON 1'], ['ECON 20']]
+Counts: [1, 1]
+
+Course: ECON 62
+Required: [['ECON 20'], ['ECON 21'], ['ECON 22'], ['ECON 29'], ['ECON 32']]
+Counts: [1, 1, 1, 1, 1]
+
+Course: ECON 64
+Required: [['ECON 20'], ['ECON 21'], ['ECON 22'], ['ECON 24'], ['ECON 27', 'ECON 39']]
+Counts: [1, 1, 1, 1, 1]
+
+Course: ECON 65
+Required: [['ECON 20'], ['ECON 21'], ['ECON 22'], ['ECON 25'], ['ECON 35']]
+Counts: [1, 1, 1, 1, 1]
+
+Course: ECON 66
+Required: [['ECON 20'], ['ECON 21'], ['ECON 22'], ['ECON 26'], ['ECON 36']]
+Counts: [1, 1, 1, 1, 1]
+
+Course: ECON 67
+Required: [['ECON 20'], ['ECON 21'], ['ECON 22'], ['ECON 27'], ['ECON 24', 'ECON 28', 'ECON 37']]
+Counts: [1, 1, 1, 1, 1]
+
+Course: ECON 68
+Required: [['ECON 20'], ['ECON 21'], ['ECON 22'], ['ECON 28'], ['ECON 38']]
+Counts: [1, 1, 1, 1, 1]
+
+Course: ECON 69
+Required: [['ECON 20'], ['ECON 21'], ['ECON 22'], ['ECON 29'], ['ECON 39']]
+Counts: [1, 1, 1, 1, 1]
+
+Course: ECON 70
+Required: [['ECON 1']]
+Counts: [1]
+
+Course: ECON 70.01
+Required: [['ECON 1']]
+Counts: [1]
+
+Course: ECON 70.02
+Required: [['ECON 1']]
+Counts: [1]
+
+Course: ECON 70.03
+Required: [['ECON 1']]
+Counts: [1]
+
+Course: ECON 71
+Required: [['ECON 1'], ['ECON 10']]
+Counts: [1, 1]
+
+Course: ECON 73
+Required: [['ECON 1']]
+Counts: [1]
+
+Course: ECON 76
+Required: [['ECON 1'], ['ECON 10']]
+Counts: [1, 1]
+
+Course: ECON 77
+Required: [['ECON 1']]
+Counts: [1]
+
+Course: ECON 78
+Required: [['ECON 1'], ['ECON 22']]
+Counts: [1, 1]
+
+Course: ECON 79
+Required: [['ECON 1']]
+Counts: [1]
+
+Course: ECON 80
+Required: [['ECON 20'], ['ECON 21'], ['ECON 22']]
+Counts: [1, 1, 1]
+
+Course: ECON 81
+Required: [['ECON 20'], ['ECON 21'], ['ECON 22'], ['MATH 8']]
+Counts: [1, 1, 1, 1]
+
+Course: ECON 82
+Required: [['ECON 20'], ['ECON 21'], ['ECON 22']]
+Counts: [1, 1, 1]
+
+Course: ECON 85
+Required: [['CP'], ['IP']]
+Counts: [1, 1]
+
+Course: ECON 87
+Required: [['CP']]
+Counts: [1]
+
+Course: ENGS 15
+Required: [['CP']]
+Counts: [1]
+
+Course: ENGS 18
+Required: [['MATH 3']]
+Counts: [1]
+
+Course: ENGS 20
+Required: [['MATH 3'], ['MATH 8']]
+Counts: [1, 1]
+
+Course: ENGS 21
+Required: [['MATH 3']]
+Counts: [1]
+
+Course: ENGS 22
+Required: [['MATH 13'], ['PHYS 14'], ['ENGS 20']]
+Counts: [1, 1, 1]
+
+Course: ENGS 23
+Required: [['ENGS 22']]
+Counts: [1]
+
+Course: ENGS 24
+Required: [['PHYS 14'], ['CHEM 5']]
+Counts: [1, 1]
+
+Course: ENGS 25
+Required: [['MATH 13', 'PHYS 13', 'ENGS 20', 'COSC 1'], ['COSC 10']]
+Counts: [1, 1]
+
+Course: ENGS 26
+Required: [['ENGS 22']]
+Counts: [1]
+
+Course: ENGS 27
+Required: [['MATH 8'], ['ENGS 20', 'COSC 1'], ['COSC 10']]
+Counts: [1]
+Recommended: ['PHYS 13', 'CHEM 5']
+
+Course: ENGS 30
+Required: [['CHEM 5'], ['PHYS 13'], ['PHYS 14']]
+Counts: [1, 1, 1]
+
+Course: ENGS 31
+Required: [['ENGS 20', 'COSC 1'], ['COSC 10']]
+Counts: [1, 1]
+
+Course: ENGS 32
+Required: [['ENGS 22']]
+Counts: [1]
+
+Course: ENGS 33
+Required: [['MATH 13'], ['PHYS 13']]
+Counts: [1, 1]
+
+Course: ENGS 34
+Required: [['ENGS 23']]
+Counts: [1]
+
+Course: ENGS 35
+Required: [['MATH 3', 'CHEM 5', 'BIOL 12', 'BIOL 13']]
+Counts: [1]
+
+Course: ENGS 36
+Required: [['ENGS 22'], ['ENGS 25'], ['CHEM 5']]
+Counts: [1, 1, 1]
+
+Course: ENGS 37
+Required: [['MATH 3'], ['CHEM 5']]
+Counts: [1, 1]
+
+Course: ENGS 41
+Required: [['MATH 23', 'ENGS 22'], ['ENGS 37']]
+Counts: [1, 1]
+
+Course: ENGS 43
+Required: [['MATH 13'], ['ENGS 37', 'permission']]
+Counts: [1, 1]
+
+Course: ENGS 44
+Required: [['ENGS 21'], ['ENGS 22', 'SART 65']]
+Counts: [1, 1]
+
+Course: ENGS 46
+Required: [['MATH 3'], ['EARS 16', 'EARS 33', 'BIOL 53', 'ENGS 43']]
+Counts: [1, 1]
+
+Course: ENGS 50
+Required: [['COSC 10']]
+Counts: [1]
+
+Course: ENGS 52
+Required: [['MATH 8'], ['MATH 22']]
+Counts: [1, 1]
+
+Course: ENGS 56
+Required: [['ENGS 22'], ['PHYS 13'], ['PHYS 14']]
+Counts: [1, 1, 1]
+
+Course: ENGS 57
+Required: [['ENGS 23'], ['ENGS 56']]
+Counts: [1, 1]
+
+Course: ENGS 58
+Required: [['ENGS 35', 'CHEM 41']]
+Counts: [1]
+
+Course: ENGS 60
+Required: [['ENGS 23']]
+Counts: [1]
+
+Course: ENGS 61
+Required: [['ENGS 32']]
+Counts: [1]
+
+Course: ENGS 62
+Required: [['ENGS 50']]
+Counts: [1]
+
+Course: ENGS 64
+Required: [['ENGS 30']]
+Counts: [1]
+
+Course: ENGS 65
+Required: [['ENGS 20', 'COSC 1'], ['COSC 10']]
+Counts: [1, 1]
+
+Course: ENGS 66
+Required: [['COSC 1', 'ENGS 20']]
+Counts: [1]
+
+Course: ENGS 67
+Required: [['ENGS 20', 'COSC 50']]
+Counts: [1]
+
+Course: ENGS 68
+Required: [['ENGS 20', 'COSC 50']]
+Counts: [1]
+Recommended: ['ENGS 22']
+
+Course: ENGS 69
+Required: [['COSC 10']]
+Counts: [1]
+
+Course: ENGS 71
+Required: [['ENGS 20', 'COSC 1'], ['COSC 10'], ['ENGS 33']]
+Counts: [1, 1, 1]
+
+Course: ENGS 72
+Required: [['ENGS 22']]
+Counts: [1]
+
+Course: ENGS 73
+Required: [['ENGS 24'], ['ENGS 33']]
+Counts: [1, 1]
+
+Course: ENGS 75
+Required: [['ENGS 21', 'ENGS 89']]
+Counts: [1]
+
+Course: ENGS 76
+Required: [['ENGS 21'], ['ENGS 33']]
+Counts: [1, 1]
+
+Course: ENGS 84
+Required: [['CP']]
+Counts: [1]
+
+Course: ENGS 86
+Required: [['CP']]
+Counts: [1]
+
+Course: ENGS 87
+Required: [['CP']]
+Counts: [1]
+
+Course: ENGS 88
+Required: [['CP']]
+Counts: [1]
+
+Course: ENGS 89
+Required: [['ENGS 21'], ['ENGS 22-76', 'ENGS 91+']]
+Counts: [1, 5]
+
+Course: ENGS 90
+Required: [['ENGS 89']]
+Counts: [1]
+
+Course: ENGS 91
+Required: [['ENGS 20', 'COSC 1'], ['COSC 10'], ['ENGS 22', 'MATH 23']]
+Counts: [1, 1, 1]
+
+Course: ENGS 92
+Required: [['MATH 46', 'ENGS 22'], ['ENGS 23']]
+Counts: [1, 1]
+
+Course: ENGS 93
+Required: [['MATH 13']]
+Counts: [1]
+
+Course: ENGL 61.01
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 61.02
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 61.11
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 62.01
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 62.02
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 62.03
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 62.12
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 62.16
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 62.22
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 63.01
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 63.02
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 63.03
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 63.04
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 63.05
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 63.06
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 63.07
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 63.08
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 63.28
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 64.01
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 64.02
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 64.03
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 64.04
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 64.05
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 64.06
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 65.01
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 65.02
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 65.06
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['2 ENGL *']
+
+Course: ENGL 71.01
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 71.02
+Required: [['MATH 13']]
+Counts: [1]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 71.03
+Required: [['ENGL *']]
+Counts: [4]
+
+Course: ENGL 71.05
+Required: [['ENGL *']]
+Counts: [4]
+
+Course: ENGL 71.06
+Required: [['ENGL *']]
+Counts: [4]
+
+Course: ENGL 71.13
+Required: [['ENGL *']]
+Counts: [4]
+
+Course: ENGL 72.02
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 72.03
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 72.05
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 72.09
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 72.13
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 73.01
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 73.02
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 73.05
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 73.07
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 73.13
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 73.19
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 73.28
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 73.30
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 74.01
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 74.02
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 74.03
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 74.04
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 74.05
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 74.11
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: ENGL 75.02
+Required: [['ENGL *']]
+Counts: [4]
+Recommended: ['4 ENGL *']
+
+Course: CRWT 20
+Required: [['CRWT 10'], ['IP']]
+Counts: [1, 1]
+
+Course: CRWT 21
+Required: [['CRWT 11'], ['IP']]
+Counts: [1, 1]
+
+Course: CRWT 22
+Required: [['CRWT 12'], ['IP']]
+Counts: [1, 1]
+
+Course: CRWT 60
+Required: [['CRWT 20']]
+Counts: [1]
+
+Course: CRWT 61
+Required: [['CRWT 21']]
+Counts: [1]
+
+Course: CRWT 62
+Required: [['CRWT 22']]
+Counts: [1]
+
+Course: FILM 39.01
+Required: [['FILM 30', 'FILM 31', 'FILM 32', 'FILM 36', 'FILM 37', 'FILM 44.04', 'FILM 44.07', 'FILM 48.02', 'FILM 51'], ['IP']]
+Counts: [1, 1]
+
+Course: FREN 10
+Required: [['FREN 8']]
+Counts: [1]
+
+Course: FREN 10.02
+Required: [['FREN 8']]
+Counts: [1]
+
+Course: FREN 10.03
+Required: [['FREN 8']]
+Counts: [1]
+
+Course: FREN 10.06
+Required: [['FREN 8']]
+Counts: [1]
+
+Course: FREN 10.08
+Required: [['FREN 8']]
+Counts: [1]
+
+Course: FREN 10.10
+Required: [['FREN 8']]
+Counts: [1]
+
+Course: FREN 10.11
+Required: [['FREN 8']]
+Counts: [1]
+
+Course: FREN 10.12
+Required: [['FREN 8']]
+Counts: [1]
+
+Course: FREN 10.13
+Required: [['FREN 8']]
+Counts: [1]
+
+Course: FREN 10.14
+Required: [['FREN 8']]
+Counts: [1]
+
+Course: FREN 10.15
+Required: [['FREN 8']]
+Counts: [1]
+
+Course: FREN 10.16
+Required: [['FREN 8']]
+Counts: [1]
+
+Course: FREN 10.17
+Required: [['FREN 8']]
+Counts: [1]
+
+Course: FREN 10.18
+Required: [['FREN 8']]
+Counts: [1]
+
+Course: FREN 10.19
+Required: [['FREN 8']]
+Counts: [1]
+
+Course: FREN 10.20
+Required: [['FREN 8']]
+Counts: [1]
+
+Course: FREN 11
+Required: [['FREN 3', 'SPAN 3', 'PORT 3', 'LAT 3', 'ITAL 3']]
+Counts: [1]
+
+Course: FREN 12
+Required: [['FREN 3']]
+Counts: [1]
+
+Course: FREN 2
+Required: [['FREN 1']]
+Counts: [1]
+
+Course: FREN 20
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 20.01
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 20.02
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 21
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 22
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 23
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 24
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 25
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 29
+Required: [['FREN 8'], ['FREN 10'], ['CP']]
+Counts: [1, 1, 1]
+
+Course: FREN 3
+Required: [['FREN 2', 'FREN 11']]
+Counts: [1]
+
+Course: FREN 30
+Required: [['FREN 8'], ['FREN 10'], ['CP']]
+Counts: [1, 1, 1]
+
+Course: FREN 31
+Required: [['FREN 8'], ['FREN 10'], ['CP']]
+Counts: [1, 1, 1]
+
+Course: FREN 35
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 35.03
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 40
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 40.02
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 40.03
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 40.04
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 40.05
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 40.06
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 45
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 45.03
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 45.04
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 45.05
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 45.06
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 5
+Required: [['FREN 2'], ['CP']]
+Counts: [1, 1]
+
+Course: FREN 50
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 50.05
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 53
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 53.05
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 53.06
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 53.07
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 53.08
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 55
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 55.04
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 55.05
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 60
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 70.03
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 70.04
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 70.05
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 75
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 75.01
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 75.02
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 8
+Required: [['FREN 3']]
+Counts: [1]
+
+Course: FREN 80
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 80.03
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 80.04
+Required: [['FREN 10']]
+Counts: [1]
+
+Course: FREN 81
+Required: [['IP']]
+Counts: [1]
+
+Course: FREN 9
+Required: [['FREN 2', 'FREN 11'], ['CP']]
+Counts: [1, 1]
+
+Course: ITAL 2
+Required: [['ITAL 1']]
+Counts: [1]
+
+Course: ITAL 3
+Required: [['ITAL 2', 'ITAL 11', 'ARTH 12']]
+Counts: [1]
+
+Course: ITAL 5
+Required: [['ITAL 2', 'ITAL 11'], ['CP']]
+Counts: [1, 1]
+
+Course: ITAL 6
+Required: [['ITAL 2', 'ITAL 11'], ['CP']]
+Counts: [1, 1]
+
+Course: ITAL 8
+Required: [['ITAL 2', 'ITAL 11'], ['CP']]
+Counts: [1, 1]
+
+Course: ITAL 10.03
+Required: [['ITAL 8', 'ITAL 9']]
+Counts: [1]
+
+Course: ITAL 10.04
+Required: [['ITAL 8', 'ITAL 9']]
+Counts: [1]
+
+Course: ITAL 10.05
+Required: [['ITAL 8', 'ITAL 9']]
+Counts: [1]
+
+Course: ITAL 10.06
+Required: [['ITAL 8', 'ITAL 9']]
+Counts: [1]
+
+Course: ITAL 10.20
+Required: [['ITAL 8', 'ITAL 9']]
+Counts: [1]
+
+Course: ITAL 12
+Required: [['ITAL 3'], ['CP']]
+Counts: [1, 1]
+
+Course: ITAL 15
+Required: [['ITAL 8', 'ITAL 9']]
+Counts: [1]
+
+Course: ITAL 21
+Required: [['ITAL 10']]
+Counts: [1]
+
+Course: ITAL 22
+Required: [['ITAL 10']]
+Counts: [1]
+
+Course: ITAL 23
+Required: [['ITAL 10']]
+Counts: [1]
+
+Course: ITAL 24
+Required: [['ITAL 10']]
+Counts: [1]
+
+Course: ITAL 25
+Required: [['ITAL 10']]
+Counts: [1]
+
+Course: ITAL 27.01
+Required: [['ITAL 10']]
+Counts: [1]
+
+Course: ITAL 27.02
+Required: [['ITAL 10']]
+Counts: [1]
+
+Course: GEOG 35
+Required: [['EARS 16', 'EARS 33']]
+Counts: [1]
+
+Course: GEOG 47
+Required: [['GEOG 1', 'GEOG 3'], ['1 GEOG 12-41']]
+Counts: [1]
+Recommended: ['GEOG 11', 'GEOG 50', 'GEOG 51']
+
+Course: GEOG 51
+Required: [['EARS 1', 'EARS 2', 'EARS 3', 'EARS 4', 'EARS 5', 'EARS 6', 'EARS 8', 'EARS 9', 'GEOG 3']]
+Counts: [1]
+
+Course: GEOG 54
+Required: [['GEOG 50', 'MATH 10']]
+Counts: [1]
+
+Course: GEOG 56
+Required: [['GEOG 50']]
+Counts: [1]
+
+Course: GEOG 57
+Required: [['GEOG 50']]
+Counts: [1]
+
+Course: GEOG 59
+Required: [['GEOG 50', 'GEOG 51', 'EARS 65']]
+Counts: [1]
+
+Course: GEOG 67
+Required: [['ENVS 3', 'GEOG 1']]
+Counts: [1]
+
+Course: GEOG 80
+Required: [['GEOG 1']]
+Counts: [1]
+
+Course: GEOG 81
+Required: [['GEOG 1', 'GEOG 3'], ['1 GEOG 12-41']]
+Counts: [1]
+Recommended: ['GEOG 11', 'GEOG 50', 'GEOG 51']
+
+Course: GEOG 82
+Required: [['GEOG 1', 'GEOG 3'], ['GEOG 12-41']]
+Counts: [1, 1]
+
+Course: GEOG 85
+Required: [['IP'], ['CP']]
+Counts: [1, 1]
+
+Course: GEOG 87
+Required: [['IP'], ['CP']]
+Counts: [1, 1]
+
+Course: GEOG 90
+Required: [['GEOG 1', 'GEOG 3'], ['GEOG 50-59']]
+Counts: [1, 2]
+
+Course: GERM 2.03
+Required: [['GERM 1'], ['CP']]
+Counts: [1, 1]
+
+Course: GERM 5
+Required: [['GERM 2'], ['CP']]
+Counts: [1, 1]
+
+Course: GERM 6
+Required: [['GERM 2'], ['CP']]
+Counts: [1, 1]
+
+Course: GERM 10.01
+Required: [['GERM 3']]
+Counts: [1]
+
+Course: GERM 10.02
+Required: [['GERM 3']]
+Counts: [1]
+
+Course: GERM 10.03
+Required: [['GERM 3']]
+Counts: [1]
+
+Course: GERM 10.06
+Required: [['GERM 3']]
+Counts: [1]
+
+Course: GERM 29
+Required: [['GERM 6+'], ['CP']]
+Counts: [2, 1]
+
+Course: GERM 30
+Required: [['GERM 6+'], ['CP']]
+Counts: [2, 1]
+
+Course: GERM 31
+Required: [['GERM 6+'], ['CP']]
+Counts: [2, 1]
+
+Course: GERM 44.07
+Required: [['CP']]
+Counts: [1]
+
+Course: GOVT 18
+Required: [['MATH 3']]
+Counts: [1]
+
+Course: GOVT 35
+Required: [['GOVT 3']]
+Counts: [1]
+
+Course: GOVT 42
+Required: [['GOVT 3']]
+Counts: [1]
+Recommended: ['GOVT 4']
+
+Course: GOVT 50.08
+Required: [['GOVT 5']]
+Counts: [1]
+
+Course: GOVT 52
+Required: [['GOVT 4', 'GOVT 5']]
+Counts: [1]
+Recommended: ['GOVT 42']
+
+Course: GOVT 53
+Required: [['GOVT 5']]
+Counts: [1]
+
+Course: GOVT 54
+Required: [['GOVT 5']]
+Counts: [1]
+
+Course: GOVT 63
+Required: [['GOVT 6']]
+Counts: [1]
+
+Course: GOVT 86.30
+Required: [['GOVT 40-49']]
+Counts: [2]
+
+Course: HUM 2
+Required: [['HUM 1']]
+Counts: [1]
+
+Course: LING 8
+Required: [['LING 1'], ['LING 20-29']]
+Counts: [1, 1]
+
+Course: LING 20
+Required: [['LING 1']]
+Counts: [1]
+
+Course: LING 21
+Required: [['LING 1']]
+Counts: [1]
+
+Course: LING 22
+Required: [['LING 1']]
+Counts: [1]
+
+Course: LING 23
+Required: [['LING 1']]
+Counts: [1]
+
+Course: LING 24
+Required: [['LING 1']]
+Counts: [1]
+
+Course: LING 26
+Required: [['LING 1']]
+Counts: [1]
+
+Course: LING 27
+Required: [['LING 1', 'LING 18']]
+Counts: [1]
+
+Course: LING 35
+Required: [['LING 21'], ['LING 20-29']]
+Counts: [1, 1]
+
+Course: LING 48
+Required: [['COSC 1']]
+Counts: [1]
+
+Course: LING 50.01
+Required: [['LING 1', 'COGS 1']]
+Counts: [1]
+
+Course: LING 54
+Required: [['LING 1'], ['LING 20-29']]
+Counts: [1, 1]
+
+Course: LING 80
+Required: [['LING 20-29']]
+Counts: [2]
+
+Course: MATH 4
+Required: [['MATH 3']]
+Counts: [1]
+
+Course: MATH 5.01
+Required: [['GOVT 10', 'ECON 10', 'PSYC 10', 'SOCY 10', 'MATH 10', 'QSS 15', 'COSC 1']]
+Counts: [1]
+
+Course: MATH 8
+Required: [['MATH 3']]
+Counts: [1]
+
+Course: MATH 9
+Required: [['MATH 8']]
+Counts: [1]
+
+Course: MATH 13
+Required: [['MATH 8', 'MATH 9']]
+Counts: [1]
+
+Course: MATH 17
+Required: [['MATH 8']]
+Counts: [1]
+
+Course: MATH 20
+Required: [['MATH 8']]
+Counts: [1]
+
+Course: MATH 23
+Required: [['MATH 13']]
+Counts: [1]
+
+Course: MATH 24
+Required: [['MATH 8']]
+Counts: [1]
+
+Course: MATH 25
+Required: [['MATH 8']]
+Counts: [1]
+
+Course: MATH 27
+Required: [['MATH 22'], ['MATH 23']]
+Counts: [1, 1]
+
+Course: MATH 28
+Required: [['MATH 8']]
+Counts: [1]
+
+Course: MATH 30.04
+Required: [['MATH 3'], ['MATH 20']]
+Counts: [1, 1]
+
+Course: MATH 31
+Required: [['MATH 22']]
+Counts: [1]
+
+Course: MATH 31.01
+Required: [['MATH 22']]
+Counts: [1]
+
+Course: MATH 32
+Required: [['MATH 22', 'MATH 24']]
+Counts: [1]
+
+Course: MATH 35
+Required: [['MATH 13'], ['IP', 'MATH 22']]
+Counts: [1, 1]
+
+Course: MATH 36
+Required: [['MATH 13'], ['MATH 20']]
+Counts: [1, 1]
+
+Course: MATH 37
+Required: [['MATH 22'], ['MATH 24'], ['MATH 23'], ['COSC 1', 'COSC 10', 'ENGS 20']]
+Counts: [1, 1, 1, 1]
+
+Course: MATH 38
+Required: [['MATH 22', 'COSC 55'], ['IP']]
+Counts: [1, 1]
+
+Course: MATH 40
+Required: [['MATH 13'], ['MATH 20']]
+Counts: [1, 1]
+
+Course: MATH 42
+Required: [['MATH 22'], ['MATH 23']]
+Counts: [1, 1]
+
+Course: MATH 43
+Required: [['MATH 13']]
+Counts: [1]
+
+Course: MATH 46
+Required: [['MATH 22'], ['MATH 23']]
+Counts: [1, 1]
+
+Course: MATH 47
+Required: [['MATH 22'], ['MATH 24'], ['MATH 23'], ['COSC 1', 'COSC 10', 'ENGS 20']]
+Counts: [1, 1, 1, 1]
+
+Course: MATH 50
+Required: [['MATH 10']]
+Counts: [1]
+
+Course: MATH 53
+Required: [['MATH 22'], ['MATH 23']]
+Counts: [1, 1]
+
+Course: MATH 54
+Required: [['MATH 13'], ['MATH 22']]
+Counts: [1, 1]
+
+Course: MATH 56
+Required: [['MATH 22', 'MATH 24'], ['COSC 1', 'ENGS 20 and']]
+Counts: [1, 1]
+
+Course: MATH 60
+Required: [['MATH 13']]
+Counts: [1]
+
+Course: MATH 63
+Required: [['MATH 22', 'MATH 24', 'MATH 13'], ['IP']]
+Counts: [1, 1]
+
+Course: MATH 66
+Required: [['MATH 23'], ['MATH 24', 'MATH 22'], ['IP']]
+Counts: [1, 1, 1]
+
+Course: MATH 68
+Required: [['MATH 28'], ['MATH 31', 'MATH 71']]
+Counts: [1, 1]
+
+Course: MATH 69
+Required: [['MATH 71', 'MATH 54', 'MATH 24']]
+Counts: [1]
+
+Course: MATH 70
+Required: [['MATH 40']]
+Counts: [1]
+
+Course: MATH 71
+Required: [['MATH 22', 'MATH 24']]
+Counts: [1]
+
+Course: MATH 72
+Required: [['MATH 71']]
+Counts: [1]
+
+Course: MATH 73
+Required: [['MATH 43'], ['MATH 63']]
+Counts: [1, 1]
+
+Course: MATH 74
+Required: [['MATH 31', 'MATH 71'], ['MATH 54'], ['IP', 'MATH 54'], ['MATH 101']]
+Counts: [1, 1, 1, 1]
+
+Course: MATH 75
+Required: [['MATH 71', 'MATH 25'], ['MATH 31']]
+Counts: [1, 1]
+
+Course: MATH 75.01
+Required: [['MATH 25', 'MATH 22', 'MATH 24', 'MATH 31', 'MATH 71']]
+Counts: [1]
+
+Course: MATH 76.01
+Required: [['MATH 22'], ['MATH 23']]
+Counts: [1, 1]
+
+Course: MATH 76.02
+Required: [['MATH 22', 'MATH 24']]
+Counts: [1, 1]
+Recommended: ['MATH 20', 'MATH 60', 'COSC 1', 'ENGS 20']
+
+Course: MATH 76.03
+Required: [['MATH 3'], ['MATH 20'], ['MATH 23']]
+Counts: [1, 1]
+Recommended: ['COSC 1', 'ENGS 20']
+
+Course: MATH 81
+Required: [['MATH 71']]
+Counts: [1]
+
+Course: MATH 86
+Required: [['MATH 20'], ['MATH 40', 'MATH 60'], ['MATH 23'], ['COSC 1', 'ENGS 20']]
+Counts: [1, 1, 1, 1]
+
+Course: MATH 89
+Required: [['MATH 39', 'MATH 69']]
+Counts: [1]
+
+Course: HEBR 21
+Required: [['HEBR 3']]
+Counts: [1]
+
+Course: HEBR 22
+Required: [['HEBR 3']]
+Counts: [1]
+
+Course: ARAB 22
+Required: [['ARAB 3']]
+Counts: [1]
+
+Course: ARAB 23
+Required: [['ARAB 3']]
+Counts: [1]
+
+Course: ARAB 25
+Required: [['ARAB 3']]
+Counts: [1]
+
+Course: ARAB 31
+Required: [['ARAB 21-23']]
+Counts: [2]
+
+Course: ARAB 32
+Required: [['ARAB 21-23']]
+Counts: [2]
+
+Course: ARAB 34
+Required: [['ARAB 21-23']]
+Counts: [2]
+
+Course: ARAB 41
+Required: [['ARAB 31-33']]
+Counts: [2]
+
+Course: ARAB 42
+Required: [['ARAB 31-33']]
+Counts: [2]
+
+Course: ARAB 43
+Required: [['ARAB 31-33']]
+Counts: [2]
+
+Course: MUS 14
+Required: [['IP']]
+Counts: [1]
+
+Course: MUS 14.04
+Required: [['MUS 1']]
+Counts: [1]
+
+Course: MUS 22
+Required: [['MUS 20']]
+Counts: [1]
+
+Course: MUS 23
+Required: [['MUS 20']]
+Counts: [1]
+
+Course: MUS 26
+Required: [['Mus 25']]
+Counts: [1]
+
+Course: MUS 27
+Required: [['MUS 25']]
+Counts: [1]
+
+Course: MUS 28
+Required: [['MUS 25']]
+Counts: [1]
+
+Course: MUS 30
+Required: [['MUS 20']]
+Counts: [1]
+
+Course: MUS 30.02
+Required: [['MUS 20']]
+Counts: [1]
+
+Course: MUS 32
+Required: [['MUS 1']]
+Counts: [1]
+
+Course: MUS 34
+Required: [['MUS 25']]
+Counts: [1]
+
+Course: MUS 37
+Required: [['MUS 36', 'MUS 25']]
+Counts: [1]
+
+Course: MUS 41
+Required: [['MUS 21', 'MUS 22']]
+Counts: [1]
+
+Course: MUS 50.12
+Required: [['MUS 50.11']]
+Counts: [1]
+
+Course: MUS 50.13
+Required: [['MUS 50.12']]
+Counts: [1]
+
+Course: MUS 50.22
+Required: [['MUS 50.21']]
+Counts: [1]
+
+Course: MUS 50.23
+Required: [['MUS 50.22']]
+Counts: [1]
+
+Course: MUS 50.32
+Required: [['MUS 50.31']]
+Counts: [1]
+
+Course: MUS 50.33
+Required: [['MUS 50.32']]
+Counts: [1]
+
+Course: MUS 50.42
+Required: [['MUS 50.41']]
+Counts: [1]
+
+Course: MUS 50.43
+Required: [['MUS 50.42']]
+Counts: [1]
+
+Course: MUS 52
+Required: [['MUS 20']]
+Counts: [1]
+
+Course: MUS 52.01
+Required: [['MUS 21-23'], ['MUS 6', 'MUS 10', 'MUS 11', 'MUS 40', 'MUS 41', 'MUS 42', 'MUS 43', 'MUS 44']]
+Counts: [2, 1]
+
+Course: MUS 52.02
+Required: [['MUS 20']]
+Counts: [1]
+
+Course: MUS 52.03
+Required: [['MUS 20']]
+Counts: [1]
+
+Course: MUS 53.02
+Required: [['MUS 53.01']]
+Counts: [1]
+
+Course: MUS 53.03
+Required: [['MUS 53.02']]
+Counts: [1]
+
+Course: MUS 54.02
+Required: [['MUS 54.01']]
+Counts: [1]
+
+Course: MUS 54.03
+Required: [['MUS 54.02']]
+Counts: [1]
+
+Course: MUS 55.02
+Required: [['MUS 55.01']]
+Counts: [1]
+
+Course: MUS 55.03
+Required: [['MUS 55.02']]
+Counts: [1]
+
+Course: MUS 56.02
+Required: [['MUS 56.01']]
+Counts: [1]
+
+Course: MUS 56.03
+Required: [['MUS 56.02']]
+Counts: [1]
+
+Course: MUS 57.02
+Required: [['MUS 57.01']]
+Counts: [1]
+
+Course: MUS 57.03
+Required: [['MUS 57.02']]
+Counts: [1]
+
+Course: MUS 58.02
+Required: [['MUS 58.01']]
+Counts: [1]
+
+Course: MUS 58.03
+Required: [['MUS 58.02']]
+Counts: [1]
+
+Course: MUS 59.12
+Required: [['MUS 59.11']]
+Counts: [1]
+
+Course: MUS 59.13
+Required: [['MUS 59.12']]
+Counts: [1]
+
+Course: MUS 59.22
+Required: [['MUS 59.21']]
+Counts: [1]
+
+Course: MUS 59.23
+Required: [['MUS 59.22']]
+Counts: [1]
+
+Course: MUS 59.32
+Required: [['MUS 59.31']]
+Counts: [1]
+
+Course: MUS 59.33
+Required: [['MUS 59.32']]
+Counts: [1]
+
+Course: MUS 59.42
+Required: [['MUS 59.41']]
+Counts: [1]
+
+Course: MUS 59.43
+Required: [['MUS 59.42']]
+Counts: [1]
+
+Course: MUS 59.52
+Required: [['MUS 59.51']]
+Counts: [1]
+
+Course: MUS 59.53
+Required: [['MUS 59.52']]
+Counts: [1]
+
+Course: MUS 59.62
+Required: [['MUS 59.61']]
+Counts: [1]
+
+Course: MUS 59.63
+Required: [['MUS 59.62']]
+Counts: [1]
+
+Course: MUS 60
+Required: [['MUS 53'], ['IP']]
+Counts: [1, 1]
+
+Course: MUS 61
+Required: [['MUS 54'], ['IP']]
+Counts: [1, 1]
+
+Course: MUS 62
+Required: [['MUS 55'], ['IP']]
+Counts: [1, 1]
+
+Course: MUS 63
+Required: [['MUS 56'], ['IP']]
+Counts: [1, 1]
+
+Course: MUS 64
+Required: [['MUS 57'], ['IP']]
+Counts: [1, 1]
+
+Course: MUS 65
+Required: [['MUS 58'], ['IP']]
+Counts: [1, 1]
+
+Course: MUS 70
+Required: [['MUS 20']]
+Counts: [1]
+
+Course: MUS 71
+Required: [['MUS 20']]
+Counts: [1]
+
+Course: MUS 74
+Required: [['MUS 20']]
+Counts: [1]
+
+Course: MUS 99
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 11
+Required: [['PHIL *', 'CLST 3']]
+Counts: [1]
+
+Course: PHIL 12
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 12.01
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 13
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 13.01
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 13.02
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 13.03
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 16
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 16.01
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 16.02
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 16.03
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 16.04
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 19
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 19.01
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 19.02
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 19.03
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 19.04
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 22
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 23
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 23.01
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 23.02
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 23.03
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 24
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 25
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 26
+Required: [['PHIL *', 'COGS *', 'COSC *']]
+Counts: [1]
+
+Course: PHIL 27
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 28
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 28.01
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 28.02
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 28.03
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 29
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 29.01
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 29.02
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 30
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 31
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 31.01
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 31.04
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 31.05
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 31.06
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 31.07
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 31.08
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 31.09
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 32
+Required: [['PHIL 6', 'MATH 39', 'MATH 69']]
+Counts: [1]
+
+Course: PHIL 34
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 35
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 35.01
+Required: [['PHIL * 1 COGS *']]
+Counts: [1]
+
+Course: PHIL 36
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 37
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 37.01
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 38
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 38.01
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 38.02
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 38.03
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 38.04
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 39
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 39.01
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 40
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 45
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 45.01
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 45.02
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 45.03
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 45.04
+Required: [['PHIL *']]
+Counts: [1]
+
+Course: PHIL 50
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.09
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.14
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.15
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.17
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.18
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.20
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.21
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.22
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.23
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.24
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.25
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.26
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.27
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.28
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.30
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.31
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.32
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.33
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.34
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.35
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.36
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.37
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 50.38
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 60
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 61
+Required: [['PHIL *']]
+Counts: [2]
+
+Course: PHIL 80
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.01
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.05
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.06
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.12
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.13
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.14
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.15
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.16
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.17
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.18
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.19
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.20
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.21
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.22
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.23
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.24
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.25
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.26
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.27
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.28
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.29
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 80.30
+Required: [['IP']]
+Counts: [1]
+
+Course: PHIL 87
+Required: [['CP']]
+Counts: [1]
+
+Course: PHIL 89
+Required: [['CP']]
+Counts: [1]
+
+Course: PHIL 90
+Required: [['CP']]
+Counts: [1]
+
+Course: ASTR 15
+Required: [['PHYS 3', 'PHYS 13', 'PHYS 15'], ['MATH 3']]
+Counts: [1, 1]
+
+Course: ASTR 19
+Required: [['MATH 3']]
+Counts: [1]
+
+Course: ASTR 25
+Required: [['PHYS 14']]
+Counts: [1]
+
+Course: ASTR 61
+Required: [['ASTR 2', 'ASTR 3', 'ASTR 15']]
+Counts: [1]
+
+Course: ASTR 74
+Required: [['PHYS 14', 'PHYS 16'], ['PHYS 19', 'PHYS 24', 'PHYS 40'], ['ASTR 2', 'ASTR 3', 'ASTR 15']]
+Counts: [1, 1, 1]
+
+Course: ASTR 75
+Required: [['PHYS 19'], ['ASTR 25']]
+Counts: [1, 1]
+
+Course: ASTR 87
+Required: [['CP']]
+Counts: [1]
+
+Course: PHYS 3
+Required: [['MATH 3']]
+Counts: [1]
+
+Course: PHYS 4
+Required: [['PHYS 3']]
+Counts: [1]
+
+Course: PHYS 13
+Required: [['MATH 3'], ['MATH 8']]
+Counts: [1, 1]
+
+Course: PHYS 14
+Required: [['PHYS 13'], ['MATH 8']]
+Counts: [1, 1]
+
+Course: PHYS 15
+Required: [['MATH 8', 'MATH 9'], ['IP']]
+Counts: [1, 1]
+
+Course: PHYS 16
+Required: [['PHYS 15']]
+Counts: [1]
+
+Course: PHYS 19
+Required: [['PHYS 14'], ['MATH 13']]
+Counts: [1, 1]
+
+Course: PHYS 30
+Required: [['CHEM 5'], ['PHYS 13'], ['PHYS 14']]
+Counts: [1, 1, 1]
+
+Course: PHYS 31
+Required: [['PHYS 13'], ['PHYS 14', 'PHYS 15'], ['PHYS 16']]
+Counts: [1, 1, 1]
+
+Course: PHYS 40
+Required: [['PHYS 15', 'PHYS 19'], ['PHYS 14', 'PHYS 16']]
+Counts: [1, 1]
+
+Course: PHYS 41
+Required: [['PHYS 15', 'PHYS 19'], ['PHYS 14', 'PHYS 16']]
+Counts: [1, 1]
+
+Course: PHYS 43
+Required: [['PHYS 15', 'PHYS 19'], ['PHYS 14', 'PHYS 16']]
+Counts: [1, 1]
+
+Course: PHYS 44
+Required: [['PHYS 15', 'PHYS 19'], ['PHYS 14', 'PHYS 16'], ['MATH 22', 'MATH 23']]
+Counts: [1, 1, 1]
+
+Course: PHYS 47
+Required: [['PHYS 14', 'PHYS 16'], ['MATH 13']]
+Counts: [1, 1]
+
+Course: PHYS 48
+Required: [['ENGS 22']]
+Counts: [1]
+
+Course: PHYS 50
+Required: [['PHYS 40'], ['MATH 22', 'MATH 23']]
+Counts: [1, 1]
+
+Course: PHYS 66
+Required: [['PHYS 41']]
+Counts: [1]
+
+Course: PHYS 68
+Required: [['PHYS 41']]
+Counts: [1]
+
+Course: PHYS 70
+Required: [['MATH 46', 'ENGS 22'], ['ENGS 23']]
+Counts: [1, 1]
+
+Course: PHYS 72
+Required: [['PHYS 50']]
+Counts: [1]
+
+Course: PHYS 73
+Required: [['PHYS 43'], ['PHYS 50']]
+Counts: [1, 1]
+
+Course: PHYS 74
+Required: [['PHYS 66', 'PHYS 68']]
+Counts: [1]
+
+Course: PHYS 75
+Required: [['PHYS 15', 'PHYS 19', 'MATH 22']]
+Counts: [1]
+
+Course: PHYS 76
+Required: [['PHYS 40']]
+Counts: [1]
+
+Course: PHYS 77
+Required: [['PHYS 44'], ['PHYS 41']]
+Counts: [1, 1]
+
+Course: PHYS 82.02
+Required: [['MATH 13']]
+Counts: [1]
+
+Course: PHYS 90
+Required: [['PHYS 50']]
+Counts: [1]
+
+Course: PHYS 92
+Required: [['PHYS 41'], ['PHYS 43'], ['PHYS 44'], ['PHYS 50']]
+Counts: [1]
+Recommended: ['ASTR 25']
+
+Course: PSYC 10
+Required: [['PSYC 1', 'PSYC 6']]
+Counts: [1]
+
+Course: PSYC 11
+Required: [['PSYC 1', 'PSYC 6'], ['PSYC 10']]
+Counts: [1, 1]
+
+Course: PSYC 21
+Required: [['PSYC 1', 'PSYC 6']]
+Counts: [1]
+
+Course: PSYC 22
+Required: [['PSYC 1', 'PSYC 6']]
+Counts: [1]
+
+Course: PSYC 23
+Required: [['PSYC 1']]
+Counts: [1]
+
+Course: PSYC 24
+Required: [['PSYC 1']]
+Counts: [1]
+
+Course: PSYC 25
+Required: [['PSYC 1']]
+Counts: [1]
+
+Course: PSYC 28
+Required: [['PSYC 1', 'PSYC 6', 'COGS 1']]
+Counts: [1]
+
+Course: PSYC 32
+Required: [['PSYC 11']]
+Counts: [1]
+Recommended: ['MATH 1', 'MATH 3']
+
+Course: PSYC 35
+Required: [['PSYC 6']]
+Counts: [1]
+
+Course: PSYC 36
+Required: [['PSYC 6']]
+Counts: [1]
+
+Course: PSYC 37
+Required: [['PSYC 6']]
+Counts: [1]
+
+Course: PSYC 38
+Required: [['PSYC 1', 'PSYC 6']]
+Counts: [1]
+
+Course: PSYC 40
+Required: [['PSYC 1', 'PSYC 6', 'COSC 1', 'ENGS 20']]
+Counts: [1]
+
+Course: PSYC 43
+Required: [['PSYC 1', 'PSYC 6']]
+Counts: [1]
+
+Course: PSYC 44
+Required: [['PSYC 1']]
+Counts: [1]
+
+Course: PSYC 50.01
+Required: [['PSYC 6']]
+Counts: [1]
+
+Course: PSYC 50.02
+Required: [['PSYC 1', 'PSYC 6']]
+Counts: [1]
+
+Course: PSYC 50.07
+Required: [['PSYC 1', 'PSYC 6'], ['PSYC 10']]
+Counts: [1, 1]
+
+Course: PSYC 50.08
+Required: [['PSYC 6']]
+Counts: [1]
+
+Course: PSYC 50.09
+Required: [['PSYC 6']]
+Counts: [1]
+
+Course: PSYC 50.10
+Required: [['PSYC 21', 'PSYC 27', 'PSYC 28', 'PSYC 38']]
+Counts: [1]
+
+Course: PSYC 50.12
+Required: [['PSYC 6'], ['PSYC 28', 'PSYC 38', 'PSYC 37', 'PSYC 35', 'PSYC 36']]
+Counts: [1, 1]
+
+Course: PSYC 50.13
+Required: [['PSYC 6']]
+Counts: [1]
+
+Course: PSYC 50.14
+Required: [['PSYC 1', 'PSYC 6']]
+Counts: [1]
+
+Course: PSYC 50.15
+Required: [['PSYC 1', 'PSYC 6']]
+Counts: [1]
+
+Course: PSYC 51.01
+Required: [['PSYC 6', 'PSYC 21', 'PSYC 28']]
+Counts: [1]
+
+Course: PSYC 51.02
+Required: [['PSYC 1', 'PSYC 6']]
+Counts: [1]
+
+Course: PSYC 51.09
+Required: [['PSYC 1', 'PSYC 6']]
+Counts: [1]
+
+Course: PSYC 51.12
+Required: [['PSYC 1', 'PSYC 6'], ['PSYC 10']]
+Counts: [1, 1]
+
+Course: PSYC 51.13
+Required: [['LING 1', 'COGS 1']]
+Counts: [1]
+
+Course: PSYC 52.04
+Required: [['PSYC 1']]
+Counts: [1]
+
+Course: PSYC 52.05
+Required: [['PSYC 1']]
+Counts: [1]
+
+Course: PSYC 52.06
+Required: [['PSYC 6', 'PSYC 21', 'PSYC 27', 'PSYC 28', 'PSYC 38']]
+Counts: [1]
+
+Course: PSYC 53.10
+Required: [['PSYC 23', 'PSYC 27', 'PSYC 28', 'PSYC 38']]
+Counts: [1]
+
+Course: PSYC 53.12
+Required: [['PSYC 1']]
+Counts: [1]
+
+Course: PSYC 53.13
+Required: [['PSYC 1', 'PSYC 6']]
+Counts: [1]
+
+Course: PSYC 53.14
+Required: [['PSYC 1', 'PSYC 6']]
+Counts: [1]
+
+Course: PSYC 53.15
+Required: [['PSYC 1', 'PSYC 6']]
+Counts: [1]
+
+Course: PSYC 54.02
+Required: [['PSYC 1', 'PSYC 6']]
+Counts: [1]
+
+Course: PSYC 54.03
+Required: [['PSYC 24']]
+Counts: [1]
+
+Course: PSYC 54.05
+Required: [['PSYC 1'], ['PSYC 21', 'PSYC 27', 'PSYC 28', 'PSYC 38', 'PSYC 6']]
+Counts: [1, 1]
+
+Course: PSYC 54.06
+Required: [['PSYC 1', 'PSYC 6']]
+Counts: [1]
+
+Course: PSYC 54.07
+Required: [['PSYC 24'], ['IP']]
+Counts: [1, 1]
+
+Course: PSYC 54.08
+Required: [['PSYC 1']]
+Counts: [1]
+
+Course: PSYC 60
+Required: [['IP']]
+Counts: [1]
+
+Course: PSYC 63
+Required: [['PSYC 11'], ['PSYC 23'], ['IP']]
+Counts: [1, 1, 1]
+
+Course: PSYC 70
+Required: [['PSYC 6'], ['IP']]
+Counts: [1, 1]
+
+Course: PSYC 80.01
+Required: [['PSYC 6'], ['PSYC 37', 'PSYC 45'], ['IP']]
+Counts: [1, 1, 1]
+
+Course: PSYC 80.02
+Required: [['IP']]
+Counts: [1]
+
+Course: PSYC 80.04
+Required: [['PSYC 6'], ['PSYC 37', 'PSYC 45'], ['IP']]
+Counts: [1, 1, 1]
+
+Course: PSYC 80.05
+Required: [['PSYC 1', 'PSYC 6'], ['PSYC *'], ['IP']]
+Counts: [1, 4, 1]
+
+Course: PSYC 80.06
+Required: [['PSYC 1', 'PSYC 6'], ['IP']]
+Counts: [1, 1]
+
+Course: PSYC 81.04
+Required: [['PSYC 6', 'PSYC 21', 'PSYC 28'], ['IP']]
+Counts: [1, 1]
+
+Course: PSYC 81.08
+Required: [['PSYC 22', 'PSYC 28'], ['IP']]
+Counts: [1, 1]
+
+Course: PSYC 81.09
+Required: [['IP']]
+Counts: [1]
+
+Course: PSYC 81.10
+Required: [['PSYC 1', 'PSYC 6'], ['PSYC 11', 'PSYC 36'], ['IP']]
+Counts: [1, 1, 1]
+
+Course: PSYC 81.11
+Required: [['PSYC 6', 'PSYC 21', 'PSYC 28'], ['IP']]
+Counts: [1, 1]
+
+Course: PSYC 81.12
+Required: [['IP']]
+Counts: [1]
+
+Course: PSYC 83.07
+Required: [['PSYC 1'], ['PSYC 10'], ['IP']]
+Counts: [1, 1, 1]
+
+Course: PSYC 83.08
+Required: [['PSYC 1', 'PSYC 6'], ['PSYC 10'], ['PSYC 23', 'PSYC 38', 'PSYC 53', 'PSYC 60'], ['IP']]
+Counts: [1, 1, 1, 1]
+
+Course: PSYC 83.09
+Required: [['PSYC 1', 'PSYC 6']]
+Counts: [1]
+
+Course: PSYC 84.05
+Required: [['PSYC 1', 'PSYC 6'], ['IP']]
+Counts: [1, 1]
+
+Course: PSYC 84.06
+Required: [['PSYC 1', 'PSYC 6'], ['PSYC 23', 'PSYC 28', 'PSYC 53.12', 'PSYC 54.08'], ['IP']]
+Counts: [1, 1, 1]
+
+Course: PSYC 86.01
+Required: [['IP']]
+Counts: [1]
+
+Course: PSYC 86.04
+Required: [['PSYC 6'], ['IP']]
+Counts: [1, 1]
+
+Course: PSYC 86.05
+Required: [['PSYC 1'], ['IP']]
+Counts: [1, 1]
+
+Course: PSYC 87.02
+Required: [['PSYC 10'], ['PSYC 6', 'PSYC 25', 'PSYC 27', 'PSYC 38'], ['IP']]
+Counts: [1, 1, 1]
+
+Course: PSYC 88
+Required: [['PSYC 1', 'PSYC 6'], ['PSYC 10'], ['PSYC 11'], ['IP']]
+Counts: [1, 1, 1, 1]
+
+Course: PSYC 89.01
+Required: [['PSYC 1'], ['PSYC 10'], ['PSYC 11'], ['IP']]
+Counts: [1, 1, 1, 1]
+Recommended: ['PSYC 60']
+
+Course: PSYC 89.02
+Required: [['PSYC 89.01']]
+Counts: [1]
+
+Course: PSYC 90
+Required: [['PSYC 6'], ['PSYC 10'], ['PSYC 20-29'], ['IP']]
+Counts: [1, 1, 2, 1]
+
+Course: PSYC 91.01
+Required: [['PSYC 6'], ['PSYC 10', 'BIOL 29'], ['IP']]
+Counts: [1, 1, 1]
+
+Course: PSYC 91.02
+Required: [['PSYC 91.01']]
+Counts: [1]
+
+Course: QSS 15
+Required: [['MATH 3']]
+Counts: [1]
+
+Course: QSS 30.04
+Required: [['MATH 3']]
+Counts: [1]
+
+Course: QSS 36
+Required: [['MATH 13'], ['MATH 20']]
+Counts: [1, 1]
+
+Course: REL 70
+Required: [['REL *']]
+Counts: [1]
+
+Course: REL 71
+Required: [['REL *']]
+Counts: [1]
+
+Course: RUSS 3
+Required: [['RUSS 2']]
+Counts: [1]
+
+Course: RUSS 21
+Required: [['RUSS 3'], ['CP']]
+Counts: [1, 1]
+
+Course: RUSS 22
+Required: [['RUSS 3'], ['CP']]
+Counts: [1, 1]
+
+Course: RUSS 23
+Required: [['RUSS 3'], ['CP']]
+Counts: [1, 1]
+
+Course: RUSS 27
+Required: [['RUSS 3']]
+Counts: [1]
+
+Course: RUSS 28
+Required: [['RUSS 27']]
+Counts: [1]
+
+Course: RUSS 29
+Required: [['RUSS 28']]
+Counts: [1]
+
+Course: RUSS 41
+Required: [['RUSS 29+']]
+Counts: [1]
+
+Course: RUSS 45
+Required: [['RUSS 29+']]
+Counts: [1]
+
+Course: RUSS 48
+Required: [['RUSS 29']]
+Counts: [1]
+
+Course: RUSS 71
+Required: [['RUSS 40-49']]
+Counts: [1]
+
+Course: SOCY 15
+Required: [['SOCY 1', 'SOCY 2']]
+Counts: [1]
+
+Course: SOCY 16
+Required: [['SOCY 1', 'SOCY 2']]
+Counts: [1]
+
+Course: SOCY 50
+Required: [['SOCY 1', 'SOCY 2']]
+Counts: [1]
+
+Course: SOCY 54
+Required: [['SOCY 10']]
+Counts: [1]
+
+Course: SOCY 63
+Required: [['SOCY 1', 'SOCY 2'], ['SOCY *']]
+Counts: [1, 1]
+
+Course: SOCY 65
+Required: [['SOCY 1', 'SOCY 2']]
+Counts: [1]
+
+Course: SOCY 72
+Required: [['SOCY *']]
+Counts: [1]
+
+Course: SPAN 9
+Required: [['SPAN 3']]
+Counts: [1]
+
+Course: SPAN 20
+Required: [['SPAN 5', 'SPAN 6', 'SPAN 9', 'SPAN 15']]
+Counts: [1]
+
+Course: SPAN 23
+Required: [['SPAN 20'], ['SPAN 32', 'SPAN 31', 'SPAN 30'], ['CP']]
+Counts: [1, 1, 1]
+
+Course: SPAN 24
+Required: [['SPAN 20'], ['SPAN 32', 'SPAN 31', 'SPAN 30'], ['CP']]
+Counts: [1, 1, 1]
+
+Course: SPAN 30
+Required: [['SPAN 20'], ['CP']]
+Counts: [1, 1]
+
+Course: SPAN 31
+Required: [['SPAN 20'], ['CP']]
+Counts: [1, 1]
+
+Course: SPAN 32
+Required: [['SPAN 20'], ['CP']]
+Counts: [1, 1]
+
+Course: SPAN 33
+Required: [['SPAN 20'], ['SPAN 32', 'SPAN 31', 'SPAN 30'], ['CP']]
+Counts: [1, 1, 1]
+
+Course: SPAN 34
+Required: [['SPAN 20'], ['SPAN 32', 'SPAN 31', 'SPAN 30'], ['CP']]
+Counts: [1, 1, 1]
+
+Course: SPAN 35
+Required: [['SPAN 20'], ['SPAN 32', 'SPAN 31', 'SPAN 30'], ['CP']]
+Counts: [1, 1, 1]
+
+Course: SPAN 36
+Required: [['SPAN 20'], ['SPAN 32', 'SPAN 31', 'SPAN 30'], ['CP']]
+Counts: [1, 1, 1]
+
+Course: SPAN 40.07
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 40.12
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 45.05
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 45.07
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 50.02
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 55.04
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 55.05
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 55.06
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 55.13
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 63.10
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 63.11
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 63.12
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 65.15
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 70.01
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 70.02
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 73.11
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 75.01
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 77.05
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 80.22
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 80.23
+Required: [['SPAN 20']]
+Counts: [1]
+
+Course: SPAN 83
+Required: [['IP']]
+Counts: [1]
+
+Course: SPAN 90
+Required: [['CP']]
+Counts: [1]
+
+Course: SPAN 91
+Required: [['SPAN 90']]
+Counts: [1]
+
+Course: PORT 3
+Required: [['PORT 2']]
+Counts: [1]
+
+Course: PORT 9
+Required: [['PORT 3', 'CP']]
+Counts: [1]
+
+Course: PORT 20
+Required: [['PORT 9']]
+Counts: [1]
+
+Course: PORT 25
+Required: [['PORT 3'], ['CP']]
+Counts: [1, 1]
+
+Course: PORT 35
+Required: [['PORT 3'], ['CP']]
+Counts: [1, 1]
+
+Course: PORT 36
+Required: [['PORT 3'], ['CP']]
+Counts: [1, 1]
+
+Course: PORT 60
+Required: [['PORT 9']]
+Counts: [1]
+
+Course: PORT 61
+Required: [['PORT 9']]
+Counts: [1]
+
+Course: PORT 62
+Required: [['PORT 9']]
+Counts: [1]
+
+Course: PORT 63
+Required: [['PORT 9']]
+Counts: [1]
+
+Course: PORT 80
+Required: [['PORT 9']]
+Counts: [1]
+
+Course: PORT 90
+Required: [['CP']]
+Counts: [1]
+
+Course: PORT 91
+Required: [['PORT 90']]
+Counts: [1]
+
+Course: SART 20
+Required: [['SART 15']]
+Counts: [1]
+
+Course: SART 21
+Required: [['SART 16']]
+Counts: [1]
+
+Course: SART 22
+Required: [['SART 15']]
+Counts: [1]
+
+Course: SART 23
+Required: [['SART 16']]
+Counts: [1]
+
+Course: SART 25
+Required: [['SART 15']]
+Counts: [1]
+
+Course: SART 28
+Required: [['SART 26', 'SART 27']]
+Counts: [1]
+
+Course: SART 30
+Required: [['SART 29']]
+Counts: [1]
+
+Course: SART 31
+Required: [['SART 25']]
+Counts: [1]
+
+Course: SART 66
+Required: [['SART 65']]
+Counts: [1]
+
+Course: SART 68
+Required: [['SART 66']]
+Counts: [1]
+
+Course: SART 71
+Required: [['SART 20']]
+Counts: [1]
+
+Course: SART 72
+Required: [['SART 31']]
+Counts: [1]
+
+Course: SART 73
+Required: [['SART 21']]
+Counts: [1]
+
+Course: SART 74
+Required: [['SART 28']]
+Counts: [1]
+
+Course: SART 75
+Required: [['SART 30']]
+Counts: [1]
+
+Course: SART 77
+Required: [['SART 76']]
+Counts: [1]
+
+Course: THEA 10.32
+Required: [['THEA 35'], ['IP']]
+Counts: [1, 1]
+
+Course: THEA 10.71
+Required: [['THEA 30']]
+Counts: [1]
+
+Course: THEA 27
+Required: [['THEA 26']]
+Counts: [1]
+
+Course: THEA 31
+Required: [['THEA 30']]
+Counts: [1]
+
+Course: THEA 35
+Required: [['THEA 30'], ['IP']]
+Counts: [1, 1]
+
+Course: THEA 51
+Required: [['THEA 50']]
+Counts: [1]
+
+Course: THEA 54
+Required: [['THEA 30']]
+Counts: [1]
+
+Course: THEA 60
+Required: [['THEA 15', 'THEA 16', 'THEA 17'], ['THEA 10', 'THEA 25', 'THEA 26', 'THEA 27', 'THEA 28', 'THEA 29', 'THEA 30', 'THEA 35', 'THEA 36', 'THEA 40', 'THEA 41', 'THEA 42', 'THEA 44', 'THEA 48', 'THEA 50']]
+Counts: [1, 1]
+
+Course: THEA 61
+Required: [['THEA 15', 'THEA 16', 'THEA 17'], ['THEA 10', 'THEA 25', 'THEA 26', 'THEA 27', 'THEA 28', 'THEA 29', 'THEA 30', 'THEA 35', 'THEA 36', 'THEA 40', 'THEA 41', 'THEA 42', 'THEA 44', 'THEA 48', 'THEA 50']]
+Counts: [1, 1]
+
+Course: THEA 62
+Required: [['THEA 15', 'THEA 16', 'THEA 17'], ['THEA 10', 'THEA 25', 'THEA 26', 'THEA 27', 'THEA 28', 'THEA 29', 'THEA 30', 'THEA 35', 'THEA 36', 'THEA 40', 'THEA 41', 'THEA 42', 'THEA 44', 'THEA 48', 'THEA 50']]
+Counts: [1, 1]
+
+Course: THEA 80
+Required: [['CP']]
+Counts: [1]
+
+Course: THEA 90
+Required: [['CP']]
+Counts: [1]
+
+Course: THEA 91
+Required: [['CP']]
+Counts: [1]
+
+Course: WGSS 66.14
+Required: [['ECON 1']]
+Counts: [1]
+
+Course: WGSS 85
+Required: [['IP'], ['CP']]
+Counts: [1, 1]
+
+Course: WRIT 7
+Required: [['WRIT 5', 'WRIT 3', 'HUM 1']]
+Counts: [1]
+
+Course: WRIT 41
+Required: [['PBPL 5']]
+Counts: [1]
+
+Course: WRIT 43
+Required: [['WRIT 5', 'WRIT 3', 'HUM 1']]
+Counts: [1]
+

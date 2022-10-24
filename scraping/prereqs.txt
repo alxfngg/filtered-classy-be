@@ -1,13 +1,13 @@
 ANTH 35 : 1 ANTH * or 1 LACS *
-ANTH 37 : 1 ANTH or 1 LACS
+ANTH 37 : 1 ANTH * or 1 LACS *
 ANTH 43 : ANTH 6
 ANTH 48 : 1 ANTH * or 1 REL *
 ANTH 50.46 : BIOL 12 or BIOL 19 or BIOL 13 or BIOL 14 or BIOL 15 or BIOL 16 or EARS 2
 ANTH 54 : 2 ANTH *
-ANTH 85 : instructor permission
-ANTH 87 : instructor permission
-ANTH 88 : instructor permission
-ASCL 70.22 : acceptance into the winterim FSP in Vietnam
+ANTH 85 : IP
+ANTH 87 : IP
+ANTH 88 : IP
+ASCL 70.22 : 1 ASCL *
 CHIN 31 : CHIN 23
 CHIN 32 : CHIN 23
 CHIN 33 : CHIN 23
@@ -45,7 +45,7 @@ BIOL 50.02 : BIOL 16 and 1 BIOL 21-31 or BIOL 46 or BIOL 48
 BIOL 51 : BIOL 16 and 1 BIOL 22-32
 BIOL 53 : BIOL 15 or BIOL 16 and BIOL 21 or BIOL 22 or BIOL 23 or BIOL 24 or BIOL 25 or BIOL 27 or BIOL 28 or BIOL 29 or BIOL 31 or BIOL 46
 BIOL 54 : BIOL 16 and 1 BIOL 21-32
-BIOL 55 : BIOL 16 and 1 BIOL 21-32 and acceptance into Program. BIOL 15 and BIOL 29 recommended
+BIOL 55 : BIOL 16 and 1 BIOL 21-32. BIOL 15 and BIOL 29 recommended
 BIOL 56 : BIOL 55
 BIOL 57 : BIOL 55 and BIOL 56
 BIOL 58 : BIOL 15 and BIOL 16 and 1 BIOL 21-32
@@ -56,33 +56,33 @@ BIOL 60.02 : BIOL 15 and BIOL 21 or BIOL 23 or BIOL 24 or BIOL 27 or BIOL 28 or 
 BIOL 63 : BIOL 40 or BIOL 41 or BIOL 43 or BIOL 45 or BIOL 47 or CHEM 41
 BIOL 66 : BIOL 12 or BIOL 19 and BIOL 13 and BIOL 40 or BIOL 41 or BIOL 43 or BIOL 45 or CHEM 41
 BIOL 69 : BIOL 12 or BIOL 19 and BIOL 13 and BIOL 37 or BIOL 40 or BIOL 41 or BIOL 43 or BIOL 45 or CHEM 41
-BIOL 70 : BIOL 12 or BIOL 19 and BIOL 13 and BIOL 40 or BIOL 41 or BIOL 45 or CHEM 41 and instructor permission
+BIOL 70 : BIOL 12 or BIOL 19 and BIOL 13 and BIOL 40 or BIOL 41 or BIOL 45 or CHEM 41 and IP
 BIOL 71 : BIOL 12 or BIOL 19 and BIOL 13 and BIOL 40 or BIOL 41 or BIOL 43 or BIOL 45 or CHEM 41
 BIOL 72 : BIOL 29
-BIOL 73 : BIOL 72 and instructor permission
-BIOL 74 : BIOL 35 or PSYC 35 or 2 from BIOL 40 or BIOL 41 or BIOL 43 or BIOL 45 or PSYC 6 or PSYC 65
-BIOL 74.01 : 2 from among BIOL 12 or BIOL 13 or BIOL 14 or BIOL 49 or BIOL 35 or PSYC 6 or PSYC 35 or PSYC 46 or PSYC 65
-BIOL 74.02 : 2 from among BIOL 12 or BIOL 13 or BIOL 14 or BIOL 35 or BIOL 49 or PSYC 6 or PSYC 35 or PSYC 46 or PSYC 65
+BIOL 73 : BIOL 72 and IP
+BIOL 74 : 2 BIOL 35 or PSYC 35 or BIOL 40 or BIOL 41 or BIOL 43 or BIOL 45 or PSYC 6 or PSYC 65
+BIOL 74.01 : 2 BIOL 12 or BIOL 13 or BIOL 14 or BIOL 49 or BIOL 35 or PSYC 6 or PSYC 35 or PSYC 46 or PSYC 65
+BIOL 74.02 : 2  BIOL 12 or BIOL 13 or BIOL 14 or BIOL 35 or BIOL 49 or PSYC 6 or PSYC 35 or PSYC 46 or PSYC 65
 BIOL 76 : BIOL 12 or BIOL 19 and BIOL 13 and BIOL 40 or BIOL 41 or BIOL 43 or BIOL 45 or BIOL 47 or CHEM 41
 BIOL 78 : BIOL 13 and BIOL 40 or CHEM 41. BIOL 2 or BIOL 14 or BIOL 37 recommended
-BIOL 95 : 3 BIOL * and instructor permission
-BIOL 96 : BIOL 95 and instructor permission
-BIOL 97 : 2 BIOL 20+ and instructor permission
+BIOL 95 : 3 BIOL * and IP
+BIOL 96 : BIOL 95 and IP
+BIOL 97 : 2 BIOL 20+ and IP
 BIOL 98 : BIOL 97
-BIOL 99 : Senior BIOL majors only or BIOL 97
+BIOL 99 : BIOL 97
 CHEM 6 : MATH 3 and CHEM 5
 CHEM 40 : CHEM 6 or CHEM 10 and PHYS 13 or PHYS 15 or PHYS 4 and MATH 8
 CHEM 41 : CHEM 52 or CHEM 58
 CHEM 42 : CHEM 40 or CHEM 76 and CHEM 41
 CHEM 51 : CHEM 6 or CHEM 10
 CHEM 52 : CHEM 6 or CHEM 10 and CHEM 51 or CHEM 57
-CHEM 57 : instructor permission and CHEM 6 or CHEM 10
+CHEM 57 : IP and CHEM 6 or CHEM 10
 CHEM 58 : CHEM 57
 CHEM 63 : CHEM 51 or CHEM 57
 CHEM 64 : CHEM 51 or CHEM 57
 CHEM 75 : CHEM 6 or CHEM 10 and PHYS 13 or PHYS 15 or PHYS 4 and MATH 8
 CHEM 76 : CHEM 75 and CHEM 64
-CHEM 87 : chair permission
+CHEM 87 : CP
 CHEM 91 : CHEM 64 and CHEM 52 or CHEM 58
 CHEM 92 : CHEM 64 and CHEM 41 or BIOL 40
 CHEM 93 : CHEM 52 or CHEM 58
@@ -94,21 +94,21 @@ CHEM 96.03 : CHEM 76
 CHEM 96.04 : CHEM 75
 CHEM 96.07 : CHEM 76 or PHYS 24 or ENGS 24
 CHEM 96.08 : MATH 13 and CHEM 76
-CLST 30.01 : membership in the Foreign Study Program
-CLST 30.02 : membership in the Foreign Study Program
-CLST 31 : membership in the Foreign Study Program
-CLST 87 : instructor permission
+CLST 30.01 : 3 CLST 6 or CLST 14 or CLST 15 or CLST 20 or CLST 21 or CLST 22 or GRK 11 and CP
+CLST 30.02 : 3 CLST 6 or CLST 14 or CLST 15 or CLST 20 or CLST 21 or CLST 22 or GRK 11 and CP
+CLST 31 : 3 CLST 6 or CLST 14 or CLST 15 or CLST 20 or CLST 21 or CLST 22 or GRK 11 and CP
+CLST 87 : IP
 GRK 3 : GRK 1
 GRK 10 : GRK 3
 GRK 20 : GRK 10
 GRK 24 : GRK 10
 GRK 26 : GRK 10 
 GRK 29 : GRK 10
-GRK 87 : instructor permission
+GRK 87 : IP
 LAT 3 : LAT 1
 LAT 15 : LAT 3 or LAT 10
 LAT 28 : LAT 10 
-LAT 87 : instructor permission
+LAT 87 : IP
 COGS 2 : PSYC 1 or PSYC 6 or COSC 1
 COGS 25 : 1 PHIL *
 COGS 26 : 1 PHIL * or 1 COGS * or 1 COSC *
@@ -117,9 +117,9 @@ COGS 50.04 : 1 PHIL * or 1 COGS *
 COSC 10 : COSC 1 or ENGS 20
 COSC 16 : PSYC 1 or PSYC 6 or COSC 1 or ENGS 20
 COSC 23.01 : COSC 22
-COSC 25.02 : COSC 25.01 and instructor permission
+COSC 25.02 : COSC 25.01 and IP
 COSC 27 : COSC 22 and COSC 24 or COSC 23.01
-COSC 28 : COSC 27 and instructor permission
+COSC 28 : COSC 27 and IP
 COSC 30 : MATH 3 and COSC 10
 COSC 31 : COSC 10 and COSC 30
 COSC 32 : COSC 31
@@ -143,14 +143,14 @@ COSC 58 : COSC 50 and COSC 51
 COSC 59 : COSC 10 and COSC 30. COSC 51 recommended
 COSC 60 : COSC 30 and COSC 50. COSC 51 recommended
 COSC 61 : COSC 50
-COSC 62 : COSC 30 and COSC 50. COSC 51 and COSC 55 are recommended
+COSC 62 : COSC 30 and COSC 50. COSC 51 and COSC 55 recommended
 COSC 63 : ENGS 20 or COSC 50
 COSC 63.01 : COSC 10
 COSC 65 : COSC 10
 COSC 66 : COSC 10
 COSC 67 : COSC 10
 COSC 68 : COSC 58
-COSC 69.08 : COSC 60.
+COSC 69.08 : COSC 60
 COSC 69.14 : COSC 10. COSC 30 recommended
 COSC 69.15 : COSC 70. COSC 50 recommended
 COSC 70 : MATH 3 and COSC 1. COSC 10 recommended
@@ -179,16 +179,16 @@ COSC 89.24 : COSC 76
 COSC 89.25 : COSC 70 recommended
 COSC 89.26 : COSC 50. COSC 55 or COSC 58 or COSC 60 or COSC 62 or COSC 67 or COSC 91 recommended
 COSC 89.27 : COSC 74
-COSC 91 : instructor permission
-COSC 98.01 : 2 COSC 50-69 or 3 COSC 50-89
+COSC 91 : IP
+COSC 98.01 : 3 COSC 50-89
 COSC 98.02 : COSC 98.01
 COSC 99.02 : COSC 99.01
-EARS 17 : 1 EARS * and MATH 3.
+EARS 17 : 1 EARS * and MATH 3
 EARS 18 : EARS 1 or EARS 2 or EARS 3 or EARS 4 or EARS 5 or EARS 6 or EARS 8 or EARS 9
 EARS 31 : EARS 1 or EARS 2 or EARS 3 or EARS 4 or EARS 5 or EARS 6 or EARS 8 or EARS 9
 EARS 32 : BIOL 12 or BIOL 19 or BIOL 13 or BIOL 14 or BIOL 15 or BIOL 16 or EARS 2
 EARS 34 : CHEM 5 or CHEM 10 and EARS 1 or EARS 2 or EARS 3 or EARS 4 or EARS 5 or EARS 6 or EARS 8 or EARS 9
-EARS 35 : ENVS 2 or EARS 1 or EARS 2 or EARS 3 or EARS 4 or EARS 5 or EARS 6 or EARS 8 or EARS 9 or CHEM 5 and an advanced course from the environmental sciences or Earth Sciences
+EARS 35 : ENVS 2 or EARS 1 or EARS 2 or EARS 3 or EARS 4 or EARS 5 or EARS 6 or EARS 8 or EARS 9 or CHEM 5 and ENVS 12+ or EARS 30+
 EARS 37 : EARS 1 or EARS 2 or EARS 3 or EARS 4 or EARS 5 or EARS 6 or EARS 8 or EARS 9
 EARS 38 : EARS 1 or EARS 2 or EARS 3 or EARS 4 or EARS 5 or EARS 6 or EARS 8 or EARS 9
 EARS 40 : EARS 1 or EARS 2 or EARS 3 or EARS 4 or EARS 5 or EARS 6 or EARS 8 or EARS 9. CHEM 5 recommended
@@ -212,11 +212,10 @@ EARS 75 : EARS 15 or ENGS 172
 EARS 76 : MATH 3 and EARS 16 or EARS 33 or BIOL 53 or ENGS 43
 EARS 77 : GEOG 50 or GEOG 51 or EARS 65
 EARS 78 : MATH 8 and EARS 14 or EARS 15
-EARS 87 : instructor permission
-EARS 88 : EARS majors only
-EARS 89 : instructor permission
+EARS 87 : IP
+EARS 88 : CP
+EARS 89 : IP
 EARS 91 : EARS 87 or EARS 89
-ECON 2 : no ECON 1
 ECON 3 : MATH 1
 ECON 10 : MATH 1 and ECON 1 recommended
 ECON 15 : ECON 1
@@ -258,9 +257,9 @@ ECON 79 : ECON 1
 ECON 80 : ECON 20 and ECON 21 and ECON 22
 ECON 81 : ECON 20 and ECON 21 and ECON 22 and MATH 8
 ECON 82 : ECON 20 and ECON 21 and ECON 22
-ECON 85 : chair permission and instructor permission
-ECON 87 : chair permission
-ENGS 15 : chair permission
+ECON 85 : CP and IP
+ECON 87 : CP
+ENGS 15 : CP
 ENGS 18 : MATH 3
 ENGS 20 : MATH 3 and MATH 8
 ENGS 21 : MATH 3
@@ -294,17 +293,17 @@ ENGS 64 : ENGS 30
 ENGS 65 : ENGS 20 or COSC 1 and COSC 10
 ENGS 66 : COSC 1 or ENGS 20
 ENGS 67 : ENGS 20 or COSC 50
-ENGS 68 : ENGS 22 and ENGS 27 and ENGS 92 strongly recommended
+ENGS 68 : ENGS 22 and ENGS 27 and ENGS 92 recommended
 ENGS 69 : COSC 10
 ENGS 71 : ENGS 20 or COSC 1 and COSC 10 and ENGS 33
 ENGS 72 : ENGS 22
 ENGS 73 : ENGS 24 and ENGS 33
 ENGS 75 : ENGS 21 or ENGS 89
 ENGS 76 : ENGS 21 and ENGS 33
-ENGS 84 : chair permission
-ENGS 86 : ENGS majors only
-ENGS 87 : chair permission
-ENGS 88 : chair permission
+ENGS 84 : CP
+ENGS 86 : CP
+ENGS 87 : CP
+ENGS 88 : CP
 ENGS 89 : ENGS 21 and 5 ENGS 22-76 or ENGS 91+
 ENGS 90 : ENGS 89
 ENGS 91 : ENGS 20 or COSC 1 and COSC 10 and ENGS 22 or MATH 23
@@ -363,14 +362,14 @@ ENGL 74.04 : 4 ENGL * recommended
 ENGL 74.05 : 4 ENGL * recommended
 ENGL 74.11 : 4 ENGL * recommended
 ENGL 75.02 : 4 ENGL * recommended
-CRWT 20 : CRWT 10 and instructor permission
-CRWT 21 : CRWT 11 and instructor permission
-CRWT 22 : CRWT 12 and instructor permission
+CRWT 20 : CRWT 10 and IP
+CRWT 21 : CRWT 11 and IP
+CRWT 22 : CRWT 12 and IP
 CRWT 60 : CRWT 20
 CRWT 61 : CRWT 21
 CRWT 62 : CRWT 22
-FILM 39.01 : FILM 30 or FILM 31 or FILM 32 or FILM 36 or FILM 37 or FILM 44.04 or FILM 44.07 or FILM 48.02 or FILM 51 and instructor permission
-FREN 10 : FREN 8 or acceptance into the Dartmouth Advanced Language Study Abroad Program
+FILM 39.01 : FILM 30 or FILM 31 or FILM 32 or FILM 36 or FILM 37 or FILM 44.04 or FILM 44.07 or FILM 48.02 or FILM 51 and IP
+FREN 10 : FREN 8
 FREN 10.02 : FREN 8
 FREN 10.03 : FREN 8
 FREN 10.06 : FREN 8
@@ -387,7 +386,7 @@ FREN 10.18 : FREN 8
 FREN 10.19 : FREN 8
 FREN 10.20 : FREN 8
 FREN 11 : FREN 3 or SPAN 3 or PORT 3 or LAT 3 or ITAL 3
-FREN 12 : Acceptance into the Dartmouth Advanced Language Study Abroad Program
+FREN 12 : FREN 3
 FREN 2 : FREN 1
 FREN 20 : FREN 10
 FREN 20.01 : FREN 10
@@ -397,10 +396,10 @@ FREN 22 : FREN 10
 FREN 23 : FREN 10
 FREN 24 : FREN 10
 FREN 25 : FREN 10
-FREN 29 : acceptance into the Foreign Study Program
+FREN 29 : FREN 8 and FREN 10 and CP
 FREN 3 : FREN 2 or FREN 11
-FREN 30 : acceptance into the Foreign Study Program
-FREN 31 : acceptance into the Foreign Study Program
+FREN 30 : FREN 8 and FREN 10 and CP
+FREN 31 : FREN 8 and FREN 10 and CP
 FREN 35 : FREN 10
 FREN 35.03 : FREN 10
 FREN 40 : FREN 10
@@ -414,7 +413,7 @@ FREN 45.03 : FREN 10
 FREN 45.04 : FREN 10
 FREN 45.05 : FREN 10
 FREN 45.06 : FREN 10
-FREN 5 : Acceptance into the Dartmouth Language Study Abroad Program
+FREN 5 : FREN 2 and CP
 FREN 50 : FREN 10
 FREN 50.05 : FREN 10
 FREN 53 : FREN 10
@@ -436,19 +435,19 @@ FREN 8 : FREN 3
 FREN 80 : FREN 10
 FREN 80.03 : FREN 10
 FREN 80.04 : FREN 10
-FREN 81 : instructor permission
-FREN 9 : Acceptance into the Dartmouth Language Study Abroad Program
+FREN 81 : IP
+FREN 9 : FREN 2 or FREN 11 and CP
 ITAL 2 : ITAL 1 
 ITAL 3 : ITAL 2 or ITAL 11 or ARTH 12
-ITAL 5 : Acceptance into the Dartmouth Language Study Abroad Program
-ITAL 6 : Acceptance into the Dartmouth Language Study Abroad Program
-ITAL 8 : Acceptance into the Dartmouth Language Study Abroad Program or Advanced Language Study Abroad Program
+ITAL 5 : ITAL 2 or ITAL 11 and CP
+ITAL 6 : ITAL 2 or ITAL 11 and CP
+ITAL 8 : ITAL 2 or ITAL 11 and CP
 ITAL 10.03 : ITAL 8 or ITAL 9
 ITAL 10.04 : ITAL 8 or ITAL 9
 ITAL 10.05 : ITAL 8 or ITAL 9
 ITAL 10.06 : ITAL 8 or ITAL 9
 ITAL 10.20 : ITAL 8 or ITAL 9
-ITAL 12 : Acceptance into the Dartmouth Advanced Language Study Abroad Program
+ITAL 12 : ITAL 3 and CP
 ITAL 15 : ITAL 8 or ITAL 9
 ITAL 21 : ITAL 10
 ITAL 22 : ITAL 10
@@ -468,20 +467,20 @@ GEOG 67 : ENVS 3 or GEOG 1
 GEOG 80 : GEOG 1
 GEOG 81 : GEOG 1 or GEOG 3 and 1 GEOG 12-41. GEOG 11 or GEOG 50 or GEOG 51 recommended
 GEOG 82 : GEOG 1 or GEOG 3 and 1 GEOG 12-41
-GEOG 85 : instructor permission and chair permission
-GEOG 87 : Senior GEOG majors only and instructor permission and chair permission
+GEOG 85 : IP and CP
+GEOG 87 : IP and CP
 GEOG 90 : GEOG 1 or GEOG 3 and 2 GEOG 50-59
-GERM 2.03 : Acceptance into the FSP
-GERM 5 : Acceptance into the Dartmouth Language Study Abroad Program
-GERM 6 : Acceptance into the Dartmouth Language Study Abroad Program
+GERM 2.03 : GERM 1 and CP
+GERM 5 : GERM 2 and CP
+GERM 6 : GERM 2 and CP
 GERM 10.01 : GERM 3
 GERM 10.02 : GERM 3
 GERM 10.03 : GERM 3
 GERM 10.06 : GERM 3
-GERM 29 : Acceptance into the Dartmouth Foreign Study Program
-GERM 30 : Acceptance into the Dartmouth Foreign Study Program
-GERM 31 : Acceptance into the Dartmouth Foreign Study Program
-GERM 44.07 : Accceptance into the Foreign Study Program
+GERM 29 : 2 GERM 6+ and CP
+GERM 30 : 2 GERM 6+ and CP
+GERM 31 : 2 GERM 6+ and CP
+GERM 44.07 : CP
 GOVT 18 : MATH 3
 GOVT 35 : GOVT 3
 GOVT 42 : GOVT 4 recommended
@@ -490,7 +489,7 @@ GOVT 52 : GOVT 4 or GOVT 5. GOVT 42 recommended
 GOVT 53 : GOVT 5
 GOVT 54 : GOVT 5
 GOVT 63 : GOVT 6
-GOVT 86.30 : 2 GOVT 40-49 or instructor permisison
+GOVT 86.30 : 2 GOVT 40-49
 HUM 2 : HUM 1
 LING 8 : LING 1 and 1 LING 20-29
 LING 20 : LING 1
@@ -502,7 +501,7 @@ LING 26 : LING 1
 LING 27 : LING 1 or LING 18
 LING 35 : LING 21 and 1 LING 20-29
 LING 48 : COSC 1
-LING 50.01 : LING 1 or COGS 1 or instructor permission
+LING 50.01 : LING 1 or COGS 1
 LING 54 : LING 1 and 1 LING 20-29
 LING 80 : 2 LING 20-29
 MATH 4 : MATH 3
@@ -521,10 +520,10 @@ MATH 30.04 : MATH 3 and MATH 20
 MATH 31 : MATH 22
 MATH 31.01 : MATH 22
 MATH 32 : MATH 22 or MATH 24
-MATH 35 : MATH 13 and instructor permission or MATH 22
+MATH 35 : MATH 13 and IP or MATH 22
 MATH 36 : MATH 13 and MATH 20
 MATH 37 : MATH 22 and MATH 24 and MATH 23 and COSC 1 or COSC 10 or ENGS 20
-MATH 38 : MATH 22 or COSC 55 and instructor permission
+MATH 38 : MATH 22 or COSC 55 and IP
 MATH 40 : MATH 13 and MATH 20
 MATH 42 : MATH 22 and MATH 23
 MATH 43 : MATH 13
@@ -535,15 +534,15 @@ MATH 53 : MATH 22 and MATH 23
 MATH 54 : MATH 13 and MATH 22
 MATH 56 : MATH 22 or MATH 24 and COSC 1 or ENGS 20 and
 MATH 60 : MATH 13
-MATH 63 : MATH 22 or MATH 24 or MATH 13 and instructor permission
-MATH 66 : MATH 23 and MATH 24 or MATH 22 and instructor permission
+MATH 63 : MATH 22 or MATH 24 or MATH 13 and IP
+MATH 66 : MATH 23 and MATH 24 or MATH 22 and IP
 MATH 68 : MATH 28 and MATH 31 or MATH 71
 MATH 69 : MATH 71 or MATH 54 or MATH 24
 MATH 70 : MATH 40
 MATH 71 : MATH 22 or MATH 24
 MATH 72 : MATH 71
 MATH 73 : MATH 43 and MATH 63
-MATH 74 : MATH 31 or MATH 71 and MATH 54 and instructor permission or MATH 54 and MATH 101
+MATH 74 : MATH 31 or MATH 71 and MATH 54 and IP or MATH 54 and MATH 101
 MATH 75 : MATH 71 or MATH 25 and MATH 31
 MATH 75.01 : MATH 25 or MATH 22 or MATH 24 or MATH 31 or MATH 71
 MATH 76.01 : MATH 22 and MATH 23
@@ -563,7 +562,7 @@ ARAB 34 : 2 ARAB 21-23
 ARAB 41 : 2 ARAB 31-33
 ARAB 42 : 2 ARAB 31-33
 ARAB 43 : 2 ARAB 31-33
-MUS 14 : instructor permission
+MUS 14 : IP
 MUS 14.04 : MUS 1
 MUS 22 : MUS 20
 MUS 23 : MUS 20
@@ -571,7 +570,7 @@ MUS 26 : Mus 25
 MUS 27 : MUS 25
 MUS 28 : MUS 25
 MUS 30 : MUS 20
-MUS 30.02 : MUS 20 or instructor permission
+MUS 30.02 : MUS 20
 MUS 32 : MUS 1
 MUS 34 : MUS 25
 MUS 37 : MUS 36 or MUS 25
@@ -612,16 +611,16 @@ MUS 59.52 : MUS 59.51
 MUS 59.53 : MUS 59.52
 MUS 59.62 : MUS 59.61
 MUS 59.63 : MUS 59.62
-MUS 60 : MUS 53 and instructor permission
-MUS 61 : MUS 54 and instructor permission
-MUS 62 : MUS 55 and instructor permission
-MUS 63 : MUS 56 and instructor permission
-MUS 64 : MUS 57 and instructor permission
-MUS 65 : MUS 58 and instructor permission
+MUS 60 : MUS 53 and IP
+MUS 61 : MUS 54 and IP
+MUS 62 : MUS 55 and IP
+MUS 63 : MUS 56 and IP
+MUS 64 : MUS 57 and IP
+MUS 65 : MUS 58 and IP
 MUS 70 : MUS 20
 MUS 71 : MUS 20
 MUS 74 : MUS 20
-MUS 99 : instructor permission
+MUS 99 : IP
 PHIL 11 : 1 PHIL * or CLST 3
 PHIL 12 : 1 PHIL *
 PHIL 12.01 : 1 PHIL *
@@ -710,44 +709,44 @@ PHIL 50.37 : 2 PHIL *
 PHIL 50.38 : 2 PHIL *
 PHIL 60 : 2 PHIL *
 PHIL 61 : 2 PHIL *
-PHIL 80 : instructor permission
-PHIL 80.01 : instructor permission
-PHIL 80.05 : instructor permission
-PHIL 80.06 : instructor permission
-PHIL 80.12 : instructor permission
-PHIL 80.13 : instructor permission
-PHIL 80.14 : instructor permission
-PHIL 80.15 : instructor permission
-PHIL 80.16 : instructor permission
-PHIL 80.17 : instructor permission
-PHIL 80.18 : instructor permission
-PHIL 80.19 : instructor permission
-PHIL 80.20 : instructor permission
-PHIL 80.21 : instructor permission
-PHIL 80.22 : instructor permission
-PHIL 80.23 : instructor permission
-PHIL 80.24 : instructor permission
-PHIL 80.25 : instructor permission
-PHIL 80.26 : instructor permission
-PHIL 80.27 : instructor permission
-PHIL 80.28 : instructor permission
-PHIL 80.29 : instructor permission
-PHIL 80.30 : instructor permission
-PHIL 87 : chair permission
-PHIL 89 : chair permission
-PHIL 90 : chair permission
+PHIL 80 : IP
+PHIL 80.01 : IP
+PHIL 80.05 : IP
+PHIL 80.06 : IP
+PHIL 80.12 : IP
+PHIL 80.13 : IP
+PHIL 80.14 : IP
+PHIL 80.15 : IP
+PHIL 80.16 : IP
+PHIL 80.17 : IP
+PHIL 80.18 : IP
+PHIL 80.19 : IP
+PHIL 80.20 : IP
+PHIL 80.21 : IP
+PHIL 80.22 : IP
+PHIL 80.23 : IP
+PHIL 80.24 : IP
+PHIL 80.25 : IP
+PHIL 80.26 : IP
+PHIL 80.27 : IP
+PHIL 80.28 : IP
+PHIL 80.29 : IP
+PHIL 80.30 : IP
+PHIL 87 : CP
+PHIL 89 : CP
+PHIL 90 : CP
 ASTR 15 : PHYS 3 or PHYS 13 or PHYS 15 and MATH 3
 ASTR 19 : MATH 3
 ASTR 25 : PHYS 14
 ASTR 61 : ASTR 2 or ASTR 3 or ASTR 15
 ASTR 74 : PHYS 14 or PHYS 16 and PHYS 19 or PHYS 24 or PHYS 40 and ASTR 2 or ASTR 3 or ASTR 15
 ASTR 75 : PHYS 19 and ASTR 25
-ASTR 87 : chair permission
+ASTR 87 : CP
 PHYS 3 : MATH 3
 PHYS 4 : PHYS 3
 PHYS 13 : MATH 3 and MATH 8
 PHYS 14 : PHYS 13 and MATH 8
-PHYS 15 : MATH 8 or MATH 9 and instructor permission
+PHYS 15 : MATH 8 or MATH 9 and IP
 PHYS 16 : PHYS 15
 PHYS 19 : PHYS 14 and MATH 13
 PHYS 30 : CHEM 5 and PHYS 13 and PHYS 14
@@ -814,43 +813,46 @@ PSYC 54.02 : PSYC 1 or PSYC 6
 PSYC 54.03 : PSYC 24
 PSYC 54.05 : PSYC 1 and PSYC 21 or PSYC 27 or PSYC 28 or PSYC 38 or PSYC 6
 PSYC 54.06 : PSYC 1 or PSYC 6
-PSYC 54.07 : PSYC 24 and instructor permission
+PSYC 54.07 : PSYC 24 and IP
 PSYC 54.08 : PSYC 1
-PSYC 60 : instructor permission
-PSYC 63 : PSYC 11 and PSYC 23 and instructor permission
-PSYC 70 : PSYC 6 and instructor permission
-PSYC 80.01 : PSYC 6 and PSYC 37 or PSYC 45 and instructor permission
-PSYC 80.02 : instructor permission
-PSYC 80.04 : PSYC 6 and PSYC 37 or PSYC 45 and instructor permission
-PSYC 80.05 : PSYC 1 or PSYC 6 and 4 PSYC * and instructor permission
-PSYC 80.06 : PSYC 1 or PSYC 6 and instructor permission
-PSYC 81.04 : PSYC 6 or PSYC 21 or PSYC 28 and instructor permission
-PSYC 81.08 : PSYC 22 or PSYC 28 and instructor permission
-PSYC 81.09 : instructor permission
-PSYC 81.10 : PSYC 1 or PSYC 6 and PSYC 11 or PSYC 36 and instructor permission
-PSYC 81.11 : PSYC 6 or PSYC 21 or PSYC 28 and instructor permission
-PSYC 81.12 : instructor permission
-PSYC 83.07 : PSYC 1 and PSYC 10 and instructor permission
-PSYC 83.08 : PSYC 1 or PSYC 6 and PSYC 10 and PSYC 23 or PSYC 38 or PSYC 53 or PSYC 60 and instructor permission
+PSYC 60 : IP
+PSYC 63 : PSYC 11 and PSYC 23 and IP
+PSYC 70 : PSYC 6 and IP
+PSYC 80.01 : PSYC 6 and PSYC 37 or PSYC 45 and IP
+PSYC 80.02 : IP
+PSYC 80.04 : PSYC 6 and PSYC 37 or PSYC 45 and IP
+PSYC 80.05 : PSYC 1 or PSYC 6 and 4 PSYC * and IP
+PSYC 80.06 : PSYC 1 or PSYC 6 and IP
+PSYC 81.04 : PSYC 6 or PSYC 21 or PSYC 28 and IP
+PSYC 81.08 : PSYC 22 or PSYC 28 and IP
+PSYC 81.09 : IP
+PSYC 81.10 : PSYC 1 or PSYC 6 and PSYC 11 or PSYC 36 and IP
+PSYC 81.11 : PSYC 6 or PSYC 21 or PSYC 28 and IP
+PSYC 81.12 : IP
+PSYC 83.07 : PSYC 1 and PSYC 10 and IP
+PSYC 83.08 : PSYC 1 or PSYC 6 and PSYC 10 and PSYC 23 or PSYC 38 or PSYC 53 or PSYC 60 and IP
 PSYC 83.09 : PSYC 1 or PSYC 6
-PSYC 84.05 : PSYC 1 or PSYC 6 and instructor permission
-PSYC 84.06 : PSYC 1 or PSYC 6 and 1 PSYC 23 or PSYC 28 or PSYC 53.12 or PSYC 54.08 and instructor permission
-PSYC 86.01 : instructor permission
-PSYC 86.04 : PSYC 6 and instructor permission
-PSYC 86.05 : PSYC 1 and instructor permission
-PSYC 87.02 : PSYC 10 and PSYC 6 or PSYC 25 or PSYC 27 or PSYC 38 and instructor permission
-PSYC 88 : PSYC 1 or PSYC 6 and PSYC 10 and PSYC 11 and instructor permission
-PSYC 89.01 : PSYC 1 and PSYC 10 and PSYC 11 and instructor permission. PSYC 60 recommended
+PSYC 84.05 : PSYC 1 or PSYC 6 and IP
+PSYC 84.06 : PSYC 1 or PSYC 6 and 1 PSYC 23 or PSYC 28 or PSYC 53.12 or PSYC 54.08 and IP
+PSYC 86.01 : IP
+PSYC 86.04 : PSYC 6 and IP
+PSYC 86.05 : PSYC 1 and IP
+PSYC 87.02 : PSYC 10 and PSYC 6 or PSYC 25 or PSYC 27 or PSYC 38 and IP
+PSYC 88 : PSYC 1 or PSYC 6 and PSYC 10 and PSYC 11 and IP
+PSYC 89.01 : PSYC 1 and PSYC 10 and PSYC 11 and IP. PSYC 60 recommended
 PSYC 89.02 : PSYC 89.01
-PSYC 90 : PSYC 6 and PSYC 10 and 2 of the 4 core courses required for the major and instructor permission
-PSYC 91.01 : PSYC 6 and PSYC 10 or BIOL 29 and instructor permission
+PSYC 90 : PSYC 6 and PSYC 10 and 2 PSYC 20-29 and IP
+PSYC 91.01 : PSYC 6 and PSYC 10 or BIOL 29 and IP
 PSYC 91.02 : PSYC 91.01
 QSS 15 : MATH 3
 QSS 30.04 : MATH 3
 QSS 36 : MATH 13 and MATH 20
 REL 70 : 1 REL *
 REL 71 : 1 REL *
-RUSS 3 : RUSS 2*
+RUSS 3 : RUSS 2
+RUSS 21 : RUSS 3 and CP
+RUSS 22 : RUSS 3 and CP
+RUSS 23 : RUSS 3 and CP
 RUSS 27 : RUSS 3
 RUSS 28 : RUSS 27
 RUSS 29 : RUSS 28
@@ -867,15 +869,15 @@ SOCY 65 : SOCY 1 or SOCY 2
 SOCY 72 : 1 SOCY *
 SPAN 9 : SPAN 3
 SPAN 20 : SPAN 5 or SPAN 6 or SPAN 9 or SPAN 15
-SPAN 23 : Acceptance into the Dartmouth Foreign Study Program Argentina
-SPAN 24 : Acceptance into the Dartmouth Foreign Study Program Spain
-SPAN 30 : SPAN 20
-SPAN 31 : SPAN 20
-SPAN 32 : SPAN 20
-SPAN 33 : Acceptance into the Dartmouth Foreign Study Program Argentina
-SPAN 34 : Acceptance into the Dartmouth Foreign Study Program Spain
-SPAN 35 : Acceptance into the Dartmouth Foreign Study Program Argentina
-SPAN 36 : Acceptance into the Dartmouth Foreign Study Program Spain
+SPAN 23 : SPAN 20 and SPAN 32 or SPAN 31 or SPAN 30 and CP
+SPAN 24 : SPAN 20 and SPAN 32 or SPAN 31 or SPAN 30 and CP
+SPAN 30 : SPAN 20 and CP
+SPAN 31 : SPAN 20 and CP
+SPAN 32 : SPAN 20 and CP
+SPAN 33 : SPAN 20 and SPAN 32 or SPAN 31 or SPAN 30 and CP
+SPAN 34 : SPAN 20 and SPAN 32 or SPAN 31 or SPAN 30 and CP
+SPAN 35 : SPAN 20 and SPAN 32 or SPAN 31 or SPAN 30 and CP
+SPAN 36 : SPAN 20 and SPAN 32 or SPAN 31 or SPAN 30 and CP
 SPAN 40.07 : SPAN 20
 SPAN 40.12 : SPAN 20
 SPAN 45.05 : SPAN 20
@@ -896,21 +898,21 @@ SPAN 75.01 : SPAN 20
 SPAN 77.05 : SPAN 20
 SPAN 80.22 : SPAN 20
 SPAN 80.23 : SPAN 20
-SPAN 83 : instructor permission
-SPAN 90 : Admission to the Honors Program
+SPAN 83 : IP
+SPAN 90 : CP
 SPAN 91 : SPAN 90
 PORT 3 : PORT 2
-PORT 9 : PORT 3 or chair permission
+PORT 9 : PORT 3 or CP
 PORT 20 : PORT 9
-PORT 25 : Acceptance into the Dartmouth Foreign Study Program
-PORT 35 : Acceptance into the Dartmouth Foreign Study Program
-PORT 36 : Acceptance into the Dartmouth Foreign Study Program
+PORT 25 : PORT 3 and CP
+PORT 35 : PORT 3 and CP
+PORT 36 : PORT 3 and CP
 PORT 60 : PORT 9
 PORT 61 : PORT 9
 PORT 62 : PORT 9
 PORT 63 : PORT 9
 PORT 80 : PORT 9
-PORT 90 : Admission to the Honors Program
+PORT 90 : CP
 PORT 91 : PORT 90
 SART 20 : SART 15
 SART 21 : SART 16
@@ -928,21 +930,21 @@ SART 73 : SART 21
 SART 74 : SART 28
 SART 75 : SART 30
 SART 77 : SART 76
-THEA 10.32 : THEA 35 and instructor permission
+THEA 10.32 : THEA 35 and IP
 THEA 10.71 : THEA 30
 THEA 27 : THEA 26
 THEA 31 : THEA 30
-THEA 35 : THEA 30 and instructor permission
+THEA 35 : THEA 30 and IP
 THEA 51 : THEA 50
 THEA 54 : THEA 30
 THEA 60 : THEA 15 or THEA 16 or THEA 17 and THEA 10 or THEA 25 or THEA 26 or THEA 27 or THEA 28 or THEA 29 or THEA 30 or THEA 35 or THEA 36 or THEA 40 or THEA 41 or THEA 42 or THEA 44 or THEA 48 or THEA 50
 THEA 61 : THEA 15 or THEA 16 or THEA 17 and THEA 10 or THEA 25 or THEA 26 or THEA 27 or THEA 28 or THEA 29 or THEA 30 or THEA 35 or THEA 36 or THEA 40 or THEA 41 or THEA 42 or THEA 44 or THEA 48 or THEA 50
 THEA 62 : THEA 15 or THEA 16 or THEA 17 and THEA 10 or THEA 25 or THEA 26 or THEA 27 or THEA 28 or THEA 29 or THEA 30 or THEA 35 or THEA 36 or THEA 40 or THEA 41 or THEA 42 or THEA 44 or THEA 48 or THEA 50
-THEA 80 : chair permission
-THEA 90 : THEA majors only
-THEA 91 : Admission to the Honors Program
+THEA 80 : CP
+THEA 90 : CP
+THEA 91 : CP
 WGSS 66.14 : ECON 1
-WGSS 85 : instructor permission and chair permission
+WGSS 85 : IP and CP
 WRIT 7 : WRIT 5 or WRIT 3 or HUM 1
 WRIT 41 : PBPL 5
 WRIT 43 : WRIT 5 or WRIT 3 or HUM 1
