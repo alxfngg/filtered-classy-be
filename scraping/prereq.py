@@ -4,6 +4,7 @@
     Course: CS 98
     Term: Fall 2022
 """
+import json
 
 with open("prereqs.txt", encoding = 'utf-8') as f:
     # perform file operations
@@ -13,7 +14,6 @@ with open("prereqs.txt", encoding = 'utf-8') as f:
         prereqs = parsed_line[1]
         recommended = None
 
-        print(f"Course: {course_code}")
         if "recommended" in prereqs:
             parsed_prereqs = prereqs.split(". ")
             if len(parsed_prereqs) > 1:
@@ -33,16 +33,18 @@ with open("prereqs.txt", encoding = 'utf-8') as f:
                     required[index] = required[index][2:]
                 else:
                     counts.append(1)
-                # print('look', required[index])
                 required[index] = required[index].split(" or ")
                 for index2 in range(len(required[index])):
                     if required[index][index2][0] in "123456":
                         counts[index] = int(required[index][index2][0])
                         required[index][index2] = required[index][index2][2:]
 
-        
-        print(f"Required: {required}")
-        print(f"Counts: {counts}")
-        if recommended:
-            print(f"Recommended: {recommended}")
+        course_prereqs = {
+            "course": course_code,
+            "required": required,
+            "counts": counts,
+            "recommended": recommended 
+        }
+        course_prereqs = json.dumps(course_prereqs)
+        print(course_prereqs)
         print()
