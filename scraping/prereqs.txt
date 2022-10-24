@@ -1,231 +1,224 @@
-ANTH 35 : 1 ANTH or 1 LACS.
-ANTH 37 : 1 ANTH or 1 LACS.
-ANTH 43 : ANTH 6 or instructor permission.
-ANTH 48 : 1 course in Anthropology or Religion or instructor permission.
-ANTH 50.46 : 1 from BIOL 12/BIOL 19, BIOL 13, BIOL 14, BIOL 15, BIOL 16, or EARS 2; or instructor permission.
-ANTH 54 : 2 courses in Anthropology.
-ANTH 85 : Written permission of the department faculty member who will be advising the student.
-ANTH 87 : Written permission of the department faculty member who will be advising the student.
-ANTH 88 : Written permission of the department faculty member who will be advising the student.
-ARTH 91 : Consult the statement of the Art History Honors Program. Only 1 of these courses may be counted as part of the major in Art History.
-ASCL 70.22 : This course is only open to students who have been accepted for the winterim FSP in Vietnam.
-CHIN 31 : CHIN 23 or instructor permission.
-CHIN 32 : CHIN 23 or instructor permission.
-CHIN 33 : CHIN 23 or instructor permission.
-CHIN 42 : 2 of CHIN 31, CHIN 32, or CHIN 33 or instructor permission.
-CHIN 41 : 2 of CHIN 31, CHIN 32, or CHIN 33 or instructor permission.
-JAPN 31 : JAPN 23 or instructor permission.
-JAPN 32 : JAPN 31 or instructor permission.
-JAPN 33 : JAPN 32 or instructor permission.
-JAPN 41 : 2 JAPN 31, JAPN 32, or JAPN 33, or instructor permission.
-JAPN 42 : JAPN 41 or instructor permission.
-JAPN 43 : JAPN 41 or JAPN 42, or instructor permission.
+ANTH 35 : 1 ANTH * or 1 LACS *
+ANTH 37 : 1 ANTH or 1 LACS
+ANTH 43 : ANTH 6
+ANTH 48 : 1 ANTH * or 1 REL *
+ANTH 50.46 : BIOL 12 or BIOL 19 or BIOL 13 or BIOL 14 or BIOL 15 or BIOL 16 or EARS 2
+ANTH 54 : 2 ANTH *
+ANTH 85 : instructor permission
+ANTH 87 : instructor permission
+ANTH 88 : instructor permission
+ASCL 70.22 : acceptance into the winterim FSP in Vietnam
+CHIN 31 : CHIN 23
+CHIN 32 : CHIN 23
+CHIN 33 : CHIN 23
+CHIN 41 : 2 CHIN 31-33
+CHIN 42 : 2 CHIN 31-33
+JAPN 31 : JAPN 23
+JAPN 32 : JAPN 31
+JAPN 33 : JAPN 32
+JAPN 41 : 2 JAPN 31-33
+JAPN 42 : JAPN 41
+JAPN 43 : JAPN 41 or JAPN 42
 BIOL 21 : BIOL 15 or BIOL 16
 BIOL 22 : BIOL 16
 BIOL 23 : BIOL 15 or BIOL 16
 BIOL 24 : BIOL 15 or BIOL 16
-BIOL 25 : 1 from among BIOL 12/BIOL 19, BIOL 13, BIOL 14, BIOL 15, or BIOL 16
-BIOL 26 : BIOL 16, ENVS 2 or GEOG 3
-BIOL 27 : BIOL 15 or BIOL 16 or instructor permission
-BIOL 28 : 1 from BIOL 12/BIOL 19, BIOL 13, BIOL 14, BIOL 15, BIOL 16, or EARS 2; or instructor permission.
-BIOL 29 : 2 courses in biology numbered 11 or higher.
-BIOL 31 : 1 from among BIOL 12/BIOL 19, BIOL 13, BIOL 14, BIOL 15, or BIOL 16
-BIOL 32 : 1 from among BIOL 12/BIOL 19, BIOL 13, BIOL 14, BIOL 15, or BIOL 16, or PSYC 6
-BIOL 35 : 1 from among BIOL 12/BIOL 19, BIOL 14, PSYC 6.
-BIOL 37 : BIOL 12/BIOL 19. A prior course that emphasizes genetics recommended. Otherwise instructor permission.
-BIOL 40 : BIOL 12/BIOL 19 and CHEM 52 or CHEM 58 or instructor permission.
-BIOL 41 : BIOL 12/BIOL 19 or instructor permission
-BIOL 42 : BIOL 12/BIOL 19 or BIOL 13, or instructor permission.
-BIOL 43 : BIOL 12/BIOL 19 or BIOL 13
+BIOL 25 : BIOL 12 or BIOL 19 or BIOL 13 or BIOL 14 or BIOL 15 or BIOL 16
+BIOL 26 : BIOL 16 or ENVS 2 or GEOG 3
+BIOL 27 : BIOL 15 or BIOL 16
+BIOL 28 : BIOL 12 or BIOL 19 or BIOL 13 or BIOL 14 or BIOL 15 or BIOL 16 or EARS 2
+BIOL 29 : 2 BIOL 11+
+BIOL 31 : BIOL 12 or BIOL 19 or BIOL 13 or BIOL 14 or BIOL 15 or BIOL 16
+BIOL 32 : BIOL 12 or BIOL 19 or BIOL 13 or BIOL 14 or BIOL 15 or BIOL 16 or PSYC 6
+BIOL 35 : BIOL 12 or BIOL 19 or BIOL 14 or PSYC 6
+BIOL 37 : BIOL 12 or BIOL 19
+BIOL 40 : BIOL 12 or BIOL 19 and CHEM 52 or CHEM 58
+BIOL 41 : BIOL 12 or BIOL 19
+BIOL 42 : BIOL 12 or BIOL 19 or BIOL 13
+BIOL 43 : BIOL 12 or BIOL 19 or BIOL 13
 BIOL 45 : BIOL 13
-BIOL 46 : BIOL 12/BIOL 19, BIOL 13, or BIOL 16
+BIOL 46 : BIOL 12 or BIOL 19 or BIOL 13 or BIOL 16
 BIOL 47 : BIOL 13 OR BIOL 15
-BIOL 48 : 1 from among Biol 12/BIOL 19, Biol 13, Biol 14, Biol 15, Biol 16, or instructor permission
-BIOL 50.01 : BIOL 16 and 1 from among BIOL 21- BIOL 32
-BIOL 50.02 : BIOL 16 and 1 from among BIOL 21-31, BIOL 46 or BIOL 48
-BIOL 51 : BIOL 16 and 1 course from among BIOL 22 - BIOL 32
-BIOL 53 : BIOL 15 or BIOL 16 and 1 course from among BIOL 21, BIOL 22, BIOL 23, BIOL 24, BIOL 25, BIOL 27, BIOL 28, BIOL 29, BIOL 31, BIOL 46
-BIOL 54 : BIOL 16 and 1 from among BIOL 21- BIOL 32
-BIOL 55 : BIOL 16, 1 course from among BIOL 21 - BIOL 32; acceptance into program, BIOL 15 and BIOL 29 recommended
-BIOL 56 : BIOL 55 (taken in same term)
-BIOL 57 : BIOL 55 and BIOL 56 (taken in same term)
-BIOL 58 : BIOL 15 and BIOL 16 and 1 from among BIOL 21-BIOL 32
+BIOL 48 : BIOL 12 or BIOL 19 or BIOL 13 or BIOL 14 or BIOL 15 or BIOL 16
+BIOL 50.01 : BIOL 16 and 1 BIOL 21-32
+BIOL 50.02 : BIOL 16 and 1 BIOL 21-31 or BIOL 46 or BIOL 48
+BIOL 51 : BIOL 16 and 1 BIOL 22-32
+BIOL 53 : BIOL 15 or BIOL 16 and BIOL 21 or BIOL 22 or BIOL 23 or BIOL 24 or BIOL 25 or BIOL 27 or BIOL 28 or BIOL 29 or BIOL 31 or BIOL 46
+BIOL 54 : BIOL 16 and 1 BIOL 21-32
+BIOL 55 : BIOL 16 and 1 BIOL 21-32 and acceptance into Program. BIOL 15 and BIOL 29 recommended
+BIOL 56 : BIOL 55
+BIOL 57 : BIOL 55 and BIOL 56
+BIOL 58 : BIOL 15 and BIOL 16 and 1 BIOL 21-32
 BIOL 59 : BIOL 29
-BIOL 59.01 : 1 from among BIOL 29, QSS 15, GOVT 10, ECON 10, SOCY 10, or PSYC 10
-BIOL 60.01 : 1 from:  BIOL 21 - BIOL 32, BIOL 47 or BIOL 48
-BIOL 60.02 : BIOL 15 and at least 1 from among BIOL 21, BIOL 23, BIOL 24, BIOL 27, BIOL 28, BIOL 32, BIOL 37, BIOL 47 or instructor permission
-BIOL 63 : 1 from among BIOL 40, BIOL 41, BIOL 43, BIOL 45, BIOL 47 or CHEM 41
-BIOL 66 : BIOL 12/BIOL 19 and BIOL 13 and 1 from among BIOL 40, BIOL 41, BIOL 43, BIOL 45 or CHEM 41
-BIOL 69 : BIOL 12/BIOL 19 and BIOL 13 and at least 1 from among BIOL 37, BIOL 40, BIOL 41, BIOL 43, BIOL 45, CHEM 41
-BIOL 70 : BIOL 12/BIOL 19 and BIOL 13, 1 from BIOL 40, BIOL 41, BIOL 45, CHEM 41 and instructor permission.
-BIOL 71 : BIOL 12/BIOL 19 and BIOL 13 and 1 from among BIOL 40, BIOL 41, BIOL 43, BIOL 45, CHEM 41
+BIOL 59.01 : BIOL 29 or QSS 15 or GOVT 10 or ECON 10 or SOCY 10 or PSYC 10
+BIOL 60.01 : 1 BIOL 21-32 or BIOL 47 or BIOL 48
+BIOL 60.02 : BIOL 15 and BIOL 21 or BIOL 23 or BIOL 24 or BIOL 27 or BIOL 28 or BIOL 32 or BIOL 37 or BIOL 47
+BIOL 63 : BIOL 40 or BIOL 41 or BIOL 43 or BIOL 45 or BIOL 47 or CHEM 41
+BIOL 66 : BIOL 12 or BIOL 19 and BIOL 13 and BIOL 40 or BIOL 41 or BIOL 43 or BIOL 45 or CHEM 41
+BIOL 69 : BIOL 12 or BIOL 19 and BIOL 13 and BIOL 37 or BIOL 40 or BIOL 41 or BIOL 43 or BIOL 45 or CHEM 41
+BIOL 70 : BIOL 12 or BIOL 19 and BIOL 13 and BIOL 40 or BIOL 41 or BIOL 45 or CHEM 41 and instructor permission
+BIOL 71 : BIOL 12 or BIOL 19 and BIOL 13 and BIOL 40 or BIOL 41 or BIOL 43 or BIOL 45 or CHEM 41
 BIOL 72 : BIOL 29
-BIOL 73 : BIOL 72 and instructor permission.
-BIOL 74 : BIOL 35/PSYC 35 or 2 from BIOL 40, BIOL 41, BIOL 43, BIOL 45, PSYC 6, PSYC 65
-BIOL 74.01 : 2 from among BIOL 12, BIOL 13, BIOL 14, BIOL 49, BIOL 35, PSYC 6, PSYC 35, PSYC 46, PSYC 65
-BIOL 74.02 : 2 from among: BIOL 12, BIOL 13, BIOL 14, BIOL 35, BIOL 49, PSYC 6, PSYC 35, PSYC 46, PSYC 65
-BIOL 76 : BIOL 12/BIOL 19 and BIOL 13 and 1 from among BIOL 40, BIOL 41, BIOL 43, BIOL 45, BIOL 47, CHEM 41 or instructor permission
-BIOL 78 : BIOL 13 and BIOL 40 (or CHEM 41) or instructor permission. A prior course on some aspect of mammalian physiology recommended (e.g. BIOL 2, BIOL 14 or BIOL 37). Priority will be given to senior Biology majors.
-BIOL 95 : At least 3 Biology courses numbered 11 or above, a 2.67 average in previous biology courses, and permission of the Undergraduate Committee and the supervising instructor. The application and research proposal must be submitted at least 1 month prior to the beginning of the term in which the course is to be elected.
-BIOL 96 : Satisfactory completion of BIOL 95 (including research paper) and permission of the Undergraduate Committee and the supervising instructor(s). The application and research proposal must be submitted at least 1 month prior to the beginning of the term in which the course is to be elected.
-BIOL 97 : At least 2 Biology courses numbered 20 or above, a 3.0 average in previous Biology courses, and permission of the Undergraduate Committee and the supervising instructor, obtained at least 1 month prior to the beginning of the term in which the course is to be elected.
+BIOL 73 : BIOL 72 and instructor permission
+BIOL 74 : BIOL 35 or PSYC 35 or 2 from BIOL 40 or BIOL 41 or BIOL 43 or BIOL 45 or PSYC 6 or PSYC 65
+BIOL 74.01 : 2 from among BIOL 12 or BIOL 13 or BIOL 14 or BIOL 49 or BIOL 35 or PSYC 6 or PSYC 35 or PSYC 46 or PSYC 65
+BIOL 74.02 : 2 from among BIOL 12 or BIOL 13 or BIOL 14 or BIOL 35 or BIOL 49 or PSYC 6 or PSYC 35 or PSYC 46 or PSYC 65
+BIOL 76 : BIOL 12 or BIOL 19 and BIOL 13 and BIOL 40 or BIOL 41 or BIOL 43 or BIOL 45 or BIOL 47 or CHEM 41
+BIOL 78 : BIOL 13 and BIOL 40 or CHEM 41. BIOL 2 or BIOL 14 or BIOL 37 recommended
+BIOL 95 : 3 BIOL * and instructor permission
+BIOL 96 : BIOL 95 and instructor permission
+BIOL 97 : 2 BIOL 20+ and instructor permission
 BIOL 98 : BIOL 97
-BIOL 99 : Senior standing and previous or current enrollment in BIOL 97
-CHEM 6 : MATH 3 and CHEM 5.  Supplemental course fee required.
-CHEM 40 : CHEM 6 (or CHEM 10) and PHYS 13 (or PHYS 15, or PHYS 3 and PHYS 4) and MATH 8, or instructor permission. Students with credit for CHEM 75 are not eligible to receive credit for CHEM 40. Supplemental course fee required.
-CHEM 41 : CHEM 52 or CHEM 58, or instructor permission. Students with major credit for BIOL 40 are not eligible to receive credit for CHEM 41. Supplemental course fee required.
-CHEM 42 : CHEM 40 (or CHEM 76), and CHEM 41, or instructor permission. Supplemental course fee required.
-CHEM 51 : CHEM 6 (or CHEM 10). Supplemental course fee required.
-CHEM 52 : CHEM 6 (or CHEM 10). CHEM 51 (or CHEM 57 with instructor permission) is a prerequisite to CHEM 52. Supplemental course fee required.
-CHEM 57 : instructor permission and either a grade of at least B+ in CHEM 6 (or B in CHEM 10) or a high score on the CHEM 6 credit test is required for CHEM 57.
-CHEM 58 : CHEM 57 (or CHEM 51 with instructor permission) is a prerequisite to CHEM 58. Supplemental course fee required.
-CHEM 63 : CHEM 51 or CHEM 57, or instructor permission. Supplemental course fee required.
-CHEM 64 : CHEM 51 or CHEM 57, or instructor permission. Supplemental course fee required.
-CHEM 75 : CHEM 6 (or CHEM 10) and PHYS 13 (or PHYS 15, or PHYS 3 and PHYS 4) and MATH 8, or instructor permission. Supplemental course fee required.
-CHEM 76 : CHEM 75 and CHEM 64, or instructor permission. Supplemental course fee required.
-CHEM 87 : Sufficient training in the area of chemistry to be investigated, and chair permission
-CHEM 91 : CHEM 64, and either CHEM 52 or CHEM 58, or instructor permission
-CHEM 92 : CHEM 64, and CHEM 41 or BIOL 40, or instructor permission
-CHEM 93 : CHEM 52 or CHEM 58, or instructor permission
-CHEM 95.02 : CHEM 41 and CHEM 42 or CHEM 76, or instructor permission
-CHEM 95.03 : CHEM 41 and CHEM 42 or CHEM 76, or instructor permission
-CHEM 96.01 : MATH 13 and CHEM 76 or equivalent, or instructor permission
-CHEM 96.02 : MATH 13 and CHEM 76 or equivalent or instructor permission
-CHEM 96.03 : CHEM 76 or equivalent, or instructor permission
-CHEM 96.04 : CHEM 75 or instructor permission
-CHEM 96.07 : Background in Chemistry equivalent to CHEM 76 or Physics equivalent to PHYS 24 or Engineering equivalent to ENGS 24 or instructor permission
-CHEM 96.08 : MATH 13 and CHEM 76 or equivalent or instructor permission
-CLST 30.01 : membership in the Foreign Study Program.
-CLST 30.02 : membership in the Foreign Study Program.
+BIOL 99 : Senior BIOL majors only or BIOL 97
+CHEM 6 : MATH 3 and CHEM 5
+CHEM 40 : CHEM 6 or CHEM 10 and PHYS 13 or PHYS 15 or PHYS 4 and MATH 8
+CHEM 41 : CHEM 52 or CHEM 58
+CHEM 42 : CHEM 40 or CHEM 76 and CHEM 41
+CHEM 51 : CHEM 6 or CHEM 10
+CHEM 52 : CHEM 6 or CHEM 10 and CHEM 51 or CHEM 57
+CHEM 57 : instructor permission and CHEM 6 or CHEM 10
+CHEM 58 : CHEM 57
+CHEM 63 : CHEM 51 or CHEM 57
+CHEM 64 : CHEM 51 or CHEM 57
+CHEM 75 : CHEM 6 or CHEM 10 and PHYS 13 or PHYS 15 or PHYS 4 and MATH 8
+CHEM 76 : CHEM 75 and CHEM 64
+CHEM 87 : chair permission
+CHEM 91 : CHEM 64 and CHEM 52 or CHEM 58
+CHEM 92 : CHEM 64 and CHEM 41 or BIOL 40
+CHEM 93 : CHEM 52 or CHEM 58
+CHEM 95.02 : CHEM 41 and CHEM 42 or CHEM 76
+CHEM 95.03 : CHEM 41 and CHEM 42 or CHEM 76
+CHEM 96.01 : MATH 13 and CHEM 76
+CHEM 96.02 : MATH 13 and CHEM 76
+CHEM 96.03 : CHEM 76
+CHEM 96.04 : CHEM 75
+CHEM 96.07 : CHEM 76 or PHYS 24 or ENGS 24
+CHEM 96.08 : MATH 13 and CHEM 76
+CLST 30.01 : membership in the Foreign Study Program
+CLST 30.02 : membership in the Foreign Study Program
 CLST 31 : membership in the Foreign Study Program
-CLST 40 : Good reading knowledge of a foreign language (usually equivalent to fulfilling the Dartmouth language requirement). Students unsure of their linguistic preparation should consult the instructor.
-CLST 87 : instructor permission.
-GRK 3 : GRK 1, or equivalent
-GRK 10 : GRK 3, or equivalent.
-GRK 20 : GRK 10, or equivalent.
-GRK 24 : GRK 10, or equivalent.
-GRK 26 : GRK 10 or equivalent.
-GRK 29 : GRK 10, or equivalent.
-GRK 87 : instructor permission.
-LAT 3 : LAT 1, or equivalent.
-LAT 15 : LAT 3 or LAT 10, or equivalent preparation in secondary school.
-LAT 28 : LAT 10 or equivalent.
-LAT 87 : instructor permission.
+CLST 87 : instructor permission
+GRK 3 : GRK 1
+GRK 10 : GRK 3
+GRK 20 : GRK 10
+GRK 24 : GRK 10
+GRK 26 : GRK 10 
+GRK 29 : GRK 10
+GRK 87 : instructor permission
+LAT 3 : LAT 1
+LAT 15 : LAT 3 or LAT 10
+LAT 28 : LAT 10 
+LAT 87 : instructor permission
 COGS 2 : PSYC 1 or PSYC 6 or COSC 1
-COGS 25 : 1 Philosophy course, or instructor permission.
-COGS 26 : 1 Philosophy course, 1 Cognitive Science course, 1 Computer Science course, or instructor permission.
-COGS 44 : COSC 10. COSC 30 recommended.
-COGS 50.04 : 1 Philosophy course, 1 Cognitive Science course, or instructor permission
-COCO 21 : Study abroad 2017/18
-COSC 10 : COSC 1 or ENGS 20 or placement through AP or local placement.
-COSC 16 : 1 of PSYC 1, PSYC 6, COSC 1, or ENGS 20.
+COGS 25 : 1 PHIL *
+COGS 26 : 1 PHIL * or 1 COGS * or 1 COSC *
+COGS 44 : COSC 10. COSC 30 recommended
+COGS 50.04 : 1 PHIL * or 1 COGS *
+COSC 10 : COSC 1 or ENGS 20
+COSC 16 : PSYC 1 or PSYC 6 or COSC 1 or ENGS 20
 COSC 23.01 : COSC 22
-COSC 25.02 : COSC 25.01 and Instructor Permission is required.
-COSC 27 : COSC 22 and either COSC 24 or COSC 23.01
-COSC 28 : COSC 27 and instructor permission is required.
-COSC 29 : Vary according to the topic. Consult with the instructor.
-COSC 30 : Math 3 and COSC 10; or Math 3, Instructor Permission, and either COSC 1 or ENGS 20.
-COSC 31 : COSC 10 and COSC 30. Students who have not taken COSC 30 but have a strong mathematical background may take COSC 31 with the instructor permission.
-COSC 32 : An undergraduate-level course in Algorithms (such as COSC 31) and strong mathematics background.
-COSC 34 : COSC 31, COSC 30.
-COSC 35 : COSC 31 or instructor permission.
-COSC 36 : A first course on algorithms and mathematical maturity to read and write prooFILM will be assumed. Prerequisite Courses: COSC 31, COSC 30.
-COSC 39 : COSC 30 and/or COSC 31. Students who have not taken COSC 30 and/or 31, but have a strong mathematical background, may take COSC 39 with the instructor permission.
-COSC 40 : COSC 39 or equivalent. Students need to be familiar with the formalism of the Turing Machine and with the notion of NP-completeness.
-COSC 49 : Vary according to the topic.  Consult with the instructor.
-COSC 49.04 : COSC 31 or equivalent, and an interest in algorithms/theory.
+COSC 25.02 : COSC 25.01 and instructor permission
+COSC 27 : COSC 22 and COSC 24 or COSC 23.01
+COSC 28 : COSC 27 and instructor permission
+COSC 30 : MATH 3 and COSC 10
+COSC 31 : COSC 10 and COSC 30
+COSC 32 : COSC 31
+COSC 34 : COSC 30 and COSC 31
+COSC 35 : COSC 31
+COSC 36 : COSC 31
+COSC 39 : COSC 30 or COSC 31
+COSC 40 : COSC 39
+COSC 49.04 : COSC 31
 COSC 49.06 : COSC 31
-COSC 49.08 : COSC 31 or COSC 30 and instructor permission (based on strong mathematical background)
-COSC 49.09 : COSC 30 and COSC 31 and (MATH 22 or MATH 24 or Instructor Permission)
-COSC 49.10 : A first course on algorithms and mathematical maturity to read and write prooFILM will be assumed. Prerequisite Courses: COSC 31, COSC 30.
+COSC 49.08 : COSC 31
+COSC 49.09 : COSC 31 and MATH 22 or MATH 24
+COSC 49.10 : COSC 31
 COSC 50 : COSC 10
-COSC 51 : COSC 1, ENGS 20, or placement through the Advanced Placement exam or the local placement exam.
+COSC 51 : COSC 1 or ENGS 20
 COSC 52 : COSC 10
-COSC 55 : COSC 50 or instructor permission. COSC 51 and COSC 30 are recommended.
+COSC 55 : COSC 50. COSC 51 and COSC 30 recommended
 COSC 56 : ENGS 20 or COSC 1 and COSC 10
-COSC 57 : COSC 50. COSC 51 recommended.
+COSC 57 : COSC 50. COSC 51 recommended
 COSC 58 : COSC 50 and COSC 51
-COSC 59 : COSC 10, COSC 30 and COSC 51 are recommended.
-COSC 60 : COSC 30 and COSC 50; COSC 51 recommended
-COSC 61 : COSC 50 or equivalent, as approved by instructor.
-COSC 62 : COSC 30, COSC 50. COSC 51 and COSC 55 are recommended.
-COSC 63 : ENGS 20 or COSC 50.
+COSC 59 : COSC 10 and COSC 30. COSC 51 recommended
+COSC 60 : COSC 30 and COSC 50. COSC 51 recommended
+COSC 61 : COSC 50
+COSC 62 : COSC 30 and COSC 50. COSC 51 and COSC 55 are recommended
+COSC 63 : ENGS 20 or COSC 50
 COSC 63.01 : COSC 10
 COSC 65 : COSC 10
-COSC 66 : COSC 10 or instructor permission
+COSC 66 : COSC 10
 COSC 67 : COSC 10
-COSC 68 : A grade of B+ or better in COSC 58/258, or passing an examination administered by the department to demonstrate competency in the material of COSC 58/258.
-COSC 69 : Vary according to the topic.  Consult with the instructor.
+COSC 68 : COSC 58
 COSC 69.08 : COSC 60.
-COSC 69.14 : COSC 10. COSC 30 recommended.
-COSC 69.15 : COSC 70. COSC 50 recommended.
-COSC 70 : MATH 3, COSC 1 required, COSC 10 recommended
-COSC 71 : COSC 1 and COSC 10, or ENGS 20; ENGS 22 or MATH 23, or equivalent.
-COSC 72 : COSC 01
-COSC 73 : COSC 10 and COSC 70; COSC 50 recommended or instructor permission
-COSC 74 : COSC 1 or ENGS 20; COSC 70/70.1, or MATH 22, or MATH 24.
-COSC 75 : COSC 10; COSC 70, or MATH 22, or MATH 24. COSC 30 recommended.
-COSC 76 : COSC 10. COSC 30 recommended.
-COSC 77 : COSC 50; COSC 70 or MATH 22/24; or instructor permission if the above 2 prereqs not fulfilled.
+COSC 69.14 : COSC 10. COSC 30 recommended
+COSC 69.15 : COSC 70. COSC 50 recommended
+COSC 70 : MATH 3 and COSC 1. COSC 10 recommended
+COSC 71 : COSC 1 and COSC 10 or ENGS 20 and ENGS 22 or MATH 23
+COSC 72 : COSC 1
+COSC 73 : COSC 10 and COSC 70. COSC 50 recommended
+COSC 74 : COSC 1 or ENGS 20 and COSC 70 or MATH 22 or MATH 24
+COSC 75 : COSC 10 and COSC 70 or MATH 22 or MATH 24. COSC 30 recommended
+COSC 76 : COSC 10. COSC 30 recommended
+COSC 77 : COSC 50 and COSC 70 or MATH 22 or MATH 24
 COSC 78 : COSC 74
-COSC 81 : COSC 70, or COSC 01 and Math 22/24. COSC 10 and COSC 50 are recommended.
-COSC 83 : COSC 1 or ENGS 20; COSC 70, or MATH 22, or MATH 24.
-COSC 84 : COSC 1 or ENGS 20; COSC 70, or MATH 22 or MATH 24; or instructor permission.
-COSC 86 : COSC 10 or instructor permission.
-COSC 87 : COSC 70 and COSC 50; or instructor permission.
-COSC 89 : Vary according to the topic. Consult with the instructor.
+COSC 81 : COSC 1 and COSC 70 or MATH 22 or MATH 24. COSC 10 and COSC 50 recommended
+COSC 83 : COSC 1 or ENGS 20 and COSC 70 or MATH 22 or MATH 24
+COSC 84 : COSC 1 or ENGS 20 and COSC 70 or MATH 22 or MATH 24
+COSC 86 : COSC 10
+COSC 87 : COSC 70 and COSC 50
 COSC 89.11 : COSC 50
-COSC 89.13 : COSC 1, COSC 10, MATH 8
-COSC 89.14 : COSC 67, COSC 167
+COSC 89.13 : COSC 10 and MATH 8
+COSC 89.14 : COSC 67
 COSC 89.18 : COSC 10
-COSC 89.19 : COSC 11 and COSC 50
-COSC 89.20 : COSC 74 or instructor permission
-COSC 89.21 : COSC 10; adequate knowledge of probability and statistics through a course such as COSC 74 or Math 10, or the instructor permission.
-COSC 89.23 : COSC 10; Math 3, adequate knowledge of probability and statistics through a course such as COSC 74 or Math 10.
-COSC 89.24 : COSC 76, COSC 176, or instructor permission.
-COSC 89.25 : This course assumes an understanding of multi-variable calculus and linear algebra and proficiency in C++ programming. Students are recommended to take COSC 70 as a prerequisite or to show equivalent understanding and comfortableness with the associated materials.
-COSC 89.26 : COSC 50, and experience or willingness to read technical research literature. Useful: COSC 55, 58, 60, 62, 67, 91 recommended
-COSC 89.27 : COSC 74. Assumes that students understand basics of machine learning. Knowledge of security & privacy useful but not required if students are willing/able to learn background materials on their own.
-COSC 91 : Each student must submit a short expository piece to be evaluated by the instructor at the start of the course; only those students meeting a required level of competence will be permitted to take the course for a grade. Students should also have a Computer Science background sufficient to understand research papers.
-COSC 98.01 : At least 2 courses from COSC 50-69 or at least 3 courses from COSC 50-89, or instructor permission.
+COSC 89.19 : COSC 50 and COSC 77
+COSC 89.20 : COSC 74
+COSC 89.21 : COSC 10 and COSC 74 or MATH 10
+COSC 89.23 : COSC 10 and MATH 3 and COSC 74 or MATH 10
+COSC 89.24 : COSC 76
+COSC 89.25 : COSC 70 recommended
+COSC 89.26 : COSC 50. COSC 55 or COSC 58 or COSC 60 or COSC 62 or COSC 67 or COSC 91 recommended
+COSC 89.27 : COSC 74
+COSC 91 : instructor permission
+COSC 98.01 : 2 COSC 50-69 or 3 COSC 50-89
 COSC 98.02 : COSC 98.01
 COSC 99.02 : COSC 99.01
-EARS 17 : 1 course in Earth Sciences and MATH 3 or instructor permissions.
-EARS 18 : Introductory course in Earth Sciences or a related field course recommended.
-EARS 31 : 1 introductory level science course or its equivalent or instructor permission.
-EARS 32 : 1 from BIOL 12/BIOL 19, BIOL 13, BIOL 14, BIOL 15, BIOL 16, or EARS 2; or instructor permission.
-EARS 34 : CHEM 5 or 10 (may be taken concurrently) and 1 course from EARS 1-9 exclusive of EARS 7.
-EARS 35 : ENVS 2 or 1 course from EARS 1, EARS 2, EARS 3, EARS 4, EARS 5, EARS 6, EARS 8, EARS 9, or CHEM 5 and an advanced course from the environmental sciences or Earth Sciences; or instructor permission.
-EARS 37 : 1 course from EARS 1, EARS 2, EARS 3, EARS 4, EARS 5, EARS 6, EARS 8, EARS 9 or instructor permission.
-EARS 38 : 1 course from EARS 1, EARS 2, EARS 3, EARS 4, EARS 5, EARS 6, EARS 8, EARS 9 or instructor permission.
-EARS 40 : 1 course from EARS 1, EARS 2, EARS 3, EARS 4, EARS 5, EARS 6, EARS 8, EARS 9. CHEM 5 recommended.
-EARS 45 : EARS 40. Must be taken concurrently with EARS 46 and EARS 47.
-EARS 46 : EARS 40. Must be taken concurrently with EARS 45 and EARS 47.
-EARS 47 : EARS 40. Must be taken concurrently with EARS 45 and EARS 46.
-EARS 51 : EARS 40 and CHEM 5 or instructor permission.
-EARS 52 : EARS 40 or equivalent or instructor permission.
-EARS 58 : EARS 40, 45, 46, and 47. EARS 38 recommended.
-EARS 59 : EARS 40 or instructor permission.
-EARS 62 : CHEM 5 and CHEM 6 or equivalent or instructor permission.
-EARS 64 : MATH 3 or instructor permission. PHYS 3 (or PHYS 13) and MATH 8 are helpful but not required.
-EARS 65 : 1 course from EARS 1, EARS 2, EARS 3, EARS 4, EARS 5, EARS 6, EARS 8, EARS 9, or GEOG 3.
-EARS 66 : MATH 3 or instructor permission.
-EARS 67 : MATH 23 or instructor permission.
-EARS 70 : PHYS 3 and MATH 3, or equivalent. EARS 33 recommended.
-EARS 71 : EARS 16 or EARS 33 or BIOL 23 or instructor permission.
-EARS 73 : CHEM 5 or instructor permission.
-EARS 74 : CHEM 5 and EARS 62 or equivalents, or instructor permission.
-EARS 75 : EARS 15 or ENGS 172 or equivalent or instructor permission.
-EARS 76 : MATH 3, and 1 of EARS 16 or EARS 33 or BIOL 53 or ENGS 43 or instructor permission.
-EARS 77 : GEOG 50 or GEOG 51/EARS 65, or instructor permission.
-EARS 78 : Math 8 or equivalent and EARS 14 or EARS 15 or equivalent or Instructor Permission.
-EARS 87 : Sufficient training in the area of the project and faculty approval.
-EARS 88 : Earth Science major and 4th-year standing.
-EARS 89 : permission of a faculty research advisor.
-EARS 91 : EARS 87 or 89 or equivalent (may be taken concurrently).  A student may take either EARS 90 or 91, but not both.
-ECON 2 : Students who have previously taken ECON 1 or who have been exempted from ECON 1 at matriculation may not enroll in ECON 2. Completion of ECON 2 does not, however, preclude subsequent enrollment in ECON 1.
+EARS 17 : 1 EARS * and MATH 3.
+EARS 18 : EARS 1 or EARS 2 or EARS 3 or EARS 4 or EARS 5 or EARS 6 or EARS 8 or EARS 9
+EARS 31 : EARS 1 or EARS 2 or EARS 3 or EARS 4 or EARS 5 or EARS 6 or EARS 8 or EARS 9
+EARS 32 : BIOL 12 or BIOL 19 or BIOL 13 or BIOL 14 or BIOL 15 or BIOL 16 or EARS 2
+EARS 34 : CHEM 5 or CHEM 10 and EARS 1 or EARS 2 or EARS 3 or EARS 4 or EARS 5 or EARS 6 or EARS 8 or EARS 9
+EARS 35 : ENVS 2 or EARS 1 or EARS 2 or EARS 3 or EARS 4 or EARS 5 or EARS 6 or EARS 8 or EARS 9 or CHEM 5 and an advanced course from the environmental sciences or Earth Sciences
+EARS 37 : EARS 1 or EARS 2 or EARS 3 or EARS 4 or EARS 5 or EARS 6 or EARS 8 or EARS 9
+EARS 38 : EARS 1 or EARS 2 or EARS 3 or EARS 4 or EARS 5 or EARS 6 or EARS 8 or EARS 9
+EARS 40 : EARS 1 or EARS 2 or EARS 3 or EARS 4 or EARS 5 or EARS 6 or EARS 8 or EARS 9. CHEM 5 recommended
+EARS 45 : EARS 40
+EARS 46 : EARS 40
+EARS 47 : EARS 40
+EARS 51 : EARS 40 and CHEM 5
+EARS 52 : EARS 40
+EARS 58 : EARS 40 and EARS 45 and EARS 46 and EARS 47. EARS 38 recommended
+EARS 59 : EARS 40
+EARS 62 : CHEM 5 and CHEM 6
+EARS 64 : MATH 3. PHYS 3 or PHYS 13 and MATH 8 recommended
+EARS 65 : EARS 1 or EARS 2 or EARS 3 or EARS 4 or EARS 5 or EARS 6 or EARS 8 or EARS 9 or GEOG 3
+EARS 66 : MATH 3
+EARS 67 : MATH 23
+EARS 70 : PHYS 3 and MATH 3. EARS 33 recommended
+EARS 71 : EARS 16 or EARS 33 or BIOL 23
+EARS 73 : CHEM 5
+EARS 74 : CHEM 5 and EARS 62
+EARS 75 : EARS 15 or ENGS 172
+EARS 76 : MATH 3 and EARS 16 or EARS 33 or BIOL 53 or ENGS 43
+EARS 77 : GEOG 50 or GEOG 51 or EARS 65
+EARS 78 : MATH 8 and EARS 14 or EARS 15
+EARS 87 : instructor permission
+EARS 88 : EARS majors only
+EARS 89 : instructor permission
+EARS 91 : EARS 87 or EARS 89
+ECON 2 : no ECON 1
 ECON 3 : MATH 1
-ECON 10 : MATH 1 (or placement into Math 3 or a higher-level calculus course).  ECON 1 recommended
+ECON 10 : MATH 1 and ECON 1 recommended
 ECON 15 : ECON 1
 ECON 16 : ECON 1
 ECON 17 : ECON 1
@@ -233,361 +226,356 @@ ECON 20 : ECON 10 and MATH 3
 ECON 21 : ECON 1 and MATH 3
 ECON 22 : ECON 1 and MATH 3
 ECON 24 : ECON 1 and ECON 10
-ECON 25 : ECON 1 and MATH 3, ECON 10 and ECON 21
+ECON 25 : ECON 1 and MATH 3 and ECON 10 and ECON 21
 ECON 26 : ECON 1
-ECON 27 : ECON 1.
+ECON 27 : ECON 1
 ECON 28 : ECON 1
 ECON 29 : ECON 22
-ECON 32 : ECON 1, ECON 10 and ECON 22
-ECON 35 : ECON 1, ECON 10 and MATH 3
-ECON 36 : ECON 10, ECON 21, and ECON 26
+ECON 32 : ECON 1 and ECON 10 and ECON 22
+ECON 35 : ECON 1 and ECON 10 and MATH 3
+ECON 36 : ECON 10 and ECON 21 and ECON 26
 ECON 37 : ECON 1
-ECON 38 : ECON 1, ECON 10
+ECON 38 : ECON 1 and ECON 10
 ECON 39 : ECON 1
-ECON 57 : ECON 1, ECON 20
-ECON 62 : ECON 20, ECON 21, ECON 22, ECON 29 and ECON 32
-ECON 64 : ECON 20, ECON 21, ECON 22 and ECON 24 and either ECON 27 or ECON 39
-ECON 65 : ECON 20, ECON 21, ECON 22, ECON 25 and ECON 35
-ECON 66 : ECON 20, ECON 21, ECON 22, ECON 26 and ECON 36
-ECON 67 : ECON 20, ECON 21, ECON 22, ECON 27 and either ECON 24 or ECON 28 or ECON 37
-ECON 68 : ECON 20, ECON 21, ECON 22, ECON 28 and ECON 38
-ECON 69 : ECON 20, ECON 21, ECON 22, ECON 29 and ECON 39
+ECON 57 : ECON 1 and ECON 20
+ECON 62 : ECON 20 and ECON 21 and ECON 22 and ECON 29 and ECON 32
+ECON 64 : ECON 20 and ECON 21 and ECON 22 and ECON 24 and ECON 27 or ECON 39
+ECON 65 : ECON 20 and ECON 21 and ECON 22 and ECON 25 and ECON 35
+ECON 66 : ECON 20 and ECON 21 and ECON 22 and ECON 26 and ECON 36
+ECON 67 : ECON 20 and ECON 21 and ECON 22 and ECON 27 and ECON 24 or ECON 28 or ECON 37
+ECON 68 : ECON 20 and ECON 21 and ECON 22 and ECON 28 and ECON 38
+ECON 69 : ECON 20 and ECON 21 and ECON 22 and ECON 29 and ECON 39
 ECON 70 : ECON 1
 ECON 70.01 : ECON 1
 ECON 70.02 : ECON 1
 ECON 70.03 : ECON 1
 ECON 71 : ECON 1 and ECON 10
 ECON 73 : ECON 1
-ECON 76 : ECON 1, ECON 10
+ECON 76 : ECON 1 and ECON 10
 ECON 77 : ECON 1
 ECON 78 : ECON 1 and ECON 22
 ECON 79 : ECON 1
-ECON 80 : ECON 20, ECON 21 and ECON 22 with a grade of A- or better or instructor permission
-ECON 81 : ECON 20, ECON 21 and ECON 22 with a grade of A- or better and MATH 8 or instructor permission
-ECON 82 : ECON 20, ECON 21 and ECON 22 with a grade of A- or better or instructor permission
-ECON 85 : Requires permission of the vice chair and of the department faculty member who will be advising the student.
-ECON 87 : Requires permission of the vice chair, permission of the department faculty member who will be advising the student, and, in the case that the research was begun in a 40-level course, the permission of the faculty member who taught the 40-level course in which the thesis topic and the research were developed.
-ENGS 11 : N1
-ENGS 15 : Permission of department chair (a 1-page proposal submission is required and must be submitted for approval prior to the end of the term preceding the term in which the course will be taken).
+ECON 80 : ECON 20 and ECON 21 and ECON 22
+ECON 81 : ECON 20 and ECON 21 and ECON 22 and MATH 8
+ECON 82 : ECON 20 and ECON 21 and ECON 22
+ECON 85 : chair permission and instructor permission
+ECON 87 : chair permission
+ENGS 15 : chair permission
 ENGS 18 : MATH 3
-ENGS 20 : MATH 3 and prior or concurrent enrollment in MATH 8
-ENGS 21 : MATH 3 or equivalent
-ENGS 22 : MATH 13, PHYS 14, and ENGS 20
-ENGS 23 : ENGS 22, or equivalent
+ENGS 20 : MATH 3 and MATH 8
+ENGS 21 : MATH 3
+ENGS 22 : MATH 13 and PHYS 14 and ENGS 20
+ENGS 23 : ENGS 22
 ENGS 24 : PHYS 14 and CHEM 5
-ENGS 25 : MATH 13, PHYS 13, ENGS 20 or COSC 1 and COSC 10
+ENGS 25 : MATH 13 or PHYS 13 or ENGS 20 or COSC 1 and COSC 10
 ENGS 26 : ENGS 22
-ENGS 27 : MATH 8 and either ENGS 20 or COSC 1 and COSC 10. PHYS 13 or CHEM 5 recommended.
-ENGS 30 : CHEM 5, PHYS 13 and PHYS 14 (or equivalent). PHYS 14 (or equivalent) may be taken concurrently. Students with strong quantitative skills who have taken PHYS 3 and PHYS 4 can enroll with instructor permission.
-ENGS 31 : ENGS 20 or COSC 1 and COSC 10.
-ENGS 32 : ENGS 22, or equivalent background in basic circuit theory.
+ENGS 27 : MATH 8 and ENGS 20 or COSC 1 and COSC 10. PHYS 13 or CHEM 5 recommended
+ENGS 30 : CHEM 5 and PHYS 13 and PHYS 14
+ENGS 31 : ENGS 20 or COSC 1 and COSC 10
+ENGS 32 : ENGS 22
 ENGS 33 : MATH 13 and PHYS 13
-ENGS 34 : ENGS 23 or equivalent
-ENGS 35 : MATH 3, CHEM 5, BIOL 12 or BIOL 13 or permission
-ENGS 36 : ENGS 22, ENGS 25; CHEM 5
-ENGS 37 : MATH 3 and CHEM 5, or equivalent, or permission
-ENGS 41 : MATH 23 or ENGS 22, and ENGS 37
-ENGS 43 : MATH 13; ENGS 37 or permission
+ENGS 34 : ENGS 23 
+ENGS 35 : MATH 3 or CHEM 5 or BIOL 12 or BIOL 13
+ENGS 36 : ENGS 22 and ENGS 25 and CHEM 5
+ENGS 37 : MATH 3 and CHEM 5
+ENGS 41 : MATH 23 or ENGS 22 and ENGS 37
+ENGS 43 : MATH 13 and ENGS 37 or permission
 ENGS 44 : ENGS 21 and ENGS 22 or SART 65
-ENGS 46 : MATH 3 and EARS 16 or EARS 33 or BIOL 53 or ENGS 43 or instructor permission
-ENGS 50 : COSC 10 or equivalent.
-ENGS 52 : MATH 8 and MATH 22 or equivalent
-ENGS 56 : ENGS 22, PHYS 13 and PHYS 14 (PHYS 14 may be taken concurrently)
-ENGS 57 : ENGS 23 and ENGS 56 or equivalent
+ENGS 46 : MATH 3 and EARS 16 or EARS 33 or BIOL 53 or ENGS 43
+ENGS 50 : COSC 10 
+ENGS 52 : MATH 8 and MATH 22
+ENGS 56 : ENGS 22 and PHYS 13 and PHYS 14
+ENGS 57 : ENGS 23 and ENGS 56
 ENGS 58 : ENGS 35 or CHEM 41
 ENGS 60 : ENGS 23
 ENGS 61 : ENGS 32
 ENGS 62 : ENGS 50
-ENGS 64 : ENGS 30 or equivalent.
+ENGS 64 : ENGS 30 
 ENGS 65 : ENGS 20 or COSC 1 and COSC 10
-ENGS 66 : COSC 1, ENGS 20, or placement through the Advanced Placement exam
+ENGS 66 : COSC 1 or ENGS 20
 ENGS 67 : ENGS 20 or COSC 50
-ENGS 68 : ENGS 22, ENGS 27 and ENGS 92 strongly recommended.
+ENGS 68 : ENGS 22 and ENGS 27 and ENGS 92 strongly recommended
 ENGS 69 : COSC 10
 ENGS 71 : ENGS 20 or COSC 1 and COSC 10 and ENGS 33
 ENGS 72 : ENGS 22
-ENGS 73 : ENGS 24 and ENGS 33 or equivalent
+ENGS 73 : ENGS 24 and ENGS 33
 ENGS 75 : ENGS 21 or ENGS 89
-ENGS 76 : ENGS 21, ENGS 33, and proficiency with solid modeling software
-ENGS 84 : Permission of the department chair. (Proposed courses should include a full syllabus, resources and student evaluation methods and must be submitted for approval prior to the end of the term preceding the term in which the course will be taken.)
-ENGS 86 : Senior standing in the engineering sciences major or Bachelor of Engineering standing and permission of the department chair is required. (1-page proposal submission required and must be submitted for approval prior to the end of the term preceding the term in which the course will be taken.)
-ENGS 87 : Permission of the department chair. (1-page proposal submission required and must be submitted for approval prior to the end of the term preceding the term in which the course will be taken.)
-ENGS 88 : chair permission of the Honors program
-ENGS 89 : Prior to enrollment in ENGS 89, at least 6 engineering courses must be completed. These include ENGS 21 and 5 additional courses numbered 22 to 76 (excluding 75) and 91 and above.
+ENGS 76 : ENGS 21 and ENGS 33
+ENGS 84 : chair permission
+ENGS 86 : ENGS majors only
+ENGS 87 : chair permission
+ENGS 88 : chair permission
+ENGS 89 : ENGS 21 and 5 ENGS 22-76 or ENGS 91+
 ENGS 90 : ENGS 89
-ENGS 91 : ENGS 20 or COSC 1 and COSC 10; ENGS 22 or MATH 23, or equivalent.
-ENGS 92 : MATH 46 or ENGS 22 and ENGS 23 or the equivalent
-ENGS 93 : MATH 13 or equivalent
-ENGL 61.01 : 2 English courses recommended
-ENGL 61.02 : 2 English courses recommended
-ENGL 61.11 : 2 English courses recommended
-ENGL 62.01 : 2 English courses recommended
-ENGL 62.02 : 2 English courses recommended
-ENGL 62.03 : 2 English courses recommended
-ENGL 62.12 : 2 English courses recommended
-ENGL 62.16 : 2 English courses recommended
-ENGL 62.22 : 2 English courses recommended
-ENGL 63.01 : 2 English courses recommended
-ENGL 63.02 : 2 English courses recommended
-ENGL 63.03 : 2 English courses recommended
-ENGL 63.04 : 2 English courses recommended
-ENGL 63.05 : 2 English courses recommended
-ENGL 63.06 : 2 English courses recommended
-ENGL 63.07 : 2 English courses recommended
-ENGL 63.08 : 2 English courses recommended
-ENGL 63.28 : 2 English courses recommended
-ENGL 64.01 : 2 English courses recommended
-ENGL 64.02 : 2 English courses recommended
-ENGL 64.03 : 2 English courses recommended
-ENGL 64.04 : 2 English courses recommended
-ENGL 64.05 : 2 English courses recommended
-ENGL 64.06 : 2 English courses recommended
-ENGL 65.01 : 2 English courses recommended
-ENGL 65.02 : 2 English courses recommended
-ENGL 65.06 : 2 English courses recommended
-ENGL 71.01 : 4 English courses recommended
-ENGL 71.02 : 4 English courses recommended
-ENGL 71.03 : 4 English courses or instructor permission.
-ENGL 71.05 : 4 English courses or instructor permission.
-ENGL 71.06 : 4 English courses or instructor permission.
-ENGL 71.13 : 4 completed English courses or instructor permission.
-ENGL 72.02 : 4 English courses recommended
-ENGL 72.03 : 4 English courses recommended
-ENGL 72.05 : 4 English courses recommended
-ENGL 72.09 : 4 English courses recommended
-ENGL 72.13 : 4 English courses recommended
-ENGL 73.01 : 4 English courses recommended
-ENGL 73.02 : 4 English courses recommended
-ENGL 73.05 : 4 English courses recommended
-ENGL 73.07 : 4 English courses recommended
-ENGL 73.13 : 4 English courses recommended
-ENGL 73.19 : 4 English courses recommended
-ENGL 73.28 : 4 English courses recommended
-ENGL 73.30 : 4 English courses recommended
-ENGL 74.01 : 4 English courses recommended
-ENGL 74.02 : 4 English courses recommended
-ENGL 74.03 : 4 English courses recommended
-ENGL 74.04 : 4 English courses recommended
-ENGL 74.05 : 4 English courses recommended
-ENGL 74.11 : 4 English courses recommended
-ENGL 75.02 : 4 English courses recommended
-CRWT 20 : CRWT 10 and instructor permission. Please read the "How To Apply To CRWT 20, 21, or 22" document available on the Department of English and Creative Writing website. Students should submit, to the instructor electronically, a 5 – eight page writing sample of their fiction. Deadline for equal consideration for admittance is the last day of classes in the term preceding the course. Late applications will be accepted, but held until the add/drop period and reviewed if vacancies occur.
-CRWT 21 : CRWT 11 and instructor permission. Please read the "How To Apply To CRWT 20, 21, or 22" document available on the Department of English and Creative Writing website. Students should submit, to the instructor electronically, a 5 – eight page writing sample of their fiction. Deadline for equal consideration for admittance is the last day of classes in the term preceding the course. Late applications will be accepted, but held until the add/drop period and reviewed if vacancies occur.
-CRWT 22 : CRWT 12 and instructor permission. Please read the "How To Apply To CRWT 20, 21, or 22" document available on the Department of English and Creative Writing website. Students should submit, to the instructor electronically, a 5 – eight page writing sample of their fiction. Deadline for equal consideration for admittance is the last day of classes in the term preceding the course. Late applications will be accepted, but held until the add/drop period and reviewed if vacancies occur.
-CRWT 60 : CRWT 20 or instructor permission.
-CRWT 61 : CRWT 21 or instructor permission.
-CRWT 62 : CRWT 22 or instructor permission.
-FILM 39.01 : FILM 30, or FILM 31, or FILM 32, or FILM 36, or FILM 37, or FILM 44.04, or FILM 44.07, or FILM 48.02, or FILM 51, or previous digital video experience. Instructor permission.
-FREN 10 : French 8 or instructor permission or acceptance into the Dartmouth Advanced Language Study Abroad Program.
-FREN 10.02 : French 8 or instructor permission
-FREN 10.03 : French 8 or instructor permission
-FREN 10.06 : French 8 or instructor permission
-FREN 10.08 : French 8 or instructor permission.
-FREN 10.10 : French 8 or instructor permission
-FREN 10.11 : French 8 or instructor permission
-FREN 10.12 : French 8 or instructor permission
-FREN 10.13 : French 8 or instructor permission
-FREN 10.14 : French 8 or the instructor permission.
-FREN 10.15 : French 8 or instructor permission
-FREN 10.16 : French 8 or instructor permission
-FREN 10.17 : French 8 or instructor permission
-FREN 10.18 : French 8 or instructor permission
-FREN 10.19 : French 8 or instructor permission.
-FREN 10.20 : French 8 or instructor permission
-FREN 11 : 1 year or equivalent of university level instruction in a Romance Language or Latin; or 3 high school years of instruction in a Romance Language or Latin; or native speaking proficiency in a Romance Language; or instructor permission.
-FREN 12 : Acceptance into the Dartmouth Advanced Language Study Abroad Program.
-FREN 2 : FREN 1 or qualifying placement
-FREN 20 : A course in the FREN 10 series, or instructor permission.
-FREN 20.01 : A course in the French 10 series or instructor permission
-FREN 20.02 : A course in the French 10 series or instructor permission.
-FREN 21 : A course in the FREN 10 series or instructor permission.
-FREN 22 : A course in the FREN 10 series or instructor permission.
-FREN 23 : A course in the FREN 10 series or instructor permission.
-FREN 24 : A course in the FREN 10 series or instructor permission.
-FREN 25 : A course in the FREN 10 series or instructor permission.
-FREN 29 : acceptance into the Foreign Study Program.
-FREN 3 : FREN 2, French 11, or qualifying placement
-FREN 30 : acceptance into the Foreign Study Program.
-FREN 31 : acceptance into the Foreign Study Program.
-FREN 35 : A course in the FREN 10 series or instructor permission.
-FREN 35.03 : A course in the FREN 10 series or instructor permission.
-FREN 40 : A course in the FREN 10 series or instructor permission.
-FREN 40.02 : A course in the FREN 10 series or instructor permission.
-FREN 40.03 : A course in the FREN 10 series or instructor permission
-FREN 40.04 : A course in the FREN 10 series or instructor permission
-FREN 40.05 : A course in the French 10 series or instructor permission.
-FREN 40.06 : A course in the French 10 sequence or instructor permission
-FREN 45 : A course in the FREN 10 series or instructor permission.
-FREN 45.03 : A course in the FREN 10 series or instructor permission.
-FREN 45.04 : A course in the French 10 series or instructor permission.
-FREN 45.05 : A course in the French 10 series or approval of the instructor.
-FREN 45.06 : A course in the FREN 10 series or instructor permission.
-FREN 5 : Acceptance into the Dartmouth Language Study Abroad Program.
-FREN 50 : A course in the FREN 10 series or instructor permission.
-FREN 50.05 : A course in the FREN 10 series or instructor permission.
-FREN 53 : A course in the FREN 10 series or instructor permission.
-FREN 53.05 : A course in the FREN 10 series or instructor permission
-FREN 53.06 : A course in the FREN 10 series or instructor permission.
-FREN 53.07 : A course in the FREN 10 series or instructor permission
-FREN 53.08 : A course in the French 10 series or instructor permission
-FREN 55 : A course in the FREN 10 series or instructor permission.
-FREN 55.04 : A course in the FREN 10 series or instructor permission.
-FREN 55.05 : A course in the French 10 series or instructor permission
-FREN 60 : A course in the FREN 10 series or instructor permission.
-FREN 70.03 : A course in the FREN 10 series or instructor permission
-FREN 70.04 : A course in the FREN 10 series or instructor permission.
-FREN 70.05 : A course in the French 10 sequence or instructor permission
-FREN 75 : A course in the FREN 10 series or instructor permission.
-FREN 75.01 : A course in the FREN 10 series or instructor permission.
-FREN 75.02 : A course in the French 10 sequence or instructor permission
-FREN 8 : FREN 3, or equivalent preparation.
-FREN 80 : A course in the FREN 10 series or instructor permission.
-FREN 80.03 : A course in the French 10 sequence or instructor permission
-FREN 80.04 : A course in the French 10 sequence or instructor permission
-FREN 81 : instructor permission.
-FREN 9 : Acceptance into the Dartmouth Language Study Abroad Program.
-FRIT 34.01 : Open to all students. Text, lectures and discussion in English. Students taking the course for major or minor credit in Italian will attend a weekly x-hour and do all written work in Italian
-ITAL 2 : ITAL 1 or qualifying placement
-ITAL 3 : ITAL 2, ITAL 11 or ARTH 12 or qualifying placement
-ITAL 5 : Acceptance into the Dartmouth Language Study Abroad Program.
-ITAL 6 : Acceptance into the Dartmouth Language Study Abroad Program.
-ITAL 8 : Acceptance into the Dartmouth Language Study Abroad Program or Advanced Language Study Abroad Program.
-ITAL 10.03 : Italian 8 or 9 or instructor permission
-ITAL 10.04 : Italian 8 or 9 or instructor permission
-ITAL 10.05 : Italian 8 or 9 or instructor permission
-ITAL 10.06 : Italian 8 or 9 or instructor permission
-ITAL 10.20 : ITAL 8 or ITAL 9, or instructor permission
+ENGS 91 : ENGS 20 or COSC 1 and COSC 10 and ENGS 22 or MATH 23
+ENGS 92 : MATH 46 or ENGS 22 and ENGS 23
+ENGS 93 : MATH 13
+ENGL 61.01 : 2 ENGL * recommended
+ENGL 61.02 : 2 ENGL * recommended
+ENGL 61.11 : 2 ENGL * recommended
+ENGL 62.01 : 2 ENGL * recommended
+ENGL 62.02 : 2 ENGL * recommended
+ENGL 62.03 : 2 ENGL * recommended
+ENGL 62.12 : 2 ENGL * recommended
+ENGL 62.16 : 2 ENGL * recommended
+ENGL 62.22 : 2 ENGL * recommended
+ENGL 63.01 : 2 ENGL * recommended
+ENGL 63.02 : 2 ENGL * recommended
+ENGL 63.03 : 2 ENGL * recommended
+ENGL 63.04 : 2 ENGL * recommended
+ENGL 63.05 : 2 ENGL * recommended
+ENGL 63.06 : 2 ENGL * recommended
+ENGL 63.07 : 2 ENGL * recommended
+ENGL 63.08 : 2 ENGL * recommended
+ENGL 63.28 : 2 ENGL * recommended
+ENGL 64.01 : 2 ENGL * recommended
+ENGL 64.02 : 2 ENGL * recommended
+ENGL 64.03 : 2 ENGL * recommended
+ENGL 64.04 : 2 ENGL * recommended
+ENGL 64.05 : 2 ENGL * recommended
+ENGL 64.06 : 2 ENGL * recommended
+ENGL 65.01 : 2 ENGL * recommended
+ENGL 65.02 : 2 ENGL * recommended
+ENGL 65.06 : 2 ENGL * recommended
+ENGL 71.01 : 4 ENGL * recommended
+ENGL 71.02 : 4 ENGL * recommended
+ENGL 71.03 : 4 ENGL *
+ENGL 71.05 : 4 ENGL *
+ENGL 71.06 : 4 ENGL *
+ENGL 71.13 : 4 ENGL *
+ENGL 72.02 : 4 ENGL * recommended
+ENGL 72.03 : 4 ENGL * recommended
+ENGL 72.05 : 4 ENGL * recommended
+ENGL 72.09 : 4 ENGL * recommended
+ENGL 72.13 : 4 ENGL * recommended
+ENGL 73.01 : 4 ENGL * recommended
+ENGL 73.02 : 4 ENGL * recommended
+ENGL 73.05 : 4 ENGL * recommended
+ENGL 73.07 : 4 ENGL * recommended
+ENGL 73.13 : 4 ENGL * recommended
+ENGL 73.19 : 4 ENGL * recommended
+ENGL 73.28 : 4 ENGL * recommended
+ENGL 73.30 : 4 ENGL * recommended
+ENGL 74.01 : 4 ENGL * recommended
+ENGL 74.02 : 4 ENGL * recommended
+ENGL 74.03 : 4 ENGL * recommended
+ENGL 74.04 : 4 ENGL * recommended
+ENGL 74.05 : 4 ENGL * recommended
+ENGL 74.11 : 4 ENGL * recommended
+ENGL 75.02 : 4 ENGL * recommended
+CRWT 20 : CRWT 10 and instructor permission
+CRWT 21 : CRWT 11 and instructor permission
+CRWT 22 : CRWT 12 and instructor permission
+CRWT 60 : CRWT 20
+CRWT 61 : CRWT 21
+CRWT 62 : CRWT 22
+FILM 39.01 : FILM 30 or FILM 31 or FILM 32 or FILM 36 or FILM 37 or FILM 44.04 or FILM 44.07 or FILM 48.02 or FILM 51 and instructor permission
+FREN 10 : FREN 8 or acceptance into the Dartmouth Advanced Language Study Abroad Program
+FREN 10.02 : FREN 8
+FREN 10.03 : FREN 8
+FREN 10.06 : FREN 8
+FREN 10.08 : FREN 8
+FREN 10.10 : FREN 8
+FREN 10.11 : FREN 8
+FREN 10.12 : FREN 8
+FREN 10.13 : FREN 8
+FREN 10.14 : FREN 8
+FREN 10.15 : FREN 8
+FREN 10.16 : FREN 8
+FREN 10.17 : FREN 8
+FREN 10.18 : FREN 8
+FREN 10.19 : FREN 8
+FREN 10.20 : FREN 8
+FREN 11 : FREN 3 or SPAN 3 or PORT 3 or LAT 3 or ITAL 3
+FREN 12 : Acceptance into the Dartmouth Advanced Language Study Abroad Program
+FREN 2 : FREN 1
+FREN 20 : FREN 10
+FREN 20.01 : FREN 10
+FREN 20.02 : FREN 10
+FREN 21 : FREN 10
+FREN 22 : FREN 10
+FREN 23 : FREN 10
+FREN 24 : FREN 10
+FREN 25 : FREN 10
+FREN 29 : acceptance into the Foreign Study Program
+FREN 3 : FREN 2 or FREN 11
+FREN 30 : acceptance into the Foreign Study Program
+FREN 31 : acceptance into the Foreign Study Program
+FREN 35 : FREN 10
+FREN 35.03 : FREN 10
+FREN 40 : FREN 10
+FREN 40.02 : FREN 10
+FREN 40.03 : FREN 10
+FREN 40.04 : FREN 10
+FREN 40.05 : FREN 10
+FREN 40.06 : FREN 10
+FREN 45 : FREN 10
+FREN 45.03 : FREN 10
+FREN 45.04 : FREN 10
+FREN 45.05 : FREN 10
+FREN 45.06 : FREN 10
+FREN 5 : Acceptance into the Dartmouth Language Study Abroad Program
+FREN 50 : FREN 10
+FREN 50.05 : FREN 10
+FREN 53 : FREN 10
+FREN 53.05 : FREN 10
+FREN 53.06 : FREN 10
+FREN 53.07 : FREN 10
+FREN 53.08 : FREN 10
+FREN 55 : FREN 10
+FREN 55.04 : FREN 10
+FREN 55.05 : FREN 10
+FREN 60 : FREN 10
+FREN 70.03 : FREN 10
+FREN 70.04 : FREN 10
+FREN 70.05 : FREN 10
+FREN 75 : FREN 10
+FREN 75.01 : FREN 10
+FREN 75.02 : FREN 10
+FREN 8 : FREN 3
+FREN 80 : FREN 10
+FREN 80.03 : FREN 10
+FREN 80.04 : FREN 10
+FREN 81 : instructor permission
+FREN 9 : Acceptance into the Dartmouth Language Study Abroad Program
+ITAL 2 : ITAL 1 
+ITAL 3 : ITAL 2 or ITAL 11 or ARTH 12
+ITAL 5 : Acceptance into the Dartmouth Language Study Abroad Program
+ITAL 6 : Acceptance into the Dartmouth Language Study Abroad Program
+ITAL 8 : Acceptance into the Dartmouth Language Study Abroad Program or Advanced Language Study Abroad Program
+ITAL 10.03 : ITAL 8 or ITAL 9
+ITAL 10.04 : ITAL 8 or ITAL 9
+ITAL 10.05 : ITAL 8 or ITAL 9
+ITAL 10.06 : ITAL 8 or ITAL 9
+ITAL 10.20 : ITAL 8 or ITAL 9
 ITAL 12 : Acceptance into the Dartmouth Advanced Language Study Abroad Program
-ITAL 15 : ITAL 8 or ITAL 9, or instructor permission.
-ITAL 21 : Italian 10 or instructor permission
-ITAL 22 : ITAL 10, or instructor permission.
-ITAL 23 : ITAL 10, or instructor permission.
-ITAL 24 : ITAL 10, or instructor permission.
-ITAL 25 : ITAL 10, or instructor permission.
-ITAL 27.01 : Italian 10 or permisssion of the instructor
-ITAL 27.02 : Italian 10 or instructor permission
-GEOG 35 : EARS 16 or EARS 33 or instructor permission.
-GEOG 47 : GEOG 1 or GEOG 3 and 1 course numbered between GEOG 12 and GEOG 41, or instructor permission. A minimum of 1 methods course (GEOG 11, GEOG 50, GEOG 51) is strongly recommended.
-GEOG 51 : 1 course from EARS 1, EARS 2, EARS 3, EARS 4, EARS 5, EARS 6, EARS 8, EARS 9, or GEOG 3.
-GEOG 54 : GEOG 50 or any statistics course
+ITAL 15 : ITAL 8 or ITAL 9
+ITAL 21 : ITAL 10
+ITAL 22 : ITAL 10
+ITAL 23 : ITAL 10
+ITAL 24 : ITAL 10
+ITAL 25 : ITAL 10
+ITAL 27.01 : ITAL 10
+ITAL 27.02 : ITAL 10
+GEOG 35 : EARS 16 or EARS 33
+GEOG 47 : GEOG 1 or GEOG 3 and 1 GEOG 12-41. GEOG 11 or GEOG 50 or GEOG 51 recommended
+GEOG 51 : EARS 1 or EARS 2 or EARS 3 or EARS 4 or EARS 5 or EARS 6 or EARS 8 or EARS 9 or GEOG 3
+GEOG 54 : GEOG 50 or MATH 10
 GEOG 56 : GEOG 50
 GEOG 57 : GEOG 50
-GEOG 59 : GEOG 50 or GEOG 51/EARS 65, or instructor permission.
-GEOG 67 : ENVS 3 or GEOG 1 or instructor permission
-GEOG 80 : GEOG 1 or instructor permission.
-GEOG 81 : GEOG 1 or GEOG 3 and 1 course numbered between 12 and 41, or instructor permission. A minimum of 1 methods course (GEOG 11, GEOG 50, GEOG 51) is strongly recommended.
-GEOG 82 : GEOG 1 or GEOG 3 and 1 course from 12-41 or instructor permission.
-GEOG 85 : instructor permission and the Chair.
-GEOG 87 : instructor permission and the Chair. Open to seniors, and required of honors majors
-GEOG 90 : GEOG 1 or GEOG 3, 2 courses from GEOG 11, GEOG 50 to GEOG 59, or instructor permission.
-GERM 1 : l
-GERM 2.03 : Acceptance into the FSP S22
-GERM 5 : Acceptance into the Dartmouth Language Study Abroad Program.
-GERM 6 : Acceptance into the Dartmouth Language Study Abroad Program.
-GERM 10.01 : GERM 3, or equivalent
-GERM 10.02 : GERM 3, or equivalent.
-GERM 10.03 : GERM 3, or equivalent.
-GERM 10.06 : GERM 3, or equivalent.
-GERM 29 : Acceptance into the Dartmouth Foreign Study Program.
-GERM 30 : Acceptance into the Dartmouth Foreign Study Program.
-GERM 31 : Acceptance into the Dartmouth Foreign Study Program.
-GERM 44.07 : Accceptance into the Foreign Study Program.
-GOVT 18 : MATH 3 or the equivalent.
-GOVT 35 : GOVT 3 or by instructor permission.
-GOVT 42 : GOVT 4 is strongly recommended but not required.
+GEOG 59 : GEOG 50 or GEOG 51 or EARS 65
+GEOG 67 : ENVS 3 or GEOG 1
+GEOG 80 : GEOG 1
+GEOG 81 : GEOG 1 or GEOG 3 and 1 GEOG 12-41. GEOG 11 or GEOG 50 or GEOG 51 recommended
+GEOG 82 : GEOG 1 or GEOG 3 and 1 GEOG 12-41
+GEOG 85 : instructor permission and chair permission
+GEOG 87 : Senior GEOG majors only and instructor permission and chair permission
+GEOG 90 : GEOG 1 or GEOG 3 and 2 GEOG 50-59
+GERM 2.03 : Acceptance into the FSP
+GERM 5 : Acceptance into the Dartmouth Language Study Abroad Program
+GERM 6 : Acceptance into the Dartmouth Language Study Abroad Program
+GERM 10.01 : GERM 3
+GERM 10.02 : GERM 3
+GERM 10.03 : GERM 3
+GERM 10.06 : GERM 3
+GERM 29 : Acceptance into the Dartmouth Foreign Study Program
+GERM 30 : Acceptance into the Dartmouth Foreign Study Program
+GERM 31 : Acceptance into the Dartmouth Foreign Study Program
+GERM 44.07 : Accceptance into the Foreign Study Program
+GOVT 18 : MATH 3
+GOVT 35 : GOVT 3
+GOVT 42 : GOVT 4 recommended
 GOVT 50.08 : GOVT 5
-GOVT 52 : GOVT 4 or GOVT 5; GOVT 42 recommended. Open only to sophomores, juniors, and seniors.
-GOVT 53 : GOVT 5 or instructor permission.
-GOVT 54 : GOVT 5 or instructor permission.
-GOVT 63 : GOVT 6 or knowledge of Plato's "Republic" highly recommended.
-GOVT 86.30 : 2 government courses in political theory, or instructor permission
-HUM 2 : HUM 1, or the permission of the course director.
-LING 8 : LING 1 and 1 other Linguistics course in the 20s.
+GOVT 52 : GOVT 4 or GOVT 5. GOVT 42 recommended
+GOVT 53 : GOVT 5
+GOVT 54 : GOVT 5
+GOVT 63 : GOVT 6
+GOVT 86.30 : 2 GOVT 40-49 or instructor permisison
+HUM 2 : HUM 1
+LING 8 : LING 1 and 1 LING 20-29
 LING 20 : LING 1
-LING 21 : LING 1.
-LING 22 : LING 1.
-LING 23 : LING 1.
-LING 24 : LING 1.
+LING 21 : LING 1
+LING 22 : LING 1
+LING 23 : LING 1
+LING 24 : LING 1
 LING 26 : LING 1
-LING 27 : LING 1 or LING 18.
-LING 35 : LING 21 and 1 other course in the 20s.
-LING 48 : COSC 01
-LING 50.01 : LING 1 or COGS 1 or with Instructor Permission.
-LING 54 : LING 1 and 1 other Linguistics course in the 20s.
-LING 80 : Prerequisite: 2 or more 20s-level LING courses, or instructor permission.
-MATH 4 : MATH 3. Note: This is a sequel to MATH 3, but it does not cover the same material as MATH 8, and does not serve as a prerequisite for MATH 13. There is a version of this course suitable for major credit: see MATH 27.
-MATH 5.01 : GOVT/ECON/PSYC/SOCY/MATH 10 or QSS 15 or COSC 1
-MATH 8 : MATH 3 or equivalent.
-MATH 9 : Advanced placement into MATH 9 or MATH 11.
-MATH 13 : MATH 8 or Math 9 or equivalent.
+LING 27 : LING 1 or LING 18
+LING 35 : LING 21 and 1 LING 20-29
+LING 48 : COSC 1
+LING 50.01 : LING 1 or COGS 1 or instructor permission
+LING 54 : LING 1 and 1 LING 20-29
+LING 80 : 2 LING 20-29
+MATH 4 : MATH 3
+MATH 5.01 : GOVT 10 or ECON 10 or PSYC 10 or SOCY 10 or MATH 10 or QSS 15 or COSC 1
+MATH 8 : MATH 3 
+MATH 9 : MATH 8
+MATH 13 : MATH 8 or MATH 9 
 MATH 17 : MATH 8
-MATH 20 : MATH 8.
-MATH 23 : MATH 13.
-MATH 24 : MATH 8.
-MATH 25 : MATH 8.
-MATH 27 : MATH 22 and MATH 23, or instructor approval.
-MATH 28 : MATH 8.
-MATH 29 : N1, but the student must be willing to learn to work abstractly and to read and write proofs.
-MATH 30.04 : Math 3 and Math 20
-MATH 31 : MATH 22.
-MATH 31.01 : MATH 22.
-MATH 32 : MATH 22 or MATH 24.
-MATH 35 : MATH 13 and instructor permission, or MATH 22.
-MATH 36 : MATH 13, MATH 20.
-MATH 37 : MATH 22 and MATH 24, MATH 23, 1 of COSC 1, COSC 10, ENGS 20 or equivalent experience.
-MATH 38 : MATH 22 (or COSC 55 and instructor permission).
-MATH 40 : MATH 13 and MATH 20, or instructor permission.
-MATH 42 : MATH 22 or instructor permission, and MATH 23.
-MATH 43 : MATH 13.
-MATH 46 : MATH 22 and MATH 23, or instructor permission.
-MATH 47 : MATH 22 and MATH 24, MATH 23, 1 of COSC 1, COSC 10, ENGS 20 or equivalent experience.
-MATH 50 : MATH 10, another elementary statistics course, or instructor permission.
-MATH 53 : MATH 22 and MATH 23, or instructor permission.
-MATH 54 : MATH 13 and MATH 22.
-MATH 56 : MATH 22 or MATH 24, COSC 1 or ENGS 20, or instructor permission.
-MATH 60 : MATH 13, or instructor permission.
-MATH 63 : MATH 22 or MATH 24, or MATH 13 and instructor permission.
-MATH 66 : Math 23 and MATH 24 (or MATH 22 with instructor permission).
-MATH 68 : MATH 28 and MATH 31, or MATH 71, or instructor permission.
-MATH 69 : experience with mathematical structures and proofs, as offered by such courses as MATH 71, MATH 54, or MATH 24; or instructor permission.
+MATH 20 : MATH 8
+MATH 23 : MATH 13
+MATH 24 : MATH 8
+MATH 25 : MATH 8
+MATH 27 : MATH 22 and MATH 23
+MATH 28 : MATH 8
+MATH 30.04 : MATH 3 and MATH 20
+MATH 31 : MATH 22
+MATH 31.01 : MATH 22
+MATH 32 : MATH 22 or MATH 24
+MATH 35 : MATH 13 and instructor permission or MATH 22
+MATH 36 : MATH 13 and MATH 20
+MATH 37 : MATH 22 and MATH 24 and MATH 23 and COSC 1 or COSC 10 or ENGS 20
+MATH 38 : MATH 22 or COSC 55 and instructor permission
+MATH 40 : MATH 13 and MATH 20
+MATH 42 : MATH 22 and MATH 23
+MATH 43 : MATH 13
+MATH 46 : MATH 22 and MATH 23
+MATH 47 : MATH 22 and MATH 24 and MATH 23 and COSC 1 or COSC 10 or ENGS 20
+MATH 50 : MATH 10
+MATH 53 : MATH 22 and MATH 23
+MATH 54 : MATH 13 and MATH 22
+MATH 56 : MATH 22 or MATH 24 and COSC 1 or ENGS 20 and
+MATH 60 : MATH 13
+MATH 63 : MATH 22 or MATH 24 or MATH 13 and instructor permission
+MATH 66 : MATH 23 and MATH 24 or MATH 22 and instructor permission
+MATH 68 : MATH 28 and MATH 31 or MATH 71
+MATH 69 : MATH 71 or MATH 54 or MATH 24
 MATH 70 : MATH 40
-MATH 71 : MATH 22 or MATH 24.
-MATH 72 : MATH 71, or instructor permission. Depending on the specific topics covered, MATH 31 may not be an acceptable prerequisite; however, in consultation with the instructor, MATH 31 together with some outside reading should be adequate preparation for the course.
-MATH 73 : MATH 43 and MATH 63 or a basic course in real analysis and an undergarduate complex analysis course or instructor permission.
-MATH 74 : MATH 31/ MATH 71 and MATH 54 and instructor permission or MATH 54 and MATH 101.
-MATH 75 : Math 71, or Math 25 and 31, or instructor permission
-MATH 75.01 : MATH 25 or MATH 22/ MATH 24 or MATH 31/ MATH 71, or instructor permission.
-MATH 76.01 : MATH 22, MATH 23, or instructor permission.
-MATH 76.02 : MATH 22 or 24. MATH 20 or 60 recommended.  Programming experience (e.g. COSC 1, ENGS 20) recommended.
-MATH 76.03 : MATH 3, MATH 20, MATH 23 or upon approval of the instructor.  Programming skills helpful, but not required
-MATH 81 : MATH 71. In general, MATH 31 is not an acceptable prerequisite; however, in consultation with the instructor, MATH 31 together with some outside reading should be adequate preparation for the course.
-MATH 86 : MATH 20 and MATH 40, or MATH 60; MATH 23; and COSC 1 or the equivalent.
-MATH 89 : MATH 39 or MATH 69.
-HEBR 21 : HEBR 3 or instructor permission.
-HEBR 22 : HEBR 3 or instructor permission.
-ARAB 22 : ARAB 3 or equivalent.
-ARAB 23 : ARAB 3 or equivalent.
-ARAB 25 : ARAB 3, or the equivalent, or instructor permission.
-ARAB 31 : 2 out of the following 3 courses: ARAB 21, ARAB 22, ARAB 23, or instructor permission, or the equivalent.
-ARAB 32 : 2 out of the following 3 courses: ARAB 21, ARAB 22, ARAB 23, or instructor permission, or the equivalent.
-ARAB 34 : 2 second-year level Arabic courses or instructor permission.
-ARAB 41 : 2 third-year level Arabic courses, or instructor permission.
-ARAB 42 : 2 third-year level Arabic courses, or instructor permission.
-ARAB 43 : 2 third-year level Arabic courses, or instructor permission.
-MUS 14 : instructor permission.
-MUS 14.04 : MUS 1 or equivalent experience
-MUS 17 : N1.
-MUS 22 : Students who have not taken MUS 20 should contact the instructor prior to the first day of class.
-MUS 23 : MUS 20 or instructor permission for MUS 23.
-MUS 26 : Mus 25 or instructor permission
-MUS 27 : MUS 25 or consent of instructor.
-MUS 28 : MUS 25 or consent of instructor.
-MUS 30 : MUS 20 or permission by instructor.
-MUS 30.02 : MUS 20; An interest in creating music and by instructor’s permission.
-MUS 32 : MUS 1 or exemption from MUS 1.
-MUS 34 : MUS 25 or consent of instructor.
-MUS 37 : MUS 36 or MUS 25 or Instructor Approval. Previous experience in a Digital Audio Workstation (DAW) such as Ableton, ProTools or Logic is necessary for this course.
-MUS 41 : MUS 21 or MUS 22, or instructor permission
+MATH 71 : MATH 22 or MATH 24
+MATH 72 : MATH 71
+MATH 73 : MATH 43 and MATH 63
+MATH 74 : MATH 31 or MATH 71 and MATH 54 and instructor permission or MATH 54 and MATH 101
+MATH 75 : MATH 71 or MATH 25 and MATH 31
+MATH 75.01 : MATH 25 or MATH 22 or MATH 24 or MATH 31 or MATH 71
+MATH 76.01 : MATH 22 and MATH 23
+MATH 76.02 : MATH 22 or MATH 24. MATH 20 or MATH 60 or COSC 1 or ENGS 20 recommended
+MATH 76.03 : MATH 3 and MATH 20 and MATH 23. COSC 1 or ENGS 20 recommended
+MATH 81 : MATH 71
+MATH 86 : MATH 20 and MATH 40 or MATH 60 and MATH 23 and COSC 1 or ENGS 20
+MATH 89 : MATH 39 or MATH 69
+HEBR 21 : HEBR 3
+HEBR 22 : HEBR 3
+ARAB 22 : ARAB 3 
+ARAB 23 : ARAB 3 
+ARAB 25 : ARAB 3
+ARAB 31 : 2 ARAB 21-23
+ARAB 32 : 2 ARAB 21-23
+ARAB 34 : 2 ARAB 21-23
+ARAB 41 : 2 ARAB 31-33
+ARAB 42 : 2 ARAB 31-33
+ARAB 43 : 2 ARAB 31-33
+MUS 14 : instructor permission
+MUS 14.04 : MUS 1
+MUS 22 : MUS 20
+MUS 23 : MUS 20
+MUS 26 : Mus 25
+MUS 27 : MUS 25
+MUS 28 : MUS 25
+MUS 30 : MUS 20
+MUS 30.02 : MUS 20 or instructor permission
+MUS 32 : MUS 1
+MUS 34 : MUS 25
+MUS 37 : MUS 36 or MUS 25
+MUS 41 : MUS 21 or MUS 22
 MUS 50.12 : MUS 50.11
 MUS 50.13 : MUS 50.12
 MUS 50.22 : MUS 50.21
@@ -596,11 +584,10 @@ MUS 50.32 : MUS 50.31
 MUS 50.33 : MUS 50.32
 MUS 50.42 : MUS 50.41
 MUS 50.43 : MUS 50.42
-MUS 51 : N1.
-MUS 52 : MUS 20, or instructor permission.
-MUS 52.01 : 2 courses from MUS 21-23, and 1 course from MUS 6, 10, 11, or 40-44, or instructor permission
-MUS 52.02 : MUS 20, or instructor permission.
-MUS 52.03 : MUS 20 or instructor permission.
+MUS 52 : MUS 20
+MUS 52.01 : 2 MUS 21-23 and MUS 6 or MUS 10 or MUS 11 or MUS 40 or MUS 41 or MUS 42 or MUS 43 or MUS 44
+MUS 52.02 : MUS 20
+MUS 52.03 : MUS 20
 MUS 53.02 : MUS 53.01
 MUS 53.03 : MUS 53.02
 MUS 54.02 : MUS 54.01
@@ -625,273 +612,270 @@ MUS 59.52 : MUS 59.51
 MUS 59.53 : MUS 59.52
 MUS 59.62 : MUS 59.61
 MUS 59.63 : MUS 59.62
-MUS 60 : MUS 53 and instructor permission.
-MUS 61 : MUS 54 and instructor permission.
-MUS 62 : MUS 55 and instructor permission.
-MUS 63 : MUS 56 and instructor permission.
-MUS 64 : MUS 57 and instructor permission.
-MUS 65 : MUS 58 and instructor permission.
-MUS 70 : MUS 20.
-MUS 71 : MUS 20.
+MUS 60 : MUS 53 and instructor permission
+MUS 61 : MUS 54 and instructor permission
+MUS 62 : MUS 55 and instructor permission
+MUS 63 : MUS 56 and instructor permission
+MUS 64 : MUS 57 and instructor permission
+MUS 65 : MUS 58 and instructor permission
+MUS 70 : MUS 20
+MUS 71 : MUS 20
 MUS 74 : MUS 20
-MUS 99 : Instructor Permission.
-PHIL 11 : 1 Philosophy course, or CLST 3, or instructor permission.
-PHIL 12 : 1 Philosophy course, or instructor permission.
-PHIL 12.01 : 1 Philosophy course, or instructor permission.
-PHIL 13 : 1 Philosophy course, or instructor permission.
-PHIL 13.01 : 1 Philosophy course, or instructor permission.
-PHIL 13.02 : 1 Philosophy course, or instructor permission.
-PHIL 13.03 : 1 Philosophy course, or instructor permission.
-PHIL 16 : 1 Philosophy course, or instructor permission.
-PHIL 16.01 : 1 Philosophy course, or instructor permission.
-PHIL 16.02 : 1 Philosophy course, or instructor permission.
-PHIL 16.03 : 1 Philosophy course, or instructor permission.
-PHIL 16.04 : 1 Philosophy course, or instructor permission.
-PHIL 19 : 1 Philosophy course, or instructor permission.
-PHIL 19.01 : 1 Philosophy course, or instructor permission.
-PHIL 19.02 : 1 Philosophy course, or instructor permission.
-PHIL 19.03 : 1 Philosophy course, or instructor permission.
-PHIL 19.04 : 1 Philosophy course, or instructor permission.
-PHIL 22 : 1 Philosophy course, or instructor permission.
-PHIL 23 : 1 Philosophy course, or instructor permission.
-PHIL 23.01 : 1 Philosophy course, or instructor permission.
-PHIL 23.02 : 1 Philosophy course, or instructor permission.
-PHIL 23.03 : 1 Philosophy course, or instructor permission.
-PHIL 24 : 1 Philosophy course, or instructor permission.
-PHIL 25 : 1 Philosophy course, or instructor permission.
-PHIL 26 : 1 Philosophy course, 1 Cognitive Science course, 1 Computer Science course, or instructor permission.
-PHIL 27 : 1 Philosophy course, or instructor permission.
-PHIL 28 : 1 Philosophy course, or instructor permission.
-PHIL 28.01 : 1 Philosophy course, or instructor permission.
-PHIL 28.02 : 1 Philosophy course, or instructor permission.
-PHIL 28.03 : 1 Philosophy course, or instructor permission.
-PHIL 29 : 1 Philosophy course, or instructor permission.
-PHIL 29.01 : 1 Philosophy course, or instructor permission.
-PHIL 29.02 : 1 Philosophy course, or instructor permission.
-PHIL 30 : 1 Philosophy course, or instructor permission.
-PHIL 31 : 1 Philosophy course, or instructor permission.
-PHIL 31.01 : 1 Philosophy course, or instructor permission.
-PHIL 31.04 : 1 Philosophy course, or instructor permission.
-PHIL 31.05 : 1 Philosophy course, or instructor permission.
-PHIL 31.06 : 1 Philosophy course, or instructor permission.
-PHIL 31.07 : 1 Philosophy course, or instructor permission.
-PHIL 31.08 : 1 Philosophy course, or instructor permission.
-PHIL 31.09 : 1 Philosophy course, or instructor permission.
-PHIL 32 : PHIL 6, or MATH 39 or MATH 69, or instructor permission.
-PHIL 34 : 1 Philosophy course, or instructor permission.
-PHIL 35 : 1 Philosophy course, or instructor permission.
-PHIL 35.01 : 1 Philosophy course, 1 cognitive science course, or instructor permission.
-PHIL 36 : 1 Philosophy course, or instructor permission.
-PHIL 37 : 1 Philosophy course, or instructor permission.
-PHIL 37.01 : 1 Philosophy course, or instructor permission.
-PHIL 38 : 1 Philosophy course, or instructor permission.
-PHIL 38.01 : 1 Philosophy course, or instructor permission.
-PHIL 38.02 : 1 Philosophy course, or instructor permission.
-PHIL 38.03 : 1 Philosophy course, or instructor permission.
-PHIL 38.04 : 1 Philosophy course, or instructor permission.
-PHIL 39 : 1 Philosophy course, or instructor permission.
-PHIL 39.01 : 1 Philosophy course, or instructor permission.
-PHIL 40 : 1 Philosophy course, or instructor permission.
-PHIL 45 : 1 Philosophy course, or instructor permission.
-PHIL 45.01 : 1 Philosophy course, or instructor permission.
-PHIL 45.02 : 1 Philosophy course, or instructor permission.
-PHIL 45.03 : 1 Philosophy course, or instructor permission.
-PHIL 45.04 : 1 Philosophy course, or instructor permission.
-PHIL 50 : 2 Philosophy courses, or instructor permission.
-PHIL 50.09 : 2 Philosophy courses, or instructor permission.
-PHIL 50.14 : 2 Philosophy courses, or instructor permission.
-PHIL 50.15 : 2 Philosophy courses, or instructor permission.
-PHIL 50.17 : 2 Philosophy courses, or instructor permission.
-PHIL 50.18 : 2 Philosophy courses, or instructor permission.
-PHIL 50.20 : 2 Philosophy courses, or instructor permission.
-PHIL 50.21 : 2 Philosophy courses, or instructor permission.
-PHIL 50.22 : 2 Philosophy courses, or instructor permission.
-PHIL 50.23 : 2 Philosophy courses, or instructor permission.
-PHIL 50.24 : 2 Philosophy courses, or instructor permission.
-PHIL 50.25 : 2 Philosophy courses, or instructor permission.
-PHIL 50.26 : 2 Philosophy courses, or instructor permission.
-PHIL 50.27 : 2 Philosophy courses, or instructor permission.
-PHIL 50.28 : 2 Philosophy courses, or instructor permission.
-PHIL 50.30 : 2 Philosophy courses, or instructor permission.
-PHIL 50.31 : 2 Philosophy courses, or instructor permission.
-PHIL 50.32 : 2 Philosophy courses, or instructor permission.
-PHIL 50.33 : 2 Philosophy courses, or instructor permission.
-PHIL 50.34 : 2 Philosophy courses, or instructor permission.
-PHIL 50.35 : 2 Philosophy courses, or instructor permission.
-PHIL 50.36 : 2 Philosophy courses, or instructor permission.
-PHIL 50.37 : 2 Philosophy courses, or instructor permission.
-PHIL 50.38 : 2 Philosophy courses, or instructor permission.
-PHIL 60 : 2 Philosophy courses, or instructor permission.
-PHIL 61 : 2 Philosophy courses, or instructor permission.
-PHIL 80 : instructor permission.
-PHIL 80.01 : instructor permission.
-PHIL 80.05 : instructor permission.
-PHIL 80.06 : instructor permission.
-PHIL 80.12 : instructor permission.
-PHIL 80.13 : instructor permission.
-PHIL 80.14 : instructor permission.
-PHIL 80.15 : instructor permission.
-PHIL 80.16 : instructor permission.
-PHIL 80.17 : instructor permission.
-PHIL 80.18 : instructor permission.
-PHIL 80.19 : instructor permission.
-PHIL 80.20 : instructor permission.
-PHIL 80.21 : instructor permission.
-PHIL 80.22 : instructor permission.
-PHIL 80.23 : instructor permission.
-PHIL 80.24 : instructor permission.
-PHIL 80.25 : instructor permission.
-PHIL 80.26 : instructor permission.
-PHIL 80.27 : instructor permission.
-PHIL 80.28 : instructor permission.
-PHIL 80.29 : instructor permission.
-PHIL 80.30 : instructor permission.
-PHIL 87 : chair permission.
-PHIL 89 : chair permission.
-PHIL 90 : chair permission.
-ASTR 15 : An introductory physics course (or instructor permission) and MATH 3.
+MUS 99 : instructor permission
+PHIL 11 : 1 PHIL * or CLST 3
+PHIL 12 : 1 PHIL *
+PHIL 12.01 : 1 PHIL *
+PHIL 13 : 1 PHIL *
+PHIL 13.01 : 1 PHIL *
+PHIL 13.02 : 1 PHIL *
+PHIL 13.03 : 1 PHIL *
+PHIL 16 : 1 PHIL *
+PHIL 16.01 : 1 PHIL *
+PHIL 16.02 : 1 PHIL *
+PHIL 16.03 : 1 PHIL *
+PHIL 16.04 : 1 PHIL *
+PHIL 19 : 1 PHIL *
+PHIL 19.01 : 1 PHIL *
+PHIL 19.02 : 1 PHIL *
+PHIL 19.03 : 1 PHIL *
+PHIL 19.04 : 1 PHIL *
+PHIL 22 : 1 PHIL *
+PHIL 23 : 1 PHIL *
+PHIL 23.01 : 1 PHIL *
+PHIL 23.02 : 1 PHIL *
+PHIL 23.03 : 1 PHIL *
+PHIL 24 : 1 PHIL *
+PHIL 25 : 1 PHIL *
+PHIL 26 : 1 PHIL * or 1 COGS * or 1 COSC * 
+PHIL 27 : 1 PHIL *
+PHIL 28 : 1 PHIL *
+PHIL 28.01 : 1 PHIL *
+PHIL 28.02 : 1 PHIL *
+PHIL 28.03 : 1 PHIL *
+PHIL 29 : 1 PHIL *
+PHIL 29.01 : 1 PHIL *
+PHIL 29.02 : 1 PHIL *
+PHIL 30 : 1 PHIL *
+PHIL 31 : 1 PHIL *
+PHIL 31.01 : 1 PHIL *
+PHIL 31.04 : 1 PHIL *
+PHIL 31.05 : 1 PHIL *
+PHIL 31.06 : 1 PHIL *
+PHIL 31.07 : 1 PHIL *
+PHIL 31.08 : 1 PHIL *
+PHIL 31.09 : 1 PHIL *
+PHIL 32 : PHIL 6 or MATH 39 or MATH 69
+PHIL 34 : 1 PHIL *
+PHIL 35 : 1 PHIL *
+PHIL 35.01 : 1 PHIL * 1 COGS *
+PHIL 36 : 1 PHIL *
+PHIL 37 : 1 PHIL *
+PHIL 37.01 : 1 PHIL *
+PHIL 38 : 1 PHIL *
+PHIL 38.01 : 1 PHIL *
+PHIL 38.02 : 1 PHIL *
+PHIL 38.03 : 1 PHIL *
+PHIL 38.04 : 1 PHIL *
+PHIL 39 : 1 PHIL *
+PHIL 39.01 : 1 PHIL *
+PHIL 40 : 1 PHIL *
+PHIL 45 : 1 PHIL *
+PHIL 45.01 : 1 PHIL *
+PHIL 45.02 : 1 PHIL *
+PHIL 45.03 : 1 PHIL *
+PHIL 45.04 : 1 PHIL *
+PHIL 50 : 2 PHIL *
+PHIL 50.09 : 2 PHIL *
+PHIL 50.14 : 2 PHIL *
+PHIL 50.15 : 2 PHIL *
+PHIL 50.17 : 2 PHIL *
+PHIL 50.18 : 2 PHIL *
+PHIL 50.20 : 2 PHIL *
+PHIL 50.21 : 2 PHIL *
+PHIL 50.22 : 2 PHIL *
+PHIL 50.23 : 2 PHIL *
+PHIL 50.24 : 2 PHIL *
+PHIL 50.25 : 2 PHIL *
+PHIL 50.26 : 2 PHIL *
+PHIL 50.27 : 2 PHIL *
+PHIL 50.28 : 2 PHIL *
+PHIL 50.30 : 2 PHIL *
+PHIL 50.31 : 2 PHIL *
+PHIL 50.32 : 2 PHIL *
+PHIL 50.33 : 2 PHIL *
+PHIL 50.34 : 2 PHIL *
+PHIL 50.35 : 2 PHIL *
+PHIL 50.36 : 2 PHIL *
+PHIL 50.37 : 2 PHIL *
+PHIL 50.38 : 2 PHIL *
+PHIL 60 : 2 PHIL *
+PHIL 61 : 2 PHIL *
+PHIL 80 : instructor permission
+PHIL 80.01 : instructor permission
+PHIL 80.05 : instructor permission
+PHIL 80.06 : instructor permission
+PHIL 80.12 : instructor permission
+PHIL 80.13 : instructor permission
+PHIL 80.14 : instructor permission
+PHIL 80.15 : instructor permission
+PHIL 80.16 : instructor permission
+PHIL 80.17 : instructor permission
+PHIL 80.18 : instructor permission
+PHIL 80.19 : instructor permission
+PHIL 80.20 : instructor permission
+PHIL 80.21 : instructor permission
+PHIL 80.22 : instructor permission
+PHIL 80.23 : instructor permission
+PHIL 80.24 : instructor permission
+PHIL 80.25 : instructor permission
+PHIL 80.26 : instructor permission
+PHIL 80.27 : instructor permission
+PHIL 80.28 : instructor permission
+PHIL 80.29 : instructor permission
+PHIL 80.30 : instructor permission
+PHIL 87 : chair permission
+PHIL 89 : chair permission
+PHIL 90 : chair permission
+ASTR 15 : PHYS 3 or PHYS 13 or PHYS 15 and MATH 3
 ASTR 19 : MATH 3
-ASTR 25 : PHYS 14 or instructor permission.
-ASTR 61 : ASTR 2, ASTR 3 or ASTR 15.
-ASTR 74 : PHYS 14 or PHYS 16; and PHYS 19 or PHYS 24 or PHYS 40; and ASTR 2 or ASTR 3 or ASTR 15, or instructor permission.
-ASTR 75 : PHYS 19 and ASTR 25 or the equivalent, or instructor permission.
-ASTR 87 : chair permission.
-PHYS 3 : MATH 3.
-PHYS 4 : PHYS 3.
-PHYS 13 : MATH 3 and MATH 8 (at least concurrently).
-PHYS 14 : PHYS 13 and MATH 8, or instructor permission.
-PHYS 15 : MATH 8 or MATH 9 concurrently, and instructor permission.
-PHYS 16 : PHYS 15 or instructor permission.
-PHYS 19 : PHYS 14 and MATH 13, or instructor permission.
-PHYS 30 : CHEM 5, PHYS 13 and PHYS 14 (or equivalent). PHYS 14 (or equivalent) may be taken concurrently. Students with strong quantitative skills who have taken PHYS 3 and PHYS 4 can enroll with instructor permission.
-PHYS 31 : PHYS 13, PHYS 14 or PHYS 15, PHYS 16
-PHYS 40 : PHYS 15 or PHYS 19; and PHYS 14 or PHYS 16, or instructor permission.
-PHYS 41 : PHYS 15 or PHYS 19; and PHYS 14 or PHYS 16; or instructor permission.
-PHYS 43 : PHYS 15 or PHYS 19; and PHYS 14 or PHYS 16; or instructor permission.
-PHYS 44 : PHYS 15 or PHYS 19; and PHYS 14 or PHYS 16; and MATH 22 or MATH 23, or instructor permission.
-PHYS 47 : PHYS 14 or PHYS 16 and MATH 13, or permission.
-PHYS 48 : ENGS 22, or equivalent background in basic circuit theory.
-PHYS 50 : PHYS 40 and MATH 22 or MATH 23, or instructor permission.
-PHYS 66 : PHYS 41 or instructor permission.
-PHYS 68 : PHYS 41 or instructor permission.
-PHYS 70 : MATH 46 or ENGS 22, ENGS 23, or the equivalent.
+ASTR 25 : PHYS 14
+ASTR 61 : ASTR 2 or ASTR 3 or ASTR 15
+ASTR 74 : PHYS 14 or PHYS 16 and PHYS 19 or PHYS 24 or PHYS 40 and ASTR 2 or ASTR 3 or ASTR 15
+ASTR 75 : PHYS 19 and ASTR 25
+ASTR 87 : chair permission
+PHYS 3 : MATH 3
+PHYS 4 : PHYS 3
+PHYS 13 : MATH 3 and MATH 8
+PHYS 14 : PHYS 13 and MATH 8
+PHYS 15 : MATH 8 or MATH 9 and instructor permission
+PHYS 16 : PHYS 15
+PHYS 19 : PHYS 14 and MATH 13
+PHYS 30 : CHEM 5 and PHYS 13 and PHYS 14
+PHYS 31 : PHYS 13 and PHYS 14 or PHYS 15 and PHYS 16
+PHYS 40 : PHYS 15 or PHYS 19 and PHYS 14 or PHYS 16
+PHYS 41 : PHYS 15 or PHYS 19 and PHYS 14 or PHYS 16
+PHYS 43 : PHYS 15 or PHYS 19 and PHYS 14 or PHYS 16
+PHYS 44 : PHYS 15 or PHYS 19 and PHYS 14 or PHYS 16 and MATH 22 or MATH 23
+PHYS 47 : PHYS 14 or PHYS 16 and MATH 13
+PHYS 48 : ENGS 22
+PHYS 50 : PHYS 40 and MATH 22 or MATH 23
+PHYS 66 : PHYS 41
+PHYS 68 : PHYS 41
+PHYS 70 : MATH 46 or ENGS 22 and ENGS 23
 PHYS 72 : PHYS 50
-PHYS 73 : PHYS 43 and PHYS 50; PHYS 43 may be taken concurrently.
-PHYS 74 : PHYS 66 or PHYS 68, or instructor permission.
-PHYS 75 : PHYS 15 or PHYS 19; or MATH 22; or instructor permission.
+PHYS 73 : PHYS 43 and PHYS 50
+PHYS 74 : PHYS 66 or PHYS 68
+PHYS 75 : PHYS 15 or PHYS 19 or MATH 22
 PHYS 76 : PHYS 40
-PHYS 77 : PHYS 44 and PHYS 41.
-PHYS 82.02 : MATH 3, MATH 8, AND MATH 13
+PHYS 77 : PHYS 44 and PHYS 41
+PHYS 82.02 : MATH 13
 PHYS 90 : PHYS 50
-PHYS 92 : PHYS 41, PHYS 43, PHYS 44, PHYS 50 and ASTR 25 (recommended).
-PSYC 10 : PSYC 1 or PSYC 6 (may be taken concurrently). Because of the large overlap in material covered, no student may receive credit for more than 1 of the courses ECON 10, GOVT 10, MATH 10, PSYC 10, QSS 15, or SOCY 10 except by special petition. Cannot be taken concurrently with PSYC 11.
-PSYC 11 : PSYC 1 or PSYC 6, and PSYC 10. Cannot be taken concurrently with PSYC 10.
+PHYS 92 : PHYS 41 and PHYS 43 and PHYS 44 and PHYS 50. ASTR 25 recommended
+PSYC 10 : PSYC 1 or PSYC 6
+PSYC 11 : PSYC 1 or PSYC 6 and PSYC 10
 PSYC 21 : PSYC 1 or PSYC 6
 PSYC 22 : PSYC 1 or PSYC 6
 PSYC 23 : PSYC 1
 PSYC 24 : PSYC 1
 PSYC 25 : PSYC 1
-PSYC 28 : PSYC 1, PSYC 6, or COGS 1
-PSYC 32 : PSYC 11 required, MATH 1 or MATH 3 recommended.
+PSYC 28 : PSYC 1 or PSYC 6 or COGS 1
+PSYC 32 : PSYC 11. MATH 1 or MATH 3 recommended
 PSYC 35 : PSYC 6
 PSYC 36 : PSYC 6
 PSYC 37 : PSYC 6
 PSYC 38 : PSYC 1 or PSYC 6
-PSYC 40 : 1 of: PSYC 1, PSYC 6, COSC 1, or ENGS 20.
+PSYC 40 : PSYC 1 or PSYC 6 or COSC 1 or ENGS 20
 PSYC 43 : PSYC 1 or PSYC 6
 PSYC 44 : PSYC 1
 PSYC 50.01 : PSYC 6
 PSYC 50.02 : PSYC 1 or PSYC 6
-PSYC 50.07 : PSYC 1 or PSYC 6, and PSYC 10
-PSYC 50.08 : PSYC 6 or instructor permission
+PSYC 50.07 : PSYC 1 or PSYC 6 and PSYC 10
+PSYC 50.08 : PSYC 6
 PSYC 50.09 : PSYC 6
-PSYC 50.10 : PSYC 21, PSYC 27, PSYC 28, or PSYC 38
-PSYC 50.12 : PSYC 6 and 1 of the 4 core neuroscience classes, or instructor permission.
+PSYC 50.10 : PSYC 21 or PSYC 27 or PSYC 28 or PSYC 38
+PSYC 50.12 : PSYC 6 and PSYC 28 or PSYC 38 or PSYC 37 or PSYC 35 or PSYC 36
 PSYC 50.13 : PSYC 6
 PSYC 50.14 : PSYC 1 or PSYC 6
 PSYC 50.15 : PSYC 1 or PSYC 6
-PSYC 51.01 : PSYC 6, PSYC 21, or PSYC 28
+PSYC 51.01 : PSYC 6 or PSYC 21 or PSYC 28
 PSYC 51.02 : PSYC 1 or PSYC 6
 PSYC 51.09 : PSYC 1 or PSYC 6
-PSYC 51.12 : PSYC 1 or 6; and PSYC 10
-PSYC 51.13 : LING 1 or COGS 1 or Instructor Permission
+PSYC 51.12 : PSYC 1 or PSYC 6 and PSYC 10
+PSYC 51.13 : LING 1 or COGS 1
 PSYC 52.04 : PSYC 1
 PSYC 52.05 : PSYC 1
-PSYC 52.06 : 1 of the following: PSYC 6, PSYC 21, PSYC 27, PSYC 28, or PSYC 38
-PSYC 53.10 : PSYC 23, PSYC 27, PSYC 28, or PSYC 38
+PSYC 52.06 : PSYC 6 or PSYC 21 or PSYC 27 or PSYC 28 or PSYC 38
+PSYC 53.10 : PSYC 23 or PSYC 27 or PSYC 28 or PSYC 38
 PSYC 53.12 : PSYC 1
 PSYC 53.13 : PSYC 1 or PSYC 6
 PSYC 53.14 : PSYC 1 or PSYC 6
 PSYC 53.15 : PSYC 1 or PSYC 6
 PSYC 54.02 : PSYC 1 or PSYC 6
 PSYC 54.03 : PSYC 24
-PSYC 54.05 : PSYC 1 and 1 of: PSYC 21, PSYC 27, PSYC 28, PSYC 38; or PSYC 6
-PSYC 54.06 : PSYC 1 or PSYC 6, or instructor permission.
+PSYC 54.05 : PSYC 1 and PSYC 21 or PSYC 27 or PSYC 28 or PSYC 38 or PSYC 6
+PSYC 54.06 : PSYC 1 or PSYC 6
 PSYC 54.07 : PSYC 24 and instructor permission
-PSYC 54.08 : PSYC 1 or instructor permission
-PSYC 60 : Instructor permission through the department website
-PSYC 63 : PSYC 11, PSYC 23, and instructor permission through the department website
-PSYC 70 : PSYC 6.  Submission of the Checklist for enrolling in Independent Research, which includes approval from the advisor.
-PSYC 80.01 : PSYC 6 and 1 of PSYC 37 or PSYC 45: and instructor permission through the department website
-PSYC 80.02 : Instructor permission through the department website
-PSYC 80.04 : PSYC 6 and 1 of the following: PSYC 37 or  PSYC 45 (recommended), instructor may waive PSYC 37/45 for qualified students; and instructor permission via the department website.
-PSYC 80.05 : PSYC 1 or PSYC 6; 4 other PSYC/PSNS courses; and instructor permission via the department website.
-PSYC 80.06 : PSYC 1 or PSYC 6; and instructor permission via the department website
-PSYC 81.04 : 1 of the following: PSYC 6, PSYC 21, PSYC 28; and instructor permission through the department website.
-PSYC 81.08 : PSYC 22 or PSYC 28, and instructor permission through the department website
-PSYC 81.09 : Instructor permission through the department website
-PSYC 81.10 : PSYC 1 or PSYC 6; and PSYC 11 or a lab course that is a part of the Neuroscience major, and permission through the department website.
-PSYC 81.11 : 1 of: PSYC 6, PSYC 21, or PSYC 28, and instructor permission through the department website
-PSYC 81.12 : instructor permission.  Background in psychological and brain imaging research methods, computer science, and machine learning will be helpful, but students need not have background in all of these areas.
-PSYC 83.07 : PSYC 1, PSYC 10, and instructor permission through the department website
-PSYC 83.08 : PSYC 1 or PSYC 6, and PSYC 10 or equivalent, and 1 of the following: PSYC 23, PSYC 38, a course in the PSYC 53 series, or PSYC 60; and instructor permission through the department website
+PSYC 54.08 : PSYC 1
+PSYC 60 : instructor permission
+PSYC 63 : PSYC 11 and PSYC 23 and instructor permission
+PSYC 70 : PSYC 6 and instructor permission
+PSYC 80.01 : PSYC 6 and PSYC 37 or PSYC 45 and instructor permission
+PSYC 80.02 : instructor permission
+PSYC 80.04 : PSYC 6 and PSYC 37 or PSYC 45 and instructor permission
+PSYC 80.05 : PSYC 1 or PSYC 6 and 4 PSYC * and instructor permission
+PSYC 80.06 : PSYC 1 or PSYC 6 and instructor permission
+PSYC 81.04 : PSYC 6 or PSYC 21 or PSYC 28 and instructor permission
+PSYC 81.08 : PSYC 22 or PSYC 28 and instructor permission
+PSYC 81.09 : instructor permission
+PSYC 81.10 : PSYC 1 or PSYC 6 and PSYC 11 or PSYC 36 and instructor permission
+PSYC 81.11 : PSYC 6 or PSYC 21 or PSYC 28 and instructor permission
+PSYC 81.12 : instructor permission
+PSYC 83.07 : PSYC 1 and PSYC 10 and instructor permission
+PSYC 83.08 : PSYC 1 or PSYC 6 and PSYC 10 and PSYC 23 or PSYC 38 or PSYC 53 or PSYC 60 and instructor permission
 PSYC 83.09 : PSYC 1 or PSYC 6
-PSYC 84.05 : PSYC 1 or PSYC 6; and instructor permission through the department website
-PSYC 84.06 : PSYC 1 or PSYC 6; and 1 of the following: PSYC 23 or 28 or 53.12 or 54.08; and Instructor Permission via the Department Website
-PSYC 86.01 : Permission through the department website
-PSYC 86.04 : PSYC 6 and instructor permission through the department website.  Students interested in the course should contact the instructor prior to the course registration period. Students will be asked to complete a brief application stating their interest in the course, what they hope to get out of the course, courses completed in Neuroscience/Psychology, and any prior/current research experience. Advanced students (Seniors, then Juniors) majoring in Neuroscience or Psychology will be given priority for enrollment. A code of conduct will also be developed by and for the students to guide their participation at the conference as ambassadors of Dartmouth College.
-PSYC 86.05 : PSYC 1 and instructor permission via the department website
-PSYC 87.02 : PSYC 10 and 1 of the following: PSYC 6, PSYC 25, PSYC 27, PSYC 38; and instructor permission through the department website
-PSYC 88 : PSYC 1 or PSYC 6, and PSYC 10, and PSYC 11. Submission of the Checklist for enrolling in Independent Research, which includes approval from the advisor.
-PSYC 89.01 : PSYC 1, PSYC 10, and PSYC 11. A 60-level course is strongly recommended. Submission of the checklist for enrolling in Honors Research, which includes approval from the advisor. The checklist is available on the department website.
+PSYC 84.05 : PSYC 1 or PSYC 6 and instructor permission
+PSYC 84.06 : PSYC 1 or PSYC 6 and 1 PSYC 23 or PSYC 28 or PSYC 53.12 or PSYC 54.08 and instructor permission
+PSYC 86.01 : instructor permission
+PSYC 86.04 : PSYC 6 and instructor permission
+PSYC 86.05 : PSYC 1 and instructor permission
+PSYC 87.02 : PSYC 10 and PSYC 6 or PSYC 25 or PSYC 27 or PSYC 38 and instructor permission
+PSYC 88 : PSYC 1 or PSYC 6 and PSYC 10 and PSYC 11 and instructor permission
+PSYC 89.01 : PSYC 1 and PSYC 10 and PSYC 11 and instructor permission. PSYC 60 recommended
 PSYC 89.02 : PSYC 89.01
-PSYC 90 : PSYC 6, PSYC 10, 2 of the 4 core courses required for the major and submission of the Checklist for enrolling in Independent Research, which includes approval from the advisor.
-PSYC 91.01 : PSYC 6; and PSYC 10 or BIOL 29. Submission of the checklist for enrolling in Honors Research, which includes approval from the advisor. The checklist is available on the department website.
+PSYC 90 : PSYC 6 and PSYC 10 and 2 of the 4 core courses required for the major and instructor permission
+PSYC 91.01 : PSYC 6 and PSYC 10 or BIOL 29 and instructor permission
 PSYC 91.02 : PSYC 91.01
-QSS 15 : MATH 3 or higher, or permission.
+QSS 15 : MATH 3
 QSS 30.04 : MATH 3
-QSS 36 : MATH 13, MATH 20
-REL 70 : 1 course in Religion.
-REL 71 : 1 course in Religion.
-RUSS 3 : RUSS 2
-RUSS 21 : membership in the L.S.A. Program.
-RUSS 22 : membership in the Foreign Study Program.
-RUSS 23 : membership in the L.S.A. Program.
-RUSS 27 : RUSS 3 or permission
-RUSS 28 : RUSS 27 or permission
-RUSS 29 : RUSS 28 or permission
-RUSS 41 : RUSS 29 or higher
-RUSS 45 : RUSS 29 or higher
+QSS 36 : MATH 13 and MATH 20
+REL 70 : 1 REL *
+REL 71 : 1 REL *
+RUSS 3 : RUSS 2*
+RUSS 27 : RUSS 3
+RUSS 28 : RUSS 27
+RUSS 29 : RUSS 28
+RUSS 41 : RUSS 29+
+RUSS 45 : RUSS 29+
 RUSS 48 : RUSS 29
-RUSS 71 : At least 1 course in the 40s; students who have equivalent preparation may enroll with instructor permission.
-SOCY 15 : SOCY 1 or SOCY 2, or instructor permission.
-SOCY 16 : SOCY 1 or SOCY 2, or instructor permission
-SOCY 50 : SOCY 1 or SOCY 2, or instructor permission
+RUSS 71 : 1 RUSS 40-49
+SOCY 15 : SOCY 1 or SOCY 2
+SOCY 16 : SOCY 1 or SOCY 2
+SOCY 50 : SOCY 1 or SOCY 2
 SOCY 54 : SOCY 10
-SOCY 63 : SOCY 1 or SOCY 2, and 1 other Sociology course
+SOCY 63 : SOCY 1 or SOCY 2 and 1 SOCY *
 SOCY 65 : SOCY 1 or SOCY 2
-SOCY 72 : Students who wish to enroll in this course should have previously completed either Introduction to Sociology or Social Problems. This requirement may be waived for students who have taken certain other sociology courses; contact the instructor to find out if you are eligible.
-SPAN 9 : SPAN 3; AP Lang 4 or AP Lit 4; local placement test 600+, or instructor permission. SPAN 9 serves as a prerequisite for SPAN 20.
-SPAN 20 : Participation in 1 of the Spanish LSA programs; SPAN 9 or SPAN 15; exemption from SPAN 9 based on test scores (see Department web site); or instructor permission. SPAN 20 may be taken in conjunction with 30-level survey courses. It serves as a prerequisite for all Spanish courses 40 and higher.
-SPAN 23 : Acceptance into the Dartmouth Foreign Study Program, Argentina.
-SPAN 24 : Acceptance into the Dartmouth Foreign Study Program, Spain.
+SOCY 72 : 1 SOCY *
+SPAN 9 : SPAN 3
+SPAN 20 : SPAN 5 or SPAN 6 or SPAN 9 or SPAN 15
+SPAN 23 : Acceptance into the Dartmouth Foreign Study Program Argentina
+SPAN 24 : Acceptance into the Dartmouth Foreign Study Program Spain
 SPAN 30 : SPAN 20
 SPAN 31 : SPAN 20
 SPAN 32 : SPAN 20
-SPAN 33 : Acceptance into the Dartmouth Foreign Study Program, Argentina.
-SPAN 34 : acceptance into the Dartmouth Foreign Study Program, Spain.
-SPAN 35 : Acceptance into the Dartmouth Foreign Study Program, Argentina.
-SPAN 36 : acceptance into the Dartmouth Foreign Study Program, Spain.
+SPAN 33 : Acceptance into the Dartmouth Foreign Study Program Argentina
+SPAN 34 : Acceptance into the Dartmouth Foreign Study Program Spain
+SPAN 35 : Acceptance into the Dartmouth Foreign Study Program Argentina
+SPAN 36 : Acceptance into the Dartmouth Foreign Study Program Spain
 SPAN 40.07 : SPAN 20
 SPAN 40.12 : SPAN 20
 SPAN 45.05 : SPAN 20
@@ -912,53 +896,53 @@ SPAN 75.01 : SPAN 20
 SPAN 77.05 : SPAN 20
 SPAN 80.22 : SPAN 20
 SPAN 80.23 : SPAN 20
-SPAN 83 : instructor permission.
-SPAN 90 : Admission to the Honors Program.
-SPAN 91 : Prior admission to the Department's Honors Program; clear evidence of capability to perform honors level work, normally indicated by completion of SPAN 90 with a grade of B+ or higher.
-PORT 3 : PORT
-PORT 9 : Completion of the foreign language requirement in Portuguese, or chair permission.
+SPAN 83 : instructor permission
+SPAN 90 : Admission to the Honors Program
+SPAN 91 : SPAN 90
+PORT 3 : PORT 2
+PORT 9 : PORT 3 or chair permission
 PORT 20 : PORT 9
 PORT 25 : Acceptance into the Dartmouth Foreign Study Program
 PORT 35 : Acceptance into the Dartmouth Foreign Study Program
 PORT 36 : Acceptance into the Dartmouth Foreign Study Program
 PORT 60 : PORT 9
-PORT 61 : PORT 9 or instructor permission.
-PORT 62 : PORT 9 or instructor permission.
-PORT 63 : PORT 9 or instructor permission.
-PORT 80 : PORT 9 or instructor permission.
-PORT 90 : Admission to the Honors Program.
-PORT 91 : Prior admission to the Department's Honors Program; clear evidence of capability to perform honors level work, normally indicated by completion of PORT 90 with a grade of B+ or higher.
-SART 20 : SART 15.
+PORT 61 : PORT 9
+PORT 62 : PORT 9
+PORT 63 : PORT 9
+PORT 80 : PORT 9
+PORT 90 : Admission to the Honors Program
+PORT 91 : PORT 90
+SART 20 : SART 15
 SART 21 : SART 16
 SART 22 : SART 15
-SART 23 : SART 16 (Prerequisite waived per request of the Professor)
+SART 23 : SART 16
 SART 25 : SART 15
-SART 28 : SART 26 or SART 27. Supplemental course fee required. Enrollment limited.
-SART 30 : SART 29.
+SART 28 : SART 26 or SART 27
+SART 30 : SART 29
 SART 31 : SART 25
-SART 66 : SART 65. Supplemental course fee required.
-SART 68 : SART 66.
-SART 71 : SART 20.
+SART 66 : SART 65
+SART 68 : SART 66
+SART 71 : SART 20
 SART 72 : SART 31
 SART 73 : SART 21
-SART 74 : SART 28. Supplemental course fee required.
-SART 75 : SART 30.
-SART 77 : SART 76.
-THEA 10.32 : THEA 35; equivalent experience may be considered. Instructor permission is required; contact instructor for details.
-THEA 10.71 : THEA 30: Acting I. Equivalent performance courses or experience will be considered on an individual basis.
-THEA 27 : THEA 26; equivalent experience may be considered. Contact instructor for details.
-THEA 31 : THEA 30.
-THEA 35 : THEA 30 and instructor permission; contact instructor for details.
+SART 74 : SART 28
+SART 75 : SART 30
+SART 77 : SART 76
+THEA 10.32 : THEA 35 and instructor permission
+THEA 10.71 : THEA 30
+THEA 27 : THEA 26
+THEA 31 : THEA 30
+THEA 35 : THEA 30 and instructor permission
 THEA 51 : THEA 50
-THEA 54 : THEA 30 or equivalent experience.
-THEA 60 : 1 theater history course is required: either THEA 15, 16, or 17. In addition, 1 theater practice course is required: either THEA 10 (with Chair's approval), 25, 26, 27, 28, 29, 30, 35, 36, 40, 41, 42, 44, 48, or 50.
-THEA 61 : 1 theater history course is required: either THEA 15, 16, or 17. In addition, 1 theater practice course is required: either THEA 10 (with Chair's approval), 25, 26, 27, 28, 29, 30, 35, 36, 40, 41, 42, 44, 48, or 50.
-THEA 62 : 1 theater history course is required: either THEA 15, 16, or 17. In addition, 1 theater practice course is required: either THEA 10 (with Chair's approval), 25, 26, 27, 28, 29, 30, 35, 36, 40, 41, 42, 44, 48, or 50.
-THEA 80 : Course admission is determined by a proposal process; contact the Chair or visit the dept website for details.
-THEA 90 : Open to Theater majors and modified majors only.
-THEA 91 : For details on the Honors Thesis acceptance process, please see the section in the ORC on the Theater Honors Program and/or visit the Department of Theater website.
+THEA 54 : THEA 30
+THEA 60 : THEA 15 or THEA 16 or THEA 17 and THEA 10 or THEA 25 or THEA 26 or THEA 27 or THEA 28 or THEA 29 or THEA 30 or THEA 35 or THEA 36 or THEA 40 or THEA 41 or THEA 42 or THEA 44 or THEA 48 or THEA 50
+THEA 61 : THEA 15 or THEA 16 or THEA 17 and THEA 10 or THEA 25 or THEA 26 or THEA 27 or THEA 28 or THEA 29 or THEA 30 or THEA 35 or THEA 36 or THEA 40 or THEA 41 or THEA 42 or THEA 44 or THEA 48 or THEA 50
+THEA 62 : THEA 15 or THEA 16 or THEA 17 and THEA 10 or THEA 25 or THEA 26 or THEA 27 or THEA 28 or THEA 29 or THEA 30 or THEA 35 or THEA 36 or THEA 40 or THEA 41 or THEA 42 or THEA 44 or THEA 48 or THEA 50
+THEA 80 : chair permission
+THEA 90 : THEA majors only
+THEA 91 : Admission to the Honors Program
 WGSS 66.14 : ECON 1
-WGSS 85 : instructor permission and approval of the WGSS Chair and Steering Committee.
-WRIT 7 : WRIT 5, WRIT 2 and WRIT 3, or HUM 1.
-WRIT 41 : PBPL 5 or instructor permission.
-WRIT 43 : WRIT 5, WRIT 2 and WRIT 3, or HUM 1.
+WGSS 85 : instructor permission and chair permission
+WRIT 7 : WRIT 5 or WRIT 3 or HUM 1
+WRIT 41 : PBPL 5
+WRIT 43 : WRIT 5 or WRIT 3 or HUM 1
