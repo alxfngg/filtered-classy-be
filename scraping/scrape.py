@@ -10,16 +10,23 @@ import re
 from bs4 import BeautifulSoup
 
 ROOT_URL = "https://dartmouth.smartcatalogiq.com/"
+previous_subject = None
 
-def get_course_name(soup: BeautifulSoup, selector1: str, selector2: str) -> (dict, str):
+def get_course_name(soup: BeautifulSoup, selector1: str, selector2: str):
     """
     retrieves and returns the course name on the ORC page, which consists of a department, number, and title. 
     Each value is returned as a string
     with department and number nested together within a dictionary.
     """
+    global previous_subject
     course_number = soup.select(selector1)[0].contents[0].split()
-    course_dept = course_number[0]
-    course_number = course_number[1]
+    if len(course_number) != 2:
+        course_dept = previous_subject
+        course_number = course_number[0]
+    else:
+        course_dept = course_number[0]
+        previous_subject = course_dept
+        course_number = course_number[1]
     course_title = soup.select(selector2)[0].contents[2].strip()
     course_code = {
         'course_dept': course_dept,
@@ -144,6 +151,9 @@ def scrape_course_page(root_url: str, link: str):
         'offered': offered_terms,
     }
 
+    if prereqs:
+        print(course_code['course_dept'], course_code['course_number'], ":", prereqs)
+
     course_json = json.dumps(course)
     return course_json
 
@@ -159,8 +169,6 @@ def scrape_course_pages(root_url: str, soup: BeautifulSoup):
         for course in courses:
             link = course['href']
             course_json = scrape_course_page(root_url, link)
-            if '"prereqs": []' not in course_json:
-                print(course_json, "\n\n")
 
 
 def scrape_dept_pages(root_url: str, seed: str, func = None):
