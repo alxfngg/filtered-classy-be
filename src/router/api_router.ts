@@ -1,3 +1,4 @@
+import { privateEncrypt } from "crypto";
 import express, { Router } from "express";
 import * as TaskController from "../controller/task.controller";
 
@@ -8,9 +9,42 @@ router.get('/', (req, res) => {
 });
 
 router.route('/tasks')
-    .get(TaskController.getTasks)
-    .post(TaskController.createTask)
-    .put(TaskController.updateTask)
-    .delete(TaskController.deleteTask)
+    .get(async (req, res) => {
+        try {
+            const result = await TaskController.getTasks();
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+    .post(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await TaskController.createTask(req.body);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+    .put(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await TaskController.updateTask(req.body.id, req.body.task);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+    .delete(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await TaskController.deleteTask(req.body.id);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+
 
 export default router;

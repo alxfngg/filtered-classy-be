@@ -1,7 +1,11 @@
 
-import * as bodyParser from "body-parser";
+// import * as bodyParser from "body-parser";
 import express from "express";
 import apiRouter from "./router/api_router";
+import cors from 'cors';
+import path from 'path';
+import morgan from 'morgan';
+import { connect, disconnect } from './db.config';
 // import { TaskController } from "./controller/task.controller";
 
 class App {
@@ -9,9 +13,9 @@ class App {
     public app: express.Application;
     // public taskController: TaskController;
 
-
     constructor() {
         this.app = express();
+        connect();
         this.middleware();
         this.routes();
         // this.taskController = new TaskController();
@@ -19,8 +23,12 @@ class App {
 
     // Configure Express middleware.
     private middleware(): void {
-        this.app.use(bodyParser.json());
-        this.app.use(bodyParser.urlencoded({ extended: false }));
+        this.app.use(express.urlencoded({ extended: true }));
+        this.app.use(express.json()); // To parse the incoming requests with JSON payloads
+        this.app.use(cors());
+        this.app.use(morgan('dev'));
+        // enable only if you want static assets from folder static
+        // this.app.use(express.static('static'));
     }
 
     private routes(): void {

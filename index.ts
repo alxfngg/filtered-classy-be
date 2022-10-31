@@ -1,6 +1,7 @@
 import * as http from "http";
 import App from "./src/app";
-require('dotenv').config()
+
+require('dotenv').config({silent:true})
 
 const port = process.env.PORT || 8000;
 
@@ -19,4 +20,6 @@ server.on("listening", function (): void {
 });
 
 module.exports = App;
+
+
 

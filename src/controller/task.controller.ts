@@ -1,15 +1,18 @@
-import { connect, disconnect } from "../db.config";
 import { TaskModel } from '../model/task.model';
 
 export const getTasks = async () => {
+    console.log("In getTasks");
     const tasks = await TaskModel.find({});
     console.log('tasks:::', tasks);
     return tasks;
 }
 
-export const createTask = async (req: any, res: any, task: any) => {
+export const createTask = async (task: string) => {
     let data = {};
     try {
+        console.log("In createTask");
+        console.log('task in create task is: ', task);
+        console.log(TaskModel);
         data = await TaskModel.create(task);
     } catch (err) {
         console.log('Error::' + err);
@@ -17,54 +20,26 @@ export const createTask = async (req: any, res: any, task: any) => {
     return data;
 }
 
-export const updateTask = async (req: any, res: any, task: any) => {
-    let data = {};
+export const updateTask = async (id: string, task: string) => {
     try {
-        data = await TaskModel.updateOne(task);
+        await TaskModel.findByIdAndUpdate(id, {
+            task: task,
+        }, { new: true }) as object;
+        const updatedTask: object = await TaskModel.findById({ _id: id }) as object;
+        return updatedTask;
     } catch (err) {
         console.log('Error::' + err);
     }
-    return data;
 }
 
-export const deleteTask = async (req: any, res: any) => {
-    let data: any = {};
+export const deleteTask = async (id: string) => {
     try {
-        data = await TaskModel.deleteOne({ _id: req.params.id });
+        let taskDeleted: object = await TaskModel.findById(id) as object;
+        let deletedCount: number = await (await TaskModel.deleteOne({ _id: id })).deletedCount;
+        if (deletedCount === 1) {
+            return { taskDeleted };
+        }
     } catch (err) {
         console.log('Error::' + err);
     }
-    return { status: `${data.deletedCount > 0 ? true : false}` };
 }
-
-
-// import { TaskService } from '../service/task.service';
-
-// export class TaskController {
-
-//     private taskService: TaskService;
-
-//     constructor() {
-//         this.taskService = new TaskService();
-//     }
-
-//     async getTasks() {
-//         console.log('Controller: getTasks', null)
-//         return await this.taskService.getTasks();
-//     }
-
-//     async createTask(task: any) {
-//         console.log('Controller: createTask', task);
-//         return await this.taskService.createTask(task);
-//     }
-
-//     async updateTask(task: any) {
-//         console.log('Controller: updateTask', task);
-//         return await this.taskService.updateTask(task);
-//     }
-
-//     async deleteTask(taskId: number) {
-//         console.log('Controller: deleteTask', taskId);
-//         return await this.taskService.deleteTask(taskId);
-//     }
-// }

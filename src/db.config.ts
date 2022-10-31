@@ -6,24 +6,14 @@ let database: Mongoose.Connection;
 
 export const connect = () => {
 
-  const url = process.env.MONGO_CONNECTION_STRING;
-  console.log("from connect: process.env.MONGO_CONNECTION_STRING :::", process.env.MONGO_CONNECTION_STRING)
+  const mongoURI = process.env.MONGO_CONNECTION_STRING;
 
-  if (database) {
-    return;
-  }
 
-  Mongoose.connect(url!, {
-  });
-
-  database = Mongoose.connection;
-
-  database.once("open", async () => {
-    console.log("Connected to database");
-  });
-
-  database.on("error", () => {
-    console.log("Error connecting to database");
+  Mongoose.connect(mongoURI!, {
+  }).then(() => {
+    console.log('connected to database');
+  }).catch((err) => {
+    console.log('error: could not connect to db:', err);
   });
 
 };
