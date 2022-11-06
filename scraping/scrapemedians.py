@@ -54,11 +54,17 @@ for course, data in courses.items():
         term_avg = average_medians(medians)
         courses[course][term] = term_avg
 
+avg_medians = {}
+
 for course, data in courses.items():
     total = 0
     for term, avg in data.items():
         total += avg
-    courses[course]["avg"] = total / len(data.items())
+    avg_medians[course] = total / len(data.items())
 
 for course, data in courses.items():
     print(course, data)
+
+print()
+for course, median in avg_medians.items():
+    print(course, median)
