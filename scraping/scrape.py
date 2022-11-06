@@ -151,10 +151,11 @@ def scrape_course_page(root_url: str, link: str):
         'offered': offered_terms,
     }
 
-    if prereqs:
-        print(course_code['course_dept'], course_code['course_number'], ":", prereqs)
-
     course_json = json.dumps(course)
+    if course['course_code']['course_dept'] == 'COSC': 
+        print(course_json)
+    else:
+        print(course['course_code'])
     return course_json
 
 def scrape_course_pages(root_url: str, soup: BeautifulSoup):
