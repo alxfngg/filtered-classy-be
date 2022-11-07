@@ -23,4 +23,4 @@ const RequirementsSchema: Schema = new Schema({
 }
 );
 
-export const MajorModel: Model<IRequirements> = model<IRequirements>('Requirements', RequirementsSchema);
+export const RequirementsModel: Model<IRequirements> = model<IRequirements>('Requirements', RequirementsSchema);
