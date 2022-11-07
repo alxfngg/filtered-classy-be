@@ -18,7 +18,7 @@ const DepartmentSchema: Schema = new Schema({
   code: { type: String, required: true }, // code of the department
   majors: [{ type: Schema.Types.ObjectId, ref: 'Major' }], // majors for this department
   minors: [{ type: Schema.Types.ObjectId, ref: 'Minor' }], // minors for this department
-  reviews: [{ type: Schema.Types.ObjectId, ref: 'Review' }], // reviews for this department
+  reviews: [{ type: Schema.Types.ObjectId, ref: 'DeptReview' }], // reviews for this department
   courses: [{ type: Schema.Types.ObjectId, ref: 'Course' }], // courses for this department
 
   createDate: { type: Date, default: Date.now },
