@@ -1,0 +1,1900 @@
+{"course": "ANTH 35", "required": [["ANTH *", "LACS *"]], "counts": [1], "recommended": null}
+
+{"course": "ANTH 37", "required": [["ANTH *", "LACS *"]], "counts": [1], "recommended": null}
+
+{"course": "ANTH 43", "required": [["ANTH 6"]], "counts": [1], "recommended": null}
+
+{"course": "ANTH 48", "required": [["ANTH *", "REL *"]], "counts": [1], "recommended": null}
+
+{"course": "ANTH 50.46", "required": [["BIOL 12", "BIOL 19", "BIOL 13", "BIOL 14", "BIOL 15", "BIOL 16", "EARS 2"]], "counts": [1], "recommended": null}
+
+{"course": "ANTH 54", "required": [["ANTH *"]], "counts": [2], "recommended": null}
+
+{"course": "ANTH 85", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "ANTH 87", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "ANTH 88", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "ASCL 70.22", "required": [["ASCL *"]], "counts": [1], "recommended": null}
+
+{"course": "CHIN 31", "required": [["CHIN 23"]], "counts": [1], "recommended": null}
+
+{"course": "CHIN 32", "required": [["CHIN 23"]], "counts": [1], "recommended": null}
+
+{"course": "CHIN 33", "required": [["CHIN 23"]], "counts": [1], "recommended": null}
+
+{"course": "CHIN 41", "required": [["CHIN 31-33"]], "counts": [2], "recommended": null}
+
+{"course": "CHIN 42", "required": [["CHIN 31-33"]], "counts": [2], "recommended": null}
+
+{"course": "JAPN 31", "required": [["JAPN 23"]], "counts": [1], "recommended": null}
+
+{"course": "JAPN 32", "required": [["JAPN 31"]], "counts": [1], "recommended": null}
+
+{"course": "JAPN 33", "required": [["JAPN 32"]], "counts": [1], "recommended": null}
+
+{"course": "JAPN 41", "required": [["JAPN 31-33"]], "counts": [2], "recommended": null}
+
+{"course": "JAPN 42", "required": [["JAPN 41"]], "counts": [1], "recommended": null}
+
+{"course": "JAPN 43", "required": [["JAPN 41", "JAPN 42"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 21", "required": [["BIOL 15", "BIOL 16"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 22", "required": [["BIOL 16"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 23", "required": [["BIOL 15", "BIOL 16"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 24", "required": [["BIOL 15", "BIOL 16"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 25", "required": [["BIOL 12", "BIOL 19", "BIOL 13", "BIOL 14", "BIOL 15", "BIOL 16"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 26", "required": [["BIOL 16", "ENVS 2", "GEOG 3"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 27", "required": [["BIOL 15", "BIOL 16"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 28", "required": [["BIOL 12", "BIOL 19", "BIOL 13", "BIOL 14", "BIOL 15", "BIOL 16", "EARS 2"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 29", "required": [["BIOL 11+"]], "counts": [2], "recommended": null}
+
+{"course": "BIOL 31", "required": [["BIOL 12", "BIOL 19", "BIOL 13", "BIOL 14", "BIOL 15", "BIOL 16"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 32", "required": [["BIOL 12", "BIOL 19", "BIOL 13", "BIOL 14", "BIOL 15", "BIOL 16", "PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 35", "required": [["BIOL 12", "BIOL 19", "BIOL 14", "PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 37", "required": [["BIOL 12", "BIOL 19"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 40", "required": [["BIOL 12", "BIOL 19"], ["CHEM 52", "CHEM 58"]], "counts": [1, 1], "recommended": null}
+
+{"course": "BIOL 41", "required": [["BIOL 12", "BIOL 19"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 42", "required": [["BIOL 12", "BIOL 19", "BIOL 13"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 43", "required": [["BIOL 12", "BIOL 19", "BIOL 13"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 45", "required": [["BIOL 13"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 46", "required": [["BIOL 12", "BIOL 19", "BIOL 13", "BIOL 16"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 47", "required": [["BIOL 13 OR BIOL 15"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 48", "required": [["BIOL 12", "BIOL 19", "BIOL 13", "BIOL 14", "BIOL 15", "BIOL 16"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 50.01", "required": [["BIOL 16"], ["BIOL 21-32"]], "counts": [1, 1], "recommended": null}
+
+{"course": "BIOL 50.02", "required": [["BIOL 16"], ["BIOL 21-31", "BIOL 46", "BIOL 48"]], "counts": [1, 1], "recommended": null}
+
+{"course": "BIOL 51", "required": [["BIOL 16"], ["BIOL 22-32"]], "counts": [1, 1], "recommended": null}
+
+{"course": "BIOL 53", "required": [["BIOL 15", "BIOL 16"], ["BIOL 21", "BIOL 22", "BIOL 23", "BIOL 24", "BIOL 25", "BIOL 27", "BIOL 28", "BIOL 29", "BIOL 31", "BIOL 46"]], "counts": [1, 1], "recommended": null}
+
+{"course": "BIOL 54", "required": [["BIOL 16"], ["BIOL 21-32"]], "counts": [1, 1], "recommended": null}
+
+{"course": "BIOL 55", "required": [["BIOL 16"], ["1 BIOL 21-32"]], "counts": [1, 1], "recommended": ["BIOL 15"]}
+
+{"course": "BIOL 56", "required": [["BIOL 55"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 57", "required": [["BIOL 55"], ["BIOL 56"]], "counts": [1, 1], "recommended": null}
+
+{"course": "BIOL 58", "required": [["BIOL 15"], ["BIOL 16"], ["BIOL 21-32"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "BIOL 59", "required": [["BIOL 29"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 59.01", "required": [["BIOL 29", "QSS 15", "GOVT 10", "ECON 10", "SOCY 10", "PSYC 10"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 60.01", "required": [["BIOL 21-32", "BIOL 47", "BIOL 48"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 60.02", "required": [["BIOL 15"], ["BIOL 21", "BIOL 23", "BIOL 24", "BIOL 27", "BIOL 28", "BIOL 32", "BIOL 37", "BIOL 47"]], "counts": [1, 1], "recommended": null}
+
+{"course": "BIOL 63", "required": [["BIOL 40", "BIOL 41", "BIOL 43", "BIOL 45", "BIOL 47", "CHEM 41"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 66", "required": [["BIOL 12", "BIOL 19"], ["BIOL 13"], ["BIOL 40", "BIOL 41", "BIOL 43", "BIOL 45", "CHEM 41"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "BIOL 69", "required": [["BIOL 12", "BIOL 19"], ["BIOL 13"], ["BIOL 37", "BIOL 40", "BIOL 41", "BIOL 43", "BIOL 45", "CHEM 41"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "BIOL 70", "required": [["BIOL 12", "BIOL 19"], ["BIOL 13"], ["BIOL 40", "BIOL 41", "BIOL 45", "CHEM 41"], ["IP"]], "counts": [1, 1, 1, 1], "recommended": null}
+
+{"course": "BIOL 71", "required": [["BIOL 12", "BIOL 19"], ["BIOL 13"], ["BIOL 40", "BIOL 41", "BIOL 43", "BIOL 45", "CHEM 41"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "BIOL 72", "required": [["BIOL 29"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 73", "required": [["BIOL 72"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "BIOL 74", "required": [["BIOL 35", "PSYC 35", "BIOL 40", "BIOL 41", "BIOL 43", "BIOL 45", "PSYC 6", "PSYC 65"]], "counts": [2], "recommended": null}
+
+{"course": "BIOL 74.01", "required": [["BIOL 12", "BIOL 13", "BIOL 14", "BIOL 49", "BIOL 35", "PSYC 6", "PSYC 35", "PSYC 46", "PSYC 65"]], "counts": [2], "recommended": null}
+
+{"course": "BIOL 74.02", "required": [[" BIOL 12", "BIOL 13", "BIOL 14", "BIOL 35", "BIOL 49", "PSYC 6", "PSYC 35", "PSYC 46", "PSYC 65"]], "counts": [2], "recommended": null}
+
+{"course": "BIOL 76", "required": [["BIOL 12", "BIOL 19"], ["BIOL 13"], ["BIOL 40", "BIOL 41", "BIOL 43", "BIOL 45", "BIOL 47", "CHEM 41"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "BIOL 78", "required": [["BIOL 13"], ["BIOL 40", "CHEM 41"]], "counts": [1, 1, 1], "recommended": ["BIOL 2", "BIOL 14", "BIOL 37"]}
+
+{"course": "BIOL 95", "required": [["BIOL *"], ["IP"]], "counts": [3, 1], "recommended": null}
+
+{"course": "BIOL 96", "required": [["BIOL 95"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "BIOL 97", "required": [["BIOL 20+"], ["IP"]], "counts": [2, 1], "recommended": null}
+
+{"course": "BIOL 98", "required": [["BIOL 97"]], "counts": [1], "recommended": null}
+
+{"course": "BIOL 99", "required": [["BIOL 97"]], "counts": [1], "recommended": null}
+
+{"course": "CHEM 6", "required": [["MATH 3"], ["CHEM 5"]], "counts": [1, 1], "recommended": null}
+
+{"course": "CHEM 40", "required": [["CHEM 6", "CHEM 10"], ["PHYS 13", "PHYS 15", "PHYS 4"], ["MATH 8"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "CHEM 41", "required": [["CHEM 52", "CHEM 58"]], "counts": [1], "recommended": null}
+
+{"course": "CHEM 42", "required": [["CHEM 40", "CHEM 76"], ["CHEM 41"]], "counts": [1, 1], "recommended": null}
+
+{"course": "CHEM 51", "required": [["CHEM 6", "CHEM 10"]], "counts": [1], "recommended": null}
+
+{"course": "CHEM 52", "required": [["CHEM 6", "CHEM 10"], ["CHEM 51", "CHEM 57"]], "counts": [1, 1], "recommended": null}
+
+{"course": "CHEM 57", "required": [["IP"], ["CHEM 6", "CHEM 10"]], "counts": [1, 1], "recommended": null}
+
+{"course": "CHEM 58", "required": [["CHEM 57"]], "counts": [1], "recommended": null}
+
+{"course": "CHEM 63", "required": [["CHEM 51", "CHEM 57"]], "counts": [1], "recommended": null}
+
+{"course": "CHEM 64", "required": [["CHEM 51", "CHEM 57"]], "counts": [1], "recommended": null}
+
+{"course": "CHEM 75", "required": [["CHEM 6", "CHEM 10"], ["PHYS 13", "PHYS 15", "PHYS 4"], ["MATH 8"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "CHEM 76", "required": [["CHEM 75"], ["CHEM 64"]], "counts": [1, 1], "recommended": null}
+
+{"course": "CHEM 87", "required": [["CP"]], "counts": [1], "recommended": null}
+
+{"course": "CHEM 91", "required": [["CHEM 64"], ["CHEM 52", "CHEM 58"]], "counts": [1, 1], "recommended": null}
+
+{"course": "CHEM 92", "required": [["CHEM 64"], ["CHEM 41", "BIOL 40"]], "counts": [1, 1], "recommended": null}
+
+{"course": "CHEM 93", "required": [["CHEM 52", "CHEM 58"]], "counts": [1], "recommended": null}
+
+{"course": "CHEM 95.02", "required": [["CHEM 41"], ["CHEM 42", "CHEM 76"]], "counts": [1, 1], "recommended": null}
+
+{"course": "CHEM 95.03", "required": [["CHEM 41"], ["CHEM 42", "CHEM 76"]], "counts": [1, 1], "recommended": null}
+
+{"course": "CHEM 96.01", "required": [["MATH 13"], ["CHEM 76"]], "counts": [1, 1], "recommended": null}
+
+{"course": "CHEM 96.02", "required": [["MATH 13"], ["CHEM 76"]], "counts": [1, 1], "recommended": null}
+
+{"course": "CHEM 96.03", "required": [["CHEM 76"]], "counts": [1], "recommended": null}
+
+{"course": "CHEM 96.04", "required": [["CHEM 75"]], "counts": [1], "recommended": null}
+
+{"course": "CHEM 96.07", "required": [["CHEM 76", "PHYS 24", "ENGS 24"]], "counts": [1], "recommended": null}
+
+{"course": "CHEM 96.08", "required": [["MATH 13"], ["CHEM 76"]], "counts": [1, 1], "recommended": null}
+
+{"course": "CLST 30.01", "required": [["CLST 6", "CLST 14", "CLST 15", "CLST 20", "CLST 21", "CLST 22", "GRK 11"], ["CP"]], "counts": [3, 1], "recommended": null}
+
+{"course": "CLST 30.02", "required": [["CLST 6", "CLST 14", "CLST 15", "CLST 20", "CLST 21", "CLST 22", "GRK 11"], ["CP"]], "counts": [3, 1], "recommended": null}
+
+{"course": "CLST 31", "required": [["CLST 6", "CLST 14", "CLST 15", "CLST 20", "CLST 21", "CLST 22", "GRK 11"], ["CP"]], "counts": [3, 1], "recommended": null}
+
+{"course": "CLST 87", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "GRK 3", "required": [["GRK 1"]], "counts": [1], "recommended": null}
+
+{"course": "GRK 10", "required": [["GRK 3"]], "counts": [1], "recommended": null}
+
+{"course": "GRK 20", "required": [["GRK 10"]], "counts": [1], "recommended": null}
+
+{"course": "GRK 24", "required": [["GRK 10"]], "counts": [1], "recommended": null}
+
+{"course": "GRK 26", "required": [["GRK 10"]], "counts": [1], "recommended": null}
+
+{"course": "GRK 29", "required": [["GRK 10"]], "counts": [1], "recommended": null}
+
+{"course": "GRK 87", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "LAT 3", "required": [["LAT 1"]], "counts": [1], "recommended": null}
+
+{"course": "LAT 15", "required": [["LAT 3", "LAT 10"]], "counts": [1], "recommended": null}
+
+{"course": "LAT 28", "required": [["LAT 10"]], "counts": [1], "recommended": null}
+
+{"course": "LAT 87", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "COGS 2", "required": [["PSYC 1", "PSYC 6", "COSC 1"]], "counts": [1], "recommended": null}
+
+{"course": "COGS 25", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "COGS 26", "required": [["PHIL *", "COGS *", "COSC *"]], "counts": [1], "recommended": null}
+
+{"course": "COGS 44", "required": [["COSC 10"]], "counts": [1], "recommended": ["COSC 30"]}
+
+{"course": "COGS 50.04", "required": [["PHIL *", "COGS *"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 10", "required": [["COSC 1", "ENGS 20"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 16", "required": [["PSYC 1", "PSYC 6", "COSC 1", "ENGS 20"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 23.01", "required": [["COSC 22"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 25.02", "required": [["COSC 25.01"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "COSC 27", "required": [["COSC 22"], ["COSC 24", "COSC 23.01"]], "counts": [1, 1], "recommended": null}
+
+{"course": "COSC 28", "required": [["COSC 27"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "COSC 30", "required": [["MATH 3"], ["COSC 10"]], "counts": [1, 1], "recommended": null}
+
+{"course": "COSC 31", "required": [["COSC 10"], ["COSC 30"]], "counts": [1, 1], "recommended": null}
+
+{"course": "COSC 32", "required": [["COSC 31"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 34", "required": [["COSC 30"], ["COSC 31"]], "counts": [1, 1], "recommended": null}
+
+{"course": "COSC 35", "required": [["COSC 31"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 36", "required": [["COSC 31"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 39", "required": [["COSC 30", "COSC 31"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 40", "required": [["COSC 39"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 49.04", "required": [["COSC 31"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 49.06", "required": [["COSC 31"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 49.08", "required": [["COSC 31"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 49.09", "required": [["COSC 31"], ["MATH 22", "MATH 24"]], "counts": [1, 1], "recommended": null}
+
+{"course": "COSC 49.10", "required": [["COSC 31"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 50", "required": [["COSC 10"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 51", "required": [["COSC 1", "ENGS 20"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 52", "required": [["COSC 10"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 55", "required": [["COSC 50"]], "counts": [1], "recommended": ["COSC 51"]}
+
+{"course": "COSC 56", "required": [["ENGS 20", "COSC 1"], ["COSC 10"]], "counts": [1, 1], "recommended": null}
+
+{"course": "COSC 57", "required": [["COSC 50"]], "counts": [1, 1], "recommended": ["COSC 51"]}
+
+{"course": "COSC 58", "required": [["COSC 50"], ["COSC 51"]], "counts": [1, 1], "recommended": null}
+
+{"course": "COSC 59", "required": [["COSC 10"], ["COSC 30"]], "counts": [1, 1], "recommended": ["COSC 51"]}
+
+{"course": "COSC 60", "required": [["COSC 30"], ["COSC 50"]], "counts": [1, 1], "recommended": ["COSC 51"]}
+
+{"course": "COSC 61", "required": [["COSC 50"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 62", "required": [["COSC 30"], ["COSC 50"]], "counts": [1], "recommended": ["COSC 51"]}
+
+{"course": "COSC 63", "required": [["ENGS 20", "COSC 50"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 63.01", "required": [["COSC 10"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 65", "required": [["COSC 10"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 66", "required": [["COSC 10"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 67", "required": [["COSC 10"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 68", "required": [["COSC 58"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 69.08", "required": [["COSC 60"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 69.14", "required": [["COSC 10"]], "counts": [1], "recommended": ["COSC 30"]}
+
+{"course": "COSC 69.15", "required": [["COSC 70"]], "counts": [1], "recommended": ["COSC 50"]}
+
+{"course": "COSC 70", "required": [["MATH 3"], ["COSC 1"]], "counts": [1], "recommended": ["COSC 10"]}
+
+{"course": "COSC 71", "required": [["COSC 1"], ["COSC 10", "ENGS 20"], ["ENGS 22", "MATH 23"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "COSC 72", "required": [["COSC 1"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 73", "required": [["COSC 10"], ["COSC 70"]], "counts": [1], "recommended": ["COSC 50"]}
+
+{"course": "COSC 74", "required": [["COSC 1", "ENGS 20"], ["COSC 70", "MATH 22", "MATH 24"]], "counts": [1, 1], "recommended": null}
+
+{"course": "COSC 75", "required": [["COSC 10"], ["COSC 70", "MATH 22", "MATH 24"]], "counts": [1, 1], "recommended": ["COSC 30"]}
+
+{"course": "COSC 76", "required": [["COSC 10"]], "counts": [1, 1], "recommended": ["COSC 30"]}
+
+{"course": "COSC 77", "required": [["COSC 50"], ["COSC 70", "MATH 22", "MATH 24"]], "counts": [1, 1], "recommended": null}
+
+{"course": "COSC 78", "required": [["COSC 74"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 81", "required": [["COSC 1"], ["COSC 70", "MATH 22", "MATH 24"]], "counts": [1], "recommended": ["COSC 10"]}
+
+{"course": "COSC 83", "required": [["COSC 1", "ENGS 20"], ["COSC 70", "MATH 22", "MATH 24"]], "counts": [1, 1], "recommended": null}
+
+{"course": "COSC 84", "required": [["COSC 1", "ENGS 20"], ["COSC 70", "MATH 22", "MATH 24"]], "counts": [1, 1], "recommended": null}
+
+{"course": "COSC 86", "required": [["COSC 10"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 87", "required": [["COSC 70"], ["COSC 50"]], "counts": [1, 1], "recommended": null}
+
+{"course": "COSC 89.11", "required": [["COSC 50"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 89.13", "required": [["COSC 10"], ["MATH 8"]], "counts": [1, 1], "recommended": null}
+
+{"course": "COSC 89.14", "required": [["COSC 67"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 89.18", "required": [["COSC 10"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 89.19", "required": [["COSC 50"], ["COSC 77"]], "counts": [1, 1], "recommended": null}
+
+{"course": "COSC 89.20", "required": [["COSC 74"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 89.21", "required": [["COSC 10"], ["COSC 74", "MATH 10"]], "counts": [1, 1], "recommended": null}
+
+{"course": "COSC 89.23", "required": [["COSC 10"], ["MATH 3"], ["COSC 74", "MATH 10"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "COSC 89.24", "required": [["COSC 76"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 89.25", "required": [["COSC 76"]], "counts": [1], "recommended": ["COSC 70"]}
+
+{"course": "COSC 89.26", "required": [["COSC 50"]], "counts": [1], "recommended": ["COSC 55", "COSC 58", "COSC 60", "COSC 62", "COSC 67", "COSC 91"]}
+
+{"course": "COSC 89.27", "required": [["COSC 74"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 91", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 98.01", "required": [["COSC 50-89"]], "counts": [3], "recommended": null}
+
+{"course": "COSC 98.02", "required": [["COSC 98.01"]], "counts": [1], "recommended": null}
+
+{"course": "COSC 99.02", "required": [["COSC 99.01"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 17", "required": [["EARS *"], ["MATH 3"]], "counts": [1, 1], "recommended": null}
+
+{"course": "EARS 18", "required": [["EARS 1", "EARS 2", "EARS 3", "EARS 4", "EARS 5", "EARS 6", "EARS 8", "EARS 9"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 31", "required": [["EARS 1", "EARS 2", "EARS 3", "EARS 4", "EARS 5", "EARS 6", "EARS 8", "EARS 9"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 32", "required": [["BIOL 12", "BIOL 19", "BIOL 13", "BIOL 14", "BIOL 15", "BIOL 16", "EARS 2"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 34", "required": [["CHEM 5", "CHEM 10"], ["EARS 1", "EARS 2", "EARS 3", "EARS 4", "EARS 5", "EARS 6", "EARS 8", "EARS 9"]], "counts": [1, 1], "recommended": null}
+
+{"course": "EARS 35", "required": [["ENVS 2", "EARS 1", "EARS 2", "EARS 3", "EARS 4", "EARS 5", "EARS 6", "EARS 8", "EARS 9", "CHEM 5"], ["ENVS 12+", "EARS 30+"]], "counts": [1, 1], "recommended": null}
+
+{"course": "EARS 37", "required": [["EARS 1", "EARS 2", "EARS 3", "EARS 4", "EARS 5", "EARS 6", "EARS 8", "EARS 9"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 38", "required": [["EARS 1", "EARS 2", "EARS 3", "EARS 4", "EARS 5", "EARS 6", "EARS 8", "EARS 9"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 40", "required": [["EARS 1", "EARS 2", "EARS 3", "EARS 4", "EARS 5", "EARS 6", "EARS 8", "EARS 9"]], "counts": [1], "recommended": ["CHEM 5"]}
+
+{"course": "EARS 45", "required": [["EARS 40"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 46", "required": [["EARS 40"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 47", "required": [["EARS 40"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 51", "required": [["EARS 40"], ["CHEM 5"]], "counts": [1, 1], "recommended": null}
+
+{"course": "EARS 52", "required": [["EARS 40"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 58", "required": [["EARS 40"], ["EARS 45"], ["EARS 46"], ["EARS 47"]], "counts": [1], "recommended": ["EARS 38"]}
+
+{"course": "EARS 59", "required": [["EARS 40"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 62", "required": [["CHEM 5"], ["CHEM 6"]], "counts": [1, 1], "recommended": null}
+
+{"course": "EARS 64", "required": [["MATH 3"]], "counts": [1, 1], "recommended": ["PHYS 3", "PHYS 13"]}
+
+{"course": "EARS 65", "required": [["EARS 1", "EARS 2", "EARS 3", "EARS 4", "EARS 5", "EARS 6", "EARS 8", "EARS 9", "GEOG 3"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 66", "required": [["MATH 3"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 67", "required": [["MATH 23"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 70", "required": [["PHYS 3"], ["MATH 3"]], "counts": [1], "recommended": ["EARS 33"]}
+
+{"course": "EARS 71", "required": [["EARS 16", "EARS 33", "BIOL 23"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 73", "required": [["CHEM 5"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 74", "required": [["CHEM 5"], ["EARS 62"]], "counts": [1, 1], "recommended": null}
+
+{"course": "EARS 75", "required": [["EARS 15", "ENGS 172"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 76", "required": [["MATH 3"], ["EARS 16", "EARS 33", "BIOL 53", "ENGS 43"]], "counts": [1, 1], "recommended": null}
+
+{"course": "EARS 77", "required": [["GEOG 50", "GEOG 51", "EARS 65"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 78", "required": [["MATH 8"], ["EARS 14", "EARS 15"]], "counts": [1, 1], "recommended": null}
+
+{"course": "EARS 87", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 88", "required": [["CP"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 89", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "EARS 91", "required": [["EARS 87", "EARS 89"]], "counts": [1], "recommended": null}
+
+{"course": "ECON 3", "required": [["MATH 1"]], "counts": [1], "recommended": null}
+
+{"course": "ECON 10", "required": [["MATH 1"]], "counts": [1], "recommended": ["MATH 1"]}
+
+{"course": "ECON 15", "required": [["ECON 1"]], "counts": [1], "recommended": null}
+
+{"course": "ECON 16", "required": [["ECON 1"]], "counts": [1], "recommended": null}
+
+{"course": "ECON 17", "required": [["ECON 1"]], "counts": [1], "recommended": null}
+
+{"course": "ECON 20", "required": [["ECON 10"], ["MATH 3"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ECON 21", "required": [["ECON 1"], ["MATH 3"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ECON 22", "required": [["ECON 1"], ["MATH 3"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ECON 24", "required": [["ECON 1"], ["ECON 10"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ECON 25", "required": [["ECON 1"], ["MATH 3"], ["ECON 10"], ["ECON 21"]], "counts": [1, 1, 1, 1], "recommended": null}
+
+{"course": "ECON 26", "required": [["ECON 1"]], "counts": [1], "recommended": null}
+
+{"course": "ECON 27", "required": [["ECON 1"]], "counts": [1], "recommended": null}
+
+{"course": "ECON 28", "required": [["ECON 1"]], "counts": [1], "recommended": null}
+
+{"course": "ECON 29", "required": [["ECON 22"]], "counts": [1], "recommended": null}
+
+{"course": "ECON 32", "required": [["ECON 1"], ["ECON 10"], ["ECON 22"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "ECON 35", "required": [["ECON 1"], ["ECON 10"], ["MATH 3"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "ECON 36", "required": [["ECON 10"], ["ECON 21"], ["ECON 26"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "ECON 37", "required": [["ECON 1"]], "counts": [1], "recommended": null}
+
+{"course": "ECON 38", "required": [["ECON 1"], ["ECON 10"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ECON 39", "required": [["ECON 1"]], "counts": [1], "recommended": null}
+
+{"course": "ECON 57", "required": [["ECON 1"], ["ECON 20"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ECON 62", "required": [["ECON 20"], ["ECON 21"], ["ECON 22"], ["ECON 29"], ["ECON 32"]], "counts": [1, 1, 1, 1, 1], "recommended": null}
+
+{"course": "ECON 64", "required": [["ECON 20"], ["ECON 21"], ["ECON 22"], ["ECON 24"], ["ECON 27", "ECON 39"]], "counts": [1, 1, 1, 1, 1], "recommended": null}
+
+{"course": "ECON 65", "required": [["ECON 20"], ["ECON 21"], ["ECON 22"], ["ECON 25"], ["ECON 35"]], "counts": [1, 1, 1, 1, 1], "recommended": null}
+
+{"course": "ECON 66", "required": [["ECON 20"], ["ECON 21"], ["ECON 22"], ["ECON 26"], ["ECON 36"]], "counts": [1, 1, 1, 1, 1], "recommended": null}
+
+{"course": "ECON 67", "required": [["ECON 20"], ["ECON 21"], ["ECON 22"], ["ECON 27"], ["ECON 24", "ECON 28", "ECON 37"]], "counts": [1, 1, 1, 1, 1], "recommended": null}
+
+{"course": "ECON 68", "required": [["ECON 20"], ["ECON 21"], ["ECON 22"], ["ECON 28"], ["ECON 38"]], "counts": [1, 1, 1, 1, 1], "recommended": null}
+
+{"course": "ECON 69", "required": [["ECON 20"], ["ECON 21"], ["ECON 22"], ["ECON 29"], ["ECON 39"]], "counts": [1, 1, 1, 1, 1], "recommended": null}
+
+{"course": "ECON 70", "required": [["ECON 1"]], "counts": [1], "recommended": null}
+
+{"course": "ECON 70.01", "required": [["ECON 1"]], "counts": [1], "recommended": null}
+
+{"course": "ECON 70.02", "required": [["ECON 1"]], "counts": [1], "recommended": null}
+
+{"course": "ECON 70.03", "required": [["ECON 1"]], "counts": [1], "recommended": null}
+
+{"course": "ECON 71", "required": [["ECON 1"], ["ECON 10"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ECON 73", "required": [["ECON 1"]], "counts": [1], "recommended": null}
+
+{"course": "ECON 76", "required": [["ECON 1"], ["ECON 10"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ECON 77", "required": [["ECON 1"]], "counts": [1], "recommended": null}
+
+{"course": "ECON 78", "required": [["ECON 1"], ["ECON 22"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ECON 79", "required": [["ECON 1"]], "counts": [1], "recommended": null}
+
+{"course": "ECON 80", "required": [["ECON 20"], ["ECON 21"], ["ECON 22"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "ECON 81", "required": [["ECON 20"], ["ECON 21"], ["ECON 22"], ["MATH 8"]], "counts": [1, 1, 1, 1], "recommended": null}
+
+{"course": "ECON 82", "required": [["ECON 20"], ["ECON 21"], ["ECON 22"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "ECON 85", "required": [["CP"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ECON 87", "required": [["CP"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 15", "required": [["CP"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 18", "required": [["MATH 3"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 20", "required": [["MATH 3"], ["MATH 8"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ENGS 21", "required": [["MATH 3"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 22", "required": [["MATH 13"], ["PHYS 14"], ["ENGS 20"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "ENGS 23", "required": [["ENGS 22"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 24", "required": [["PHYS 14"], ["CHEM 5"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ENGS 25", "required": [["MATH 13", "PHYS 13", "ENGS 20", "COSC 1"], ["COSC 10"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ENGS 26", "required": [["ENGS 22"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 27", "required": [["MATH 8"], ["ENGS 20", "COSC 1"], ["COSC 10"]], "counts": [1], "recommended": ["PHYS 13", "CHEM 5"]}
+
+{"course": "ENGS 30", "required": [["CHEM 5"], ["PHYS 13"], ["PHYS 14"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "ENGS 31", "required": [["ENGS 20", "COSC 1"], ["COSC 10"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ENGS 32", "required": [["ENGS 22"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 33", "required": [["MATH 13"], ["PHYS 13"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ENGS 34", "required": [["ENGS 23"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 35", "required": [["MATH 3", "CHEM 5", "BIOL 12", "BIOL 13"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 36", "required": [["ENGS 22"], ["ENGS 25"], ["CHEM 5"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "ENGS 37", "required": [["MATH 3"], ["CHEM 5"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ENGS 41", "required": [["MATH 23", "ENGS 22"], ["ENGS 37"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ENGS 43", "required": [["MATH 13"], ["ENGS 37", "permission"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ENGS 44", "required": [["ENGS 21"], ["ENGS 22", "SART 65"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ENGS 46", "required": [["MATH 3"], ["EARS 16", "EARS 33", "BIOL 53", "ENGS 43"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ENGS 50", "required": [["COSC 10"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 52", "required": [["MATH 8"], ["MATH 22"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ENGS 56", "required": [["ENGS 22"], ["PHYS 13"], ["PHYS 14"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "ENGS 57", "required": [["ENGS 23"], ["ENGS 56"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ENGS 58", "required": [["ENGS 35", "CHEM 41"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 60", "required": [["ENGS 23"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 61", "required": [["ENGS 32"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 62", "required": [["ENGS 50"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 64", "required": [["ENGS 30"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 65", "required": [["ENGS 20", "COSC 1"], ["COSC 10"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ENGS 66", "required": [["COSC 1", "ENGS 20"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 67", "required": [["ENGS 20", "COSC 50"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 68", "required": [["ENGS 20", "COSC 50"]], "counts": [1], "recommended": ["ENGS 22"]}
+
+{"course": "ENGS 69", "required": [["COSC 10"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 71", "required": [["ENGS 20", "COSC 1"], ["COSC 10"], ["ENGS 33"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "ENGS 72", "required": [["ENGS 22"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 73", "required": [["ENGS 24"], ["ENGS 33"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ENGS 75", "required": [["ENGS 21", "ENGS 89"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 76", "required": [["ENGS 21"], ["ENGS 33"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ENGS 84", "required": [["CP"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 86", "required": [["CP"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 87", "required": [["CP"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 88", "required": [["CP"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 89", "required": [["ENGS 21"], ["ENGS 22-76", "ENGS 91+"]], "counts": [1, 5], "recommended": null}
+
+{"course": "ENGS 90", "required": [["ENGS 89"]], "counts": [1], "recommended": null}
+
+{"course": "ENGS 91", "required": [["ENGS 20", "COSC 1"], ["COSC 10"], ["ENGS 22", "MATH 23"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "ENGS 92", "required": [["MATH 46", "ENGS 22"], ["ENGS 23"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ENGS 93", "required": [["MATH 13"]], "counts": [1], "recommended": null}
+
+{"course": "ENGL 61.01", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 61.02", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 61.11", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 62.01", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 62.02", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 62.03", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 62.12", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 62.16", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 62.22", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 63.01", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 63.02", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 63.03", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 63.04", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 63.05", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 63.06", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 63.07", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 63.08", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 63.28", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 64.01", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 64.02", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 64.03", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 64.04", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 64.05", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 64.06", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 65.01", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 65.02", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 65.06", "required": [["MATH 13"]], "counts": [1], "recommended": ["2 ENGL *"]}
+
+{"course": "ENGL 71.01", "required": [["MATH 13"]], "counts": [1], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 71.02", "required": [["MATH 13"]], "counts": [1], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 71.03", "required": [["ENGL *"]], "counts": [4], "recommended": null}
+
+{"course": "ENGL 71.05", "required": [["ENGL *"]], "counts": [4], "recommended": null}
+
+{"course": "ENGL 71.06", "required": [["ENGL *"]], "counts": [4], "recommended": null}
+
+{"course": "ENGL 71.13", "required": [["ENGL *"]], "counts": [4], "recommended": null}
+
+{"course": "ENGL 72.02", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 72.03", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 72.05", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 72.09", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 72.13", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 73.01", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 73.02", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 73.05", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 73.07", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 73.13", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 73.19", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 73.28", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 73.30", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 74.01", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 74.02", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 74.03", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 74.04", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 74.05", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 74.11", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "ENGL 75.02", "required": [["ENGL *"]], "counts": [4], "recommended": ["4 ENGL *"]}
+
+{"course": "CRWT 20", "required": [["CRWT 10"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "CRWT 21", "required": [["CRWT 11"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "CRWT 22", "required": [["CRWT 12"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "CRWT 60", "required": [["CRWT 20"]], "counts": [1], "recommended": null}
+
+{"course": "CRWT 61", "required": [["CRWT 21"]], "counts": [1], "recommended": null}
+
+{"course": "CRWT 62", "required": [["CRWT 22"]], "counts": [1], "recommended": null}
+
+{"course": "FILM 39.01", "required": [["FILM 30", "FILM 31", "FILM 32", "FILM 36", "FILM 37", "FILM 44.04", "FILM 44.07", "FILM 48.02", "FILM 51"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "FREN 10", "required": [["FREN 8"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 10.02", "required": [["FREN 8"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 10.03", "required": [["FREN 8"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 10.06", "required": [["FREN 8"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 10.08", "required": [["FREN 8"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 10.10", "required": [["FREN 8"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 10.11", "required": [["FREN 8"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 10.12", "required": [["FREN 8"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 10.13", "required": [["FREN 8"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 10.14", "required": [["FREN 8"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 10.15", "required": [["FREN 8"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 10.16", "required": [["FREN 8"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 10.17", "required": [["FREN 8"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 10.18", "required": [["FREN 8"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 10.19", "required": [["FREN 8"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 10.20", "required": [["FREN 8"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 11", "required": [["FREN 3", "SPAN 3", "PORT 3", "LAT 3", "ITAL 3"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 12", "required": [["FREN 3"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 2", "required": [["FREN 1"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 20", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 20.01", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 20.02", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 21", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 22", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 23", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 24", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 25", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 29", "required": [["FREN 8"], ["FREN 10"], ["CP"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "FREN 3", "required": [["FREN 2", "FREN 11"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 30", "required": [["FREN 8"], ["FREN 10"], ["CP"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "FREN 31", "required": [["FREN 8"], ["FREN 10"], ["CP"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "FREN 35", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 35.03", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 40", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 40.02", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 40.03", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 40.04", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 40.05", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 40.06", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 45", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 45.03", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 45.04", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 45.05", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 45.06", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 5", "required": [["FREN 2"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "FREN 50", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 50.05", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 53", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 53.05", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 53.06", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 53.07", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 53.08", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 55", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 55.04", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 55.05", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 60", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 70.03", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 70.04", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 70.05", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 75", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 75.01", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 75.02", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 8", "required": [["FREN 3"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 80", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 80.03", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 80.04", "required": [["FREN 10"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 81", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "FREN 9", "required": [["FREN 2", "FREN 11"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ITAL 2", "required": [["ITAL 1"]], "counts": [1], "recommended": null}
+
+{"course": "ITAL 3", "required": [["ITAL 2", "ITAL 11", "ARTH 12"]], "counts": [1], "recommended": null}
+
+{"course": "ITAL 5", "required": [["ITAL 2", "ITAL 11"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ITAL 6", "required": [["ITAL 2", "ITAL 11"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ITAL 8", "required": [["ITAL 2", "ITAL 11"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ITAL 10.03", "required": [["ITAL 8", "ITAL 9"]], "counts": [1], "recommended": null}
+
+{"course": "ITAL 10.04", "required": [["ITAL 8", "ITAL 9"]], "counts": [1], "recommended": null}
+
+{"course": "ITAL 10.05", "required": [["ITAL 8", "ITAL 9"]], "counts": [1], "recommended": null}
+
+{"course": "ITAL 10.06", "required": [["ITAL 8", "ITAL 9"]], "counts": [1], "recommended": null}
+
+{"course": "ITAL 10.20", "required": [["ITAL 8", "ITAL 9"]], "counts": [1], "recommended": null}
+
+{"course": "ITAL 12", "required": [["ITAL 3"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ITAL 15", "required": [["ITAL 8", "ITAL 9"]], "counts": [1], "recommended": null}
+
+{"course": "ITAL 21", "required": [["ITAL 10"]], "counts": [1], "recommended": null}
+
+{"course": "ITAL 22", "required": [["ITAL 10"]], "counts": [1], "recommended": null}
+
+{"course": "ITAL 23", "required": [["ITAL 10"]], "counts": [1], "recommended": null}
+
+{"course": "ITAL 24", "required": [["ITAL 10"]], "counts": [1], "recommended": null}
+
+{"course": "ITAL 25", "required": [["ITAL 10"]], "counts": [1], "recommended": null}
+
+{"course": "ITAL 27.01", "required": [["ITAL 10"]], "counts": [1], "recommended": null}
+
+{"course": "ITAL 27.02", "required": [["ITAL 10"]], "counts": [1], "recommended": null}
+
+{"course": "GEOG 35", "required": [["EARS 16", "EARS 33"]], "counts": [1], "recommended": null}
+
+{"course": "GEOG 47", "required": [["GEOG 1", "GEOG 3"], ["1 GEOG 12-41"]], "counts": [1], "recommended": ["GEOG 11", "GEOG 50", "GEOG 51"]}
+
+{"course": "GEOG 51", "required": [["EARS 1", "EARS 2", "EARS 3", "EARS 4", "EARS 5", "EARS 6", "EARS 8", "EARS 9", "GEOG 3"]], "counts": [1], "recommended": null}
+
+{"course": "GEOG 54", "required": [["GEOG 50", "MATH 10"]], "counts": [1], "recommended": null}
+
+{"course": "GEOG 56", "required": [["GEOG 50"]], "counts": [1], "recommended": null}
+
+{"course": "GEOG 57", "required": [["GEOG 50"]], "counts": [1], "recommended": null}
+
+{"course": "GEOG 59", "required": [["GEOG 50", "GEOG 51", "EARS 65"]], "counts": [1], "recommended": null}
+
+{"course": "GEOG 67", "required": [["ENVS 3", "GEOG 1"]], "counts": [1], "recommended": null}
+
+{"course": "GEOG 80", "required": [["GEOG 1"]], "counts": [1], "recommended": null}
+
+{"course": "GEOG 81", "required": [["GEOG 1", "GEOG 3"], ["1 GEOG 12-41"]], "counts": [1], "recommended": ["GEOG 11", "GEOG 50", "GEOG 51"]}
+
+{"course": "GEOG 82", "required": [["GEOG 1", "GEOG 3"], ["GEOG 12-41"]], "counts": [1, 1], "recommended": null}
+
+{"course": "GEOG 85", "required": [["IP"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "GEOG 87", "required": [["IP"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "GEOG 90", "required": [["GEOG 1", "GEOG 3"], ["GEOG 50-59"]], "counts": [1, 2], "recommended": null}
+
+{"course": "GERM 2.03", "required": [["GERM 1"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "GERM 5", "required": [["GERM 2"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "GERM 6", "required": [["GERM 2"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "GERM 10.01", "required": [["GERM 3"]], "counts": [1], "recommended": null}
+
+{"course": "GERM 10.02", "required": [["GERM 3"]], "counts": [1], "recommended": null}
+
+{"course": "GERM 10.03", "required": [["GERM 3"]], "counts": [1], "recommended": null}
+
+{"course": "GERM 10.06", "required": [["GERM 3"]], "counts": [1], "recommended": null}
+
+{"course": "GERM 29", "required": [["GERM 6+"], ["CP"]], "counts": [2, 1], "recommended": null}
+
+{"course": "GERM 30", "required": [["GERM 6+"], ["CP"]], "counts": [2, 1], "recommended": null}
+
+{"course": "GERM 31", "required": [["GERM 6+"], ["CP"]], "counts": [2, 1], "recommended": null}
+
+{"course": "GERM 44.07", "required": [["CP"]], "counts": [1], "recommended": null}
+
+{"course": "GOVT 18", "required": [["MATH 3"]], "counts": [1], "recommended": null}
+
+{"course": "GOVT 35", "required": [["GOVT 3"]], "counts": [1], "recommended": null}
+
+{"course": "GOVT 42", "required": [["GOVT 3"]], "counts": [1], "recommended": ["GOVT 4"]}
+
+{"course": "GOVT 50.08", "required": [["GOVT 5"]], "counts": [1], "recommended": null}
+
+{"course": "GOVT 52", "required": [["GOVT 4", "GOVT 5"]], "counts": [1], "recommended": ["GOVT 42"]}
+
+{"course": "GOVT 53", "required": [["GOVT 5"]], "counts": [1], "recommended": null}
+
+{"course": "GOVT 54", "required": [["GOVT 5"]], "counts": [1], "recommended": null}
+
+{"course": "GOVT 63", "required": [["GOVT 6"]], "counts": [1], "recommended": null}
+
+{"course": "GOVT 86.30", "required": [["GOVT 40-49"]], "counts": [2], "recommended": null}
+
+{"course": "HUM 2", "required": [["HUM 1"]], "counts": [1], "recommended": null}
+
+{"course": "LING 8", "required": [["LING 1"], ["LING 20-29"]], "counts": [1, 1], "recommended": null}
+
+{"course": "LING 20", "required": [["LING 1"]], "counts": [1], "recommended": null}
+
+{"course": "LING 21", "required": [["LING 1"]], "counts": [1], "recommended": null}
+
+{"course": "LING 22", "required": [["LING 1"]], "counts": [1], "recommended": null}
+
+{"course": "LING 23", "required": [["LING 1"]], "counts": [1], "recommended": null}
+
+{"course": "LING 24", "required": [["LING 1"]], "counts": [1], "recommended": null}
+
+{"course": "LING 26", "required": [["LING 1"]], "counts": [1], "recommended": null}
+
+{"course": "LING 27", "required": [["LING 1", "LING 18"]], "counts": [1], "recommended": null}
+
+{"course": "LING 35", "required": [["LING 21"], ["LING 20-29"]], "counts": [1, 1], "recommended": null}
+
+{"course": "LING 48", "required": [["COSC 1"]], "counts": [1], "recommended": null}
+
+{"course": "LING 50.01", "required": [["LING 1", "COGS 1"]], "counts": [1], "recommended": null}
+
+{"course": "LING 54", "required": [["LING 1"], ["LING 20-29"]], "counts": [1, 1], "recommended": null}
+
+{"course": "LING 80", "required": [["LING 20-29"]], "counts": [2], "recommended": null}
+
+{"course": "MATH 4", "required": [["MATH 3"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 5.01", "required": [["GOVT 10", "ECON 10", "PSYC 10", "SOCY 10", "MATH 10", "QSS 15", "COSC 1"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 8", "required": [["MATH 3"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 9", "required": [["MATH 8"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 13", "required": [["MATH 8", "MATH 9"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 17", "required": [["MATH 8"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 20", "required": [["MATH 8"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 23", "required": [["MATH 13"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 24", "required": [["MATH 8"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 25", "required": [["MATH 8"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 27", "required": [["MATH 22"], ["MATH 23"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MATH 28", "required": [["MATH 8"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 30.04", "required": [["MATH 3"], ["MATH 20"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MATH 31", "required": [["MATH 22"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 31.01", "required": [["MATH 22"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 32", "required": [["MATH 22", "MATH 24"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 35", "required": [["MATH 13"], ["IP", "MATH 22"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MATH 36", "required": [["MATH 13"], ["MATH 20"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MATH 37", "required": [["MATH 22"], ["MATH 24"], ["MATH 23"], ["COSC 1", "COSC 10", "ENGS 20"]], "counts": [1, 1, 1, 1], "recommended": null}
+
+{"course": "MATH 38", "required": [["MATH 22", "COSC 55"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MATH 40", "required": [["MATH 13"], ["MATH 20"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MATH 42", "required": [["MATH 22"], ["MATH 23"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MATH 43", "required": [["MATH 13"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 46", "required": [["MATH 22"], ["MATH 23"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MATH 47", "required": [["MATH 22"], ["MATH 24"], ["MATH 23"], ["COSC 1", "COSC 10", "ENGS 20"]], "counts": [1, 1, 1, 1], "recommended": null}
+
+{"course": "MATH 50", "required": [["MATH 10"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 53", "required": [["MATH 22"], ["MATH 23"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MATH 54", "required": [["MATH 13"], ["MATH 22"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MATH 56", "required": [["MATH 22", "MATH 24"], ["COSC 1", "ENGS 20 and"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MATH 60", "required": [["MATH 13"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 63", "required": [["MATH 22", "MATH 24", "MATH 13"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MATH 66", "required": [["MATH 23"], ["MATH 24", "MATH 22"], ["IP"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "MATH 68", "required": [["MATH 28"], ["MATH 31", "MATH 71"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MATH 69", "required": [["MATH 71", "MATH 54", "MATH 24"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 70", "required": [["MATH 40"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 71", "required": [["MATH 22", "MATH 24"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 72", "required": [["MATH 71"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 73", "required": [["MATH 43"], ["MATH 63"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MATH 74", "required": [["MATH 31", "MATH 71"], ["MATH 54"], ["IP", "MATH 54"], ["MATH 101"]], "counts": [1, 1, 1, 1], "recommended": null}
+
+{"course": "MATH 75", "required": [["MATH 71", "MATH 25"], ["MATH 31"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MATH 75.01", "required": [["MATH 25", "MATH 22", "MATH 24", "MATH 31", "MATH 71"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 76.01", "required": [["MATH 22"], ["MATH 23"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MATH 76.02", "required": [["MATH 22", "MATH 24"]], "counts": [1, 1], "recommended": ["MATH 20", "MATH 60", "COSC 1", "ENGS 20"]}
+
+{"course": "MATH 76.03", "required": [["MATH 3"], ["MATH 20"], ["MATH 23"]], "counts": [1, 1], "recommended": ["COSC 1", "ENGS 20"]}
+
+{"course": "MATH 81", "required": [["MATH 71"]], "counts": [1], "recommended": null}
+
+{"course": "MATH 86", "required": [["MATH 20"], ["MATH 40", "MATH 60"], ["MATH 23"], ["COSC 1", "ENGS 20"]], "counts": [1, 1, 1, 1], "recommended": null}
+
+{"course": "MATH 89", "required": [["MATH 39", "MATH 69"]], "counts": [1], "recommended": null}
+
+{"course": "HEBR 21", "required": [["HEBR 3"]], "counts": [1], "recommended": null}
+
+{"course": "HEBR 22", "required": [["HEBR 3"]], "counts": [1], "recommended": null}
+
+{"course": "ARAB 22", "required": [["ARAB 3"]], "counts": [1], "recommended": null}
+
+{"course": "ARAB 23", "required": [["ARAB 3"]], "counts": [1], "recommended": null}
+
+{"course": "ARAB 25", "required": [["ARAB 3"]], "counts": [1], "recommended": null}
+
+{"course": "ARAB 31", "required": [["ARAB 21-23"]], "counts": [2], "recommended": null}
+
+{"course": "ARAB 32", "required": [["ARAB 21-23"]], "counts": [2], "recommended": null}
+
+{"course": "ARAB 34", "required": [["ARAB 21-23"]], "counts": [2], "recommended": null}
+
+{"course": "ARAB 41", "required": [["ARAB 31-33"]], "counts": [2], "recommended": null}
+
+{"course": "ARAB 42", "required": [["ARAB 31-33"]], "counts": [2], "recommended": null}
+
+{"course": "ARAB 43", "required": [["ARAB 31-33"]], "counts": [2], "recommended": null}
+
+{"course": "MUS 14", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 14.04", "required": [["MUS 1"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 22", "required": [["MUS 20"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 23", "required": [["MUS 20"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 26", "required": [["Mus 25"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 27", "required": [["MUS 25"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 28", "required": [["MUS 25"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 30", "required": [["MUS 20"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 30.02", "required": [["MUS 20"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 32", "required": [["MUS 1"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 34", "required": [["MUS 25"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 37", "required": [["MUS 36", "MUS 25"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 41", "required": [["MUS 21", "MUS 22"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 50.12", "required": [["MUS 50.11"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 50.13", "required": [["MUS 50.12"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 50.22", "required": [["MUS 50.21"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 50.23", "required": [["MUS 50.22"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 50.32", "required": [["MUS 50.31"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 50.33", "required": [["MUS 50.32"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 50.42", "required": [["MUS 50.41"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 50.43", "required": [["MUS 50.42"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 52", "required": [["MUS 20"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 52.01", "required": [["MUS 21-23"], ["MUS 6", "MUS 10", "MUS 11", "MUS 40", "MUS 41", "MUS 42", "MUS 43", "MUS 44"]], "counts": [2, 1], "recommended": null}
+
+{"course": "MUS 52.02", "required": [["MUS 20"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 52.03", "required": [["MUS 20"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 53.02", "required": [["MUS 53.01"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 53.03", "required": [["MUS 53.02"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 54.02", "required": [["MUS 54.01"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 54.03", "required": [["MUS 54.02"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 55.02", "required": [["MUS 55.01"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 55.03", "required": [["MUS 55.02"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 56.02", "required": [["MUS 56.01"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 56.03", "required": [["MUS 56.02"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 57.02", "required": [["MUS 57.01"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 57.03", "required": [["MUS 57.02"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 58.02", "required": [["MUS 58.01"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 58.03", "required": [["MUS 58.02"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 59.12", "required": [["MUS 59.11"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 59.13", "required": [["MUS 59.12"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 59.22", "required": [["MUS 59.21"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 59.23", "required": [["MUS 59.22"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 59.32", "required": [["MUS 59.31"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 59.33", "required": [["MUS 59.32"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 59.42", "required": [["MUS 59.41"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 59.43", "required": [["MUS 59.42"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 59.52", "required": [["MUS 59.51"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 59.53", "required": [["MUS 59.52"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 59.62", "required": [["MUS 59.61"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 59.63", "required": [["MUS 59.62"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 60", "required": [["MUS 53"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MUS 61", "required": [["MUS 54"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MUS 62", "required": [["MUS 55"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MUS 63", "required": [["MUS 56"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MUS 64", "required": [["MUS 57"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MUS 65", "required": [["MUS 58"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "MUS 70", "required": [["MUS 20"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 71", "required": [["MUS 20"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 74", "required": [["MUS 20"]], "counts": [1], "recommended": null}
+
+{"course": "MUS 99", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 11", "required": [["PHIL *", "CLST 3"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 12", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 12.01", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 13", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 13.01", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 13.02", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 13.03", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 16", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 16.01", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 16.02", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 16.03", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 16.04", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 19", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 19.01", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 19.02", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 19.03", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 19.04", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 22", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 23", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 23.01", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 23.02", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 23.03", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 24", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 25", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 26", "required": [["PHIL *", "COGS *", "COSC *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 27", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 28", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 28.01", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 28.02", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 28.03", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 29", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 29.01", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 29.02", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 30", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 31", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 31.01", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 31.04", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 31.05", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 31.06", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 31.07", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 31.08", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 31.09", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 32", "required": [["PHIL 6", "MATH 39", "MATH 69"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 34", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 35", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 35.01", "required": [["PHIL * 1 COGS *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 36", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 37", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 37.01", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 38", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 38.01", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 38.02", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 38.03", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 38.04", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 39", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 39.01", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 40", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 45", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 45.01", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 45.02", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 45.03", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 45.04", "required": [["PHIL *"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 50", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.09", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.14", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.15", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.17", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.18", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.20", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.21", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.22", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.23", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.24", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.25", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.26", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.27", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.28", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.30", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.31", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.32", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.33", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.34", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.35", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.36", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.37", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 50.38", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 60", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 61", "required": [["PHIL *"]], "counts": [2], "recommended": null}
+
+{"course": "PHIL 80", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.01", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.05", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.06", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.12", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.13", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.14", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.15", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.16", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.17", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.18", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.19", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.20", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.21", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.22", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.23", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.24", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.25", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.26", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.27", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.28", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.29", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 80.30", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 87", "required": [["CP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 89", "required": [["CP"]], "counts": [1], "recommended": null}
+
+{"course": "PHIL 90", "required": [["CP"]], "counts": [1], "recommended": null}
+
+{"course": "ASTR 15", "required": [["PHYS 3", "PHYS 13", "PHYS 15"], ["MATH 3"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ASTR 19", "required": [["MATH 3"]], "counts": [1], "recommended": null}
+
+{"course": "ASTR 25", "required": [["PHYS 14"]], "counts": [1], "recommended": null}
+
+{"course": "ASTR 61", "required": [["ASTR 2", "ASTR 3", "ASTR 15"]], "counts": [1], "recommended": null}
+
+{"course": "ASTR 74", "required": [["PHYS 14", "PHYS 16"], ["PHYS 19", "PHYS 24", "PHYS 40"], ["ASTR 2", "ASTR 3", "ASTR 15"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "ASTR 75", "required": [["PHYS 19"], ["ASTR 25"]], "counts": [1, 1], "recommended": null}
+
+{"course": "ASTR 87", "required": [["CP"]], "counts": [1], "recommended": null}
+
+{"course": "PHYS 3", "required": [["MATH 3"]], "counts": [1], "recommended": null}
+
+{"course": "PHYS 4", "required": [["PHYS 3"]], "counts": [1], "recommended": null}
+
+{"course": "PHYS 13", "required": [["MATH 3"], ["MATH 8"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PHYS 14", "required": [["PHYS 13"], ["MATH 8"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PHYS 15", "required": [["MATH 8", "MATH 9"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PHYS 16", "required": [["PHYS 15"]], "counts": [1], "recommended": null}
+
+{"course": "PHYS 19", "required": [["PHYS 14"], ["MATH 13"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PHYS 30", "required": [["CHEM 5"], ["PHYS 13"], ["PHYS 14"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "PHYS 31", "required": [["PHYS 13"], ["PHYS 14", "PHYS 15"], ["PHYS 16"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "PHYS 40", "required": [["PHYS 15", "PHYS 19"], ["PHYS 14", "PHYS 16"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PHYS 41", "required": [["PHYS 15", "PHYS 19"], ["PHYS 14", "PHYS 16"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PHYS 43", "required": [["PHYS 15", "PHYS 19"], ["PHYS 14", "PHYS 16"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PHYS 44", "required": [["PHYS 15", "PHYS 19"], ["PHYS 14", "PHYS 16"], ["MATH 22", "MATH 23"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "PHYS 47", "required": [["PHYS 14", "PHYS 16"], ["MATH 13"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PHYS 48", "required": [["ENGS 22"]], "counts": [1], "recommended": null}
+
+{"course": "PHYS 50", "required": [["PHYS 40"], ["MATH 22", "MATH 23"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PHYS 66", "required": [["PHYS 41"]], "counts": [1], "recommended": null}
+
+{"course": "PHYS 68", "required": [["PHYS 41"]], "counts": [1], "recommended": null}
+
+{"course": "PHYS 70", "required": [["MATH 46", "ENGS 22"], ["ENGS 23"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PHYS 72", "required": [["PHYS 50"]], "counts": [1], "recommended": null}
+
+{"course": "PHYS 73", "required": [["PHYS 43"], ["PHYS 50"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PHYS 74", "required": [["PHYS 66", "PHYS 68"]], "counts": [1], "recommended": null}
+
+{"course": "PHYS 75", "required": [["PHYS 15", "PHYS 19", "MATH 22"]], "counts": [1], "recommended": null}
+
+{"course": "PHYS 76", "required": [["PHYS 40"]], "counts": [1], "recommended": null}
+
+{"course": "PHYS 77", "required": [["PHYS 44"], ["PHYS 41"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PHYS 82.02", "required": [["MATH 13"]], "counts": [1], "recommended": null}
+
+{"course": "PHYS 90", "required": [["PHYS 50"]], "counts": [1], "recommended": null}
+
+{"course": "PHYS 92", "required": [["PHYS 41"], ["PHYS 43"], ["PHYS 44"], ["PHYS 50"]], "counts": [1], "recommended": ["ASTR 25"]}
+
+{"course": "PSYC 10", "required": [["PSYC 1", "PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 11", "required": [["PSYC 1", "PSYC 6"], ["PSYC 10"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PSYC 21", "required": [["PSYC 1", "PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 22", "required": [["PSYC 1", "PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 23", "required": [["PSYC 1"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 24", "required": [["PSYC 1"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 25", "required": [["PSYC 1"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 28", "required": [["PSYC 1", "PSYC 6", "COGS 1"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 32", "required": [["PSYC 11"]], "counts": [1], "recommended": ["MATH 1", "MATH 3"]}
+
+{"course": "PSYC 35", "required": [["PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 36", "required": [["PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 37", "required": [["PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 38", "required": [["PSYC 1", "PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 40", "required": [["PSYC 1", "PSYC 6", "COSC 1", "ENGS 20"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 43", "required": [["PSYC 1", "PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 44", "required": [["PSYC 1"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 50.01", "required": [["PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 50.02", "required": [["PSYC 1", "PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 50.07", "required": [["PSYC 1", "PSYC 6"], ["PSYC 10"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PSYC 50.08", "required": [["PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 50.09", "required": [["PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 50.10", "required": [["PSYC 21", "PSYC 27", "PSYC 28", "PSYC 38"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 50.12", "required": [["PSYC 6"], ["PSYC 28", "PSYC 38", "PSYC 37", "PSYC 35", "PSYC 36"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PSYC 50.13", "required": [["PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 50.14", "required": [["PSYC 1", "PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 50.15", "required": [["PSYC 1", "PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 51.01", "required": [["PSYC 6", "PSYC 21", "PSYC 28"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 51.02", "required": [["PSYC 1", "PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 51.09", "required": [["PSYC 1", "PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 51.12", "required": [["PSYC 1", "PSYC 6"], ["PSYC 10"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PSYC 51.13", "required": [["LING 1", "COGS 1"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 52.04", "required": [["PSYC 1"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 52.05", "required": [["PSYC 1"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 52.06", "required": [["PSYC 6", "PSYC 21", "PSYC 27", "PSYC 28", "PSYC 38"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 53.10", "required": [["PSYC 23", "PSYC 27", "PSYC 28", "PSYC 38"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 53.12", "required": [["PSYC 1"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 53.13", "required": [["PSYC 1", "PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 53.14", "required": [["PSYC 1", "PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 53.15", "required": [["PSYC 1", "PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 54.02", "required": [["PSYC 1", "PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 54.03", "required": [["PSYC 24"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 54.05", "required": [["PSYC 1"], ["PSYC 21", "PSYC 27", "PSYC 28", "PSYC 38", "PSYC 6"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PSYC 54.06", "required": [["PSYC 1", "PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 54.07", "required": [["PSYC 24"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PSYC 54.08", "required": [["PSYC 1"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 60", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 63", "required": [["PSYC 11"], ["PSYC 23"], ["IP"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "PSYC 70", "required": [["PSYC 6"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PSYC 80.01", "required": [["PSYC 6"], ["PSYC 37", "PSYC 45"], ["IP"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "PSYC 80.02", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 80.04", "required": [["PSYC 6"], ["PSYC 37", "PSYC 45"], ["IP"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "PSYC 80.05", "required": [["PSYC 1", "PSYC 6"], ["PSYC *"], ["IP"]], "counts": [1, 4, 1], "recommended": null}
+
+{"course": "PSYC 80.06", "required": [["PSYC 1", "PSYC 6"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PSYC 81.04", "required": [["PSYC 6", "PSYC 21", "PSYC 28"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PSYC 81.08", "required": [["PSYC 22", "PSYC 28"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PSYC 81.09", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 81.10", "required": [["PSYC 1", "PSYC 6"], ["PSYC 11", "PSYC 36"], ["IP"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "PSYC 81.11", "required": [["PSYC 6", "PSYC 21", "PSYC 28"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PSYC 81.12", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 83.07", "required": [["PSYC 1"], ["PSYC 10"], ["IP"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "PSYC 83.08", "required": [["PSYC 1", "PSYC 6"], ["PSYC 10"], ["PSYC 23", "PSYC 38", "PSYC 53", "PSYC 60"], ["IP"]], "counts": [1, 1, 1, 1], "recommended": null}
+
+{"course": "PSYC 83.09", "required": [["PSYC 1", "PSYC 6"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 84.05", "required": [["PSYC 1", "PSYC 6"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PSYC 84.06", "required": [["PSYC 1", "PSYC 6"], ["PSYC 23", "PSYC 28", "PSYC 53.12", "PSYC 54.08"], ["IP"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "PSYC 86.01", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 86.04", "required": [["PSYC 6"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PSYC 86.05", "required": [["PSYC 1"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PSYC 87.02", "required": [["PSYC 10"], ["PSYC 6", "PSYC 25", "PSYC 27", "PSYC 38"], ["IP"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "PSYC 88", "required": [["PSYC 1", "PSYC 6"], ["PSYC 10"], ["PSYC 11"], ["IP"]], "counts": [1, 1, 1, 1], "recommended": null}
+
+{"course": "PSYC 89.01", "required": [["PSYC 1"], ["PSYC 10"], ["PSYC 11"], ["IP"]], "counts": [1, 1, 1, 1], "recommended": ["PSYC 60"]}
+
+{"course": "PSYC 89.02", "required": [["PSYC 89.01"]], "counts": [1], "recommended": null}
+
+{"course": "PSYC 90", "required": [["PSYC 6"], ["PSYC 10"], ["PSYC 20-29"], ["IP"]], "counts": [1, 1, 2, 1], "recommended": null}
+
+{"course": "PSYC 91.01", "required": [["PSYC 6"], ["PSYC 10", "BIOL 29"], ["IP"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "PSYC 91.02", "required": [["PSYC 91.01"]], "counts": [1], "recommended": null}
+
+{"course": "QSS 15", "required": [["MATH 3"]], "counts": [1], "recommended": null}
+
+{"course": "QSS 30.04", "required": [["MATH 3"]], "counts": [1], "recommended": null}
+
+{"course": "QSS 36", "required": [["MATH 13"], ["MATH 20"]], "counts": [1, 1], "recommended": null}
+
+{"course": "REL 70", "required": [["REL *"]], "counts": [1], "recommended": null}
+
+{"course": "REL 71", "required": [["REL *"]], "counts": [1], "recommended": null}
+
+{"course": "RUSS 3", "required": [["RUSS 2"]], "counts": [1], "recommended": null}
+
+{"course": "RUSS 21", "required": [["RUSS 3"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "RUSS 22", "required": [["RUSS 3"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "RUSS 23", "required": [["RUSS 3"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "RUSS 27", "required": [["RUSS 3"]], "counts": [1], "recommended": null}
+
+{"course": "RUSS 28", "required": [["RUSS 27"]], "counts": [1], "recommended": null}
+
+{"course": "RUSS 29", "required": [["RUSS 28"]], "counts": [1], "recommended": null}
+
+{"course": "RUSS 41", "required": [["RUSS 29+"]], "counts": [1], "recommended": null}
+
+{"course": "RUSS 45", "required": [["RUSS 29+"]], "counts": [1], "recommended": null}
+
+{"course": "RUSS 48", "required": [["RUSS 29"]], "counts": [1], "recommended": null}
+
+{"course": "RUSS 71", "required": [["RUSS 40-49"]], "counts": [1], "recommended": null}
+
+{"course": "SOCY 15", "required": [["SOCY 1", "SOCY 2"]], "counts": [1], "recommended": null}
+
+{"course": "SOCY 16", "required": [["SOCY 1", "SOCY 2"]], "counts": [1], "recommended": null}
+
+{"course": "SOCY 50", "required": [["SOCY 1", "SOCY 2"]], "counts": [1], "recommended": null}
+
+{"course": "SOCY 54", "required": [["SOCY 10"]], "counts": [1], "recommended": null}
+
+{"course": "SOCY 63", "required": [["SOCY 1", "SOCY 2"], ["SOCY *"]], "counts": [1, 1], "recommended": null}
+
+{"course": "SOCY 65", "required": [["SOCY 1", "SOCY 2"]], "counts": [1], "recommended": null}
+
+{"course": "SOCY 72", "required": [["SOCY *"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 9", "required": [["SPAN 3"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 20", "required": [["SPAN 5", "SPAN 6", "SPAN 9", "SPAN 15"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 23", "required": [["SPAN 20"], ["SPAN 32", "SPAN 31", "SPAN 30"], ["CP"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "SPAN 24", "required": [["SPAN 20"], ["SPAN 32", "SPAN 31", "SPAN 30"], ["CP"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "SPAN 30", "required": [["SPAN 20"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "SPAN 31", "required": [["SPAN 20"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "SPAN 32", "required": [["SPAN 20"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "SPAN 33", "required": [["SPAN 20"], ["SPAN 32", "SPAN 31", "SPAN 30"], ["CP"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "SPAN 34", "required": [["SPAN 20"], ["SPAN 32", "SPAN 31", "SPAN 30"], ["CP"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "SPAN 35", "required": [["SPAN 20"], ["SPAN 32", "SPAN 31", "SPAN 30"], ["CP"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "SPAN 36", "required": [["SPAN 20"], ["SPAN 32", "SPAN 31", "SPAN 30"], ["CP"]], "counts": [1, 1, 1], "recommended": null}
+
+{"course": "SPAN 40.07", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 40.12", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 45.05", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 45.07", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 50.02", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 55.04", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 55.05", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 55.06", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 55.13", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 63.10", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 63.11", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 63.12", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 65.15", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 70.01", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 70.02", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 73.11", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 75.01", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 77.05", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 80.22", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 80.23", "required": [["SPAN 20"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 83", "required": [["IP"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 90", "required": [["CP"]], "counts": [1], "recommended": null}
+
+{"course": "SPAN 91", "required": [["SPAN 90"]], "counts": [1], "recommended": null}
+
+{"course": "PORT 3", "required": [["PORT 2"]], "counts": [1], "recommended": null}
+
+{"course": "PORT 9", "required": [["PORT 3", "CP"]], "counts": [1], "recommended": null}
+
+{"course": "PORT 20", "required": [["PORT 9"]], "counts": [1], "recommended": null}
+
+{"course": "PORT 25", "required": [["PORT 3"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PORT 35", "required": [["PORT 3"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PORT 36", "required": [["PORT 3"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "PORT 60", "required": [["PORT 9"]], "counts": [1], "recommended": null}
+
+{"course": "PORT 61", "required": [["PORT 9"]], "counts": [1], "recommended": null}
+
+{"course": "PORT 62", "required": [["PORT 9"]], "counts": [1], "recommended": null}
+
+{"course": "PORT 63", "required": [["PORT 9"]], "counts": [1], "recommended": null}
+
+{"course": "PORT 80", "required": [["PORT 9"]], "counts": [1], "recommended": null}
+
+{"course": "PORT 90", "required": [["CP"]], "counts": [1], "recommended": null}
+
+{"course": "PORT 91", "required": [["PORT 90"]], "counts": [1], "recommended": null}
+
+{"course": "SART 20", "required": [["SART 15"]], "counts": [1], "recommended": null}
+
+{"course": "SART 21", "required": [["SART 16"]], "counts": [1], "recommended": null}
+
+{"course": "SART 22", "required": [["SART 15"]], "counts": [1], "recommended": null}
+
+{"course": "SART 23", "required": [["SART 16"]], "counts": [1], "recommended": null}
+
+{"course": "SART 25", "required": [["SART 15"]], "counts": [1], "recommended": null}
+
+{"course": "SART 28", "required": [["SART 26", "SART 27"]], "counts": [1], "recommended": null}
+
+{"course": "SART 30", "required": [["SART 29"]], "counts": [1], "recommended": null}
+
+{"course": "SART 31", "required": [["SART 25"]], "counts": [1], "recommended": null}
+
+{"course": "SART 66", "required": [["SART 65"]], "counts": [1], "recommended": null}
+
+{"course": "SART 68", "required": [["SART 66"]], "counts": [1], "recommended": null}
+
+{"course": "SART 71", "required": [["SART 20"]], "counts": [1], "recommended": null}
+
+{"course": "SART 72", "required": [["SART 31"]], "counts": [1], "recommended": null}
+
+{"course": "SART 73", "required": [["SART 21"]], "counts": [1], "recommended": null}
+
+{"course": "SART 74", "required": [["SART 28"]], "counts": [1], "recommended": null}
+
+{"course": "SART 75", "required": [["SART 30"]], "counts": [1], "recommended": null}
+
+{"course": "SART 77", "required": [["SART 76"]], "counts": [1], "recommended": null}
+
+{"course": "THEA 10.32", "required": [["THEA 35"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "THEA 10.71", "required": [["THEA 30"]], "counts": [1], "recommended": null}
+
+{"course": "THEA 27", "required": [["THEA 26"]], "counts": [1], "recommended": null}
+
+{"course": "THEA 31", "required": [["THEA 30"]], "counts": [1], "recommended": null}
+
+{"course": "THEA 35", "required": [["THEA 30"], ["IP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "THEA 51", "required": [["THEA 50"]], "counts": [1], "recommended": null}
+
+{"course": "THEA 54", "required": [["THEA 30"]], "counts": [1], "recommended": null}
+
+{"course": "THEA 60", "required": [["THEA 15", "THEA 16", "THEA 17"], ["THEA 10", "THEA 25", "THEA 26", "THEA 27", "THEA 28", "THEA 29", "THEA 30", "THEA 35", "THEA 36", "THEA 40", "THEA 41", "THEA 42", "THEA 44", "THEA 48", "THEA 50"]], "counts": [1, 1], "recommended": null}
+
+{"course": "THEA 61", "required": [["THEA 15", "THEA 16", "THEA 17"], ["THEA 10", "THEA 25", "THEA 26", "THEA 27", "THEA 28", "THEA 29", "THEA 30", "THEA 35", "THEA 36", "THEA 40", "THEA 41", "THEA 42", "THEA 44", "THEA 48", "THEA 50"]], "counts": [1, 1], "recommended": null}
+
+{"course": "THEA 62", "required": [["THEA 15", "THEA 16", "THEA 17"], ["THEA 10", "THEA 25", "THEA 26", "THEA 27", "THEA 28", "THEA 29", "THEA 30", "THEA 35", "THEA 36", "THEA 40", "THEA 41", "THEA 42", "THEA 44", "THEA 48", "THEA 50"]], "counts": [1, 1], "recommended": null}
+
+{"course": "THEA 80", "required": [["CP"]], "counts": [1], "recommended": null}
+
+{"course": "THEA 90", "required": [["CP"]], "counts": [1], "recommended": null}
+
+{"course": "THEA 91", "required": [["CP"]], "counts": [1], "recommended": null}
+
+{"course": "WGSS 66.14", "required": [["ECON 1"]], "counts": [1], "recommended": null}
+
+{"course": "WGSS 85", "required": [["IP"], ["CP"]], "counts": [1, 1], "recommended": null}
+
+{"course": "WRIT 7", "required": [["WRIT 5", "WRIT 3", "HUM 1"]], "counts": [1], "recommended": null}
+
+{"course": "WRIT 41", "required": [["PBPL 5"]], "counts": [1], "recommended": null}
+
+{"course": "WRIT 43", "required": [["WRIT 5", "WRIT 3", "HUM 1"]], "counts": [1], "recommended": null}
+

@@ -1,6 +1,7 @@
 """
     scrape.py - code that scrapes the ORC course pages for Classy, a CS 98 project
     Author: Henry Kim
+    Course: CS 98
     Term: Fall 2022
 """
 
@@ -151,8 +152,8 @@ def scrape_course_page(root_url: str, link: str):
         'offered': offered_terms,
     }
 
-    if prereqs:
-        print(course_code['course_dept'], course_code['course_number'], ":", prereqs)
+    # if prereqs:
+    #     print(course_code['course_dept'], course_code['course_number'], ":", prereqs)
 
     course_json = json.dumps(course)
     return course_json
@@ -169,6 +170,7 @@ def scrape_course_pages(root_url: str, soup: BeautifulSoup):
         for course in courses:
             link = course['href']
             course_json = scrape_course_page(root_url, link)
+            print(course_json)
 
 
 def scrape_dept_pages(root_url: str, seed: str, func = None):
