@@ -33,7 +33,7 @@ const CourseSchema: Schema = new Schema({
   title: { type: String, required: true }, // title of the course
   description: { type: String, required: true }, // description of the course
   professors: [{ type: Schema.Types.ObjectId, ref: 'Professor' }], // professors for this course
-  prereqs: [{ type: String }], // prerequisites for this course
+  prereqs: [[{ type: String }]], // prerequisites for this course
   distribs: [{ type: String }], // distribs for this course
   worldCulture: { type: String, required: true }, // worldCulture for this course
   termsOffered: [{ type: String, required: true }], // terms offered for this course
