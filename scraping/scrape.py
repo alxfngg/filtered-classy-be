@@ -143,7 +143,8 @@ def scrape_course_page(root_url: str, link: str):
     offered_terms = get_offered_terms(soup, '#main .offered li')
 
     course = {
-        'courseCode': courseCode,
+        'courseDept': courseCode["dept"],
+        'courseNum': courseCode["number"],
         'courseTitle': courseTitle,
         'description': course_description,
         'xlists': xlists,
@@ -153,10 +154,7 @@ def scrape_course_page(root_url: str, link: str):
         'worldCulture': wc,
         'termsOffered': offered_terms,
     }
-
-    # if prereqs:
-    #     print(courseCode['course_dept'], courseCode['course_number'], ":", prereqs)
-
+    
     return course
 
 def scrape_course_pages(root_url: str, soup: BeautifulSoup):

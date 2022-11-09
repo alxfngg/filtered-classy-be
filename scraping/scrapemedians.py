@@ -68,17 +68,17 @@ for course, data in courses.items():
         total += avg
     avg_medians[course] = total / len(data.items())
 
-# for course, data in courses.items():
-#     parsed = course.split()
-#     dept = parsed[0]
-#     number = parsed[1]
-#     print(collection.update_one({"courseCode.dept": dept, "courseCode.number": number},{ "$set": { "medians" : data} }))
-#     print(course, data)
+for course, data in courses.items():
+    parsed = course.split()
+    dept = parsed[0]
+    number = parsed[1]
+    print(collection.update_one({"courseDept": dept, "courseNum": number},{ "$set": { "medians" : data} }))
+    print(course, data)
 
 print()
 for course, median in avg_medians.items():
     parsed = course.split()
     dept = parsed[0]
     number = parsed[1]
-    print(collection.update_one({"courseCode.dept": dept, "courseCode.number": number},{ "$set": { "avgMedian" : median} }))
+    print(collection.update_one({"courseDept": dept, "courseNum": number},{ "$set": { "avgMedian" : median} }))
     print(course, median)

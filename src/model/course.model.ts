@@ -1,14 +1,15 @@
 import { model, Schema, Model, Document, Types } from 'mongoose';
 
 export interface ICourse extends Document {
-  courseCode: {dept: string, number: string}[]; // codes of the department
+  dept: string; // code of the department
+  num: string; // course number
   title: string; // title of the course
   description: string; // description of the course
   professors: Types.ObjectId[]; // professors for this course
   prereqs: string[][]; // prerequisites for this course
   distribs: string[]; // distribs for this course
   worldCulture: string;
-  termsOffered: object[]; // terms offered for this course
+  termsOffered: {term: string, period: string}[]; // terms offered for this course
   xlists: Types.ObjectId[]; // crosslisted courses
   pe: boolean; // pe for this course
   fys: boolean; // fys for this course
@@ -22,14 +23,14 @@ export interface ICourse extends Document {
   reviews: Types.ObjectId[]; // reviews for this course
   syllabi: string[]; // syllabi for this course
 
-
   createDate: Date;
   updatedDate: Date;
   timestamps?: {};
 }
 
 const CourseSchema: Schema = new Schema({
-  courseCode: { type: Object, required: true }, // codes of the department
+  dept: { type: String, required: true }, // course dept
+  num: { type: String, required: true }, // course num
   title: { type: String, required: true }, // title of the course
   description: { type: String, required: true }, // description of the course
   professors: [{ type: Schema.Types.ObjectId, ref: 'Professor' }], // professors for this course
