@@ -157,12 +157,7 @@ def scrape_course_page(root_url: str, link: str):
     # if prereqs:
     #     print(courseCode['course_dept'], courseCode['course_number'], ":", prereqs)
 
-    course_json = json.dumps(course)
-    if course['courseCode']['dept'] == 'COSC': 
-        print(course_json)
-    else:
-        print(course['courseCode'])
-    return course_json
+    return course
 
 def scrape_course_pages(root_url: str, soup: BeautifulSoup):
     # find the courses links
@@ -176,8 +171,8 @@ def scrape_course_pages(root_url: str, soup: BeautifulSoup):
         for course in courses:
             link = course['href']
             course_json = scrape_course_page(root_url, link)
-            print("HELLO")
             print(course_json)
+            collection.insert_one(course_json)
 
 
 def scrape_dept_pages(root_url: str, seed: str, func = None):
@@ -197,9 +192,7 @@ def scrape_dept_pages(root_url: str, seed: str, func = None):
 client = pymongo.MongoClient("mongodb+srv://classyadmin:classyadmincs98@classy-cluster.kedlpk1.mongodb.net/?retryWrites=true&w=majority")
 db = client.classy
 collection = db.collection
-requesting = []
 
 scrape_dept_pages(ROOT_URL, "current/orc/Departments-Programs-Undergraduate", scrape_course_pages)
 
-result = collection.bulk_write(requesting)
 client.close()

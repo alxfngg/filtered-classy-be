@@ -8,6 +8,8 @@ import requests
 import json
 import re
 from bs4 import BeautifulSoup
+import pymongo
+from pymongo import MongoClient, InsertOne
 
 ROOT_URL = "https://www.dartmouth.edu/reg/transcript/medians"
 terms = ["20x", "20f", "21w", "21s", "21x", "21f", "22w", "22s"]
@@ -23,7 +25,16 @@ median_conversions = {
     'B-': 8
 }
 
-courses = { }
+def average_medians(medians):
+    total = 0
+    for median in medians:
+        total += median_conversions[median]
+    return total / len(medians)
+
+courses = {}
+client = pymongo.MongoClient("mongodb+srv://classyadmin:classyadmincs98@classy-cluster.kedlpk1.mongodb.net/?retryWrites=true&w=majority")
+db = client.classy
+collection = db.collection
 
 for term in terms:
     page = requests.get(f"{ROOT_URL}/{term}.html")
@@ -43,11 +54,6 @@ for term in terms:
             courses[course][term] = []
         courses[course][term].append(median)
 
-def average_medians(medians):
-    total = 0
-    for median in medians:
-        total += median_conversions[median]
-    return total / len(medians)
 
 for course, data in courses.items():
     for term, medians in data.items():
@@ -62,9 +68,17 @@ for course, data in courses.items():
         total += avg
     avg_medians[course] = total / len(data.items())
 
-for course, data in courses.items():
-    print(course, data)
+# for course, data in courses.items():
+#     parsed = course.split()
+#     dept = parsed[0]
+#     number = parsed[1]
+#     print(collection.update_one({"courseCode.dept": dept, "courseCode.number": number},{ "$set": { "medians" : data} }))
+#     print(course, data)
 
 print()
 for course, median in avg_medians.items():
+    parsed = course.split()
+    dept = parsed[0]
+    number = parsed[1]
+    print(collection.update_one({"courseCode.dept": dept, "courseCode.number": number},{ "$set": { "avgMedian" : median} }))
     print(course, median)

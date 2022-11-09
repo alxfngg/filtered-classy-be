@@ -8,7 +8,7 @@ export interface ICourse extends Document {
   prereqs: string[][]; // prerequisites for this course
   distribs: string[]; // distribs for this course
   worldCulture: string;
-  termsOffered: string[]; // terms offered for this course
+  termsOffered: object[]; // terms offered for this course
   xlists: Types.ObjectId[]; // crosslisted courses
   pe: boolean; // pe for this course
   fys: boolean; // fys for this course
@@ -36,7 +36,7 @@ const CourseSchema: Schema = new Schema({
   prereqs: [[{ type: String }]], // prerequisites for this course
   distribs: [{ type: String }], // distribs for this course
   worldCulture: { type: String, required: true }, // worldCulture for this course
-  termsOffered: [{ type: String, required: true }], // terms offered for this course
+  termsOffered: [{ type: Object, required: true }], // terms offered for this course
   xlists: [{ type: String, required: true }], // crosslisted courses
   pe: { type: Boolean, required: true }, // pe for this course
   fys: { type: Boolean, required: true }, // fys for this course
