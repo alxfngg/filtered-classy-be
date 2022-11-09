@@ -1,3 +1,6 @@
+import pymongo
+from pymongo import MongoClient, InsertOne
+
 class Offering:
     def __init__(self, subject, number, title, wc, distrib, nr):
         self.subject = subject
@@ -12,7 +15,7 @@ class Offering:
         self.nr = nr
     
     def add_offering(self, term, instructors, period):
-        self.offerings.append({"term": term, "instructors": instructors, "period": period})
+        self.offerings.append({"term": term, "professors": instructors, "period": period})
 
     def __str__(self) -> str:
         return f"offerings: {self.offerings}"
@@ -43,9 +46,16 @@ def parse_timetable():
                 courses[key] = Offering(subject, number, title, wc, distrib, nr == "NR Eligible")
             courses[key].add_offering(term, instructors, period)
 
-    print(courses["COSC 10"])
-    print(courses["COSC 25.01"])
-    print(courses["COSC 52"])
-    print(courses["COSC 98.01"])
+    for course, data in courses.items():
+        print(course, data)
+        parsed = course.split()
+        dept = parsed[0]
+        number = parsed[1]
+        print(collection.update_one({"courseCode.dept": dept, "courseCode.number": number},{ "$set": { "termsOffered" : data.offerings} }))
+
+client = pymongo.MongoClient("mongodb+srv://classyadmin:classyadmincs98@classy-cluster.kedlpk1.mongodb.net/?retryWrites=true&w=majority")
+db = client.classy
+collection = db.collection
 
 parse_timetable()
+
