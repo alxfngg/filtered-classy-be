@@ -7,7 +7,14 @@ export const getUsers = async () => {
     return users;
 }
 
-export const createUser = async (user: string) => {
+export const getUser = async (id: string) => {
+    console.log("In getUser");
+    const user = await UserModel.find({id: id});
+    console.log('user:::', user);
+    return user;
+}
+
+export const createUser = async (user: object) => {
     let data = {};
     try {
         console.log("In createUser");
@@ -20,7 +27,7 @@ export const createUser = async (user: string) => {
     return data;
 }
 
-export const updateUser = async (id: string, user: string) => {
+export const updateUser = async (id: string, user: object) => {
     try {
         await UserModel.findByIdAndUpdate(id, {
             user: user,

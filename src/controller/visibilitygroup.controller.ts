@@ -7,7 +7,14 @@ export const getVisibilityGroups = async () => {
     return visibilityGroups;
 }
 
-export const createVisibilityGroup = async (visibilityGroup: string) => {
+export const getVisibilityGroup = async (id: string) => {
+    console.log("In getVisibilityGroup");
+    const visibilityGroup = await VisibilityGroupModel.find({id: id});
+    console.log('visibilityGroup:::', visibilityGroup);
+    return visibilityGroup;
+}
+
+export const createVisibilityGroup = async (visibilityGroup: object) => {
     let data = {};
     try {
         console.log("In createVisibilityGroup");
@@ -20,7 +27,7 @@ export const createVisibilityGroup = async (visibilityGroup: string) => {
     return data;
 }
 
-export const updateVisibilityGroup = async (id: string, visibilityGroup: string) => {
+export const updateVisibilityGroup = async (id: string, visibilityGroup: object) => {
     try {
         await VisibilityGroupModel.findByIdAndUpdate(id, {
             visibilityGroup: visibilityGroup,

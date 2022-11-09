@@ -7,7 +7,14 @@ export const getCourses = async () => {
     return courses;
 }
 
-export const createCourse = async (course: string) => {
+export const getCourse = async (id: string) => {
+    console.log("In getCourse");
+    const course = await CourseModel.findOne({id: id});
+    console.log('course:::', course);
+    return course;
+}
+
+export const createCourse = async (course: object) => {
     let data = {};
     try {
         console.log("In createCourse");
@@ -20,7 +27,7 @@ export const createCourse = async (course: string) => {
     return data;
 }
 
-export const updateCourse = async (id: string, course: string) => {
+export const updateCourse = async (id: string, course: object) => {
     try {
         await CourseModel.findByIdAndUpdate(id, {
             course: course,

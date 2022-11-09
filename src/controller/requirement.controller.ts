@@ -7,7 +7,14 @@ export const getRequirements = async () => {
     return requirements;
 }
 
-export const createRequirement = async (requirement: string) => {
+export const getRequirement = async (id: string) => {
+    console.log("In getRequirement");
+    const requirement = await RequirementsModel.findOne({id: id});
+    console.log('requirement:::', requirement);
+    return requirement;
+}
+
+export const createRequirement = async (requirement: object) => {
     let data = {};
     try {
         console.log("In createRequirement");
@@ -20,7 +27,7 @@ export const createRequirement = async (requirement: string) => {
     return data;
 }
 
-export const updateRequirement = async (id: string, requirement: string) => {
+export const updateRequirement = async (id: string, requirement: object) => {
     try {
         await RequirementsModel.findByIdAndUpdate(id, {
             requirement: requirement,

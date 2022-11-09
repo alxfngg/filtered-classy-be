@@ -7,7 +7,7 @@ export const getTasks = async () => {
     return tasks;
 }
 
-export const createTask = async (task: string) => {
+export const createTask = async (task: object) => {
     let data = {};
     try {
         console.log("In createTask");
@@ -20,7 +20,7 @@ export const createTask = async (task: string) => {
     return data;
 }
 
-export const updateTask = async (id: string, task: string) => {
+export const updateTask = async (id: string, task: object) => {
     try {
         await TaskModel.findByIdAndUpdate(id, {
             task: task,

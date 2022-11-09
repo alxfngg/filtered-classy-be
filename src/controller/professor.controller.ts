@@ -7,7 +7,28 @@ export const getProfessors = async () => {
     return professors;
 }
 
-export const createProfessor = async (professor: string) => {
+export const getDeptProfessors = async (deptId: string) => {
+    console.log("In getDeptProfessors");
+    const professors = await ProfessorModel.find({departments: deptId});
+    console.log('dept professors:::', professors);
+    return professors;
+}
+
+export const getCourseProfessors = async (courseId: string) => {
+    console.log("In getCourseProfessors");
+    const professors = await ProfessorModel.find({coursesTaught: courseId});
+    console.log('course professors:::', professors);
+    return professors;
+}
+
+export const getProfessor = async (id: string) => {
+    console.log("In getProfessor");
+    const professor = await ProfessorModel.findOne({id: id});
+    console.log('professor:::', professor);
+    return professor;
+}
+
+export const createProfessor = async (professor: object) => {
     let data = {};
     try {
         console.log("In createProfessor");
@@ -20,7 +41,7 @@ export const createProfessor = async (professor: string) => {
     return data;
 }
 
-export const updateProfessor = async (id: string, professor: string) => {
+export const updateProfessor = async (id: string, professor: object) => {
     try {
         await ProfessorModel.findByIdAndUpdate(id, {
             professor: professor,

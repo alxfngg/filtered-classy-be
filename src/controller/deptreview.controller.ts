@@ -7,7 +7,14 @@ export const getDeptReviews = async () => {
     return deptReviews;
 }
 
-export const createDeptReview = async (deptReview: string) => {
+export const getDeptReview = async (id: string) => {
+    console.log("In getDeptReview");
+    const deptReview = await DeptReviewModel.findOne({id: id});
+    console.log('deptReview:::', deptReview);
+    return deptReview;
+}
+
+export const createDeptReview = async (deptReview: object) => {
     let data = {};
     try {
         console.log("In createDeptReview");
@@ -20,7 +27,7 @@ export const createDeptReview = async (deptReview: string) => {
     return data;
 }
 
-export const updateDeptReview = async (id: string, deptReview: string) => {
+export const updateDeptReview = async (id: string, deptReview: object) => {
     try {
         await DeptReviewModel.findByIdAndUpdate(id, {
             deptReview: deptReview,

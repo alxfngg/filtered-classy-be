@@ -7,7 +7,14 @@ export const getTerms = async () => {
     return terms;
 }
 
-export const createTerm = async (term: string) => {
+export const getTerm = async (id: string) => {
+    console.log("In getTerm");
+    const term = await TermModel.find({id: id});
+    console.log('term:::', term);
+    return term;
+}
+
+export const createTerm = async (term: object) => {
     let data = {};
     try {
         console.log("In createTerm");
@@ -20,7 +27,7 @@ export const createTerm = async (term: string) => {
     return data;
 }
 
-export const updateTerm = async (id: string, term: string) => {
+export const updateTerm = async (id: string, term: object) => {
     try {
         await TermModel.findByIdAndUpdate(id, {
             term: term,

@@ -7,7 +7,14 @@ export const getDepartments = async () => {
     return departments;
 }
 
-export const createDepartment = async (department: string) => {
+export const getDepartment = async (id: string) => {
+    console.log("In getDepartment");
+    const department = await DepartmentModel.findOne({id: id});
+    console.log('department:::', department);
+    return department;
+}
+
+export const createDepartment = async (department: object) => {
     let data = {};
     try {
         console.log("In createDepartment");
@@ -20,7 +27,7 @@ export const createDepartment = async (department: string) => {
     return data;
 }
 
-export const updateDepartment = async (id: string, department: string) => {
+export const updateDepartment = async (id: string, department: object) => {
     try {
         await DepartmentModel.findByIdAndUpdate(id, {
             department: department,

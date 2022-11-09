@@ -1,7 +1,8 @@
 import { model, Schema, Model, Document, Types } from 'mongoose';
 
-export interface IMajor extends Document {
+export interface IMajorMinor extends Document {
   name: string; // name of the major
+  type: string; // major? minor? modified?
   requirements: Types.ObjectId[]; // requirements for this major
 
   createDate: Date,
@@ -9,8 +10,9 @@ export interface IMajor extends Document {
   timestamps?: {};
 }
 
-const MajorSchema: Schema = new Schema({
+const MajorMinorSchema: Schema = new Schema({
   name: { type: String, required: true }, // name of the major
+  type: { type: String, required: true }, // major, minor, or modified?
   requirements: [{ type: Schema.Types.ObjectId, ref: 'Requirement' }], // requirements for this major
 
   createDate: { type: Date, default: Date.now },
@@ -19,4 +21,4 @@ const MajorSchema: Schema = new Schema({
 }
 );
 
-export const MajorModel: Model<IMajor> = model<IMajor>('Major', MajorSchema);
+export const MajorMinorModel: Model<IMajorMinor> = model<IMajorMinor>('MajorMinor', MajorMinorSchema);

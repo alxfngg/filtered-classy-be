@@ -7,7 +7,14 @@ export const getCourseReviews = async () => {
     return courseReviews;
 }
 
-export const createCourseReview = async (courseReview: string) => {
+export const getCourseReview = async (id: string) => {
+    console.log("In getCourseReview");
+    const courseReview = await CourseReviewModel.findOne({id: id});
+    console.log('coursereview:::', courseReview);
+    return courseReview;
+}
+
+export const createCourseReview = async (courseReview: object) => {
     let data = {};
     try {
         console.log("In createCourseReview");
@@ -20,7 +27,7 @@ export const createCourseReview = async (courseReview: string) => {
     return data;
 }
 
-export const updateCourseReview = async (id: string, courseReview: string) => {
+export const updateCourseReview = async (id: string, courseReview: object) => {
     try {
         await CourseReviewModel.findByIdAndUpdate(id, {
             courseReview: courseReview,
