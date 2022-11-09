@@ -5,8 +5,8 @@ export interface ICourse extends Document {
   title: string; // title of the course
   description: string; // description of the course
   professors: Types.ObjectId[]; // professors for this course
-  prereqs: Types.ObjectId[]; // prerequisites for this course
-  distribs: Types.ObjectId[]; // distribs for this course
+  prereqs: string[][]; // prerequisites for this course
+  distribs: string[]; // distribs for this course
   worldCulture: string;
   termsOffered: string[]; // terms offered for this course
   xlists: Types.ObjectId[]; // crosslisted courses
@@ -33,8 +33,8 @@ const CourseSchema: Schema = new Schema({
   title: { type: String, required: true }, // title of the course
   description: { type: String, required: true }, // description of the course
   professors: [{ type: Schema.Types.ObjectId, ref: 'Professor' }], // professors for this course
-  prereqs: [{ type: Schema.Types.ObjectId, ref: 'Course' }], // prerequisites for this course
-  distribs: [{ type: Schema.Types.ObjectId, ref: 'Distrib' }], // distribs for this course
+  prereqs: [{ type: String }], // prerequisites for this course
+  distribs: [{ type: String }], // distribs for this course
   worldCulture: { type: String, required: true }, // worldCulture for this course
   termsOffered: [{ type: String, required: true }], // terms offered for this course
   xlists: [{ type: String, required: true }], // crosslisted courses

@@ -9,6 +9,8 @@ import requests
 import json
 import re
 from bs4 import BeautifulSoup
+import pymongo
+from pymongo import MongoClient, InsertOne
 
 ROOT_URL = "https://dartmouth.smartcatalogiq.com/"
 previous_subject = None
@@ -174,6 +176,7 @@ def scrape_course_pages(root_url: str, soup: BeautifulSoup):
         for course in courses:
             link = course['href']
             course_json = scrape_course_page(root_url, link)
+            print("HELLO")
             print(course_json)
 
 
@@ -191,4 +194,12 @@ def scrape_dept_pages(root_url: str, seed: str, func = None):
         if func is not None:
             func(root_url, soup)
 
+client = pymongo.MongoClient("mongodb+srv://classyadmin:classyadmincs98@classy-cluster.kedlpk1.mongodb.net/?retryWrites=true&w=majority")
+db = client.classy
+collection = db.collection
+requesting = []
+
 scrape_dept_pages(ROOT_URL, "current/orc/Departments-Programs-Undergraduate", scrape_course_pages)
+
+result = collection.bulk_write(requesting)
+client.close()
