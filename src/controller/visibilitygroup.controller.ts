@@ -1,4 +1,4 @@
-import { VisibilityGroupModel } from '../model/visibilityGroup.model';
+import { VisibilityGroupModel } from '../model/visibilitygroup.model';
 
 export const getVisibilityGroups = async () => {
     console.log("In getVisibilityGroups");
