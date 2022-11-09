@@ -32,7 +32,7 @@ router.route('/buckets')
 router.route('/buckets/:id')
     .get(async (req, res) => {
         try {
-            const result = await BucketController.getBucket(req.parms.id);
+            const result = await BucketController.getBucket(req.params.id);
             console.log(result);
             res.json(result);
         } catch (error) {
@@ -114,7 +114,7 @@ router.route('/courses/wc/:wc')
 router.route('/courses/:id')
     .get(async (req, res) => {
         try {
-            const result = await CourseController.getCourse(req.parms.id);
+            const result = await CourseController.getCourse(req.params.id);
             console.log(result);
             res.json(result);
         } catch (error) {
@@ -163,7 +163,7 @@ router.route('/coursereviews')
 router.route('/coursereviews/:id')
     .get(async (req, res) => {
         try {
-            const result = await CourseReviewController.getCourseReview(req.parms.id);
+            const result = await CourseReviewController.getCourseReview(req.params.id);
             console.log(result);
             res.json(result);
         } catch (error) {
@@ -212,7 +212,7 @@ router.route('/departments')
 router.route('/departments/:id')
     .get(async (req, res) => {
         try {
-            const result = await DepartmentController.getDepartment(req.parms.id);
+            const result = await DepartmentController.getDepartment(req.params.id);
             console.log(result);
             res.json(result);
         } catch (error) {
@@ -261,7 +261,7 @@ router.route('/deptreviews')
 router.route('/deptreviews/:id')
     .get(async (req, res) => {
         try {
-            const result = await DeptReviewController.getDeptReview(req.parms.id);
+            const result = await DeptReviewController.getDeptReview(req.params.id);
             console.log(result);
             res.json(result);
         } catch (error) {
@@ -332,7 +332,7 @@ router.route('/minors')
 router.route('/majorminor/:id')
     .get(async (req, res) => {
         try {
-            const result = await MajorMinorController.getMajorMinor(req.parms.id);
+            const result = await MajorMinorController.getMajorMinor(req.params.id);
             console.log(result);
             res.json(result);
         } catch (error) {
@@ -392,7 +392,7 @@ router.route('/professors/dept/:id')
 router.route('/professors/:id')
     .get(async (req, res) => {
         try {
-            const result = await ProfessorController.getProfessor(req.parms.id);
+            const result = await ProfessorController.getProfessor(req.params.id);
             console.log(result);
             res.json(result);
         } catch (error) {
@@ -441,7 +441,7 @@ router.route('/requirements')
 router.route('/requirements/:id')
     .get(async (req, res) => {
         try {
-            const result = await RequirementController.getRequirement(req.parms.id);
+            const result = await RequirementController.getRequirement(req.params.id);
             console.log(result);
             res.json(result);
         } catch (error) {
@@ -534,7 +534,7 @@ router.route('/students/favprofs/:id')
 router.route('/students/:id')
     .get(async (req, res) => {
         try {
-            const result = await StudentController.getStudent(req.parms.id);
+            const result = await StudentController.getStudent(req.params.id);
             console.log(result);
             res.json(result);
         } catch (error) {
@@ -583,7 +583,7 @@ router.route('/students/:id')
 router.route('/terms/:id')
     .get(async (req, res) => {
         try {
-            const result = await TermController.getTerm(req.parms.id);
+            const result = await TermController.getTerm(req.params.id);
             console.log(result);
             res.json(result);
         } catch (error) {
@@ -632,7 +632,7 @@ router.route('/users')
 router.route('/users/:id')
     .get(async (req, res) => {
         try {
-            const result = await UserController.getUser(req.parms.id);
+            const result = await UserController.getUser(req.params.id);
             console.log(result);
             res.json(result);
         } catch (error) {
@@ -681,7 +681,7 @@ router.route('/visibilitygroups')
 router.route('/visibilitygroups/:id')
     .get(async (req, res) => {
         try {
-            const result = await VisibilityGroupController.getVisibilityGroup(req.parms.id);
+            const result = await VisibilityGroupController.getVisibilityGroup(req.params.id);
             console.log(result);
             res.json(result);
         } catch (error) {
@@ -730,7 +730,7 @@ router.route('/waitlistentries')
 router.route('/waitlistentries/:id')
     .get(async (req, res) => {
         try {
-            const result = await WaitlistEntryController.getWaitlistEntry(req.parms.id);
+            const result = await WaitlistEntryController.getWaitlistEntry(req.params.id);
             console.log(result);
             res.json(result);
         } catch (error) {
