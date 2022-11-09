@@ -1,7 +1,7 @@
 import { model, Schema, Model, Document, Types } from 'mongoose';
 
 export interface ICourse extends Document {
-  crosslistCodes: {department: string, number: string}[]; // codes of the department
+  courseCode: {dept: string, number: string}[]; // codes of the department
   title: string; // title of the course
   description: string; // description of the course
   professors: Types.ObjectId[]; // professors for this course
@@ -28,7 +28,7 @@ export interface ICourse extends Document {
 }
 
 const CourseSchema: Schema = new Schema({
-  crosslistCodes: [{ type: Object, required: true }], // codes of the department
+  courseCode: { type: Object, required: true }, // codes of the department
   title: { type: String, required: true }, // title of the course
   description: { type: String, required: true }, // description of the course
   professors: [{ type: Schema.Types.ObjectId, ref: 'Professor' }], // professors for this course
