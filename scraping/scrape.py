@@ -28,12 +28,12 @@ def get_course_name(soup: BeautifulSoup, selector1: str, selector2: str):
         course_dept = course_number[0]
         previous_subject = course_dept
         course_number = course_number[1]
-    course_title = soup.select(selector2)[0].contents[2].strip()
-    course_code = {
-        'course_dept': course_dept,
-        'course_number': course_number,
+    courseTitle = soup.select(selector2)[0].contents[2].strip()
+    courseCode = {
+        'dept': course_dept,
+        'number': course_number,
     }
-    return course_code, course_title
+    return courseCode, courseTitle
 
 def get_course_description(soup: BeautifulSoup, selector: str) -> str:
     """retrieves and returns the description on the ORC course page as a string"""
@@ -44,22 +44,22 @@ def get_course_description(soup: BeautifulSoup, selector: str) -> str:
         paragraphs[index] = paragraphs[index].get_text().strip()
     return ' '.join(paragraphs)
 
-def get_instructors(soup: BeautifulSoup, selector: str) -> list[str]:
-    """retrieves and returns the instructors on the ORC course page as a list of strings"""
-    instructors = soup.select(selector)
-    if len(instructors) == 0:
+def get_professors(soup: BeautifulSoup, selector: str) -> list[str]:
+    """retrieves and returns the professors on the ORC course page as a list of strings"""
+    professors = soup.select(selector)
+    if len(professors) == 0:
         return []
-    instructor_string = instructors[0].get_text()[len("Instructor"):]
+    instructor_string = professors[0].get_text()[len("Instructor"):]
     
     delimiters = ["or", "and", ",", "/"]
     for delimiter in delimiters:
-        instructors = instructor_string.split(delimiter)
-        if len(instructors) > 1:
+        professors = instructor_string.split(delimiter)
+        if len(professors) > 1:
             break
     
-    for index in range(len(instructors)):
-        instructors[index] = instructors[index].strip()
-    return instructors
+    for index in range(len(professors)):
+        professors[index] = professors[index].strip()
+    return professors
 
 def get_xlists(soup: BeautifulSoup, selector: str) -> list[str]:
     """retrieves and returns crosslisted courses on the ORC course page as a list of strings"""
@@ -132,34 +132,34 @@ def scrape_course_page(root_url: str, link: str):
     page = requests.get(f"{root_url}{link}")
     soup = BeautifulSoup(page.content, "html.parser")
     # on course page
-    course_code, course_title = get_course_name(soup, "h1 span", "h1")
+    courseCode, courseTitle = get_course_name(soup, "h1 span", "h1")
     course_description = get_course_description(soup, "#main .desc p")
-    instructors = get_instructors(soup, "#instructor")
+    professors = get_professors(soup, "#instructor")
     xlists = get_xlists(soup, "#main")
     prereqs = get_prereqs(soup, ".sc_prereqs")
     distribs, wc = get_distribs_wc(soup, ".sc-extrafield p")
     offered_terms = get_offered_terms(soup, '#main .offered li')
 
     course = {
-        'course_code': course_code,
-        'course_title': course_title,
+        'courseCode': courseCode,
+        'courseTitle': courseTitle,
         'description': course_description,
         'xlists': xlists,
-        'prereqs': prereqs,
-        'instructors': instructors,
+        # 'prereqs': prereqs,
+        'professors': professors,
         'distribs': distribs,
-        'wc': wc,
-        'offered': offered_terms,
+        'worldCulture': wc,
+        'termsOffered': offered_terms,
     }
 
     # if prereqs:
-    #     print(course_code['course_dept'], course_code['course_number'], ":", prereqs)
+    #     print(courseCode['course_dept'], courseCode['course_number'], ":", prereqs)
 
     course_json = json.dumps(course)
-    if course['course_code']['course_dept'] == 'COSC': 
+    if course['courseCode']['dept'] == 'COSC': 
         print(course_json)
     else:
-        print(course['course_code'])
+        print(course['courseCode'])
     return course_json
 
 def scrape_course_pages(root_url: str, soup: BeautifulSoup):
