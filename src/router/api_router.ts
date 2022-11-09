@@ -78,6 +78,39 @@ router.route('/courses')
         }
     })
 
+router.route('/courses/professor/:id')
+    .get(async (req, res) => {
+        try {
+            const result = await CourseController.getProfessorCourses(req.params.id);
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+
+router.route('/courses/distrib/:distrib')
+    .get(async (req, res) => {
+        try {
+            const result = await CourseController.getDistribCourses("distrib", req.params.distrib);
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+
+router.route('/courses/wc/:wc')
+    .get(async (req, res) => {
+        try {
+            const result = await CourseController.getDistribCourses("wc", req.params.wc);
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+
 router.route('/courses/:id')
     .get(async (req, res) => {
         try {
@@ -349,17 +382,6 @@ router.route('/professors/dept/:id')
     .get(async (req, res) => {
         try {
             const result = await ProfessorController.getDeptProfessors(req.params.id);
-            console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-
-router.route('/professors/course/:id')
-    .get(async (req, res) => {
-        try {
-            const result = await ProfessorController.getCourseProfessors(req.params.id);
             console.log(result);
             res.json(result);
         } catch (error) {

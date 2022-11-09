@@ -14,13 +14,6 @@ export const getDeptProfessors = async (deptId: string) => {
     return professors;
 }
 
-export const getCourseProfessors = async (courseId: string) => {
-    console.log("In getCourseProfessors");
-    const professors = await ProfessorModel.find({coursesTaught: courseId});
-    console.log('course professors:::', professors);
-    return professors;
-}
-
 export const getProfessor = async (id: string) => {
     console.log("In getProfessor");
     const professor = await ProfessorModel.findOne({id: id});

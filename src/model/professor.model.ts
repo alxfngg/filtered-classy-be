@@ -13,7 +13,6 @@ export interface IProfessor extends Document {
 const ProfessorSchema: Schema = new Schema({
   user: { type: Schema.Types.ObjectId, ref: 'User', required: true },
   departments: [{ type: Schema.Types.ObjectId, ref: 'Department', required: true }], // professor's department
-  coursesTaught: [{ type: Schema.Types.ObjectId, ref: 'Course' }], // courses taught by the student
   
   createDate: { type: Date, default: Date.now },
   updatedDate: { type: Date, default: Date.now },
