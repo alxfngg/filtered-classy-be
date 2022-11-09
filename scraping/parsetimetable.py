@@ -51,7 +51,7 @@ def parse_timetable():
         parsed = course.split()
         dept = parsed[0]
         number = parsed[1]
-        print(collection.update_one({"courseCode.dept": dept, "courseCode.number": number},{ "$set": { "termsOffered" : data.offerings} }))
+        print(collection.update_one({"courseDept": dept, "courseNum": number},{ "$set": { "termsOffered" : data.offerings} }))
 
 client = pymongo.MongoClient("mongodb+srv://classyadmin:classyadmincs98@classy-cluster.kedlpk1.mongodb.net/?retryWrites=true&w=majority")
 db = client.classy

@@ -54,7 +54,7 @@ def parse_prereqs():
             dept = parsed[0]
             number = parsed[1]
             print(collection.update_one(
-                {"courseCode.dept": dept, "courseCode.number": number},
+                {"courseDept": dept, "courseNum": number},
                 { "$set": { "required" : required, "counts": counts, "recommended": recommended } }))
             courses.append(course_prereqs)
         print()
