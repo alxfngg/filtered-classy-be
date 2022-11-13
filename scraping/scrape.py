@@ -136,11 +136,11 @@ def scrape_course_page(root_url: str, link: str):
     # on course page
     courseCode, courseTitle = get_course_name(soup, "h1 span", "h1")
     course_description = get_course_description(soup, "#main .desc p")
-    professors = get_professors(soup, "#instructor")
+    # professors = get_professors(soup, "#instructor")
     xlists = get_xlists(soup, "#main")
-    prereqs = get_prereqs(soup, ".sc_prereqs")
+    # prereqs = get_prereqs(soup, ".sc_prereqs")
     distribs, wc = get_distribs_wc(soup, ".sc-extrafield p")
-    offered_terms = get_offered_terms(soup, '#main .offered li')
+    # offered_terms = get_offered_terms(soup, '#main .offered li')
 
     course = {
         'courseDept': courseCode["dept"],
@@ -149,10 +149,10 @@ def scrape_course_page(root_url: str, link: str):
         'description': course_description,
         'xlists': xlists,
         # 'prereqs': prereqs,
-        'professors': professors,
+        # 'professors': professors,
         'distribs': distribs,
         'worldCulture': wc,
-        'termsOffered': offered_terms,
+        # 'termsOffered': offered_terms,
     }
     
     return course
@@ -188,8 +188,8 @@ def scrape_dept_pages(root_url: str, seed: str, func = None):
             func(root_url, soup)
 
 client = pymongo.MongoClient("mongodb+srv://classyadmin:classyadmincs98@classy-cluster.kedlpk1.mongodb.net/?retryWrites=true&w=majority")
-db = client.classy
-collection = db.collection
+db = client.test
+collection = db.courses
 
 scrape_dept_pages(ROOT_URL, "current/orc/Departments-Programs-Undergraduate", scrape_course_pages)
 

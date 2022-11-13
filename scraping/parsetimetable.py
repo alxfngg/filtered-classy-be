@@ -42,20 +42,41 @@ def parse_timetable():
             lang_req = values[9]
             nr = values[10]
             key = f"{subject} {number}"
+            for instructor in instructors:
+                firstNameTokens = instructor.split(" ")[:-1]
+                firstName = ' '.join(firstNameTokens)
+                lastName = instructor.split(" ")[-1]
+                name = {
+                        'firstName': firstName,
+                        'lastName': lastName
+                    }
+                user = usercollection.update_one(
+                    name, {
+                        '$set':name
+                    }, upsert=True)
+                user = usercollection.find_one(name)
+                dept = deptcollection.find_one({'codes': subject})
+                print(user['_id'])
+                profcollection.update_one({
+                    'user': user['_id']
+                },{'$addToSet': { 'departments': dept } }, upsert=True)
             if key not in courses:
                 courses[key] = Offering(subject, number, title, wc, distrib, nr == "NR Eligible")
             courses[key].add_offering(term, instructors, period)
 
-    for course, data in courses.items():
-        print(course, data)
-        parsed = course.split()
-        dept = parsed[0]
-        number = parsed[1]
-        print(collection.update_one({"courseDept": dept, "courseNum": number},{ "$set": { "termsOffered" : data.offerings} }))
+    # for course, data in courses.items():
+    #     print(course, data)
+    #     parsed = course.split()
+    #     dept = parsed[0]
+    #     number = parsed[1]
+    #     print(collection.update_one({"courseDept": dept, "courseNum": number},{ "$set": { "termsOffered" : data.offerings} }))
 
 client = pymongo.MongoClient("mongodb+srv://classyadmin:classyadmincs98@classy-cluster.kedlpk1.mongodb.net/?retryWrites=true&w=majority")
-db = client.classy
-collection = db.collection
+db = client.test
+collection = db.courses
+usercollection = db.users
+profcollection = db.professors
+deptcollection = db.departments
 
 parse_timetable()
 
