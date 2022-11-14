@@ -32,7 +32,7 @@ class App {
     }
 
     private routes(): void {
-        this.app.use('/api/*', apiRouter);
+        this.app.use('/api', apiRouter);
 
         this.app.get("/", (req, res, next) => {
             res.send("Typescript App works!!");

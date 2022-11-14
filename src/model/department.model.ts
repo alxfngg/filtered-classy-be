@@ -2,7 +2,7 @@ import { model, Schema, Model, Document, Types } from 'mongoose';
 
 export interface IDepartment extends Document {
   name: string;
-  code: string;
+  code: string[];
   majors: Types.ObjectId[];
   minors: Types.ObjectId[];
   reviews: Types.ObjectId[]; // reviews for this department
@@ -15,7 +15,7 @@ export interface IDepartment extends Document {
 
 const DepartmentSchema: Schema = new Schema({
   name: { type: String, required: true }, // name of the department
-  code: { type: String, required: true }, // code of the department
+  codes: [{ type: String, required: true }], // code of the department
   majors: [{ type: Schema.Types.ObjectId, ref: 'MajorMinor' }], // majors for this department
   minors: [{ type: Schema.Types.ObjectId, ref: 'MajorMinor' }], // minors for this department
   reviews: [{ type: Schema.Types.ObjectId, ref: 'DeptReview' }], // reviews for this department

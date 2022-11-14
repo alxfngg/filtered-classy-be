@@ -1,4 +1,3 @@
-Subj	Num	Term	Title	Period Code	Instructor	WC	Dist	Xlist	Lang Req	NR Eligible or CT/NC
 AAAS	10	22s	Intro African Amer Studies	10A	Trica Keaton	CI	SOC	N/A	N/A	NR Eligible
 AAAS	10	23w	Intro African Amer Studies	12	Trica Keaton	CI	SOC	N/A	N/A	NR Eligible
 AAAS	11	22f	Intro to African Studies	10	Robert Baum	NW	SOC	N/A	N/A	NR Eligible
@@ -102,8 +101,6 @@ ANTH	50.41	22s	Homelands & Diasporas	10A	Sergei Kan	CI	INT or SOC	COCO 033 01, J
 ANTH	50.44	23w	Darwin & Human Evolution	10A	Jeremy DeSilva	N/A	SCI	N/A	N/A	N/A
 ANTH	50.46	23w	Macroevolution	12	Kevin Peterson	N/A	SCI	BIOL 028 01, EARS 032 01	N/A	NR Eligible
 ANTH	50.47	22s	Archaeology Field Methods	10A	Jesse Casana	N/A	SLA	N/A	N/A	N/A
-ANTH	50.47	22s	Archaeology Field Methods(Laboratory)	OT	Jesse Casana	N/A	N/A	N/A	N/A	N/A
-ANTH	50.47	22s	Archaeology Field Methods(Laboratory)	OT	Jesse Casana	N/A	N/A	N/A	N/A	N/A
 ANTH	50.48	22s	Energy Justice	10A	Sarah Kelly	N/A	INT or SOC	GEOG 40.04 01	N/A	N/A
 ANTH	50.5	22s	Archaeology of Food	2	Jiajing Wang	N/A	INT or SCI	N/A	N/A	NR Eligible
 ANTH	51	23w	Colonialism & its Legacies	FS	Sienna Craig	CI	INT or SOC	N/A	N/A	N/A
@@ -258,45 +255,6 @@ ASTR	87	23w	Undergrad Res in Astronomy	ARR	Ryan Hickox	N/A	N/A	N/A	N/A	CT/NC
 ASTR	115	22s	Advanced Stellar Astrophysics	9S	Brian Chaboyer	N/A	N/A	N/A	N/A	N/A
 ASTR	118	22s	Observational Cosmology	10A	Aaron Dotter	N/A	N/A	N/A	N/A	N/A
 ASTR	174	22f	Astrophysics	12	Elisabeth Newton	N/A	N/A	N/A	N/A	N/A
-BIOC	101	22f	Molecular Info in Biol Systems	OT	Christopher Shoemaker, Dean Madden, Lawrence Myers, Michael Whitfield, Scott Gerber	N/A	N/A	N/A	N/A	N/A
-BIOC	106	22s	Questn at Frontier of Cell Dyn	OT	James Moseley, William Wickner	N/A	N/A	N/A	N/A	N/A
-BIOC	124	22s	Critical Think & Sci Writing	OT	Yina Huang, Allan Bieber	N/A	N/A	N/A	N/A	N/A
-BIOC	124	23w	Critical Think & Sci Writing	OT	Yina Huang, Allan Bieber	N/A	N/A	N/A	N/A	N/A
-BIOC	197	22s	Grad Res in BIOC Pre-Qual I	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	197	22x	Grad Res in BIOC Pre-Qual I	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	197	22f	Grad Res in BIOC Pre-Qual I	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	197	23w	Grad Res in BIOC Pre-Qual I	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	198	22s	Grad Res in BIOC Pre-Qual II	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	198	22x	Grad Res in BIOC Pre-Qual II	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	198	22f	Grad Res in BIOC Pre-Qual II	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	198	23w	Grad Res in BIOC Pre-Qual II	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	199	22s	Grad Res in BIOC Pre-Qual III	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	199	22x	Grad Res in BIOC Pre-Qual III	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	199	22f	Grad Res in BIOC Pre-Qual III	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	199	23w	Grad Res in BIOC Pre-Qual III	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	259	22s	Cytoskeleton, Mito & Cell Bio	ARR	Henry Higgs	N/A	N/A	N/A	N/A	N/A
-BIOC	259	22f	Cytoskeleton, Mito & Cell Bio	ARR	Henry Higgs	N/A	N/A	N/A	N/A	N/A
-BIOC	259	23w	Cytoskeleton, Mito & Cell Bio	ARR	Henry Higgs	N/A	N/A	N/A	N/A	N/A
-BIOC	260	22s	Structural Biology	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	260	23w	Structural Biology	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	261	22s	Phosphorylation Signaling JC	OT	Scott Gerber	N/A	N/A	N/A	N/A	N/A
-BIOC	261	22f	Phosphorylation Signaling JC	OT	Arminja Kettenbach, Scott Gerber	N/A	N/A	N/A	N/A	N/A
-BIOC	261	23w	Phosphorylation Signaling JC	OT	Arminja Kettenbach, Scott Gerber	N/A	N/A	N/A	N/A	N/A
-BIOC	262	22s	Lipid Biol & Neurodegeneration	ARR	Ta Yuan Chang	N/A	N/A	N/A	N/A	N/A
-BIOC	262	22f	Lipid Biol & Neurodegeneration	ARR	Ta Yuan Chang	N/A	N/A	N/A	N/A	N/A
-BIOC	262	23w	Lipid Biol & Neurodegeneration	ARR	Ta Yuan Chang	N/A	N/A	N/A	N/A	N/A
-BIOC	297	22s	Grad Res in BIOC Post-Qual I	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	297	22x	Grad Res in BIOC Post-Qual I	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	297	22f	Grad Res in BIOC Post-Qual I	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	297	23w	Grad Res in BIOC Post-Qual I	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	298	22s	Grad Res in BIOC Post-Qual II	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	298	22x	Grad Res in BIOC Post-Qual II	ARR		N/A	N/A	N/A	N/A	N/A
-BIOC	298	22f	Grad Res in BIOC Post-Qual II	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	298	23w	Grad Res in BIOC Post-Qual II	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	299	22s	Grad Res in BIOC Post Qual III	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	299	22x	Grad Res in BIOC Post Qual III	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	299	22f	Grad Res in BIOC Post Qual III	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
-BIOC	299	23w	Grad Res in BIOC Post Qual III	ARR	Charles Barlowe	N/A	N/A	N/A	N/A	N/A
 BIOL	2	22f	Human Biology	11	Lee Witters	N/A	SCI	N/A	N/A	NR Eligible
 BIOL	7.02	22s	Biology:Politicized Topics	9L	Brittny Calsbeek	N/A	N/A	N/A	N/A	N/A
 BIOL	7.02	23w	Biology:Politicized Topics	11	Carey Nadell	N/A	N/A	N/A	N/A	N/A
@@ -316,24 +274,16 @@ BIOL	15	23w	Genetic Variation&Evolution	11	Olga Zhaxybayeva	N/A	SCI	N/A	N/A	NR E
 BIOL	16	22s	Ecology	10	Matthew Ayres	N/A	SLA	N/A	N/A	NR Eligible
 BIOL	16	22f	Ecology	10	Caitlin Pries	N/A	SLA	N/A	N/A	NR Eligible
 BIOL	19	22f	Honors Cell Struct and Func	9L	Magdalena Bezanilla	N/A	SLA	N/A	N/A	N/A
-BIOL	19	22f	Honors Cell Struct and Func(Laboratory)	OT	Magdalena Bezanilla	N/A	N/A	N/A	N/A	N/A
 BIOL	22	22x	Methods in Ecology	12	Madilyn Gamble	N/A	SLA	N/A	N/A	NR Eligible
-BIOL	22	22x	Methods in Ecology(Laboratory)	OT	Madilyn Gamble	N/A	N/A	N/A	N/A	NR Eligible
 BIOL	25	22f	Intro Marine Biol&Ecology	11	Celia Chen	N/A	SCI	N/A	N/A	NR Eligible
 BIOL	27	22f	Animal Behavior	10	Ryan Calsbeek	N/A	SCI	N/A	N/A	NR Eligible
 BIOL	28	23w	Macroevolution	12	Kevin Peterson	N/A	SCI	ANTH 50.46 01, EARS 032 01	N/A	NR Eligible
 BIOL	29	23w	Biostatistics	10A	Kathryn Cottingham	N/A	QDS	N/A	N/A	N/A
-BIOL	29	23w	Biostatistics(Laboratory)	OT	Kathryn Cottingham	N/A	N/A	N/A	N/A	N/A
-BIOL	29	23w	Biostatistics(Laboratory)	OT	Kathryn Cottingham	N/A	N/A	N/A	N/A	N/A
 BIOL	32	22s	Animal Communication	10	Hannah ter Hofstede	N/A	SCI	N/A	N/A	NR Eligible
 BIOL	35	22f	Cellular&Molecular Neurosci	11	Michael Hoppa	N/A	SCI	PSYC 035 01	N/A	NR Eligible
 BIOL	37	22s	Endocrinology	10A	Lee Witters	N/A	SCI	N/A	N/A	NR Eligible
 BIOL	40	22f	Biochemistry	10	George Schaller	N/A	SCI	N/A	N/A	NR Eligible
-BIOL	40	22f	Biochemistry(Discussion)	OT	George Schaller	N/A	N/A	N/A	N/A	NR Eligible
-BIOL	40	22f	Biochemistry(Discussion)	OT	George Schaller	N/A	N/A	N/A	N/A	NR Eligible
 BIOL	40	23w	Biochemistry	10	Wei Lih Lee	N/A	SCI	N/A	N/A	NR Eligible
-BIOL	40	23w	Biochemistry(Discussion)	OT	Wei Lih Lee	N/A	N/A	N/A	N/A	NR Eligible
-BIOL	40	23w	Biochemistry(Discussion)	OT	Wei Lih Lee	N/A	N/A	N/A	N/A	NR Eligible
 BIOL	41	22f	Cells into Organs	11	Bing He	N/A	SCI	N/A	N/A	N/A
 BIOL	42	23w	Biol of the Immune Response	9L	Mary Jo Turk	N/A	SCI	N/A	N/A	NR Eligible
 BIOL	45	22x	Molecular Biology	10A	Natasha Grotz	N/A	SCI	N/A	N/A	N/A
@@ -375,9 +325,6 @@ BIOL	98	22x	Honors Research Biology II	ARR	Natasha Grotz	N/A	N/A	N/A	N/A	N/A
 BIOL	98	22f	Honors Research Biology II	ARR	Natasha Grotz	N/A	N/A	N/A	N/A	N/A
 BIOL	98	23w	Honors Research Biology II	ARR	Natasha Grotz	N/A	N/A	N/A	N/A	N/A
 BIOL	99	22s	Senior Seminar in Biology	ARR	Magdalena Bezanilla	N/A	N/A	N/A	N/A	N/A
-BIOL	103	23w	Mole Mechanisms of Cell Respon	OT	Charles Barlowe, James Bliska, Arminja Kettenbach, James Moseley, Joshua Obar, Henry Higgs	N/A	N/A	N/A	N/A	N/A
-BIOL	109	22s	Cell Growth & Proliferation	OT	Amanda Amodeo	N/A	N/A	N/A	N/A	N/A
-BIOL	127	23w	Introductory Biostatistics	OT	Kathryn Cottingham	N/A	N/A	EEES 127 01	N/A	N/A
 BIOL	128	23w	Statistics & Expt Design I	9L	Brittny Calsbeek	N/A	N/A	EEES 128 01	N/A	N/A
 BIOL	145	22f	Prac combin Theor, Models&Data	ARR	Matthew Ayres	N/A	N/A	EEES 145 01	N/A	N/A
 BIOL	147	22f	Genomics:From Data-Analysis	2A	Olga Zhaxybayeva	N/A	N/A	EEES 147 01, QBS 147 01	N/A	N/A
@@ -393,7 +340,6 @@ BIOL	171	22s	Current Topics in Cell Biol	2	Wei Lih Lee	N/A	N/A	N/A	N/A	N/A
 BIOL	173	22s	Cell Signaling	10A	Patrick Dolph	N/A	N/A	N/A	N/A	N/A
 BIOL	175	22f	Diseases of the Nervous System	10A	Robert Hill	N/A	N/A	N/A	N/A	N/A
 BIOL	176	22f	Advanced Genetics	2	C Robertson McClung	N/A	N/A	N/A	N/A	N/A
-BIOL	180	23w	Microscopy Principles & Applic	OT	Sharon Bickel	N/A	N/A	N/A	N/A	N/A
 BIOL	197	22s	Graduate Research I:Level I	ARR	Thomas Jack	N/A	N/A	EEES 197 01	N/A	N/A
 BIOL	197	22x	Graduate Research I:Level I	ARR	Thomas Jack	N/A	N/A	EEES 197 01	N/A	N/A
 BIOL	197	22f	Graduate Research I:Level I	ARR	Thomas Jack	N/A	N/A	EEES 197 01	N/A	N/A
@@ -406,27 +352,9 @@ BIOL	199	22s	Grad Research I:Level III	ARR	Thomas Jack	N/A	N/A	EEES 199 01	N/A	N
 BIOL	199	22x	Grad Research I:Level III	ARR	Thomas Jack	N/A	N/A	EEES 199 01	N/A	N/A
 BIOL	199	22f	Grad Research I:Level III	ARR	Thomas Jack	N/A	N/A	EEES 199 01	N/A	N/A
 BIOL	199	23w	Grad Research I:Level III	ARR	Thomas Jack	N/A	N/A	N/A	N/A	N/A
-BIOL	263	22s	Res Colloq:Cell Biology	OT	Amanda Amodeo	N/A	N/A	N/A	N/A	N/A
-BIOL	263	22f	Res Colloq:Cell Biology	OT	Erik Griffin	N/A	N/A	N/A	N/A	N/A
-BIOL	263	23w	Res Colloq:Cell Biology	OT	Bing He	N/A	N/A	N/A	N/A	N/A
-BIOL	265	22s	Res Colloq:Micr Ecol & Env Bio	OT	Olga Zhaxybayeva	N/A	N/A	EEES 265 01	N/A	N/A
-BIOL	265	23w	Res Colloq:Micr Ecol & Env Bio	OT	Olga Zhaxybayeva	N/A	N/A	EEES 265 01	N/A	N/A
-BIOL	266	22s	Res Colloq:Ecology & Evolution	OT	Mark Laidre	N/A	N/A	EEES 266 01	N/A	N/A
-BIOL	266	22f	Res Colloq:Ecology & Evolution	OT	Caitlin Pries	N/A	N/A	EEES 266 01	N/A	N/A
-BIOL	266	23w	Res Colloq:Ecology & Evolution	OT	Kathryn Cottingham	N/A	N/A	EEES 266 01	N/A	N/A
-BIOL	268	22s	Res Colloq:Genes&Gene Products	OT	Wei Lih Lee	N/A	N/A	N/A	N/A	N/A
-BIOL	268	22f	Res Colloq:Genes&Gene Products	OT	Wei Lih Lee	N/A	N/A	N/A	N/A	N/A
-BIOL	268	23w	Res Colloq:Genes&Gene Products	OT	Sharon Bickel	N/A	N/A	N/A	N/A	N/A
-BIOL	269	22s	Res Colloq:Plant Molecular Bio	OT	Mary Lou Guerinot	N/A	N/A	N/A	N/A	N/A
-BIOL	269	22f	Res Colloq:Plant Molecular Bio	OT	George Schaller	N/A	N/A	N/A	N/A	N/A
-BIOL	269	23w	Res Colloq:Plant Molecular Bio	OT	C Robertson McClung	N/A	N/A	N/A	N/A	N/A
 BIOL	271	22s	Res Progess Colloquium	ARR	Thomas Jack	N/A	N/A	N/A	N/A	N/A
 BIOL	272	22s	Advanced Readings in Evolution	ARR	Ryan Calsbeek	N/A	N/A	EEES 272 01	N/A	N/A
 BIOL	272	22f	Advanced Readings in Evolution	ARR	Ryan Calsbeek	N/A	N/A	EEES 272 01	N/A	N/A
-BIOL	274	22s	Neurobiology Journal Club	OT	Robert Hill	N/A	N/A	N/A	N/A	N/A
-BIOL	274	22f	Neurobiology Journal Club	OT	Michael Hoppa	N/A	N/A	N/A	N/A	N/A
-BIOL	274	23w	Neurobiology Journal Club	OT	Michael Hoppa	N/A	N/A	N/A	N/A	N/A
-BIOL	275	23w	Res Colloq Cell Signal in Dev	OT	Dionna Kasper	N/A	N/A	N/A	N/A	N/A
 BIOL	297	22s	Grad Research II:Level I	ARR	Thomas Jack	N/A	N/A	EEES 297 01	N/A	N/A
 BIOL	297	22x	Grad Research II:Level I	ARR	Thomas Jack	N/A	N/A	EEES 297 01	N/A	N/A
 BIOL	297	22f	Grad Research II:Level I	ARR	Thomas Jack	N/A	N/A	EEES 297 01	N/A	N/A
@@ -439,95 +367,26 @@ BIOL	299	22s	Grad Research II:Level III	ARR	Thomas Jack	N/A	N/A	EEES 299 01	N/A	
 BIOL	299	22x	Grad Research II:Level III	ARR	Thomas Jack	N/A	N/A	EEES 299 01	N/A	N/A
 BIOL	299	22f	Grad Research II:Level III	ARR	Thomas Jack	N/A	N/A	EEES 299 01	N/A	N/A
 BIOL	299	23w	Grad Research II:Level III	ARR	Thomas Jack	N/A	N/A	N/A	N/A	N/A
-BIOL	300	22f	Communicating Science	OT	Christian Kohn, Mark McPeek	N/A	N/A	UNSG 300 01	N/A	N/A
-CANB	103	23w	Biostatistics	ARR	Brock Christensen	N/A	N/A	N/A	N/A	N/A
-CANB	126	22f	Cancer Biology	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	197	22s	Grad Research I: Level A	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	197	22x	Grad Research I: Level A	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	197	22f	Grad Research I: Level A	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	197	23w	Grad Research I: Level A	ARR	Steven Fiering	N/A	N/A	N/A	N/A	N/A
-CANB	198	22s	Grad Research I: Level B	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	198	22x	Grad Research I: Level B	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	198	22f	Grad Research I: Level B	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	198	23w	Grad Research I: Level B	ARR	Steven Fiering	N/A	N/A	N/A	N/A	N/A
-CANB	199	22s	Grad Research I: Level C	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	199	22x	Grad Research I: Level C	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	199	22f	Grad Research I: Level C	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	199	23w	Grad Research I: Level C	ARR	Steven Fiering	N/A	N/A	N/A	N/A	N/A
-CANB	261	22s	Cancer Mechanism&Therapeautics	ARR	Brock Christensen, Bonnie Lau	N/A	N/A	N/A	N/A	N/A
-CANB	261	22f	Cancer Mechanism&Therapeautics	ARR	Steven Fiering, Bonnie Lau, Brock Christensen	N/A	N/A	N/A	N/A	N/A
-CANB	261	23w	Cancer Mechanism&Therapeautics	ARR	Brock Christensen, Bonnie Lau	N/A	N/A	N/A	N/A	N/A
-CANB	297	22s	Grad Research II: Level A	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	297	22x	Grad Research II: Level A	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	297	22f	Grad Research II: Level A	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	297	23w	Grad Research II: Level A	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	298	22s	Grad Research II: Level B	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	298	22x	Grad Research II: Level B	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	298	22f	Grad Research II: Level B	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	298	23w	Grad Research II: Level B	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	299	22s	Grad Research II: Level C	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	299	22x	Grad Research II: Level C	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	299	22f	Grad Research II: Level C	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
-CANB	299	23w	Grad Research II: Level C	ARR	Todd Miller	N/A	N/A	N/A	N/A	N/A
 CHEM	5	22f	General Chemistry	10	Dale Mierke	N/A	SLA	N/A	N/A	NR Eligible
-CHEM	5	22f	General Chemistry(Laboratory)	OT	Anita Prasad	N/A	N/A	N/A	N/A	NR Eligible
-CHEM	5	22f	General Chemistry(Laboratory)	OT	Anita Prasad	N/A	N/A	N/A	N/A	NR Eligible
-CHEM	5	22f	General Chemistry(Laboratory)	OT	Anita Prasad	N/A	N/A	N/A	N/A	NR Eligible
 CHEM	5	23w	General Chemistry	9L	Wendy Epps, Ekaterina Pletneva	N/A	SLA	N/A	N/A	NR Eligible
 CHEM	5	23w	General Chemistry	10	Wendy Epps, Ekaterina Pletneva	N/A	SLA	N/A	N/A	NR Eligible
-CHEM	5	23w	General Chemistry(Laboratory)	OT	Anita Prasad	N/A	N/A	N/A	N/A	NR Eligible
-CHEM	5	23w	General Chemistry(Laboratory)	OT	Anita Prasad	N/A	N/A	N/A	N/A	NR Eligible
-CHEM	5	23w	General Chemistry(Laboratory)	OT	Anita Prasad	N/A	N/A	N/A	N/A	NR Eligible
-CHEM	5	23w	General Chemistry(Laboratory)	OT	Anita Prasad	N/A	N/A	N/A	N/A	NR Eligible
 CHEM	6	22s	General Chemistry	10	Katherine Mirica	N/A	SLA	N/A	N/A	NR Eligible
 CHEM	6	22s	General Chemistry	9L	Wenlin Zhang	N/A	SLA	N/A	N/A	NR Eligible
-CHEM	6	22s	General Chemistry(Laboratory)	OT	Anita Prasad	N/A	N/A	N/A	N/A	NR Eligible
-CHEM	6	22s	General Chemistry(Laboratory)	OT	Anita Prasad	N/A	N/A	N/A	N/A	NR Eligible
-CHEM	6	22s	General Chemistry(Laboratory)	OT	Anita Prasad	N/A	N/A	N/A	N/A	NR Eligible
-CHEM	6	22s	General Chemistry(Laboratory)	OT	Anita Prasad	N/A	N/A	N/A	N/A	NR Eligible
 CHEM	6	23w	General Chemistry	9L	Dean Wilcox	N/A	SLA	N/A	N/A	NR Eligible
-CHEM	6	23w	General Chemistry(Laboratory)	OT	Dean Wilcox	N/A	N/A	N/A	N/A	NR Eligible
-CHEM	6	23w	General Chemistry(Laboratory)	OT	Dean Wilcox	N/A	N/A	N/A	N/A	NR Eligible
 CHEM	11	22f	General Chemistry	9L	Wenlin Zhang	N/A	SLA	N/A	N/A	NR Eligible
-CHEM	11	22f	General Chemistry(Laboratory)	OT	Dean Wilcox	N/A	N/A	N/A	N/A	NR Eligible
-CHEM	11	22f	General Chemistry(Laboratory)	OT	Dean Wilcox	N/A	N/A	N/A	N/A	NR Eligible
 CHEM	40	23w	Physical Chem Biochem Proc	11	Robert Cantor	N/A	SLA	N/A	N/A	N/A
-CHEM	40	23w	Physical Chem Biochem Proc(Laboratory)	OT	Robert Cantor	N/A	N/A	N/A	N/A	N/A
-CHEM	40	23w	Physical Chem Biochem Proc(Laboratory)	OT	Robert Cantor	N/A	N/A	N/A	N/A	N/A
 CHEM	41	22s	Biological Chemistry	12	F Jon Kull	N/A	SLA	N/A	N/A	NR Eligible
-CHEM	41	22s	Biological Chemistry(Laboratory)	OT	Margaret Carpenter	N/A	N/A	N/A	N/A	NR Eligible
-CHEM	41	22s	Biological Chemistry(Laboratory)	OT	Margaret Carpenter	N/A	N/A	N/A	N/A	NR Eligible
-CHEM	41	22s	Biological Chemistry(Laboratory)	OT	Margaret Carpenter	N/A	N/A	N/A	N/A	NR Eligible
-CHEM	41	22s	Biological Chemistry(Laboratory)	OT	Margaret Carpenter	N/A	N/A	N/A	N/A	NR Eligible
 CHEM	42	22f	Biological Chemistry II	12	Michael Ragusa	N/A	SLA	N/A	N/A	NR Eligible
-CHEM	42	22f	Biological Chemistry II(Laboratory)	ARR	Michael Ragusa	N/A	N/A	N/A	N/A	NR Eligible
 CHEM	51	22s	Organic Chemistry	11	Jacquelyne Read	N/A	SLA	N/A	N/A	NR Eligible
-CHEM	51	22s	Organic Chemistry(Laboratory)	OT	Catherine Welder	N/A	N/A	N/A	N/A	NR Eligible
-CHEM	51	22s	Organic Chemistry(Laboratory)	OT	Catherine Welder	N/A	N/A	N/A	N/A	NR Eligible
 CHEM	51	22f	Organic Chemistry	11	Christopher Sandford	N/A	SLA	N/A	N/A	NR Eligible
-CHEM	51	22f	Organic Chemistry(Laboratory)	OT	Catherine Welder	N/A	N/A	N/A	N/A	NR Eligible
-CHEM	51	22f	Organic Chemistry(Laboratory)	OT	Catherine Welder	N/A	N/A	N/A	N/A	NR Eligible
-CHEM	51	22f	Organic Chemistry(Laboratory)	OT	Catherine Welder	N/A	N/A	N/A	N/A	NR Eligible
 CHEM	52	22x	Organic Chemistry	11	Wendy Epps	N/A	SLA	N/A	N/A	NR Eligible
-CHEM	52	22x	Organic Chemistry(Laboratory)	OT	Wendy Epps	N/A	N/A	N/A	N/A	NR Eligible
-CHEM	52	22x	Organic Chemistry(Laboratory)	OT	Wendy Epps	N/A	N/A	N/A	N/A	NR Eligible
 CHEM	52	23w	Organic Chemistry	11	Glenn Micalizio	N/A	SLA	N/A	N/A	NR Eligible
-CHEM	52	23w	Organic Chemistry(Laboratory)	OT	Catherine Welder	N/A	N/A	N/A	N/A	NR Eligible
-CHEM	52	23w	Organic Chemistry(Laboratory)	OT	Catherine Welder	N/A	N/A	N/A	N/A	NR Eligible
 CHEM	57	23w	Honors Organic Chemistry	11	Jimmy Wu	N/A	SLA	N/A	N/A	N/A
-CHEM	57	23w	Honors Organic Chemistry(Laboratory)	OT	Catherine Welder	N/A	N/A	N/A	N/A	N/A
 CHEM	58	22s	Honors Organic Chemistry	11	Glenn Micalizio	N/A	SLA	N/A	N/A	N/A
-CHEM	58	22s	Honors Organic Chemistry(Laboratory)	OT	Catherine Welder	N/A	N/A	N/A	N/A	N/A
 CHEM	63	22x	Environmental Chemistry	9L	Franklin Dorman, Dean Wilcox, Gordon Gribble	N/A	TLA	N/A	N/A	NR Eligible
-CHEM	63	22x	Environmental Chemistry(Laboratory)	ARR	Anita Prasad	N/A	N/A	N/A	N/A	NR Eligible
 CHEM	64	23w	Basic Inorganic Chemistry	9L	David Glueck	N/A	SLA	N/A	N/A	N/A
-CHEM	64	23w	Basic Inorganic Chemistry(Laboratory)	OT	David Glueck	N/A	N/A	N/A	N/A	N/A
-CHEM	64	23w	Basic Inorganic Chemistry(Laboratory)	OT	David Glueck	N/A	N/A	N/A	N/A	N/A
 CHEM	75	23w	Physical Chemistry I	11	Xin Qi	N/A	SLA	N/A	N/A	N/A
-CHEM	75	23w	Physical Chemistry I(Laboratory)	OT	Xin Qi	N/A	N/A	N/A	N/A	N/A
-CHEM	75	23w	Physical Chemistry I(Laboratory)	OT	Xin Qi	N/A	N/A	N/A	N/A	N/A
 CHEM	76	22s	Physical Chemistry II	11	Paul Robustelli	N/A	SLA	N/A	N/A	NR Eligible
-CHEM	76	22s	Physical Chemistry II(Laboratory)	ARR	Paul Robustelli	N/A	N/A	N/A	N/A	NR Eligible
 CHEM	80	22s	Independent Study Chemistry	ARR	F Jon Kull	N/A	N/A	N/A	N/A	N/A
 CHEM	80	22x	Independent Study Chemistry	ARR	F Jon Kull	N/A	N/A	N/A	N/A	N/A
 CHEM	80	22f	Independent Study Chemistry	ARR	F Jon Kull	N/A	N/A	N/A	N/A	N/A
@@ -543,8 +402,6 @@ CHEM	124	22f	Analytical Chemistry	2A	Franklin Dorman	N/A	N/A	N/A	N/A	N/A
 CHEM	132	22s	Inorganic Biochemistry	10	Ekaterina Pletneva	N/A	N/A	N/A	N/A	N/A
 CHEM	135	23w	Functional Nano: Synth & Appln	12	Katherine Mirica	N/A	N/A	N/A	N/A	N/A
 CHEM	136	22f	Polymer Synthesis	3A	Chenfeng Ke	N/A	N/A	N/A	N/A	N/A
-CHEM	140	22s	Chemistry Research Colloquia	OT	Ivan Abrahamian	N/A	N/A	N/A	N/A	N/A
-CHEM	140	22f	Chemistry Research Colloquia	OT	Chenfeng Ke	N/A	N/A	N/A	N/A	N/A
 CHEM	140	23w	Chemistry Research Colloquia	ARR	Ivan Abrahamian	N/A	N/A	N/A	N/A	N/A
 CHEM	151	23w	Physical Organic Chemistry	11	Jacquelyne Read	N/A	N/A	N/A	N/A	N/A
 CHEM	157	22x	Topics in Adv Org Chemistry	ARR	Hermann Wegner	N/A	N/A	N/A	N/A	N/A
@@ -555,21 +412,8 @@ CHEM	256	22f	Grad Instruction in Teaching	10	Catherine Welder	N/A	N/A	N/A	N/A	N/
 CHEM	257	22s	Suprvisd UG Teachng in Chem	ARR	Ekaterina Pletneva	N/A	N/A	N/A	N/A	N/A
 CHEM	257	22x	Suprvisd UG Teachng in Chem	ARR	Ekaterina Pletneva	N/A	N/A	N/A	N/A	N/A
 CHEM	257	22f	Suprvisd UG Teachng in Chem	ARR	David Glueck	N/A	N/A	N/A	N/A	N/A
-CHEM	260	22s	Organometallic Chemistry	OT	David Glueck	N/A	N/A	N/A	N/A	N/A
-CHEM	260	22f	Organometallic Chemistry	OT	David Glueck	N/A	N/A	N/A	N/A	N/A
-CHEM	260	23w	Organometallic Chemistry	OT	David Glueck	N/A	N/A	N/A	N/A	N/A
 CHEM	261	22s	Materials Chemistry	ARR	Chenfeng Ke	N/A	N/A	N/A	N/A	N/A
-CHEM	261	22f	Materials Chemistry	OT	Katherine Mirica	N/A	N/A	N/A	N/A	N/A
-CHEM	261	23w	Materials Chemistry	OT	Chenfeng Ke	N/A	N/A	N/A	N/A	N/A
-CHEM	262	22s	Synthetic Organic Chemistry	OT	Jimmy Wu	N/A	N/A	N/A	N/A	N/A
-CHEM	262	22f	Synthetic Organic Chemistry	OT	Jimmy Wu	N/A	N/A	N/A	N/A	N/A
-CHEM	262	23w	Synthetic Organic Chemistry	OT	Christopher Sandford	N/A	N/A	N/A	N/A	N/A
-CHEM	263	22s	Bioinorganic Chemistry	OT	Dean Wilcox	N/A	N/A	N/A	N/A	N/A
 CHEM	263	22f	Bioinorganic Chemistry	ARR	Dean Wilcox	N/A	N/A	N/A	N/A	N/A
-CHEM	263	23w	Bioinorganic Chemistry	OT	Ekaterina Pletneva	N/A	N/A	N/A	N/A	N/A
-CHEM	264	22s	Biophysical Chemistry	OT	Charles Midgett, Jessica Tolbert	N/A	N/A	N/A	N/A	N/A
-CHEM	264	22f	Biophysical Chemistry	OT	Charles Midgett	N/A	N/A	N/A	N/A	N/A
-CHEM	264	23w	Biophysical Chemistry	OT	Michael Ragusa	N/A	N/A	N/A	N/A	N/A
 CHEM	265	22s	Grad.Res.Colloq.Comp,Mod,Theor	ARR	Ronald White	N/A	N/A	N/A	N/A	N/A
 CHEM	265	22f	Grad.Res.Colloq.Comp,Mod,Theor	ARR	Robert Cantor	N/A	N/A	N/A	N/A	N/A
 CHEM	265	23w	Grad.Res.Colloq.Comp,Mod,Theor	12	Wenlin Zhang	N/A	N/A	N/A	N/A	N/A
@@ -699,10 +543,8 @@ COLT	85	23w	Senior Seminar	ARR	Yuliya Komska	N/A	N/A	N/A	N/A	N/A
 COLT	87	22s	Tutorial Thesis	ARR	Lawrence Kritzman	N/A	N/A	N/A	N/A	N/A
 COLT	100	22f	Contemp Lit Criticism & Theory	3A	Klaus Mladek	N/A	N/A	N/A	N/A	N/A
 COLT	101	23w	Topics in Comparative Lit.	10A	Eman Morsi	N/A	N/A	N/A	N/A	N/A
-COLT	102	22f	Tutorial	OT	James Dorsey	N/A	N/A	N/A	N/A	N/A
 COLT	103	22s	Workshop in Critical Writing (On Campus)	3A	Gerd Gemunden	N/A	N/A	N/A	N/A	N/A
 COLT	103	23w	Graduate Seminar	ARR	James Dorsey	N/A	N/A	N/A	N/A	N/A
-COLT	700	22f	Resp & Ethical Conduct of Res	OT	Jill Baron	N/A	N/A	N/A	N/A	N/A
 COSC	1	22s	Intro Programming&Computatn	12	Andrew Campbell	N/A	TLA	N/A	N/A	NR Eligible
 COSC	1	22s	Intro Programming&Computatn	10	Devin Balkcom	N/A	TLA	N/A	N/A	NR Eligible
 COSC	1	22s	Intro Programming&Computatn	12	Vasanta Lakshmi Kommineni	N/A	TLA	N/A	N/A	NR Eligible
@@ -866,9 +708,6 @@ COSC	299	22s	Full Time Thesis Research	ARR	Wojciech Jarosz	N/A	N/A	N/A	N/A	N/A
 COSC	299	22x	Full Time Thesis Research	ARR	Wojciech Jarosz	N/A	N/A	N/A	N/A	N/A
 COSC	299	22f	Full Time Thesis Research	ARR	Wojciech Jarosz	N/A	N/A	N/A	N/A	N/A
 COSC	299	23w	Full Time Thesis Research	ARR	Wojciech Jarosz	N/A	N/A	N/A	N/A	N/A
-COSC	700	22f	Resp & Ethical Conduct of Res	OT	Soroush Vosoughi	N/A	N/A	N/A	N/A	N/A
-COSC	700	22f	Resp & Ethical Conduct of Res	OT	Alberto Quattrini Li	N/A	N/A	N/A	N/A	N/A
-COSC	700	22f	Resp & Ethical Conduct of Res	OT	Sean Smith	N/A	N/A	N/A	N/A	N/A
 CRWT	10	22s	Writing and Reading Fiction	3A	Katherine Crouch	N/A	ART	N/A	N/A	NR Eligible
 CRWT	10	22s	Writing and Reading Fiction	10A	Thomas O'Malley	N/A	ART	N/A	N/A	NR Eligible
 CRWT	10	22s	Writing and Reading Fiction	2	Katherine Crouch	N/A	ART	N/A	N/A	NR Eligible
@@ -906,13 +745,7 @@ CRWT	98	23w	Honors Course I	ARR	Peter Orner	N/A	N/A	N/A	N/A	N/A
 CRWT	99	22s	Honors Course II	ARR	Peter Orner	N/A	N/A	N/A	N/A	N/A
 CRWT	99	23w	Honors Course II	ARR	Peter Orner	N/A	N/A	N/A	N/A	N/A
 EARS	1	22s	How the Earth Works	10	Meredith Kelly, Edward Meyer	N/A	SLA	N/A	N/A	NR Eligible
-EARS	1	22s	How the Earth Works(Laboratory)	OT	Meredith Kelly, Edward Meyer	N/A	N/A	N/A	N/A	NR Eligible
-EARS	1	22s	How the Earth Works(Laboratory)	OT	Meredith Kelly, Edward Meyer	N/A	N/A	N/A	N/A	NR Eligible
-EARS	1	22s	How the Earth Works(Laboratory)	OT	Meredith Kelly, Edward Meyer	N/A	N/A	N/A	N/A	NR Eligible
 EARS	1	22f	How the Earth Works	10	Meredith Kelly, Edward Meyer	N/A	SLA	N/A	N/A	NR Eligible
-EARS	1	22f	How the Earth Works(Laboratory)	OT	Meredith Kelly, Edward Meyer	N/A	N/A	N/A	N/A	NR Eligible
-EARS	1	22f	How the Earth Works(Laboratory)	OT	Meredith Kelly, Edward Meyer	N/A	N/A	N/A	N/A	NR Eligible
-EARS	1	22f	How the Earth Works(Laboratory)	OT	Meredith Kelly, Edward Meyer	N/A	N/A	N/A	N/A	NR Eligible
 EARS	2	23w	Evolution of Earth & Life	9L	Erich Osterberg	N/A	SCI	N/A	N/A	N/A
 EARS	2	23w	Evolution of Earth & Life	10	Erich Osterberg	N/A	SCI	N/A	N/A	N/A
 EARS	3	22s	Elementary Oceanography	11	Xiahong Feng	N/A	SCI	N/A	N/A	NR Eligible
@@ -925,17 +758,12 @@ EARS	13	23w	Computational Methods	2A	Christopher Keller	N/A	TAS	N/A	N/A	N/A
 EARS	14	22f	Meteorology	12	Erich Osterberg	N/A	SLA	N/A	N/A	N/A
 EARS	17	23w	Analysis of Envrnmntal Data	9L	Xiahong Feng	N/A	QDS	N/A	N/A	NR Eligible
 EARS	18	22f	Environmental Earth Science	10A	Carl Renshaw	N/A	TLA	N/A	N/A	N/A
-EARS	18	22f	Environmental Earth Science(Laboratory)	OT	Carl Renshaw	N/A	TLA	N/A	N/A	N/A
 EARS	19	22s	Habitable Planets	10A	Elisabeth Newton, Mukul Sharma	N/A	SCI	ASTR 019 01	N/A	N/A
 EARS	32	23w	Macroevolution	12	Kevin Peterson	N/A	SCI	ANTH 50.46 01, BIOL 028 01	N/A	NR Eligible
 EARS	33	22s	ErthSurfaceProcessLandforms	3A	Joanmarie Del Vecchio	N/A	SLA	GEOG 17.01 01	N/A	NR Eligible
-EARS	33	22s	ErthSurfaceProcessLandforms(Laboratory)	OT	Joanmarie Del Vecchio	N/A	SLA	GEOG 17.01 02	N/A	NR Eligible
 EARS	35	22f	The Soil Resource	11	Brian Jackson	N/A	SLA	ENVS 079 01	N/A	N/A
-EARS	35	22f	The Soil Resource(Laboratory)	ARR	Brian Jackson	N/A	N/A	N/A	N/A	N/A
 EARS	38	22s	Sedimentary Systems	10A	Justin Strauss	N/A	SCI	N/A	N/A	NR Eligible
 EARS	40	22x	Materials of the Earth	10	Leslie Sonder, Edward Meyer	N/A	SLA	N/A	N/A	N/A
-EARS	40	22x	Materials of the Earth(Laboratory)	OT	Leslie Sonder, Edward Meyer	N/A	N/A	N/A	N/A	N/A
-EARS	40	22x	Materials of the Earth(Laboratory)	OT	Leslie Sonder, Edward Meyer	N/A	N/A	N/A	N/A	N/A
 EARS	45	22s	Strctrl&Stratigraphic Anlys	FS	Carl Renshaw, Edward Meyer, Sarah Slotznick, Christopher Keller, Robert Hawley, Meredith Kelly, Justin Strauss, Leslie Sonder, Akshay Mehra	N/A	SLA	N/A	N/A	N/A
 EARS	45	22f	Strctrl&Stratigraphic Anlys	FS	Christopher Keller, Edward Meyer, Meredith Kelly, Carl Renshaw, Erich Osterberg	N/A	SLA	N/A	N/A	N/A
 EARS	46	22s	Environmental Monitoring	FS	Carl Renshaw, Edward Meyer, Sarah Slotznick, Christopher Keller, Robert Hawley, Meredith Kelly, Justin Strauss, Leslie Sonder, Akshay Mehra	N/A	SLA	N/A	N/A	N/A
@@ -943,14 +771,11 @@ EARS	46	22f	Environmental Monitoring	FS	Christopher Keller, Edward Meyer, Meredi
 EARS	47	22s	Resource&Earth Hazards	FS	Carl Renshaw, Edward Meyer, Sarah Slotznick, Christopher Keller, Robert Hawley, Meredith Kelly, Justin Strauss, Leslie Sonder, Akshay Mehra	N/A	SLA	N/A	N/A	N/A
 EARS	47	22f	Resource&Earth Hazards	FS	Christopher Keller, Edward Meyer, Meredith Kelly, Carl Renshaw, Erich Osterberg	N/A	SLA	N/A	N/A	N/A
 EARS	58	23w	Sedimentary Petrology	10A	Sarah Slotznick	N/A	SLA	N/A	N/A	NR Eligible
-EARS	58	23w	Sedimentary Petrology(Laboratory)	OT	Sarah Slotznick	N/A	N/A	N/A	N/A	NR Eligible
 EARS	59	22s	Igneous&Metamorphc Petrolgy	2A	Christopher Keller	N/A	SLA	N/A	N/A	N/A
-EARS	59	22s	Igneous&Metamorphc Petrolgy(Laboratory)	ARR	Christopher Keller	N/A	N/A	N/A	N/A	N/A
 EARS	64	22s	Geophysics	10	Leslie Sonder	N/A	SLA	N/A	N/A	NR Eligible
 EARS	67	22f	Environmental Geomechanics	2	Marisa Palucis	N/A	SCI	N/A	N/A	NR Eligible
 EARS	70	22s	Glaciology	2A	Robert Hawley	N/A	QDS	N/A	N/A	N/A
 EARS	71	22s	River Prcsses&Watershed Sci	12	Francis Magilligan	N/A	SLA	GEOG 62.01 01	N/A	NR Eligible
-EARS	71	22s	River Prcsses&Watershed Sci(Laboratory)	OT	Francis Magilligan	N/A	N/A	N/A	N/A	NR Eligible
 EARS	75	23w	Quaternary Paleoclimatology	10A	Meredith Kelly	N/A	SCI	N/A	N/A	N/A
 EARS	86	22s	Special Projects	ARR	Robert Hawley	N/A	N/A	N/A	N/A	N/A
 EARS	86	22x	Special Projects	ARR	Robert Hawley	N/A	N/A	N/A	N/A	N/A
@@ -969,7 +794,6 @@ EARS	90	22s	Thesis Research II	ARR	Robert Hawley	N/A	N/A	N/A	N/A	N/A
 EARS	90	22x	Thesis Research II	ARR	Robert Hawley	N/A	N/A	N/A	N/A	N/A
 EARS	90	22f	Thesis Research II	ARR	Robert Hawley	N/A	N/A	N/A	N/A	N/A
 EARS	90	23w	Thesis Research II	ARR	Robert Hawley	N/A	N/A	N/A	N/A	N/A
-EARS	107	22f	Math Modeling of Earth Process	OT	Mathieu Morlighem	N/A	N/A	N/A	N/A	N/A
 EARS	112	22s	Big Data Science in Hydrology	ARR	Carl Renshaw	N/A	N/A	N/A	N/A	N/A
 EARS	117	23w	Analysis of Environmental Data	9L	Xiahong Feng	N/A	N/A	N/A	N/A	N/A
 EARS	131	22s	Project Research	ARR	Robert Hawley	N/A	N/A	N/A	N/A	N/A
@@ -995,14 +819,11 @@ EARS	149	22x	Supervised Under Teaching	ARR	Robert Hawley	N/A	N/A	N/A	N/A	N/A
 EARS	149	22f	Supervised Under Teaching	ARR	Robert Hawley	N/A	N/A	N/A	N/A	N/A
 EARS	149	23w	Supervised Under Teaching	ARR	Robert Hawley	N/A	N/A	N/A	N/A	N/A
 EARS	158	23w	Sedimentary Petrology	10A	Sarah Slotznick	N/A	N/A	N/A	N/A	N/A
-EARS	158	23w	Sedimentary Petrology(Laboratory)	OT	Sarah Slotznick	N/A	N/A	N/A	N/A	N/A
 EARS	159	22s	Igneous & Metamorphic Petrol	2A	Christopher Keller	N/A	N/A	N/A	N/A	N/A
-EARS	159	22s	Igneous & Metamorphic Petrol(Laboratory)	ARR	Christopher Keller	N/A	N/A	N/A	N/A	N/A
 EARS	164	22s	Geophysics	10	Leslie Sonder	N/A	N/A	N/A	N/A	N/A
 EARS	167	22f	Environmental Geomechanics	2	Marisa Palucis	N/A	N/A	N/A	N/A	N/A
 EARS	170	22s	Glaciology	2A	Robert Hawley	N/A	N/A	N/A	N/A	N/A
 EARS	171	22s	River Prcsses&Watershed Sci	12	Francis Magilligan	N/A	N/A	N/A	N/A	N/A
-EARS	171	22s	River Prcsses&Watershed Sci(Laboratory)	OT	Francis Magilligan	N/A	N/A	N/A	N/A	N/A
 EARS	175	23w	Quaternary Paleoclimatology	10A	Meredith Kelly	N/A	N/A	N/A	N/A	N/A
 EARS	201	22f	Fundam & Pedagogy in Earth Sci	3A	Justin Strauss, Sarah Slotznick	N/A	N/A	N/A	N/A	N/A
 EARS	202	23w	Critical Analysis in Earth Sci	11	William Leavitt	N/A	N/A	N/A	N/A	N/A
@@ -1138,130 +959,6 @@ EDUC	46	23w	STEM and Education	10A	David Kraemer	N/A	SOC	COGS 032 01	N/A	N/A
 EDUC	47	23w	Social,Emotional&Moral Dev	10A	Michele Tine	N/A	SOC	N/A	N/A	N/A
 EDUC	52	22f	Topics in Educ Theory	10	Michele Tine	N/A	SOC	N/A	N/A	N/A
 EDUC	85	22f	Independ Reading & Research	ARR	Michele Tine	N/A	N/A	N/A	N/A	N/A
-EEES	127	23w	Biostatistics	OT	Kathryn Cottingham	N/A	N/A	BIOL 127 01	N/A	N/A
-EEES	128	23w	Biostatistics II	9L	Brittny Calsbeek	N/A	N/A	BIOL 128 01	N/A	N/A
-EEES	130	22f	Global Environmental Sci	12	David Lutz	N/A	N/A	N/A	N/A	N/A
-EEES	135	22f	Foundation in Ecosystems & Soc	OT	Susanne Freidberg	N/A	N/A	N/A	N/A	N/A
-EEES	145	22f	Prac combin Theor, Models&Data	ARR	Matthew Ayres	N/A	N/A	BIOL 145 01	N/A	N/A
-EEES	147	22f	Genomics:From Data-Analysis	2A	Olga Zhaxybayeva	N/A	N/A	BIOL 147 01, QBS 147 01	N/A	N/A
-EEES	148	23w	Arctic Environmental Change	2	Lauren Culler	N/A	N/A	BIOL 148 01	N/A	N/A
-EEES	150	22s	Ecology of Infectious Disease	2	Kathryn Cottingham	N/A	N/A	BIOL 150 01	N/A	N/A
-EEES	156	23w	Environ Econ & Governance	11	D.G. Webster	N/A	N/A	N/A	N/A	N/A
-EEES	160	23w	Earth System Modeling	11	Justin Mankin	N/A	N/A	N/A	N/A	N/A
-EEES	161	22f	Hydroclimatology	10A	Natalie Teale	N/A	N/A	N/A	N/A	N/A
-EEES	165	23w	Global Environmental Politics	2	D.G. Webster	N/A	N/A	N/A	N/A	N/A
-EEES	167	22f	Political Ecology	10A	Christopher Sneddon	N/A	N/A	N/A	N/A	N/A
-EEES	169	22s	Supervised Teaching EEES	ARR	Magdalena Bezanilla	N/A	N/A	BIOL 169 01	N/A	N/A
-EEES	169	22x	Supervised Teaching EEES	ARR	Thomas Jack	N/A	N/A	BIOL 169 01	N/A	N/A
-EEES	169	22f	Supervised Teaching EEES	ARR	Hannah ter Hofstede	N/A	N/A	BIOL 169 01	N/A	N/A
-EEES	169	22f	Supervised Teaching EEES	ARR	Matthew Ayres	N/A	N/A	N/A	N/A	N/A
-EEES	169	23w	Supervised Teaching EEES	ARR	Amanda Amodeo	N/A	N/A	BIOL 169 01	N/A	N/A
-EEES	169	23w	Supervised Teaching EEES	ARR	Matthew Ayres	N/A	N/A	N/A	N/A	N/A
-EEES	171	22s	River Prcsses&Watershed Sci	12	Francis Magilligan	N/A	N/A	N/A	N/A	N/A
-EEES	197	22s	Graduate Research I:Level I	ARR	Thomas Jack	N/A	N/A	BIOL 197 01	N/A	N/A
-EEES	197	22x	Graduate Research I:Level I	ARR	Thomas Jack	N/A	N/A	BIOL 197 01	N/A	N/A
-EEES	197	22f	Graduate Research I:Level I	ARR	Thomas Jack	N/A	N/A	BIOL 197 01	N/A	N/A
-EEES	197	23w	Graduate Research I:Level I	ARR	Matthew Ayres	N/A	N/A	N/A	N/A	N/A
-EEES	198	22s	Grad Research I:Level II	ARR	Thomas Jack	N/A	N/A	BIOL 198 01	N/A	N/A
-EEES	198	22x	Grad Research I:Level II	ARR	Thomas Jack	N/A	N/A	BIOL 198 01	N/A	N/A
-EEES	198	22f	Grad Research I:Level II	ARR	Thomas Jack	N/A	N/A	BIOL 198 01	N/A	N/A
-EEES	198	23w	Grad Research I:Level II	ARR	Matthew Ayres	N/A	N/A	N/A	N/A	N/A
-EEES	199	22s	Grad Research I:Level III	ARR	Thomas Jack	N/A	N/A	BIOL 199 01	N/A	N/A
-EEES	199	22x	Grad Research I:Level III	ARR	Thomas Jack	N/A	N/A	BIOL 199 01	N/A	N/A
-EEES	199	22f	Grad Research I:Level III	ARR	Thomas Jack	N/A	N/A	BIOL 199 01	N/A	N/A
-EEES	199	23w	Grad Research I:Level III	ARR	Matthew Ayres	N/A	N/A	N/A	N/A	N/A
-EEES	265	22s	Res Colloq:Micr Ecol & Env Bio	OT	Olga Zhaxybayeva	N/A	N/A	BIOL 265 01	N/A	N/A
-EEES	265	23w	Res Colloq:Micr Ecol & Env Bio	OT	Olga Zhaxybayeva	N/A	N/A	BIOL 265 01	N/A	N/A
-EEES	266	22s	Res Colloq:Ecology & Evolution	OT	Mark Laidre	N/A	N/A	BIOL 266 01	N/A	N/A
-EEES	266	22f	Res Colloq:Ecology & Evolution	OT	Caitlin Pries	N/A	N/A	BIOL 266 01	N/A	N/A
-EEES	266	23w	Res Colloq:Ecology & Evolution	OT	Kathryn Cottingham	N/A	N/A	BIOL 266 01	N/A	N/A
-EEES	272	22s	Advanced Readings in Evolution	ARR	Ryan Calsbeek	N/A	N/A	BIOL 272 01	N/A	N/A
-EEES	272	22f	Advanced Readings in Evolution	ARR	Ryan Calsbeek	N/A	N/A	BIOL 272 01	N/A	N/A
-EEES	297	22s	Grad Research II:Level I	ARR	Thomas Jack	N/A	N/A	BIOL 297 01	N/A	N/A
-EEES	297	22x	Grad Research II:Level I	ARR	Thomas Jack	N/A	N/A	BIOL 297 01	N/A	N/A
-EEES	297	22f	Grad Research II:Level I	ARR	Thomas Jack	N/A	N/A	BIOL 297 01	N/A	N/A
-EEES	297	23w	Grad Research II:Level I	ARR	Matthew Ayres	N/A	N/A	N/A	N/A	N/A
-EEES	298	22s	Grad Research II:Level II	ARR	Thomas Jack	N/A	N/A	BIOL 298 01	N/A	N/A
-EEES	298	22x	Grad Research II:Level II	ARR	Thomas Jack	N/A	N/A	BIOL 298 01	N/A	N/A
-EEES	298	22f	Grad Research II:Level II	ARR	Thomas Jack	N/A	N/A	BIOL 298 01	N/A	N/A
-EEES	298	23w	Grad Research II:Level II	ARR	Matthew Ayres	N/A	N/A	N/A	N/A	N/A
-EEES	299	22s	Grad Research II:Level III	ARR	Thomas Jack	N/A	N/A	BIOL 299 01	N/A	N/A
-EEES	299	22x	Grad Research II:Level III	ARR	Thomas Jack	N/A	N/A	BIOL 299 01	N/A	N/A
-EEES	299	22f	Grad Research II:Level III	ARR	Thomas Jack	N/A	N/A	BIOL 299 01	N/A	N/A
-EEES	299	23w	Grad Research II:Level III	ARR	Matthew Ayres	N/A	N/A	N/A	N/A	N/A
-ENGG	107	23w	Bayesian Stat Model & Comp	11	Klaus Keller	N/A	N/A	N/A	N/A	N/A
-ENGG	113	22s	Image Visualiz & Analysis	6B	Michael Jermyn	N/A	N/A	N/A	N/A	N/A
-ENGG	148	23w	Structural Mechanics	10A	Minh Phan	N/A	N/A	N/A	N/A	N/A
-ENGG	166	22s	Quantitative Human Physiology	2A	Kimberley Samkoe	N/A	N/A	N/A	N/A	N/A
-ENGG	177	22s	Dec-Making Under Uncertainty	3A	Wesley Marrero Colon	N/A	N/A	N/A	N/A	N/A
-ENGG	192	22s	Computational Electrodynamics	ARR	Fridon Shubitidze	N/A	N/A	N/A	N/A	N/A
-ENGG	192	22s	Imprvng (AI) Literacy Children	ARR	Elizabeth Murnane	N/A	N/A	N/A	N/A	N/A
-ENGG	192	22x	Independ or Grp Study in Engs	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	192	22f	Independ or Grp Study in Engs	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	192	22f	Biomechan Fctrs Osteoarthritis	ARR	Ryan Halter	N/A	N/A	N/A	N/A	N/A
-ENGG	192	22f	Comp Planetology Pluto Glacier	ARR	Colin Meyer	N/A	N/A	N/A	N/A	N/A
-ENGG	192	22f	Stretchable RF Electr. Design	ARR	William Scheideler	N/A	N/A	N/A	N/A	N/A
-ENGG	192	22f	Intro to Bioimpedance	ARR	Ryan Halter	N/A	N/A	N/A	N/A	N/A
-ENGG	192	23w	Independ or Grp Study in Engs	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	194	22s	PhD Oral Qualifier (Individualized Study)(Discussion)	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	194	22x	PhD Oral Qualifier(Discussion)	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	194	22f	PhD Oral Qualifier(Discussion)	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	194	23w	PhD Oral Qualifier(Discussion)	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	195	22s	Seminar on Sci,Tech & Society(Discussion)	OT		N/A	N/A	N/A	N/A	N/A
-ENGG	195	22f	Sem on Science,Tech&Society(Discussion)	ARR	Ian Baker	N/A	N/A	N/A	N/A	N/A
-ENGG	195	23w	Seminar on Sci,Tech & Society(Discussion)	OT		N/A	N/A	N/A	N/A	N/A
-ENGG	197	23w	PhD Professional Workshops(Discussion)	OT	Allan Bieber	N/A	N/A	N/A	N/A	N/A
-ENGG	198	23w	Research-In-Progress Wkshp-BCE(Discussion)	ARR	Margaret Ackerman	N/A	N/A	N/A	N/A	N/A
-ENGG	198	23w	Research-In-Progress Wkshp-BME(Discussion)	ARR	Ryan Halter	N/A	N/A	N/A	N/A	N/A
-ENGG	198	23w	Research-In-Progress Wkshp-ECE(Discussion)	ARR	Kofi Odame	N/A	N/A	N/A	N/A	N/A
-ENGG	198	23w	Research-In-Progress Wkshp-ENE(Discussion)	ARR	Lee Lynd	N/A	N/A	N/A	N/A	N/A
-ENGG	198	23w	Research-In-Progress Wkshp-MSE(Discussion)	ARR	Jifeng Liu	N/A	N/A	N/A	N/A	N/A
-ENGG	198	23w	Research-In-Progrss Wkshp-MOSE(Discussion)	ARR	Vikrant Vaze	N/A	N/A	N/A	N/A	N/A
-ENGG	230	22s	Fatigue and Fracture	OT	Yan Li	N/A	N/A	N/A	N/A	N/A
-ENGG	260	22s	Advances in Biotechnology	OT	Margaret Ackerman	N/A	N/A	N/A	N/A	N/A
-ENGG	260	22f	Advances in Biotechnology	OT	Margaret Ackerman	N/A	N/A	N/A	N/A	N/A
-ENGG	260	23w	Advances in Biotechnology	OT	Margaret Ackerman, Margaret Carpenter	N/A	N/A	N/A	N/A	N/A
-ENGG	269	22s	Advances in Biomedical Engg	ARR	Samuel Streeter	N/A	N/A	N/A	N/A	N/A
-ENGG	269	22f	Advances in Biomedical Engg	OT	Scott Davis	N/A	N/A	N/A	N/A	N/A
-ENGG	269	23w	Advances in Biomedical Engg	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	295	22s	Supervised UG Teaching (Individualized Study)			N/A	N/A	N/A	N/A	N/A
-ENGG	295	22x	Supervised UG Teaching (Individualized Study)	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	295	22f	Supervised UG Teaching			N/A	N/A	N/A	N/A	N/A
-ENGG	295	23w	Supervised UG Teaching (Individualized Study)	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	296	22s	Graduate Research 1 (Individualized Study)			N/A	N/A	N/A	N/A	N/A
-ENGG	296	22x	Graduate Research 1	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	296	22f	Graduate Research 1	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	296	23w	Graduate Research 1 (Individualized Study)	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	297	22s	Graduate Research 2 (Individualized Study)			N/A	N/A	N/A	N/A	N/A
-ENGG	297	22x	Graduate Research 2	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	297	22f	Graduate Research 2	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	297	23w	Graduate Research 2 (Individualized Study)	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	298	22s	Graduate Research 3 (Individualized Study)			N/A	N/A	N/A	N/A	N/A
-ENGG	298	22x	Graduate Research 3	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	298	22f	Graduate Research 3	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	298	23w	Graduate Research 3 (Individualized Study)	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	300	22s	Enterprise Experience Project (Individualized Study)	ARR	Eric Fossum	N/A	N/A	N/A	N/A	N/A
-ENGG	300	22x	Enterprise Experience Project	ARR	Charles Wyman	N/A	N/A	N/A	N/A	N/A
-ENGG	300	22f	Enterprise Experience Project	ARR	Charles Wyman	N/A	N/A	N/A	N/A	N/A
-ENGG	300	23w	Enterprise Experience Project (Individualized Study)	ARR	Eric Fossum	N/A	N/A	N/A	N/A	N/A
-ENGG	321	22s	Adv Innov and Entrepreneurship	ARR	Eric Fossum	N/A	N/A	N/A	N/A	N/A
-ENGG	321	23w	Introduction to Innovation	ARR	Eric Fossum	N/A	N/A	N/A	N/A	N/A
-ENGG	325	22s	Intro to Surgical Innovation	ARR	Keith Paulsen	N/A	N/A	N/A	N/A	N/A
-ENGG	325	22f	Intro to Surgical Innovation	ARR	Keith Paulsen	N/A	N/A	N/A	N/A	N/A
-ENGG	325	23w	Intro to Surgical Innovation (Individualized Study)	ARR	Keith Paulsen	N/A	N/A	N/A	N/A	N/A
-ENGG	365	22s	Advanced Biomaterials	ARR	Douglas Van Citters	N/A	N/A	N/A	N/A	N/A
-ENGG	390	22s	Master of Engg Mgmt Proj (Individualized Study)	ARR	Geoffrey Parker	N/A	N/A	N/A	N/A	N/A
-ENGG	390	22x	Master of Engg Mgmt Proj	ARR		N/A	N/A	N/A	N/A	N/A
-ENGG	390	22f	Master of Engg Mgmt Proj	ARR	Geoffrey Parker	N/A	N/A	N/A	N/A	N/A
-ENGG	390	23w	Master of Engg Mgmt Proj (Individualized Study)	ARR	Geoffrey Parker	N/A	N/A	N/A	N/A	N/A
-ENGG	700	22f	Resp & Ethical Conduct of Res	OT	Margaret Carpenter	N/A	N/A	N/A	N/A	N/A
-ENGG	19904	22s	TEA in a Dev Country Context	9S	Mark Laser	N/A	N/A	N/A	N/A	N/A
-ENGG	19906	22s	Flexible Electronics	OT	William Scheideler	N/A	N/A	N/A	N/A	N/A
-ENGG	19907	22f	Introduction to Bioelectronics	3A	Hui Fang	N/A	N/A	N/A	N/A	N/A
-ENGG	19908	22f	Post-Mdrn and Non-Linear Cntrl	10A	Minh Phan	N/A	N/A	N/A	N/A	N/A
-ENGG	19909	22f	Game-theoretic Dsgn, Lrng, Eng	3B	Sang Chin	N/A	N/A	N/A	N/A	N/A
-ENGG	19910	23w	MEng Design Project Initiation	3B	David Kynor	N/A	N/A	N/A	N/A	N/A
-ENGG	19911	22s	MEng Design Project Completion	2A	David Kynor	N/A	N/A	N/A	N/A	N/A
 ENGL	1	22f	Literary History I	12	Jessica Beckman	W	LIT	N/A	N/A	NR Eligible
 ENGL	2	23w	Literary History II	10A	James Dobson	W	LIT	N/A	N/A	NR Eligible
 ENGL	3	22s	Literary History III	2	Melissa Zeiger	W	LIT	N/A	N/A	N/A
@@ -1333,25 +1030,6 @@ ENGL	96	22f	Reading Course	ARR	Peter Orner	N/A	N/A	N/A	N/A	N/A
 ENGL	96	23w	Reading Course	ARR	Peter Orner	N/A	N/A	N/A	N/A	N/A
 ENGL	98	23w	Honors Course I	ARR	Peter Orner	N/A	N/A	N/A	N/A	N/A
 ENGL	99	22s	Honors Course II	ARR	Andrew McCann	N/A	N/A	N/A	N/A	N/A
-ENGM	178	22f	Technology Assessment	10A	Eric Bish	N/A	N/A	N/A	N/A	N/A
-ENGM	179.1	22f	Strategy	OT	Constance Helfat	N/A	N/A	N/A	N/A	N/A
-ENGM	179.2	22f	Organizational Behavior	OT	Adam Kleinbaum	N/A	N/A	N/A	N/A	N/A
-ENGM	180	22s	Accounting and Finance	OT	Richard Sansing, Felipe Severino	N/A	N/A	N/A	N/A	N/A
-ENGM	181	22f	Marketing	OT	Sharmistha Sikdar	N/A	N/A	N/A	N/A	N/A
-ENGM	182	22s	Data Analytics	OT	Erin Mayfield	N/A	N/A	N/A	N/A	N/A
-ENGM	182	23w	Data Analytics	3A	Erin Mayfield	N/A	N/A	N/A	N/A	N/A
-ENGM	183	23w	Operations Management	OT		N/A	N/A	N/A	N/A	N/A
-ENGM	184	22f	Intro Optimization Methods	OT	Eric Bish	N/A	N/A	N/A	N/A	N/A
-ENGM	186	22s	Technical Project Management	OT	Eric Bish	N/A	N/A	N/A	N/A	N/A
-ENGM	186	23w	Technical Project Management	10A	Eric Bish	N/A	N/A	N/A	N/A	N/A
-ENGM	187	23w	Tech, Innov & Entrepreneurship	2A	Ronald Lasky	N/A	N/A	N/A	N/A	N/A
-ENGM	188	22f	Law,Tech & Entrepreneurship	OT	Oliver Goodenough	N/A	N/A	N/A	N/A	N/A
-ENGM	189.1	22f	Med Device Commercialization	OT	Ryan Halter, Keith Paulsen	N/A	N/A	N/A	N/A	N/A
-ENGM	189.2	22f	Med Device Development	OT	Ryan Halter, Keith Paulsen	N/A	N/A	N/A	N/A	N/A
-ENGM	190	22f	Platform Design, Mgmt & Strat	OT	Geoffrey Parker	N/A	N/A	N/A	N/A	N/A
-ENGM	191	22f	Product Design & Development	OT	Elizabeth Murnane	N/A	N/A	N/A	N/A	N/A
-ENGM	204	22s	Data Analytics Project Lab	OT	Geoffrey Parker	N/A	N/A	N/A	N/A	N/A
-ENGM	387	22f	MEM Professional Skills(Discussion)	3A		N/A	N/A	N/A	N/A	N/A
 ENGS	2	22x	IntegrDes:Eng/Arch/BldgTech	2A	John Wilson	N/A	TAS	N/A	N/A	N/A
 ENGS	2	23w	IntegrDes:Eng/Arch/BldgTech	12	John Wilson	N/A	TAS	N/A	N/A	N/A
 ENGS	5	22s	Healthcare&Biotech in 21stC	2A	Peter Robbie, Joseph Rosen	N/A	TAS	N/A	N/A	NR Eligible
@@ -1460,7 +1138,6 @@ ENGS	93	22f	Statistical Mthds in Engg	2A	Vikrant Vaze	N/A	QDS	N/A	N/A	N/A
 ENGS	93	22f	Statistical Mthds in Engg	11	Ronald Lasky	N/A	QDS	N/A	N/A	N/A
 ENGS	93	23w	Statistical Mthds in Engg	11		N/A	QDS	N/A	N/A	N/A
 ENGS	100	23w	Mthds in Applied Math 1	12	Colin Meyer	N/A	N/A	N/A	N/A	N/A
-ENGS	103	22s	Operations Research	OT	Vikrant Vaze	N/A	N/A	N/A	N/A	N/A
 ENGS	103	23w	Operations Research	2A	Vikrant Vaze	N/A	N/A	N/A	N/A	N/A
 ENGS	108	22f	Applied Machine Learning	12	George Cybenko	N/A	N/A	N/A	N/A	N/A
 ENGS	111	22s	Digital Image Processing	9L	Xiaoyao Fan	N/A	N/A	N/A	N/A	N/A
@@ -1493,7 +1170,6 @@ ENGS	159	22s	Molec Sensors & Nanodevices	11	Xiaojing Zhang	N/A	N/A	N/A	N/A	N/A
 ENGS	162	23w	Basic Biol Circuit Engg	11	Rahul Sarpeshkar	N/A	N/A	N/A	N/A	N/A
 ENGS	163	23w	Advanced Protein Engineering	2	Jiwon Lee	N/A	N/A	N/A	N/A	N/A
 ENGS	164	22f	Tissue Engineering	2	Katherine Hixon	N/A	N/A	N/A	N/A	N/A
-ENGS	165	22s	Biomaterials	OT	Douglas Van Citters	N/A	N/A	N/A	N/A	N/A
 ENGS	167	23w	Medical Imaging	9L	David Gladstone	N/A	N/A	N/A	N/A	N/A
 ENGS	169	22s	Intermediate Biomedical Engg	10	Ryan Halter	N/A	N/A	N/A	N/A	N/A
 ENGS	171	23w	Industrial Ecology	2A	Benoit Roisin	N/A	N/A	N/A	N/A	N/A
@@ -1515,7 +1191,6 @@ ENVS	17	22f	Marine Policy	11	D.G. Webster	N/A	SOC	N/A	N/A	N/A
 ENVS	18	22s	Indigenous Environ Studies	2A	Nicholas Reo	NW	TMV	NAS 018 01	N/A	N/A
 ENVS	20	22s	Conservation&Biodiversity	12	Douglas Bolger	N/A	TAS	N/A	N/A	N/A
 ENVS	25	22x	Agroecology	10	Theresa Ong	N/A	TLA	N/A	N/A	N/A
-ENVS	25	22x	Agroecology(Laboratory)	OT	Theresa Ong	N/A	N/A	N/A	N/A	N/A
 ENVS	26	22s	Soil Ecological Systems	10A	Veer Chaudhary	N/A	SCI	N/A	N/A	N/A
 ENVS	28	22s	Global Environmental Health	11	Bill Roebuck	N/A	TAS	N/A	N/A	N/A
 ENVS	30	22f	Global Environmental Sci	12	David Lutz	N/A	SCI	N/A	N/A	N/A
@@ -1530,7 +1205,6 @@ ENVS	60	22f	Environmental Law	2A	Ross Jones	N/A	SOC	N/A	N/A	N/A
 ENVS	65	23w	Global Envrmntl Politics	2	D.G. Webster	N/A	INT	N/A	N/A	N/A
 ENVS	67	22f	Political Ecology	10A	Christopher Sneddon	N/A	INT or SOC	GEOG 47.01 01	N/A	NR Eligible
 ENVS	79	22f	The Soil Resource	11	Brian Jackson	N/A	SLA	EARS 035 01	N/A	N/A
-ENVS	79	22f	The Soil Resource(Laboratory)	ARR	Brian Jackson	N/A	N/A	N/A	N/A	N/A
 ENVS	80.01	23w	Arctic Environmental Change	2	Lauren Culler	N/A	TAS	N/A	N/A	N/A
 ENVS	84.02	22f	CBNRM III: Indep Research	FS	Douglas Bolger	N/A	N/A	N/A	N/A	N/A
 ENVS	85	22s	Land, Love & Kinship	10A	Nicholas Reo	N/A	TMV	NAS 81.04 01	N/A	N/A
@@ -1668,43 +1342,6 @@ FREN	89	22s	Honors Seminar	ARR	David Laguardia	N/A	N/A	N/A	N/A	N/A
 FREN	89	22x	Honors Seminar	ARR	David Laguardia	N/A	N/A	N/A	N/A	N/A
 FREN	89	22f	Honors Seminar	ARR	Andrea Tarnowski	N/A	N/A	N/A	N/A	N/A
 FRIT	31	23w	How Languages are Learned	2A	Tonia Convertini	N/A	SOC	N/A	LRP	N/A
-GENE	100	22f	MCB Qualifying Examination	ARR	Erik Griffin	N/A	N/A	N/A	N/A	N/A
-GENE	106	22s	Neuro Through Lens Devel Brain	ARR	Hermes Yeh	N/A	N/A	N/A	N/A	N/A
-GENE	108	22s	Mol Gene Manipul & App to Neur	ARR	Bryan Luikart	N/A	N/A	N/A	N/A	N/A
-GENE	109	22s	Principles Animal Development	ARR	Patrick Dolph, Erik Griffin, Yasmath Ahmed	N/A	N/A	N/A	N/A	N/A
-GENE	110	22s	Interdisciplinary Cancer Bio	ARR	Diwakar Pattabiraman	N/A	N/A	N/A	N/A	N/A
-GENE	145	22s	Autoimmunity and Fibrosis	OT	Michael Whitfield	N/A	N/A	N/A	N/A	N/A
-GENE	145	22f	Genomics of Hum. Disease	ARR	Michael Whitfield	N/A	N/A	N/A	N/A	N/A
-GENE	197	22s	Grad Research I: Level A	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	197	22x	Grad Research I: Level A	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	197	22f	Grad Research I: Level A	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	197	23w	Grad Research I: Level A	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	198	22s	Grad Research I: Level B	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	198	22x	Grad Research I: Level B	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	198	22f	Grad Research I: Level B	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	198	23w	Grad Research I: Level B	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	199	22s	Grad Research I: Level C	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	199	22x	Grad Research I: Level C	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	199	22f	Grad Research I: Level C	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	199	23w	Grad Research I: Level C	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	260	22s	Biological Rhythms Journal Clu	ARR	Jay Dunlap	N/A	N/A	N/A	N/A	N/A
-GENE	260	22f	Biological Rhythms Journal Clu	ARR	Jay Dunlap	N/A	N/A	N/A	N/A	N/A
-GENE	260	23w	Biological Rhythms Journal Clu	ARR	Jay Dunlap	N/A	N/A	N/A	N/A	N/A
-GENE	261	22s	Cancer Biology & Genetics	ARR	Diwakar Pattabiraman	N/A	N/A	N/A	N/A	N/A
-GENE	261	22f	Cancer Biology & Genetics	ARR	Xiaofeng Wang	N/A	N/A	N/A	N/A	N/A
-GENE	261	23w	Cancer Biology & Genetics	ARR	Xiaofeng Wang	N/A	N/A	N/A	N/A	N/A
-GENE	297	22s	Grad Research II: Level A	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	297	22x	Grad Research II: Level A	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	297	22f	Grad Research II: Level A	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	297	23w	Grad Research II: Level A	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	298	22s	Grad Research II: Level B	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	298	22x	Grad Research II: Level B	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	298	22f	Grad Research II: Level B	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	298	23w	Grad Research II: Level B	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	299	22s	Grad Research II: Level C	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	299	22x	Grad Research II: Level C	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	299	22f	Grad Research II: Level C	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
-GENE	299	23w	Grad Research II: Level C	ARR	Marnie Halpern	N/A	N/A	N/A	N/A	N/A
 GEOG	1.02	22s	The Natural Environment	10	Francis Magilligan	N/A	SCI	N/A	N/A	NR Eligible
 GEOG	1.02	22f	The Natural Environment	10	Francis Magilligan	N/A	SCI	N/A	N/A	NR Eligible
 GEOG	2.01	22f	Intro to Human Geography	10	Coleen Fox	CI	INT or SOC	N/A	N/A	N/A
@@ -1716,16 +1353,11 @@ GEOG	7.19	22s	The Black South	2	Darius Scott	N/A	N/A	N/A	N/A	N/A
 GEOG	8.01	22s	Intro to Int'l Development	10	Coleen Fox	NW	INT or SOC	INTS 016 01	N/A	N/A
 GEOG	8.01	22f	Intro to Int'l Development	12	Coleen Fox	NW	INT or SOC	INTS 016 01	N/A	N/A
 GEOG	9.01	22s	Geographical Info Systems	10A	Xun Shi	N/A	TLA	N/A	N/A	N/A
-GEOG	9.01	22s	Geographical Info Systems(Laboratory)	OT	Xun Shi	N/A	N/A	N/A	N/A	N/A
-GEOG	9.01	22s	Geographical Info Systems(Laboratory)	OT	Xun Shi	N/A	N/A	N/A	N/A	N/A
 GEOG	9.01	22f	Geographical Info Systems	2A	Xun Shi	N/A	TLA	N/A	N/A	N/A
-GEOG	9.01	22f	Geographical Info Systems(Laboratory)	OT	Xun Shi	N/A	N/A	N/A	N/A	N/A
-GEOG	9.01	22f	Geographical Info Systems(Laboratory)	OT	Xun Shi	N/A	N/A	N/A	N/A	N/A
 GEOG	11	22f	Qualitative Methods	10A	Abigail Neely	N/A	SOC	N/A	N/A	NR Eligible
 GEOG	12.01	22f	Research Design	3A	Abigail Neely, Luis Alvarez Leon	N/A	SOC	N/A	N/A	N/A
 GEOG	15.01	22f	Global Climate Change	10	Gong Cheng	N/A	SCI	N/A	N/A	NR Eligible
 GEOG	17.01	22s	ErthSurfaceProcessLandforms	3A	Joanmarie Del Vecchio	N/A	SLA	EARS 033 01	N/A	NR Eligible
-GEOG	17.01	22s	ErthSurfaceProcessLandforms(Laboratory)	OT	Joanmarie Del Vecchio	N/A	N/A	EARS 033 02	N/A	NR Eligible
 GEOG	19.01	23w	Climate Change & Future Ag	10	Jonathan 23w	N/A	SCI	N/A	N/A	NR Eligible
 GEOG	21.01	22s	Global Health&Society	12	Coleen Fox	N/A	INT or SOC	INTS 018 01	N/A	N/A
 GEOG	21.01	23w	Global Health&Society	2A	Lisa Adams, Dawn Carey	N/A	INT or SOC	INTS 018 01	N/A	N/A
@@ -1747,14 +1379,12 @@ GEOG	43	22s	Food and Power	2A	Susanne Freidberg	NW	INT or SOC	N/A	N/A	N/A
 GEOG	44	23w	Environ/Politics SE Asia	10A	Christopher Sneddon	NW	INT or SOC	ENVS 044 01	N/A	NR Eligible
 GEOG	47.01	22f	Political Ecology	10A	Christopher Sneddon	N/A	INT or SOC	ENVS 067 01	N/A	NR Eligible
 GEOG	54	23w	Geovisualization	9L	Jonathan Chipman	N/A	SLA	N/A	N/A	NR Eligible
-GEOG	54	23w	Geovisualization(Laboratory)	OT	Jonathan Chipman	N/A	N/A	N/A	N/A	NR Eligible
 GEOG	55	22s	Critical Analysis in GIS	2	Luis Alvarez Leon	N/A	TAS	N/A	N/A	N/A
 GEOG	55	22x	Critical Analysis in GIS	2	Luis Alvarez Leon	N/A	TAS	N/A	N/A	N/A
 GEOG	57	22f	Urban Applications of GIS	10A	Xun Shi	N/A	TLA	N/A	N/A	N/A
 GEOG	60	23w	Earth System Modeling	11	Justin Mankin	N/A	SCI	N/A	N/A	NR Eligible
 GEOG	61.01	22f	Hydroclimatology	10A	Natalie Teale	N/A	SCI	N/A	N/A	NR Eligible
 GEOG	62.01	22s	River Prcsses&Watershed Sci	12	Francis Magilligan	N/A	SLA	EARS 071 01	N/A	NR Eligible
-GEOG	62.01	22s	River Prcsses&Watershed Sci(Laboratory)	OT	Francis Magilligan	N/A	N/A	N/A	N/A	NR Eligible
 GEOG	65.01	22s	Global Movements	2A	Richard Wright	N/A	INT or SOC	N/A	N/A	N/A
 GEOG	71	23w	Racial Geographies	12	Clifford Campbell	CI	SOC	AAAS 60.50 01, ANTH 50.28 01	N/A	NR Eligible
 GEOG	72	22s	Black Consciousness &Femins	10A	Abigail Neely	CI	SOC	AAAS 67.50 01, WGSS 66.09 01	N/A	N/A
@@ -2046,39 +1676,9 @@ HIST	98	22f	Honors Seminar	3B	Paul Musselwhite	N/A	N/A	N/A	N/A	N/A
 HIST	99.01	23w	Thesis	ARR	Paul Musselwhite	N/A	N/A	N/A	N/A	N/A
 HIST	99.02	22s	Thesis II	ARR	Jennifer Miller	N/A	N/A	N/A	N/A	N/A
 HUM	1	22f	Dialogues w/the Classics	12	Andrea Tarnowski, Devin Singh, Udi Greenberg, Darrin McMahon, Roberta Stewart, Colleen Boggs	N/A	N/A	N/A	N/A	N/A
-HUM	1	22f	Dialogues w/the Classics(Discussion)	OT	Darrin McMahon, Andrea Tarnowski	N/A	N/A	N/A	N/A	N/A
-HUM	1	22f	Dialogues w/the Classics(Discussion)	OT	Colleen Boggs, Andrea Tarnowski	N/A	N/A	N/A	N/A	N/A
-HUM	1	22f	Dialogues w/the Classics(Discussion)	OT	Udi Greenberg, Andrea Tarnowski	N/A	N/A	N/A	N/A	N/A
-HUM	1	22f	Dialogues w/the Classics(Discussion)	OT	Devin Singh, Andrea Tarnowski	N/A	N/A	N/A	N/A	N/A
-HUM	1	22f	Dialogues w/the Classics(Discussion)	OT	Roberta Stewart, Andrea Tarnowski	N/A	N/A	N/A	N/A	N/A
-HUM	1	22f	Dialogues w/the Classics(Discussion)	OT	Andrea Tarnowski	N/A	N/A	N/A	N/A	N/A
 HUM	2	23w	The Modern Labyrinth	12	Lucas Hollister, Petra McGillen, Andrea Tarnowski, Laura Edmondson	N/A	N/A	N/A	N/A	N/A
-HUM	2	23w	The Modern Labyrinth(Discussion)	OT	Lucas Hollister, Andrea Tarnowski	N/A	N/A	N/A	N/A	N/A
-HUM	2	23w	The Modern Labyrinth(Discussion)	OT	Laura Edmondson, Andrea Tarnowski	N/A	N/A	N/A	N/A	N/A
-HUM	2	23w	The Modern Labyrinth(Discussion)	OT	Petra McGillen, Andrea Tarnowski	N/A	N/A	N/A	N/A	N/A
 HUM	3.07	22s	Mobs Crowds and the People	3A	Klaus Mladek, Antonio Gomez	W	TMV	COLT 63.03 01, GERM 46.04 01	N/A	N/A
 HUM	4.02	22x	The Sixties	10A	Randall Balmer	W	N/A	N/A	N/A	NR Eligible
-IND	101	22f	Molecular & Cellular Neurosci	11	Michael Hoppa	N/A	N/A	N/A	N/A	N/A
-IND	102	22f	Systems Neuroscience	10A	Jeffrey Taube	N/A	N/A	PSYC 126 01	N/A	N/A
-IND	103	22f	Adv. Techniques in Neurosci	OT	Katherine Nautiyal, Michael Hoppa, Crystal Noller, Robert Hill, Allan Gulledge	N/A	N/A	N/A	N/A	N/A
-IND	124	23w	Ethics	ARR	Allan Gulledge	N/A	N/A	N/A	N/A	N/A
-IND	211	22s	Neurobiology of Disease	ARR	Matthew Havrda, Elijah Stommel, Paul Holtzheimer, Rebecca Thompson, Francesca Gilli, George Zanazzi, Ta Yuan Chang	N/A	N/A	N/A	N/A	N/A
-IND	297	22s	Graduate Research	ARR	Michael Hoppa	N/A	N/A	N/A	N/A	N/A
-IND	297	22x	Graduate Research	ARR	Michael Hoppa	N/A	N/A	N/A	N/A	N/A
-IND	297	22f	Graduate Research	ARR	Michael Hoppa	N/A	N/A	N/A	N/A	N/A
-IND	297	23w	Graduate Research	ARR	Michael Hoppa	N/A	N/A	N/A	N/A	N/A
-IND	298	22s	Graduate Research	ARR	Michael Hoppa	N/A	N/A	N/A	N/A	N/A
-IND	298	22x	Graduate Research	ARR	Michael Hoppa	N/A	N/A	N/A	N/A	N/A
-IND	298	22f	Graduate Research	ARR	Michael Hoppa	N/A	N/A	N/A	N/A	N/A
-IND	298	23w	Graduate Research	ARR	Michael Hoppa	N/A	N/A	N/A	N/A	N/A
-IND	299	22s	Graduate Research	ARR	Michael Hoppa	N/A	N/A	N/A	N/A	N/A
-IND	299	22x	Graduate Research	ARR	Michael Hoppa	N/A	N/A	N/A	N/A	N/A
-IND	299	22f	Graduate Research	ARR	Michael Hoppa	N/A	N/A	N/A	N/A	N/A
-IND	299	23w	Graduate Research	ARR	Michael Hoppa	N/A	N/A	N/A	N/A	N/A
-IND	600	22s	Advances in Integrative Neuro	ARR	Michael Hoppa	N/A	N/A	N/A	N/A	N/A
-IND	600	22f	Advances in Integrative Neuro	OT	Michael Hoppa	N/A	N/A	N/A	N/A	N/A
-IND	600	23w	Advances in Integrative Neuro	OT	Michael Hoppa, Francesca Gilli	N/A	N/A	N/A	N/A	N/A
-IND	700	22f	Resp & Ethical Conduct of Res	OT	Allan Gulledge	N/A	N/A	N/A	N/A	N/A
 INTS	15	22s	Violence and Security	11	Christianne Hardy	N/A	INT or SOC	N/A	N/A	NR Eligible
 INTS	15	23w	Violence and Security	10A	Christianne Hardy	N/A	INT or SOC	N/A	N/A	NR Eligible
 INTS	16	22s	Intro to Int'l Development	10	Coleen Fox	NW	INT or SOC	GEOG 08.01 01	N/A	N/A
@@ -2301,82 +1901,6 @@ LING	87	22s	Honors Thesis	ARR	James Stanford	N/A	N/A	N/A	N/A	N/A
 LING	87	22x	Honors Thesis	ARR	James Stanford	N/A	N/A	N/A	N/A	N/A
 LING	87	22f	Honors Thesis	ARR	James Stanford	N/A	N/A	N/A	N/A	N/A
 LING	87	23w	Honors Thesis	ARR	James Stanford	N/A	N/A	N/A	N/A	N/A
-MALS	120	22x	Symposium (Remote, with synchronous components)	OT	Donald Pease	N/A	N/A	N/A	N/A	N/A
-MALS	121	22s	SS Methods N/C (On Campus)	OT	Eric Ramsey	N/A	N/A	N/A	N/A	N/A
-MALS	121	22x	Symposium Substitute (On Campus)	OT	Anna Minardi	N/A	N/A	N/A	N/A	N/A
-MALS	121	22f	Symposium Substitute (On Campus)	OT	Eric Ramsey	N/A	N/A	N/A	N/A	N/A
-MALS	127	22s	Independent Study (Individualized Study)	ARR	Joseph Bafumi	N/A	N/A	N/A	N/A	N/A
-MALS	127	22s	Independent Study (Individualized Study)	ARR	Barbara Kreiger	N/A	N/A	N/A	N/A	N/A
-MALS	127	22s	Independent Study (Individualized Study)	ARR	Peter DeShazo	N/A	N/A	N/A	N/A	N/A
-MALS	127	22s	Independent Study (Individualized Study)	ARR	Klaus Milich	N/A	N/A	N/A	N/A	N/A
-MALS	127	22s	Independent Study (Individualized Study)	ARR	Alan Lelchuk	N/A	N/A	N/A	N/A	N/A
-MALS	127	22s	Independent Study (Individualized Study)	ARR	Peter DeShazo	N/A	N/A	N/A	N/A	N/A
-MALS	127	22s	Independent Study (Individualized Study)	ARR	Peter DeShazo	N/A	N/A	N/A	N/A	N/A
-MALS	127	22x	Independent Study (Individualized Study)	ARR	David Rezvani	N/A	N/A	N/A	N/A	N/A
-MALS	127	22x	Independent Study (Individualized Study)	ARR	William Phillips	N/A	N/A	N/A	N/A	N/A
-MALS	127	22x	Independent Study (Individualized Study)	ARR	Evelyn Lechner	N/A	N/A	N/A	N/A	N/A
-MALS	127	22x	Independent Study (Individualized Study)	ARR	Nancy Fraser	N/A	N/A	N/A	N/A	N/A
-MALS	127	22x	Independent Study (Individualized Study)	ARR	Thomas Zoellner	N/A	N/A	N/A	N/A	N/A
-MALS	127	22x	Independent Study (Individualized Study)	ARR	Sarah Kelly	N/A	N/A	N/A	N/A	N/A
-MALS	127	22x	Independent Study (Individualized Study)	ARR	Barbara Kreiger	N/A	N/A	N/A	N/A	N/A
-MALS	127	22x	Independent Study (Individualized Study)	ARR	Dennis Washburn	N/A	N/A	N/A	N/A	N/A
-MALS	127	22x	Independent Study (Individualized Study)	ARR	Alan Lelchuk	N/A	N/A	N/A	N/A	N/A
-MALS	127	22x	Independent Study (Individualized Study)	ARR	David Rezvani	N/A	N/A	N/A	N/A	N/A
-MALS	127	22x	Independent Study (Individualized Study)	ARR		N/A	N/A	N/A	N/A	N/A
-MALS	127	22x	Independent Study (Individualized Study)	ARR	Alan Lelchuk	N/A	N/A	N/A	N/A	N/A
-MALS	127	22x	Independent Study (Individualized Study)	ARR	Alison Martin	N/A	N/A	N/A	N/A	N/A
-MALS	127	22x	Independent Study (Individualized Study)	ARR	Peter DeShazo	N/A	N/A	N/A	N/A	N/A
-MALS	127	22x	Independent Study (Individualized Study)	ARR	Peter DeShazo	N/A	N/A	N/A	N/A	N/A
-MALS	127	22x	Independent Study (Individualized Study)	ARR	Klaus Milich	N/A	N/A	N/A	N/A	N/A
-MALS	127	22f	Independent Study (Individualized Study)	ARR	Peter DeShazo	N/A	N/A	N/A	N/A	N/A
-MALS	127	22f	Independent Study (Individualized Study)	ARR	Eugenie Carabatsos	N/A	N/A	N/A	N/A	N/A
-MALS	127	22f	Independent Study (Individualized Study)	ARR	Eric Ramsey	N/A	N/A	N/A	N/A	N/A
-MALS	127	22f	Independent Study (Individualized Study)	ARR	Colin Calloway	N/A	N/A	N/A	N/A	N/A
-MALS	127	22f	Independent Study (Individualized Study)	ARR	Regine Rosenthal	N/A	N/A	N/A	N/A	N/A
-MALS	127	22f	Independent Study (Individualized Study)	ARR	Gil Raz	N/A	N/A	N/A	N/A	N/A
-MALS	127	22f	Independent Study (Individualized Study)	ARR	Rena Mosteirin	N/A	N/A	N/A	N/A	N/A
-MALS	127	22f	Independent Study (Individualized Study)	ARR	Thomas Zoellner	N/A	N/A	N/A	N/A	N/A
-MALS	127	22f	Independent Study (Individualized Study)	ARR	Mary Desjardins	N/A	N/A	N/A	N/A	N/A
-MALS	127	22f	Independent Study (Individualized Study)	ARR	Desiree Garcia	N/A	N/A	N/A	N/A	N/A
-MALS	127	22f	Soc Sci Res Methods (Individualized Study)	ARR	Eric Ramsey	N/A	N/A	N/A	N/A	N/A
-MALS	127	22f	Independent Study (Individualized Study)	ARR	Eric Ramsey	N/A	N/A	N/A	N/A	N/A
-MALS	130	23w	Cultural Stud Research Methods (On Campus)	OT	Klaus Milich	N/A	N/A	N/A	N/A	N/A
-MALS	131	22s	Soc Science Research Methods (On Campus)	OT	Eric Ramsey	N/A	N/A	N/A	N/A	N/A
-MALS	131	22f	Soc Science Research Methods (On Campus)	OT	Eric Ramsey	N/A	N/A	N/A	N/A	N/A
-MALS	132	22x	Writing Methodologies (On Campus)	OT	Anna Minardi	N/A	N/A	N/A	N/A	N/A
-MALS	133	22f	Teaching Methodologies (On Campus)	ARR	Donald Pease	N/A	N/A	N/A	N/A	N/A
-MALS	133	22f	Teaching Methodologies (On Campus)	ARR	Donald Pease	N/A	N/A	N/A	N/A	N/A
-MALS	137	22s	Thesis Research (Individualized Study)	ARR	Donald Pease	N/A	N/A	N/A	N/A	N/A
-MALS	137	22s	Thesis Research (Individualized Study)	ARR	Donald Pease	N/A	N/A	N/A	N/A	N/A
-MALS	137	22x	Thesis Research	ARR	Donald Pease	N/A	N/A	N/A	N/A	N/A
-MALS	137	22x	Thesis Research	ARR	Donald Pease	N/A	N/A	N/A	N/A	N/A
-MALS	137	22f	Thesis Research (Individualized Study)	ARR	Donald Pease	N/A	N/A	N/A	N/A	N/A
-MALS	137	22f	Thesis Research (Individualized Study)	ARR	Donald Pease	N/A	N/A	N/A	N/A	N/A
-MALS	137	23w	Thesis Research	ARR	Donald Pease	N/A	N/A	N/A	N/A	N/A
-MALS	137	23w	Thesis Research	ARR	Donald Pease	N/A	N/A	N/A	N/A	N/A
-MALS	141	22x	Writing Crime Fiction (On Campus)	OT	Saul Lelchuk	N/A	N/A	N/A	N/A	N/A
-MALS	191	22f	Oral Hist and Digital Stories (On Campus)	OT	Harriette Yahr	N/A	N/A	N/A	N/A	N/A
-MALS	200	22x	Study Abroad	ARR	Donald Pease	N/A	N/A	N/A	N/A	N/A
-MALS	202	22f	Reading&Viewing the Holocaust (On Campus)	OT	Alan Lelchuk	N/A	N/A	N/A	N/A	N/A
-MALS	206	22f	Environmental Issues in Media (On Campus)	OT	David Van Wie	N/A	N/A	N/A	N/A	N/A
-MALS	207	22x	Journalism (On Campus)	OT	Thomas Zoellner	N/A	N/A	N/A	N/A	N/A
-MALS	209	22s	Writing the Other (On Campus)	OT	Barbara Kreiger	N/A	N/A	N/A	N/A	N/A
-MALS	209	23w	Writing the Other (On Campus)	OT	Barbara Kreiger	N/A	N/A	N/A	N/A	N/A
-MALS	210	22s	Intern'l Politics in Asia (On Campus)	OT	David Rezvani	N/A	N/A	N/A	N/A	N/A
-MALS	211	22f	Poetry (On Campus)	OT	Cynthia Huntington	N/A	N/A	N/A	N/A	N/A
-MALS	215	22f	Power&Politics in GreaterChina (On Campus)	OT	David Rezvani	N/A	N/A	N/A	N/A	N/A
-MALS	226	23w	Screenwriting (On Campus)	OT	William Phillips	N/A	N/A	N/A	N/A	N/A
-MALS	239	22s	Poetry (On Campus)	OT	Rena Mosteirin	N/A	N/A	N/A	N/A	N/A
-MALS	277	22f	Coloring Gender (On Campus)	OT	Regine Rosenthal	N/A	N/A	N/A	N/A	N/A
-MALS	294	22x	Post-Cold War Globalization (Remote, with synchronous components)	OT	Peter DeShazo	N/A	N/A	N/A	N/A	N/A
-MALS	299	23w	Tell Stories in Text & Images (On Campus)	OT	Kristin O'Rourke	N/A	N/A	N/A	N/A	N/A
-MALS	318	22x	Intro to Cultural Studies (On Campus)	OT	Donald Pease, Patricia McKee	N/A	N/A	N/A	N/A	N/A
-MALS	337	23w	New Glob Ord: Devpt, Dem & Rev (On Campus)	OT	Peter DeShazo, Evelyn Lechner	N/A	N/A	N/A	N/A	N/A
-MALS	346	22s	Diasporas & Migrations (On Campus)	OT	Klaus Milich, Regine Rosenthal	N/A	N/A	N/A	N/A	N/A
-MALS	365	22f	Three Faces of Labor (On Campus)	OT	Nancy Fraser	N/A	N/A	N/A	N/A	N/A
-MALS	373	23w	Epidemics:Vortex Fear/Wisdom (On Campus)	OT	Daniel Lucey	N/A	N/A	N/A	N/A	N/A
-MALS	700	22x	Resp & Ethical Conduct of Res (On Campus)	OT	Jill Baron	N/A	N/A	N/A	N/A	N/A
-MALS	700	23w	Resp & Ethical Conduct of Res (On Campus)	OT	Jill Baron	N/A	N/A	N/A	N/A	N/A
 MATH	1	22f	Intro. to Calculus	9L	Alina Glaubitz	N/A	QDS	N/A	N/A	N/A
 MATH	1	22f	Intro. to Calculus	10	Jinman Park	N/A	QDS	N/A	N/A	N/A
 MATH	1	22f	Intro. to Calculus	12	Xie He	N/A	QDS	N/A	N/A	N/A
@@ -2509,7 +2033,6 @@ MATH	146	22s	Current Prob in Applied Math	9L	Tongtong Li	N/A	N/A	N/A	N/A	N/A
 MATH	146	22f	Current Prob in Applied Math	3B	Dimitrios Giannakis	N/A	N/A	N/A	N/A	N/A
 MATH	147	22s	Teaching Seminar	ARR	Vladimir Chernov	N/A	N/A	N/A	N/A	N/A
 MATH	148	22s	Independent Project	ARR	Vladimir Chernov	N/A	N/A	N/A	N/A	N/A
-MATH	148	22x	Independent Project	OT	Marcia Groszek	N/A	N/A	N/A	N/A	N/A
 MATH	148	22f	Independent Project	ARR	Vladimir Chernov	N/A	N/A	N/A	N/A	N/A
 MATH	148	23w	Independent Project	ARR	Vladimir Chernov	N/A	N/A	N/A	N/A	N/A
 MATH	149	22s	Supervised Teaching	ARR	Vladimir Chernov	N/A	N/A	N/A	N/A	N/A
@@ -2531,7 +2054,6 @@ MATH	158	22x	Independent Research	ARR	Vladimir Chernov	N/A	N/A	N/A	N/A	N/A
 MATH	158	22f	Independent Research	ARR	Vladimir Chernov	N/A	N/A	N/A	N/A	N/A
 MATH	158	23w	Independent Research	ARR	Vladimir Chernov	N/A	N/A	N/A	N/A	N/A
 MATH	166	23w	Modern Trends in Applied Math	10A	Ethan Levien	N/A	N/A	N/A	N/A	N/A
-MATH	177	23w	Algorithms in Biomed Data Sci	OT	Jiang Gui	N/A	N/A	QBS 177 01	N/A	N/A
 MATH	297	22x	Graduate Training	ARR	Peter Winkler	N/A	N/A	N/A	N/A	N/A
 MATH	700	22f	Resp & Ethical Conduct of Res	10A	Craig Sutton	N/A	N/A	N/A	N/A	N/A
 MES	1	22s	Intro to Mid East Studies	12	Jonathan Smolin	NW	INT or SOC	N/A	N/A	N/A
@@ -2570,54 +2092,6 @@ MES	85	22f	Independent Research	ARR	Christopher MacEvitt	N/A	N/A	N/A	N/A	N/A
 MES	85	23w	Independent Research	ARR	Christopher MacEvitt	N/A	N/A	N/A	N/A	N/A
 MES	87	22f	Honors Thesis	ARR	Christopher MacEvitt	N/A	N/A	N/A	N/A	N/A
 MES	89	22s	Senior Honors Thesis part 2	ARR	Christopher MacEvitt	N/A	N/A	N/A	N/A	N/A
-MICR	105	22s	CF:Bedside to Bench & Back	OT	Deborah Hogan, James Bliska	N/A	N/A	N/A	N/A	N/A
-MICR	107	22s	Intro to Quantitative Biology	OT	Daniel Schultz	N/A	N/A	N/A	N/A	N/A
-MICR	108	22s	Fundamentals of Virology	OT	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	109	22s	Human Microbiome Form&Function	OT	Benjamin Ross	N/A	N/A	N/A	N/A	N/A
-MICR	128	22s	Enterprise Experience Intern	ARR	Erik Griffin	N/A	N/A	N/A	N/A	N/A
-MICR	128	22x	Enterprise Experience Intern	ARR	Erik Griffin	N/A	N/A	N/A	N/A	N/A
-MICR	128	22f	Enterprise Experience Intern	ARR	Magdalena Bezanilla	N/A	N/A	N/A	N/A	N/A
-MICR	128	23w	Enterprise Experience Intern	ARR	Erik Griffin	N/A	N/A	N/A	N/A	N/A
-MICR	144	23w	Fundamental Immunology	ARR	Claudia Jakubzick	N/A	N/A	N/A	N/A	N/A
-MICR	149	22f	Microbio Across Environments	ARR	George O'Toole, Deborah Hogan	N/A	N/A	N/A	N/A	N/A
-MICR	150	22x	FAIR Bioinformatics/Omics Data	OT	Thomas Hampton, Bruce Stanton	N/A	N/A	N/A	N/A	N/A
-MICR	197	22s	Graduate Research I: Level I	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	197	22x	Graduate Research I: Level I	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	197	22f	Graduate Research I: Level I	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	197	23w	Graduate Research I: Level I	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	198	22s	Graduate Research I: Level II	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	198	22x	Graduate Research I: Level II	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	198	22f	Graduate Research I: Level II	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	198	23w	Graduate Research I: Level II	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	199	22s	Graduate Research I: Level III	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	199	22x	Graduate Research I: Level III	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	199	22f	Graduate Research I: Level III	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	199	23w	Graduate Research I: Level III	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	264	22s	Immunology	ARR	Yina Huang, Claudia Jakubzick	N/A	N/A	N/A	N/A	N/A
-MICR	264	22f	Immunology	ARR	Yina Huang, Pamela Rosato	N/A	N/A	N/A	N/A	N/A
-MICR	264	23w	Immunology	ARR	Yina Huang, Claudia Jakubzick	N/A	N/A	N/A	N/A	N/A
-MICR	265	22s	Molecular Pathogenesis	ARR	Deborah Hogan, Robert Cramer	N/A	N/A	N/A	N/A	N/A
-MICR	265	22f	Molecular Pathogenesis	ARR	Deborah Hogan	N/A	N/A	N/A	N/A	N/A
-MICR	265	23w	Molecular Pathogenesis	ARR	Deborah Hogan, Robert Cramer	N/A	N/A	N/A	N/A	N/A
-MICR	295	22s	Independent Study	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	295	22x	Independent Study	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	295	22f	Independent Study	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	295	23w	Independent Study	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	297	22s	Graduate Research II:Level I	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	297	22x	Graduate Research II:Level I	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	297	22f	Graduate Research II:Level I	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	297	23w	Graduate Research II:Level I	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	298	22s	Graduate Research II:Level II	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	298	22x	Graduate Research II:Level II	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	298	22f	Graduate Research II:Level II	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	298	23w	Graduate Research II:Level II	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	299	22s	Graduate Research II:Level III	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	299	22x	Graduate Research II:Level III	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	299	22f	Graduate Research II:Level III	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	299	23w	Graduate Research II:Level III	ARR	David Leib	N/A	N/A	N/A	N/A	N/A
-MICR	700	22f	Resp & Ethical Conduct of Res	ARR	Amanda Amodeo	N/A	N/A	N/A	N/A	N/A
-MICR	700	22f	Resp & Ethical Conduct of Res	ARR	Hermes Yeh	N/A	N/A	N/A	N/A	N/A
-MICR	700	22f	Resp & Ethical Conduct of Res	ARR	Steven Fiering	N/A	N/A	N/A	N/A	N/A
 MUS	1	22s	Beginning Music Theory	10	Michael Zsoldos	N/A	ART	N/A	N/A	NR Eligible
 MUS	1	22f	Beginning Music Theory	10	Michael Zsoldos	N/A	ART	N/A	N/A	NR Eligible
 MUS	2	22s	The Music of Today	12	Kui Dong	W	ART	N/A	N/A	NR Eligible
@@ -2906,11 +2380,7 @@ PHIL	1.19	22x	Identity and Democracy	3A	David Plunkett, Yascha Mounk	N/A	TMV	GOV
 PHIL	3	22f	Reason and Argument	11	Peter Lewis	N/A	TMV	N/A	N/A	NR Eligible
 PHIL	4	22f	Philosophy and Gender	2A	Esther Rosario	CI	TMV	WGSS 46.01 01	N/A	NR Eligible
 PHIL	6	22s	Logic and Language	9S	Timothy Rosenkoetter	N/A	QDS	N/A	N/A	NR Eligible
-PHIL	6	22s	Logic and Language(Discussion)	ARR	Timothy Rosenkoetter	N/A	N/A	N/A	N/A	NR Eligible
 PHIL	6	23w	Logic and Language	9S	Ann Bumpus	N/A	QDS	N/A	N/A	NR Eligible
-PHIL	6	23w	Logic and Language(Discussion)	OT	Ann Bumpus	N/A	N/A	N/A	N/A	NR Eligible
-PHIL	6	23w	Logic and Language(Discussion)	OT	Ann Bumpus	N/A	N/A	N/A	N/A	NR Eligible
-PHIL	6	23w	Logic and Language(Discussion)	OT	Ann Bumpus	N/A	N/A	N/A	N/A	NR Eligible
 PHIL	7.01	23w	Contemporary Moral Issues	2	Ann Bumpus	N/A	N/A	N/A	N/A	N/A
 PHIL	8	22s	Intro to Moral Philosophy	11	Kenneth Walden	N/A	TMV	N/A	N/A	NR Eligible
 PHIL	8	22f	Intro to Moral Philosophy	10	Kenneth Walden	N/A	TMV	N/A	N/A	NR Eligible
@@ -3077,14 +2547,8 @@ PSYC	25	23w	Developmental Psychology	10A	Melissa Herman	N/A	SOC	N/A	N/A	NR Eligi
 PSYC	28	22s	Cognitive Psychology	2	Viola Stoermer	N/A	SOC	COGS 002 01	N/A	N/A
 PSYC	35	22f	Cellular&Molecular Neurosci	11	Michael Hoppa	N/A	SCI	BIOL 035 01	N/A	NR Eligible
 PSYC	36	22s	Systems Neuroscience w/Lab	10	Kyle Smith	N/A	SLA	N/A	N/A	N/A
-PSYC	36	22s	Systems Neuroscience w/Lab(Laboratory)	OT	Kyle Smith	N/A	N/A	N/A	N/A	N/A
-PSYC	36	22s	Systems Neuroscience w/Lab(Laboratory)	OT	Kyle Smith	N/A	N/A	N/A	N/A	N/A
 PSYC	36	22f	Systems Neuroscience w/Lab	10	Matthijs van der Meer	N/A	SLA	N/A	N/A	N/A
-PSYC	36	22f	Systems Neuroscience w/Lab(Laboratory)	OT	Matthijs van der Meer	N/A	N/A	N/A	N/A	N/A
-PSYC	36	22f	Systems Neuroscience w/Lab(Laboratory)	OT	Matthijs van der Meer	N/A	N/A	N/A	N/A	N/A
 PSYC	36	23w	Systems Neuroscience w/Lab	10	Kyle Smith	N/A	SLA	N/A	N/A	N/A
-PSYC	36	23w	Systems Neuroscience w/Lab(Laboratory)	OT	Kyle Smith	N/A	N/A	N/A	N/A	N/A
-PSYC	36	23w	Systems Neuroscience w/Lab(Laboratory)	OT	Kyle Smith	N/A	N/A	N/A	N/A	N/A
 PSYC	37	22f	Behavioral Neuroscience	10A	Ann Clark	N/A	SCI	N/A	N/A	N/A
 PSYC	37	23w	Behavioral Neuroscience	10A	Mitchell 22s	N/A	SCI	N/A	N/A	N/A
 PSYC	38	23w	Cognitive Neuroscience	2A	Caroline Robertson	N/A	SCI	N/A	N/A	N/A
@@ -3190,85 +2654,6 @@ PSYC	388	22x	Graduate Research	ARR	Alireza Soltani	N/A	N/A	N/A	N/A	N/A
 PSYC	388	22f	Graduate Research	ARR	Alireza Soltani	N/A	N/A	N/A	N/A	N/A
 PSYC	388	23w	Graduate Research	ARR	Alireza Soltani	N/A	N/A	N/A	N/A	N/A
 PSYC	700	22f	Resp & Ethical Conduct of Res	ARR	Alireza Soltani	N/A	N/A	N/A	N/A	N/A
-QBS	101	22s	Fndn of Programming-Data Sci	OT	Christian Darabos	N/A	N/A	N/A	N/A	N/A
-QBS	101	22f	Fndn of Programming-Data Sci	OT	Christian Darabos	N/A	N/A	N/A	N/A	N/A
-QBS	101	23w	Fndn of Programming-Data Sci	OT	Christian Darabos	N/A	N/A	N/A	N/A	N/A
-QBS	103	22f	Foundations of Data Science	ARR	Carly Bobak	N/A	N/A	N/A	N/A	N/A
-QBS	108	22s	Machine Learning	OT	Saeed Hassanpour	N/A	N/A	N/A	N/A	N/A
-QBS	110	22f	Integrative Biomed Sci Seminar	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	110.5	22f	Integrative Biomed Sci Project	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	119	22f	Applied Biostatistics	OT	Jennifer Emond	N/A	N/A	N/A	N/A	N/A
-QBS	120	22f	Foundation of Biostatistics I	OT	Hildreth Frost	N/A	N/A	N/A	N/A	N/A
-QBS	121	23w	Foundation of Biostatistics II	OT	Todd MacKenzie	N/A	N/A	N/A	N/A	N/A
-QBS	122	22s	Stats III Modeling Complex Dat	OT	Alistair O'Malley	N/A	N/A	N/A	N/A	N/A
-QBS	123	22s	Biostatistics Consulting Lab	ARR	Todd MacKenzie, Tor Devin Tosteson	N/A	N/A	N/A	N/A	N/A
-QBS	123	22f	Biostatistics Consulting Lab	ARR	Todd MacKenzie, Tor Devin Tosteson	N/A	N/A	N/A	N/A	N/A
-QBS	123	23w	Biostatistics Consulting Lab	ARR	Todd MacKenzie	N/A	N/A	N/A	N/A	N/A
-QBS	124	22s	Adv Biomedical Data Analysis	OT	Eugene Demidenko	N/A	N/A	N/A	N/A	N/A
-QBS	125	23w	Biomedical Informatics	OT		N/A	N/A	N/A	N/A	N/A
-QBS	130	22f	Foundations of Epidemiology I	OT	Diane Gilbert-Diamond	N/A	N/A	N/A	N/A	N/A
-QBS	130	22f	Foundations of Epidemiology I	OT	Caitlin Howe	N/A	N/A	N/A	N/A	N/A
-QBS	131	23w	Foundations of Epidemiology II	2A	Megan Romano	N/A	N/A	N/A	N/A	N/A
-QBS	132	22f	Molecular Bio Mark in Hum Hlth	OT	Lucas Salas	N/A	N/A	N/A	N/A	N/A
-QBS	133	22s	Clinical Epidemiology	OT	Michael Passarelli	N/A	N/A	N/A	N/A	N/A
-QBS	134	22s	Topics in Epidemiology	OT	Judith Rees	N/A	N/A	N/A	N/A	N/A
-QBS	136	23w	Applied Epidemiological Method	OT	Anne Hoen	N/A	N/A	N/A	N/A	N/A
-QBS	139	22s	Adv Methods in Hlth Serv Res	OT	Erika Moen	N/A	N/A	N/A	N/A	N/A
-QBS	140	22s	Decision & Cost-Effect Analys	OT	Anna Tosteson, James Stahl	N/A	N/A	N/A	N/A	N/A
-QBS	146	22s	Foundation of Bioinformatics I	OT	Michael Whitfield	N/A	N/A	N/A	N/A	N/A
-QBS	147	22f	Genomics:From Data-Analysis	2A	Olga Zhaxybayeva	N/A	N/A	BIOL 147 01, EEES 147 01	N/A	N/A
-QBS	177	23w	Algorithms in Biomed Data Sci	OT	Jiang Gui	N/A	N/A	MATH 177 01	N/A	N/A
-QBS	180	23w	Data Visual & Stat Graphics	OT	Ramesh Yapalparvi	N/A	N/A	N/A	N/A	N/A
-QBS	181	22f	Data Wrangling	OT	Carly Bobak	N/A	N/A	N/A	N/A	N/A
-QBS	185	22x	QBS MS Capstone Experience	ARR	Jennifer Emond	N/A	N/A	N/A	N/A	N/A
-QBS	185.5	22s	QBS MS Capstone Prep	OT	Jennifer Emond, Rebecca Emeny, Jeremiah Brown	N/A	N/A	N/A	N/A	N/A
-QBS	185.5	23w	QBS MS Capstone Prep	OT		N/A	N/A	N/A	N/A	N/A
-QBS	187	22s	QBS PhD Student Internship	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	187	22x	QBS PhD Student Internship	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	187	22f	QBS PhD Student Internship	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	187	23w	QBS PhD Student Internship	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	192	23w	Health Informatics	OT	Inas Khayal	N/A	N/A	N/A	N/A	N/A
-QBS	193	22s	Independent Study Journal Club	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	193	22x	Independent Study Journal Club	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	193	22f	Independent Study Journal Club	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	193	23w	Independent Study Journal Club	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	194	22f	Biostat Journal Club & Seminar	OT	Pablo Martinez Camblor	N/A	N/A	N/A	N/A	N/A
-QBS	195	22s	Independent Study	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	195	22x	Independent Study	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	195	22f	Independent Study	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	195	23w	Independent Study	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	196	22s	QBS Supervised Teaching	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	196	22x	QBS Supervised Teaching	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	196	22f	QBS Supervised Teaching	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	196	23w	QBS Supervised Teaching	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	197	22s	Grad Research in QBS I	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	197	22x	Grad Research in QBS I	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	197	22f	Grad Research in QBS I	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	197	23w	Grad Research in QBS I	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	198	22s	Grad Research in QBS II	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	198	22x	Grad Research in QBS II	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	198	22f	Grad Research in QBS II	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	198	23w	Grad Research in QBS II	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	199	22s	Grad Research in QBS III	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	199	22x	Grad Research in QBS III	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	199	22f	Grad Research in QBS III	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	199	23w	Grad Research in QBS III	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	270	22s	QBS Journal Club	OT	Alfredo Tirado-Ramos, Nicholas Jacobson	N/A	N/A	N/A	N/A	N/A
-QBS	270	22f	QBS Journal Club	OT	Janet Peacock	N/A	N/A	N/A	N/A	N/A
-QBS	270	23w	QBS Journal Club	OT	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	297	22s	Adv Grad Research in QBS I	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	297	22x	Adv Grad Research in QBS I	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	297	22f	Adv Grad Research in QBS I	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	297	23w	Adv Grad Research in QBS I	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	298	22s	Adv Grad Research in QBS II	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	298	22x	Adv Grad Research in QBS II	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	298	22f	Adv Grad Research in QBS II	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	298	23w	Adv Grad Research in QBS II	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	299	22s	Adv Grad Research in QBS III	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	299	22x	Adv Grad Research in QBS III	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	299	22f	Adv Grad Research in QBS III	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	299	23w	Adv Grad Research in QBS III	ARR	Kristine Giffin	N/A	N/A	N/A	N/A	N/A
-QBS	700	22f	Resp & Ethical Conduct of Res	ARR	Kristine Giffin, John Brand	N/A	N/A	N/A	N/A	N/A
 QSS	15	22f	Intro to Data Analysis	9L	Peter DeWan	N/A	QDS	N/A	N/A	N/A
 QSS	17	22s	Data Visualization	2A	Yusaku Horiuchi	N/A	TLA	GOVT 016 01	N/A	N/A
 QSS	17	22s	Data Visualization	3B	Yusaku Horiuchi	N/A	TLA	GOVT 016 02	N/A	N/A
@@ -3299,8 +2684,6 @@ QSS	82	23w	Major One Quarter Project	3A	Robert Cooper	N/A	N/A	N/A	N/A	N/A
 QSS	88	22s	IndStudy in Quant SocialSci	ARR	Elsa Voytas	N/A	N/A	N/A	N/A	N/A
 QSS	88	22f	IndStudy in Quant SocialSci	ARR	Michael Herron	N/A	N/A	N/A	N/A	N/A
 QSS	88	23w	IndStudy in Quant SocialSci	ARR	Michael Herron	N/A	N/A	N/A	N/A	N/A
-RAD	1	22f	Radiation Protection & Safety	ARR	Benjamin Williams	N/A	N/A	N/A	N/A	N/A
-RAD	4	22s	Medical Physics Practicum	ARR	David Gladstone	N/A	N/A	N/A	N/A	N/A
 REL	1.01	23w	What Matters	10A	Jeremy Sabella	N/A	TMV	N/A	N/A	NR Eligible
 REL	1.05	22f	Religion and Gender	10	Zahra Ayubi	N/A	INT or TMV	N/A	N/A	NR Eligible
 REL	1.09	22s	Religion & Drugs	10	Darryl Wilkinson	N/A	SOC	N/A	N/A	NR Eligible
@@ -3712,12 +3095,6 @@ TUCK	2	22f	Principles of Marketing	10A	Conwell Worthington III	N/A	N/A	N/A	N/A	N
 TUCK	2	22f	Principles of Marketing	2A	Conwell Worthington III	N/A	N/A	N/A	N/A	N/A
 TUCK	3	22s	Business Mgmt & Strategy	10A	Christian Stadler	N/A	N/A	N/A	N/A	N/A
 TUCK	3	22s	Business Mgmt & Strategy	2A	Christian Stadler	N/A	N/A	N/A	N/A	N/A
-UNSG	295	22x	Exper Lrng & Analysis in Sci	ARR	Deeparnab Chakrabarty	N/A	N/A	N/A	N/A	N/A
-UNSG	296	22x	Exper Lrng & Analysis Soc Sci	ARR	John Carey	N/A	N/A	N/A	N/A	N/A
-UNSG	296	22x	Exper Lrng & Analysis Soc Sci		John Carey	N/A	N/A	N/A	N/A	N/A
-UNSG	297	22x	Exper Lrng & Analysis Arts/Hum	ARR	Andrea Tarnowski	N/A	N/A	N/A	N/A	N/A
-UNSG	298	22x	1	ARR	Matthew Delmont	N/A	N/A	N/A	N/A	N/A
-UNSG	300	22f	Communicating Science	OT	Christian Kohn, Mark McPeek	N/A	N/A	BIOL 300 01	N/A	N/A
 WGSS	1	22f	Intersections	11	Misty De Berry	CI	SOC	N/A	N/A	N/A
 WGSS	1	23w	Intersections	10A	Mingwei Huang	CI	SOC	N/A	N/A	N/A
 WGSS	2	23w	Intro to Queer Studies	3A	Eng-Beng Lim	CI	SOC	N/A	N/A	N/A

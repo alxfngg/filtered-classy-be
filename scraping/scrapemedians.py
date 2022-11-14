@@ -33,8 +33,8 @@ def average_medians(medians):
 
 courses = {}
 client = pymongo.MongoClient("mongodb+srv://classyadmin:classyadmincs98@classy-cluster.kedlpk1.mongodb.net/?retryWrites=true&w=majority")
-db = client.classy
-collection = db.collection
+db = client.test
+collection = db.courses
 
 for term in terms:
     page = requests.get(f"{ROOT_URL}/{term}.html")

@@ -61,7 +61,7 @@ def parse_prereqs():
     return courses
 
 client = pymongo.MongoClient("mongodb+srv://classyadmin:classyadmincs98@classy-cluster.kedlpk1.mongodb.net/?retryWrites=true&w=majority")
-db = client.classy
-collection = db.collection
+db = client.test
+collection = db.courses
 
 parse_prereqs()

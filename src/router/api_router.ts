@@ -14,6 +14,8 @@ import * as TermController from "../controller/term.controller"
 import * as UserController from "../controller/user.controller"
 import * as VisibilityGroupController from "../controller/visibilitygroup.controller"
 import * as WaitlistEntryController from "../controller/waitlistentry.controller"
+import * as PeriodController from "../controller/period.controller"
+import * as OfferingController from "../controller/offering.controller"
 
 const router = Router();
 
@@ -208,6 +210,18 @@ router.route('/departments')
         res.status(500).json({ error });
     }
 })
+
+// router.route('/departments/load')
+// .get(async (req, res) => {
+//     try {
+//         const result = await DepartmentController.loadDepartments();
+//         console.log(result);
+//         res.json(result);
+//     } catch (error) {
+//         res.status(500).json({ error });
+//     }
+// })
+
 
 router.route('/departments/:id')
     .get(async (req, res) => {
@@ -765,5 +779,102 @@ router.route('/waitlistentries/:id')
         }
     });
 
+    router.route('/periods')
+    .get(async (req, res) => {
+        try {
+            const result = await PeriodController.getPeriods();
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
 
+router.route('/periods/:id')
+    .get(async (req, res) => {
+        try {
+            const result = await PeriodController.getPeriod(req.params.id);
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+    .post(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await PeriodController.createPeriod(req.body);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+    .put(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await PeriodController.updatePeriod(req.body.id, req.body.waitlistentry);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+    .delete(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await PeriodController.deletePeriod(req.body.id);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    });
+
+    router.route('/offerings')
+    .get(async (req, res) => {
+        try {
+            const result = await OfferingController.getOfferings();
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+
+router.route('/offerings/:id')
+    .get(async (req, res) => {
+        try {
+            const result = await OfferingController.getOffering(req.params.id);
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+    .post(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await OfferingController.createOffering(req.body);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+    .put(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await OfferingController.updateOffering(req.body.id, req.body.waitlistentry);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+    .delete(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await OfferingController.deleteOffering(req.body.id);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    });
+    
 export default router;

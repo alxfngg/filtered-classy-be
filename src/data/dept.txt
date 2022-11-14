@@ -1,0 +1,47 @@
+African and African-American Studies:AAAS
+Anthropology:ANTH
+Art History:ARTH
+Asian Societies, Cultures, and Languages:ASCL,CHIN,JAPN
+Biological Sciences:BIOL
+Chemistry:CHEM
+Classics:CLST,GRK,LAT
+Cognitive Science:COGS
+College Courses:COCO
+Computer Science:COSC
+Comparative Literature:COLT
+International Studies:INTS
+Earth Sciences:EARS
+Economics:ECON
+Education:EDUC
+Engineering Sciences:ENGS
+English and Creative Writing:ENGL,CRWT
+Environmental Studies:ENVS
+Film and Media Studies:FILM
+French and Italian Languages and Literatures:FREN,ITAL,FRIT
+Geography:GEOG
+German Studies:GERM
+Government:GOVT
+History:HIST
+Humanities:HUM
+Jewish Studies:JWST
+Latin American, Latino, and Caribbean Studies:LACS,LATS
+Linguistics:LING
+Mathematics:MATH
+Middle Eastern Studies:MES,HEBR,ARAB
+Music:MUS
+Native American and Indigenous Studies:NAS
+Philosophy:PHIL
+Physics and Astronomy:PHYS,ASTR
+Psychological and Brain Sciences:PSYC
+Quantitative Social Science:QSS
+Public Policy:PBPL
+Religion:REL
+Russian Language and Literature:RUSS
+Science and Technology Studies
+Sociology:SOCY
+Spanish and Portuguese Languages and Literatures:SPAN,PORT
+Studio Art:SART
+Theater:THEA
+Tuck:TUCK
+Women’s, Gender, and Sexuality Studies:WGSS
+Writing:WRIT

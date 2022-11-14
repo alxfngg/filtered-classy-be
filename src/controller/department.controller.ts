@@ -14,6 +14,62 @@ export const getDepartment = async (id: string) => {
     return department;
 }
 
+export const loadDepartments = async () => {
+    const data = [
+        {name: 'African and African-American Studies' , 'codes': ['AAAS']}, 
+        {name: 'Anthropology' , 'codes': ['ANTH']}, 
+        {name: 'Art History' , 'codes': ['ARTH']}, 
+        {name: 'Asian Societies, Cultures, and Languages' , 'codes': ['ASCL','CHIN','JAPN']}, 
+        {name: 'Biological Sciences' , 'codes': ['BIOL']}, 
+        {name: 'Chemistry' , 'codes': ['CHEM']}, 
+        {name: 'Classics' , 'codes': ['CLST','GRK','LAT']}, 
+        {name: 'Cognitive Science' , 'codes': ['COGS']}, 
+        {name: 'College Courses' , 'codes': ['COCO']}, 
+        {name: 'Computer Science' , 'codes': ['COSC']}, 
+        {name: 'Comparative Literature' , 'codes': ['COLT']}, 
+        {name: 'International Studies' , 'codes': ['INTS']}, 
+        {name: 'Earth Sciences' , 'codes': ['EARS']}, 
+        {name: 'Economics' , 'codes': ['ECON']}, 
+        {name: 'Education' , 'codes': ['EDUC']}, 
+        {name: 'Engineering Sciences' , 'codes': ['ENGS']}, 
+        {name: 'English and Creative Writing' , 'codes': ['ENGL','CRWT']}, 
+        {name: 'Environmental Studies' , 'codes': ['ENVS']}, 
+        {name: 'Film and Media Studies' , 'codes': ['FILM']}, 
+        {name: 'French and Italian Languages and Literatures' , 'codes': ['FREN','ITAL','FRIT']}, 
+        {name: 'Geography' , 'codes': ['GEOG']}, 
+        {name: 'German Studies' , 'codes': ['GERM']}, 
+        {name: 'Government' , 'codes': ['GOVT']}, 
+        {name: 'History' , 'codes': ['HIST']}, 
+        {name: 'Humanities' , 'codes': ['HUM']}, 
+        {name: 'Jewish Studies' , 'codes': ['JWST']}, 
+        {name: 'Latin American, Latino, and Caribbean Studies' , 'codes': ['LACS','LATS']}, 
+        {name: 'Linguistics' , 'codes': ['LING']}, 
+        {name: 'Mathematics' , 'codes': ['MATH']}, 
+        {name: 'Middle Eastern Studies' , 'codes': ['MES','HEBR','ARAB']}, 
+        {name: 'Music' , 'codes': ['MUS']}, 
+        {name: 'Native American and Indigenous Studies' , 'codes': ['NAS']}, 
+        {name: 'Philosophy' , 'codes': ['PHIL']}, 
+        {name: 'Physics and Astronomy' , 'codes': ['PHYS','ASTR']}, 
+        {name: 'Psychological and Brain Sciences' , 'codes': ['PSYC']}, 
+        {name: 'Quantitative Social Science' , 'codes': ['QSS']}, 
+        {name: 'Public Policy' , 'codes': ['PBPL']}, 
+        {name: 'Religion' , 'codes': ['REL']}, 
+        {name: 'Russian Language and Literature' , 'codes': ['RUSS']}, 
+        {name: 'Sociology' , 'codes': ['SOCY']}, 
+        {name: 'Spanish and Portuguese Languages and Literatures' , 'codes': ['SPAN','PORT']}, 
+        {name: 'Studio Art' , 'codes': ['SART']}, 
+        {name: 'Theater' , 'codes': ['THEA']}, 
+        {name: 'Tuck' , 'codes': ['TUCK']}, 
+        {name: 'Women’s, Gender, and Sexuality Studies' , 'codes': ['WGSS']}, 
+        {name: 'Writing' , 'codes': ['WRIT']},  
+    ]
+
+    for (const entry in data) {
+        console.log(data[entry]);
+        createDepartment(data[entry]);
+    }
+}
+
 export const createDepartment = async (department: object) => {
     let data = {};
     try {
