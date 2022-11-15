@@ -1,3 +1,4 @@
+import { CourseModel } from '../model/course.model';
 import { ProfessorModel } from '../model/professor.model';
 
 export const getProfessors = async () => {
@@ -14,11 +15,13 @@ export const getDeptProfessors = async (deptId: string) => {
     return professors;
 }
 
-export const getProfessor = async (id: string) => {
+export const getProfessor = async (name: string) => {
     console.log("In getProfessor");
-    const professor = await ProfessorModel.findOne({id: id});
+    const professor = await ProfessorModel.findOne({name: name});
+    const courses = await CourseModel.find({'offerings.professors': name})
+    console.log("COURSES ARE ", courses);
     console.log('professor:::', professor);
-    return professor;
+    return {professor, courses};
 }
 
 export const createProfessor = async (professor: object) => {

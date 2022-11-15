@@ -1,6 +1,4 @@
-import { privateEncrypt } from "crypto";
-import express, { Router } from "express";
-import * as TaskController from "../controller/task.controller";
+import  { Router } from "express";
 import * as BucketController from "../controller/bucket.controller";
 import * as CourseController from "../controller/course.controller";
 import * as CourseReviewController from "../controller/coursereview.controller"
@@ -15,7 +13,7 @@ import * as UserController from "../controller/user.controller"
 import * as VisibilityGroupController from "../controller/visibilitygroup.controller"
 import * as WaitlistEntryController from "../controller/waitlistentry.controller"
 import * as PeriodController from "../controller/period.controller"
-import * as OfferingController from "../controller/offering.controller"
+import * as ExploreController from "../controller/explore.controller"
 
 const router = Router();
 
@@ -113,10 +111,11 @@ router.route('/courses/wc/:wc')
         }
     })
 
-router.route('/courses/:id')
+router.route('/courses/:dept/:num')
     .get(async (req, res) => {
         try {
-            const result = await CourseController.getCourse(req.params.id);
+            console.log(req.params, 'are the params')
+            const result = await CourseController.getCourse(req.params.dept, req.params.num);
             console.log(result);
             res.json(result);
         } catch (error) {
@@ -827,54 +826,16 @@ router.route('/periods/:id')
             res.status(500).json({ error });
         }
     });
-
-    router.route('/offerings')
-    .get(async (req, res) => {
-        try {
-            const result = await OfferingController.getOfferings();
-            console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-
-router.route('/offerings/:id')
-    .get(async (req, res) => {
-        try {
-            const result = await OfferingController.getOffering(req.params.id);
-            console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .post(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await OfferingController.createOffering(req.body);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .put(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await OfferingController.updateOffering(req.body.id, req.body.waitlistentry);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .delete(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await OfferingController.deleteOffering(req.body.id);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    });
     
+    router.route('/explore')
+    .get(async (req, res) => {
+        try {
+            const result = await ExploreController.getExplore();
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+
 export default router;

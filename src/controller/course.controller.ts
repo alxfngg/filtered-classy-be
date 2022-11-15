@@ -7,9 +7,28 @@ export const getCourses = async () => {
     return courses;
 }
 
-export const getCourse = async (id: string) => {
-    console.log("In getCourse");
-    const course = await CourseModel.findOne({id: id});
+const shuffleArray = (array: []) => {
+    for (let i = array.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+  };
+  
+
+export const getRandomCourses = async (num: number) => {
+    console.log('In getRandomCourses');
+    var selectedCourses = await CourseModel.find({});
+    selectedCourses.slice(0, num);
+    console.log('picked courses:::', selectedCourses);
+    return selectedCourses;
+}
+
+export const getCourse = async (dept: string, num: string) => {
+    console.log("In getCourse:", dept, num);
+    console.log('all courses')
+    const course = await CourseModel.findOne({"courseDept": dept, "courseNum": num});
     console.log('course:::', course);
     return course;
 }

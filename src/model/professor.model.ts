@@ -1,9 +1,9 @@
 import { model, Schema, Model, Document, Types } from 'mongoose';
 
 export interface IProfessor extends Document {
+  name: string;
   user: Types.ObjectId;
-  departments: Types.ObjectId[]; // departments the professor belongs to
-  coursesTaught: Types.ObjectId[]; // courses that the professor has taught
+  departments: string[]; // departments the professor belongs to
 
   createDate: Date,
   updatedDate: Date;
@@ -11,8 +11,9 @@ export interface IProfessor extends Document {
 }
 
 const ProfessorSchema: Schema = new Schema({
+  name: { type: String },
   user: { type: Schema.Types.ObjectId, ref: 'User' },
-  departments: [{ type: Schema.Types.ObjectId, ref: 'Department' }], // professor's department
+  departments: [{ type: String }], // professor's department
   
   createDate: { type: Date, default: Date.now },
   updatedDate: { type: Date, default: Date.now },

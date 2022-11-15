@@ -2,7 +2,6 @@ import pymongo
 from pymongo import MongoClient, InsertOne
 
 def parse_profs(instructors, subject):
-    prof_ids = []
     for instructor in instructors:
         firstNameTokens = instructor.split(" ")[:-1]
         firstName = ' '.join(firstNameTokens)
@@ -16,20 +15,16 @@ def parse_profs(instructors, subject):
                 '$set':name
             }, upsert=True)
         user = usercollection.find_one(name)
-        dept = deptcollection.find_one({'codes': subject})['_id']
         profcollection.update_one({
+            'name': instructor,
             'user': user['_id']
-        },{'$addToSet': { 'departments': dept } }, upsert=True)
-        prof_id = profcollection.find_one({'user': user['_id']})['_id']
-        prof_ids.append(prof_id)
-    return prof_ids
+        },{'$addToSet': { 'departments': subject } }, upsert=True)
 
 def parse_timetable():
-    courses = {}
-
     with open("timetable.tsv", "r") as file:
         for line in file:
             values = line.strip().split("\t")
+            print(values)
             subject = values[0]
             number = values[1]
             term = values[2]
@@ -41,9 +36,10 @@ def parse_timetable():
             if distrib[0] == "N/A":
                 distrib = None
             xlist = values[8].strip().split(",")
-            for index in range(len(xlist)):
-                tokens = xlist[index].split()
-                xlist[index] = f"{xlist[index][0]} {xlist[index][1]}"
+            if xlist[0] != 'N/A':
+                for index in range(len(xlist)):
+                    tokens = xlist[index].split()
+                    xlist[index] = f"{tokens[0]} {tokens[1]}"
 
             lang_req = values[9]
             nr = values[10]
@@ -64,28 +60,15 @@ def parse_timetable():
                     'distribs': distrib,
                     'worldCulture': wc,
                 })
-            term_id = termscollection.find_one({
-                'code': term
-            })
-            period_id = periodscollection.find_one({
-                'code': period
-            })
 
-            offeringscollection.insert_one(
-                {
-                    'term': term_id,
-                    'period': period_id,
-                    'professors': professor_ids
-                }
-            )
-            offering_id = offeringscollection.find_one({
-                    'term': term_id,
-                    'period': period_id,
-                    'professors': professor_ids
-                })['_id']
-
+            offering = {
+                'term': term,
+                'period': period,
+                'professors': instructors
+            }
+           
             coursecollection.update_one({'_id': course_id}, {
-                '$addToSet': {'offerings': offering_id}            
+                '$addToSet': {'offerings': offering}            
                 })
             
             if nr != 'N/A':
@@ -102,7 +85,7 @@ def parse_timetable():
                 coursecollection.update_one({'_id': course_id}, {
                 '$set': {'language': lang_req}            
             })
-            
+
 client = pymongo.MongoClient("mongodb+srv://classyadmin:classyadmincs98@classy-cluster.kedlpk1.mongodb.net/?retryWrites=true&w=majority")
 db = client.test
 coursecollection = db.courses
