@@ -14,6 +14,8 @@ import * as VisibilityGroupController from "../controller/visibilitygroup.contro
 import * as WaitlistEntryController from "../controller/waitlistentry.controller"
 import * as PeriodController from "../controller/period.controller"
 import * as ExploreController from "../controller/explore.controller"
+import * as SearchController from "../controller/search.controller"
+import * as WaitlistController from "../controller/waitlist.controller"
 
 const router = Router();
 
@@ -827,10 +829,32 @@ router.route('/periods/:id')
         }
     });
     
-    router.route('/explore')
+router.route('/explore')
     .get(async (req, res) => {
         try {
             const result = await ExploreController.getExplore();
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+
+router.route('/search')
+    .get(async (req, res) => {
+        try {
+            const result = await SearchController.getSearch();
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+
+router.route('/waitlist')
+    .get(async (req, res) => {
+        try {
+            const result = await WaitlistController.getWaitlists();
             console.log(result);
             res.json(result);
         } catch (error) {
