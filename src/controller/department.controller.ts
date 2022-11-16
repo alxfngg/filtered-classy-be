@@ -1,4 +1,6 @@
+import { CourseModel } from '../model/course.model';
 import { DepartmentModel } from '../model/department.model';
+import { ProfessorModel } from '../model/professor.model';
 
 export const getDepartments = async () => {
     console.log("In getDepartments");
@@ -7,11 +9,13 @@ export const getDepartments = async () => {
     return departments;
 }
 
-export const getDepartment = async (id: string) => {
+export const getDepartment = async (code: string) => {
     console.log("In getDepartment");
-    const department = await DepartmentModel.findOne({id: id});
+    const department = await DepartmentModel.findOne({codes: code});
+    const courses = await CourseModel.find({courseDept: code}).sort({'courseNum': 1}).collation({locale: "en_US", numericOrdering: true})
+    const professors = await ProfessorModel.find({departments: code}).sort({'name': 1})
     console.log('department:::', department);
-    return department;
+    return {department, courses, professors};
 }
 
 export const loadDepartments = async () => {

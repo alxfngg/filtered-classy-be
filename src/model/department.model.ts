@@ -2,7 +2,7 @@ import { model, Schema, Model, Document, Types } from 'mongoose';
 
 export interface IDepartment extends Document {
   name: string;
-  code: string[];
+  codes: string[];
   majors: Types.ObjectId[];
   minors: Types.ObjectId[];
   reviews: Types.ObjectId[]; // reviews for this department

@@ -113,10 +113,20 @@ router.route('/courses/wc/:wc')
         }
     })
 
+router.route('/courses/:dept')
+    .get(async (req, res) => {
+        try {
+            const result = await CourseController.getDeptCourses(req.params.dept);
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+
 router.route('/courses/:dept/:num')
     .get(async (req, res) => {
         try {
-            console.log(req.params, 'are the params')
             const result = await CourseController.getCourse(req.params.dept, req.params.num);
             console.log(result);
             res.json(result);

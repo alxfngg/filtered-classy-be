@@ -1,10 +1,19 @@
 import { CourseModel } from '../model/course.model';
+import { DepartmentModel } from '../model/department.model';
 
 export const getCourses = async () => {
     console.log("In getCourses");
     const courses = await CourseModel.find({});
     console.log('courses:::', courses);
     return courses;
+}
+
+export const getDeptCourses = async (dept: string) => {
+    console.log("In getDeptCourses");
+    const department = await DepartmentModel.findOne({codes: dept});
+    const courses = await CourseModel.find({courseDept: dept}).sort({'courseNum': 1}).collation({locale: "en_US", numericOrdering: true});
+    console.log('courses:::', courses);
+    return {department, courses};
 }
 
 const shuffleArray = (array: []) => {
