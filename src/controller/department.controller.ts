@@ -12,10 +12,11 @@ export const getDepartments = async () => {
 export const getDepartment = async (code: string) => {
     console.log("In getDepartment");
     const department = await DepartmentModel.findOne({codes: code});
-    const courses = await CourseModel.find({courseDept: code}).sort({'courseNum': 1}).collation({locale: "en_US", numericOrdering: true})
+    const courses = await CourseModel.find({courseDept: code, required:{"$exists": true}}).sort({'courseNum': 1}).collation({locale: "en_US", numericOrdering: true})
+    const noPrereqs = await CourseModel.find({courseDept: code, required: null, courseNum: {"$not":{"$regex":"(9[0-9]|[1-2][0-9][0-9])"}}}).sort({'courseNum': 1}).collation({locale: "en_US", numericOrdering: true})
     const professors = await ProfessorModel.find({departments: code}).sort({'name': 1})
     console.log('department:::', department);
-    return {department, courses, professors};
+    return {department, courses, noPrereqs, professors};
 }
 
 export const loadDepartments = async () => {
