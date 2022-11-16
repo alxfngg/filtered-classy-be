@@ -4,7 +4,7 @@ import { ProfessorModel } from '../model/professor.model';
 
 export const getDepartments = async () => {
     console.log("In getDepartments");
-    const departments = await DepartmentModel.find({});
+    const departments = await DepartmentModel.find({}).sort({'name': 1});
     console.log('departments:::', departments);
     return departments;
 }
