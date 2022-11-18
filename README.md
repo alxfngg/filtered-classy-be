@@ -28,23 +28,59 @@ Classy BE API is a RESTful API that connects to classy FE web application. Class
 ├── index.ts
 ├── package.json
 ├── scraping
-│   ├── parsed_prereqs.txt
+│   ├── __pycache__
+│   │   └── prereq.cpython-310.pyc
+│   ├── fixcoursecode.py
+│   ├── loadperiodsterms.py
+│   ├── parsetimetable.py
+│   ├── periods.csv
 │   ├── prereq.py
 │   ├── prereqs.txt
-│   └── scrape.py
+│   ├── scrape.py
+│   ├── scrapemedians.py
+│   ├── terms.csv
+│   └── timetable.tsv
 ├── src
 │   ├── app.ts
 │   ├── controller
-│   │   └── task.controller.ts
+│   │   ├── bucket.controller.ts
+│   │   ├── course.controller.ts
+│   │   ├── coursereview.controller.ts
+│   │   ├── department.controller.ts
+│   │   ├── deptreview.controller.ts
+│   │   ├── explore.controller.ts
+│   │   ├── majorminor.controller.ts
+│   │   ├── period.controller.ts
+│   │   ├── professor.controller.ts
+│   │   ├── requirement.controller.ts
+│   │   ├── search.controller.ts
+│   │   ├── student.controller.ts
+│   │   ├── task.controller.ts
+│   │   ├── term.controller.ts
+│   │   ├── user.controller.ts
+│   │   ├── visibilitygroup.controller.ts
+│   │   ├── waitlist.controller.ts
+│   │   └── waitlistentry.controller.ts
+│   ├── data
+│   │   ├── dept.txt
+│   │   └── load.py
 │   ├── db.config.ts
 │   ├── model
+│   │   ├── bucket.model.ts
 │   │   ├── course.model.ts
+│   │   ├── coursereview.model.ts
 │   │   ├── department.model.ts
-│   │   ├── major.model.ts
-│   │   ├── minor.model.ts
+│   │   ├── deptreview.model.ts
+│   │   ├── majorminor.model.ts
+│   │   ├── period.model.ts
+│   │   ├── professor.model.ts
+│   │   ├── requirement.model.ts
 │   │   ├── student.model.ts
 │   │   ├── task.model.ts
-│   │   └── term.model.ts
+│   │   ├── term.model.ts
+│   │   ├── user.model.ts
+│   │   ├── visibilitygroup.model.ts
+│   │   └── waitlistentry.model.ts
 │   └── router
 │       └── api_router.ts
 ├── tsconfig.json
@@ -76,5 +112,4 @@ See all available routes [here](https://docs.google.com/document/d/1a8CfnUn0UmRr
 * Henry Kim
 * Alex Feng
 * Alyssa Anderson
-### License
-This project is available for use under the MIT License.
+
