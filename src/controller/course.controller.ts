@@ -16,6 +16,24 @@ export const getDeptCourses = async (dept: string) => {
     return {department, courses};
 }
 
+const shuffleArray = (array: []) => {
+    for (let i = array.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+  };
+  
+
+export const getRandomCourses = async (num: number) => {
+    console.log('In getRandomCourses');
+    var selectedCourses = await CourseModel.find({});
+    selectedCourses.slice(0, num);
+    console.log('picked courses:::', selectedCourses);
+    return selectedCourses;
+}
+
 export const getCourse = async (dept: string, num: string) => {
     console.log("In getCourse:", dept, num);
     console.log('all courses')
