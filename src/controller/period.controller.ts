@@ -7,9 +7,9 @@ export const getPeriods = async () => {
     return periods;
 }
 
-export const getPeriod = async (id: string) => {
+export const getPeriod = async (code: string) => {
     console.log("In getPeriod");
-    const period = await PeriodModel.find({id: id});
+    const period = await PeriodModel.find({code: code});
     console.log('period:::', period);
     return period;
 }
@@ -27,22 +27,22 @@ export const createPeriod = async (period: object) => {
     return data;
 }
 
-export const updatePeriod = async (id: string, period: object) => {
+export const updatePeriod = async (code: string, period: object) => {
     try {
-        await PeriodModel.findByIdAndUpdate(id, {
+        await PeriodModel.updateOne({code: code}, {
             period: period,
         }, { new: true }) as object;
-        const updatedPeriod: object = await PeriodModel.findById({ _id: id }) as object;
+        const updatedPeriod: object = await PeriodModel.findOne({ code: code }) as object;
         return updatedPeriod;
     } catch (err) {
         console.log('Error::' + err);
     }
 }
 
-export const deletePeriod = async (id: string) => {
+export const deletePeriod = async (code: string) => {
     try {
-        let periodDeleted: object = await PeriodModel.findById(id) as object;
-        let deletedCount: number = await (await PeriodModel.deleteOne({ _id: id })).deletedCount;
+        let periodDeleted: object = await PeriodModel.findOne({code: code}) as object;
+        let deletedCount: number = await (await PeriodModel.deleteOne({ code: code })).deletedCount;
         if (deletedCount === 1) {
             return { periodDeleted };
         }
