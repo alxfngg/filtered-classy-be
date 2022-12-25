@@ -1,6 +1,7 @@
 import  { Router } from "express";
 import * as BucketController from "../controller/bucket.controller";
 import * as CourseController from "../controller/course.controller";
+import * as OfferingController from "../controller/offering.controller";
 import * as CourseReviewController from "../controller/coursereview.controller"
 import * as DepartmentController from "../controller/department.controller"
 import * as MajorMinorController from "../controller/majorminor.controller"
@@ -149,6 +150,72 @@ router.route('/courses/:dept/:num')
             res.status(500).json({ error });
         }
     });
+
+router.route('/offerings')
+    .get(async (req, res) => {
+        try {
+            const result = await OfferingController.getAllOfferings();
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+
+router.route('/offerings/:dept')
+    .get(async (req, res) => {
+        try {
+            const result = await OfferingController.getDeptOfferings(req.params.dept);
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+
+router.route('/offerings/term/:term')
+    .get(async (req, res) => {
+        try {
+            const result = await OfferingController.getTermOfferings(req.params.term);
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+
+router.route('/offerings/:dept/:num')
+    .get(async (req, res) => {
+        try {
+            const result = await OfferingController.getCourseOfferings(req.params.dept, req.params.num);
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+
+router.route('/offerings/:dept/:num/:term')
+    .get(async (req, res) => {
+        try {
+            const result = await OfferingController.getCourseTermOfferings(req.params.dept, req.params.num, req.params.term);
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+
+router.route('/offerings/:dept/:num/:term/:period')
+    .get(async (req, res) => {
+        try {
+            const result = await OfferingController.getOffering(req.params.dept, req.params.num, req.params.term, req.params.period);
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
 
 router.route('/coursereviews')
     .get(async (req, res) => {
