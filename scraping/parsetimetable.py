@@ -47,48 +47,44 @@ def parse_timetable():
             
             professor_ids = parse_profs(instructors, subject)
             print('subject is', subject, "num is", number)
-            # try:
-            #     course_id = coursecollection.find_one({
-            #         'courseDept': subject, 'courseNum': number
-            #     })['_id']
-            # except:
-            #     coursecollection.insert_one({
-            #         'courseDept': subject,
-            #         'courseNum': number, 
-            #         'courseTitle': title,
-            #         'xlists': xlist,
-            #         'distribs': distrib,
-            #         'worldCulture': wc,
-            #     })
+            try:
+                course_id = coursecollection.find_one({
+                    'courseDept': subject, 'courseNum': number
+                })['_id']
+            except:
+                coursecollection.insert_one({
+                    'courseDept': subject,
+                    'courseNum': number, 
+                    'courseTitle': title,
+                    'xlists': xlist,
+                    'distribs': distrib,
+                    'worldCulture': wc,
+                })
 
             offering = {
-                'dept': subject,
-                'num': number,
                 'term': term,
                 'period': period,
                 'professors': instructors
             }
-
-            offeringscollection.insert_one(offering)
            
-            # coursecollection.update_one({'_id': course_id}, {
-            #     '$addToSet': {'offerings': offering}            
-            #     })
+            coursecollection.update_one({'_id': course_id}, {
+                '$addToSet': {'offerings': offering}            
+                })
             
-            # if nr != 'N/A':
-            #     coursecollection.update_one({'_id': course_id}, {
-            #     '$set': {'nrEligible': True}            
-            # })
+            if nr != 'N/A':
+                coursecollection.update_one({'_id': course_id}, {
+                '$set': {'nrEligible': True}            
+            })
 
-            # if "7" in number:
-            #     coursecollection.update_one({'_id': course_id}, {
-            #     '$set': {'fys': True}            
-            # })
+            if "7" in number:
+                coursecollection.update_one({'_id': course_id}, {
+                '$set': {'fys': True}            
+            })
 
-            # if lang_req != 'N/A':
-            #     coursecollection.update_one({'_id': course_id}, {
-            #     '$set': {'language': lang_req}            
-            # })
+            if lang_req != 'N/A':
+                coursecollection.update_one({'_id': course_id}, {
+                '$set': {'language': lang_req}            
+            })
 
 client = pymongo.MongoClient("mongodb+srv://classyadmin:classyadmincs98@classy-cluster.kedlpk1.mongodb.net/?retryWrites=true&w=majority")
 db = client.test

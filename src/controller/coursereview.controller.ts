@@ -1,42 +1,26 @@
 import { CourseReviewModel } from '../model/coursereview.model';
-import { CourseModel } from '../model/course.model';
 
-export const getAllCourseReviews = async () => {
-    console.log("In getAllCourseReviews");
+export const getCourseReviews = async () => {
+    console.log("In getCourseReviews");
     const courseReviews = await CourseReviewModel.find({});
     console.log('courseReviews:::', courseReviews);
     return courseReviews;
 }
 
-export const getDeptCourseReviews = async (dept: string) => {
-    console.log("In getDeptCourseReviews");
-    const courseReviews = await CourseReviewModel.find({"courseDept": dept});
-    console.log('coursereviews:::', courseReviews);
-    return courseReviews;
-}
-
-export const getCourseReviews = async (dept: string, num: string) => {
-    console.log("In getCourseReviews");
-    const courseReviews = await CourseReviewModel.find({"courseDept": dept, "courseNum": num});
-    console.log('coursereviews:::', courseReviews);
-    return courseReviews;
-}
-
 export const getCourseReview = async (id: string) => {
     console.log("In getCourseReview");
-    const courseReview = await CourseReviewModel.findById(id);
+    const courseReview = await CourseReviewModel.findOne({id: id});
     console.log('coursereview:::', courseReview);
     return courseReview;
 }
 
-export const createCourseReview = async (dept: string, num: string, courseReview: object) => {
+export const createCourseReview = async (courseReview: object) => {
     let data = {};
     try {
-        console.log("In createCourseReview", dept, num);
+        console.log("In createCourseReview");
         console.log('courseReview in create courseReview is: ', courseReview);
-        const course = await CourseModel.findOne({"courseDept": dept, "courseNum": num});
-        console.log(course);
-        // data = await CourseReviewModel.create(courseReview);
+        console.log(CourseReviewModel);
+        data = await CourseReviewModel.create(courseReview);
     } catch (err) {
         console.log('Error::' + err);
     }

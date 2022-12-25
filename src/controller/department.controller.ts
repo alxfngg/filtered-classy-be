@@ -88,22 +88,22 @@ export const createDepartment = async (department: object) => {
     return data;
 }
 
-export const updateDepartment = async (code: string, department: object) => {
+export const updateDepartment = async (id: string, department: object) => {
     try {
-        await DepartmentModel.findOneAndUpdate({codes: code}, {
+        await DepartmentModel.findByIdAndUpdate(id, {
             department: department,
         }, { new: true }) as object;
-        const updatedDepartment: object = await DepartmentModel.findById({codes: code}) as object;
+        const updatedDepartment: object = await DepartmentModel.findById({ _id: id }) as object;
         return updatedDepartment;
     } catch (err) {
         console.log('Error::' + err);
     }
 }
 
-export const deleteDepartment = async (code: string) => {
+export const deleteDepartment = async (id: string) => {
     try {
-        let departmentDeleted: object = await DepartmentModel.findOne({codes: code}) as object;
-        let deletedCount: number = await (await DepartmentModel.deleteOne({codes: code })).deletedCount;
+        let departmentDeleted: object = await DepartmentModel.findById(id) as object;
+        let deletedCount: number = await (await DepartmentModel.deleteOne({ _id: id })).deletedCount;
         if (deletedCount === 1) {
             return { departmentDeleted };
         }
