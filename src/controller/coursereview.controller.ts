@@ -1,11 +1,20 @@
 import { CourseReviewModel } from '../model/coursereview.model';
 
-export const getCourseReviews = async () => {
-    console.log("In getCourseReviews");
+export const getAllCourseReviews = async () => {
+    console.log("In getAllCourseReviews");
     const courseReviews = await CourseReviewModel.find({});
     console.log('courseReviews:::', courseReviews);
     return courseReviews;
 }
+
+export const getCourseReviews = async (dept: string, num: string) => {
+    const query = {dept: dept, num: num};
+    console.log("In getCourseReview");
+    const courseReview = await CourseReviewModel.findOne(query);
+    console.log('coursereview:::', courseReview);
+    return courseReview;
+}
+
 
 export const getCourseReview = async (id: string) => {
     console.log("In getCourseReview");

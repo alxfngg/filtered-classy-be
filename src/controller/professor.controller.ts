@@ -8,9 +8,9 @@ export const getProfessors = async () => {
     return professors;
 }
 
-export const getDeptProfessors = async (deptId: string) => {
+export const getDeptProfessors = async (code: string) => {
     console.log("In getDeptProfessors");
-    const professors = await ProfessorModel.find({departments: deptId});
+    const professors = await ProfessorModel.find({departments: code});
     console.log('dept professors:::', professors);
     return professors;
 }
@@ -37,22 +37,22 @@ export const createProfessor = async (professor: object) => {
     return data;
 }
 
-export const updateProfessor = async (id: string, professor: object) => {
+export const updateProfessor = async (name: string, professor: object) => {
     try {
-        await ProfessorModel.findByIdAndUpdate(id, {
+        await ProfessorModel.findOneAndUpdate({name: name}, {
             professor: professor,
         }, { new: true }) as object;
-        const updatedProfessor: object = await ProfessorModel.findById({ _id: id }) as object;
+        const updatedProfessor: object = await ProfessorModel.findOne({name: name}) as object;
         return updatedProfessor;
     } catch (err) {
         console.log('Error::' + err);
     }
 }
 
-export const deleteProfessor = async (id: string) => {
+export const deleteProfessor = async (name: string) => {
     try {
-        let professorDeleted: object = await ProfessorModel.findById(id) as object;
-        let deletedCount: number = await (await ProfessorModel.deleteOne({ _id: id })).deletedCount;
+        let professorDeleted: object = await ProfessorModel.findOne({name: name}) as object;
+        let deletedCount: number = await (await ProfessorModel.deleteOne({name: name})).deletedCount;
         if (deletedCount === 1) {
             return { professorDeleted };
         }
