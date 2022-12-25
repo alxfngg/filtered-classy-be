@@ -30,21 +30,21 @@ router.route('/buckets')
             res.status(500).json({ error });
         }
     })
+    .post(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await BucketController.createBucket(req.body);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
 
 router.route('/buckets/:id')
     .get(async (req, res) => {
         try {
             const result = await BucketController.getBucket(req.params.id);
             console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .post(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await BucketController.createBucket(req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -74,6 +74,15 @@ router.route('/courses')
         try {
             const result = await CourseController.getCourses();
             console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+    .post(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await CourseController.createCourse(req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -112,21 +121,12 @@ router.route('/courses/:dept')
             res.status(500).json({ error });
         }
     })
-
+    
 router.route('/courses/:dept/:num')
     .get(async (req, res) => {
         try {
             const result = await CourseController.getCourse(req.params.dept, req.params.num);
             console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .post(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await CourseController.createCourse(req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -156,6 +156,15 @@ router.route('/offerings')
         try {
             const result = await OfferingController.getAllOfferings();
             console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+    .post(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await OfferingController.createOffering(req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -227,6 +236,16 @@ router.route('/coursereviews')
             res.status(500).json({ error });
         }
     })
+    .post(async (req, res) => {
+        try {
+            console.log('posting review');
+            console.log(req.body);
+            // const result = await CourseReviewController.createCourseReview(req.body);
+            // res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
 
 router.route('/coursereviews/:dept/:num')
     .get(async (req, res) => {
@@ -244,15 +263,6 @@ router.route('/coursereviews/:id')
         try {
             const result = await CourseReviewController.getCourseReview(req.params.id);
             console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .post(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await CourseReviewController.createCourseReview(req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -287,21 +297,21 @@ router.route('/departments')
         res.status(500).json({ error });
     }
 })
+.post(async (req, res) => {
+    try {
+        console.log(req.body);
+        const result = await DepartmentController.createDepartment(req.body);
+        res.json(result);
+    } catch (error) {
+        res.status(500).json({ error });
+    }
+})
 
 router.route('/departments/:code')
     .get(async (req, res) => {
         try {
             const result = await DepartmentController.getDepartment(req.params.code);
             console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .post(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await DepartmentController.createDepartment(req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -331,6 +341,15 @@ router.route('/majorminors')
         try {
             const result = await MajorMinorController.getMajorMinors();
             console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+    .post(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await MajorMinorController.createMajorMinor(req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -369,15 +388,6 @@ router.route('/majorminor/:id')
             res.status(500).json({ error });
         }
     })
-    .post(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await MajorMinorController.createMajorMinor(req.body);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
     .put(async (req, res) => {
         try {
             console.log(req.body);
@@ -407,6 +417,15 @@ router.route('/professors')
             res.status(500).json({ error });
         }
     })
+    .post(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await ProfessorController.createProfessor(req.body);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
 
 router.route('/professors/dept/:code')
     .get(async (req, res) => {
@@ -424,15 +443,6 @@ router.route('/professors/:name')
         try {
             const result = await ProfessorController.getProfessor(req.params.name);
             console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .post(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await ProfessorController.createProfessor(req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -467,21 +477,21 @@ router.route('/requirements')
             res.status(500).json({ error });
         }
     })
+    .post(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await RequirementController.createRequirement(req.body);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
 
 router.route('/requirements/:id')
     .get(async (req, res) => {
         try {
             const result = await RequirementController.getRequirement(req.params.id);
             console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .post(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await RequirementController.createRequirement(req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -511,6 +521,15 @@ router.route('/students')
         try {
             const result = await StudentController.getStudents();
             console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+    .post(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await StudentController.createStudent(req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -571,15 +590,6 @@ router.route('/students/:id')
             res.status(500).json({ error });
         }
     })
-    .post(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await StudentController.createStudent(req.body);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
     .put(async (req, res) => {
         try {
             console.log(req.body);
@@ -609,21 +619,21 @@ router.route('/terms')
             res.status(500).json({ error });
         }
     })
+    .post(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await TermController.createTerm(req.body);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
 
 router.route('/terms/:code')
     .get(async (req, res) => {
         try {
             const result = await TermController.getTerm(req.params.code);
             console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .post(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await TermController.createTerm(req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -658,21 +668,21 @@ router.route('/users')
             res.status(500).json({ error });
         }
     })
+    .post(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await UserController.createUser(req.body);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
 
 router.route('/users/:id')
     .get(async (req, res) => {
         try {
             const result = await UserController.getUser(req.params.id);
             console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .post(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await UserController.createUser(req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -707,21 +717,21 @@ router.route('/visibilitygroups')
             res.status(500).json({ error });
         }
     })
+    .post(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await VisibilityGroupController.createVisibilityGroup(req.body);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
 
 router.route('/visibilitygroups/:id')
     .get(async (req, res) => {
         try {
             const result = await VisibilityGroupController.getVisibilityGroup(req.params.id);
             console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .post(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await VisibilityGroupController.createVisibilityGroup(req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -756,21 +766,21 @@ router.route('/waitlistentries')
             res.status(500).json({ error });
         }
     })
+    .post(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await WaitlistEntryController.createWaitlistEntry(req.body);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
 
 router.route('/waitlistentries/:id')
     .get(async (req, res) => {
         try {
             const result = await WaitlistEntryController.getWaitlistEntry(req.params.id);
             console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .post(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await WaitlistEntryController.createWaitlistEntry(req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -805,21 +815,21 @@ router.route('/periods')
             res.status(500).json({ error });
         }
     })
+    .post(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await PeriodController.createPeriod(req.body);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
 
 router.route('/periods/:code')
     .get(async (req, res) => {
         try {
             const result = await PeriodController.getPeriod(req.params.code);
             console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .post(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await PeriodController.createPeriod(req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
