@@ -272,55 +272,6 @@ router.route('/departments/:id')
         }
     });
 
-router.route('/deptreviews')
-    .get(async (req, res) => {
-        try {
-            const result = await DeptReviewController.getDeptReviews();
-            console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-
-router.route('/deptreviews/:id')
-    .get(async (req, res) => {
-        try {
-            const result = await DeptReviewController.getDeptReview(req.params.id);
-            console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .post(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await DeptReviewController.createDeptReview(req.body);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .put(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await DeptReviewController.updateDeptReview(req.body.id, req.body.deptreview);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .delete(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await DeptReviewController.deleteDeptReview(req.body.id);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    });
-
 router.route('/majorminors')
     .get(async (req, res) => {
         try {
