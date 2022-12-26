@@ -18,6 +18,7 @@ export interface ICourse extends Document {
   avgMedian: number; // avg median for this course
   avgTimeCommitment: number; // avgTimeCommitment for this course
   avgDifficulty: number; // avgDifficulty for this course
+  avgQuality: number; // avgQuality for this course
   waitlist: Types.ObjectId[]; // waitlist for this course
   reviews: Types.ObjectId[]; // reviews for this course
   syllabi: string[]; // syllabi for this course
@@ -46,6 +47,7 @@ const CourseSchema: Schema = new Schema({
 //   layupListPage: { type: String, required: true }, // layupListPage for this course
   avgTimeCommitment: { type: Number }, // avgTimeCommitment for this course
   avgDifficulty: { type: Number }, // avgDifficulty for this course
+  avgQuality: { type: Number }, // avgQuality for this course
   waitlist: [{ type: Schema.Types.ObjectId, ref: 'WaitlistEntry' }], // waitlist for this course
   reviews: [{ type: Schema.Types.ObjectId, ref: 'Review' }], // reviews for this course
   syllabi: [{ type: String, required: true }], // syllabi for this course

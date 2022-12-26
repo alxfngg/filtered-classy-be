@@ -29,7 +29,7 @@ export const createCourseReview = async (courseReview: object) => {
         console.log("In createCourseReview");
         console.log('courseReview in create courseReview is: ', courseReview);
         console.log(CourseReviewModel);
-        // data = await CourseReviewModel.create(courseReview);
+        data = await CourseReviewModel.create(courseReview);
     } catch (err) {
         console.log('Error::' + err);
     }

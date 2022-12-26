@@ -1,10 +1,12 @@
 import { model, Schema, Model, Document, Types } from 'mongoose';
 
 export interface ICourseReview extends Document {
-  student: Types.ObjectId; // student submitting review
+  user: Types.ObjectId; // student submitting review
   visibilityGroups: [Types.ObjectId]; // visibility groups that can read the review
-  term: Types.ObjectId;
-  professors: [Types.ObjectId];
+  dept: string;
+  num: string;
+  term: string;
+  professors: string[];
   workload: number;
   quality: number;
   difficulty: number;
@@ -16,10 +18,12 @@ export interface ICourseReview extends Document {
 }
 
 const CourseReviewSchema: Schema = new Schema({
-  student: { type: Schema.Types.ObjectId, ref: 'User', required: true }, // student submitting review
+  user: { type: Schema.Types.ObjectId, ref: 'User', required: true }, // student submitting review
   visibilityGroups: [{ type: Schema.Types.ObjectId, ref: 'VisibilityGroup'}], // review rating
-  term: { type: Schema.Types.ObjectId, ref: 'Term', required: true },
-  professors: [{ type: Schema.Types.ObjectId, ref: 'Professor', required: true}], // review rating
+  dept: { type: String, required: true },
+  num: { type: String, required: true },
+  term: { type: String, required: true },
+  professors: [{ type: String, required: true}], // review rating
   workload: { type: Number, required: true }, // review rating
   quality: { type: Number, required: true }, // review rating
   difficulty: { type: Number, required: true }, // review rating

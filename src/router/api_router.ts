@@ -16,6 +16,7 @@ import * as PeriodController from "../controller/period.controller"
 import * as ExploreController from "../controller/explore.controller"
 import * as SearchController from "../controller/search.controller"
 import * as WaitlistController from "../controller/waitlist.controller"
+import { CourseModel } from "../model/course.model";
 
 const router = Router();
 
@@ -240,8 +241,8 @@ router.route('/coursereviews')
         try {
             console.log('posting review');
             console.log(req.body);
-            // const result = await CourseReviewController.createCourseReview(req.body);
-            // res.json(result);
+            const result = await CourseReviewController.createCourseReview(req.body);
+            res.json(result);
         } catch (error) {
             res.status(500).json({ error });
         }
