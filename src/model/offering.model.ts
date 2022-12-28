@@ -6,6 +6,7 @@ export interface IOffering extends Document {
   term: string;
   period: string;
   professors: string[];
+  reviews: object[];
 
   createDate: Date,
   updatedDate: Date;
@@ -18,6 +19,7 @@ const OfferingSchema: Schema = new Schema({
   term: { type: String },
   period: { type: String },
   professors: [{ type: String }],
+  reviews: [{ type: Object }],
 
   createDate: { type: Date, default: Date.now },
   updatedDate: { type: Date, default: Date.now },

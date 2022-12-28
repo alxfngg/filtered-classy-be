@@ -16,9 +16,10 @@ export interface ICourse extends Document {
   language: string; // language for this course
   medians: {term: string, value: number}; // medians for this course
   avgMedian: number; // avg median for this course
-  avgTimeCommitment: number; // avgTimeCommitment for this course
+  avgWorkload: number; // avgTimeCommitment for this course
   avgDifficulty: number; // avgDifficulty for this course
   avgQuality: number; // avgQuality for this course
+  reviewCount: number;  // number of reviews for this course
   waitlist: Types.ObjectId[]; // waitlist for this course
   reviews: Types.ObjectId[]; // reviews for this course
   syllabi: string[]; // syllabi for this course
@@ -45,9 +46,10 @@ const CourseSchema: Schema = new Schema({
   medians: { type: Object }, // medians for this course
   avgMedian: {type: Number},
 //   layupListPage: { type: String, required: true }, // layupListPage for this course
-  avgTimeCommitment: { type: Number }, // avgTimeCommitment for this course
+  avgWorkload: { type: Number }, // avgTimeCommitment for this course
   avgDifficulty: { type: Number }, // avgDifficulty for this course
   avgQuality: { type: Number }, // avgQuality for this course
+  reviewCount: {type: Number }, // review count for this course
   waitlist: [{ type: Schema.Types.ObjectId, ref: 'WaitlistEntry' }], // waitlist for this course
   reviews: [{ type: Schema.Types.ObjectId, ref: 'Review' }], // reviews for this course
   syllabi: [{ type: String, required: true }], // syllabi for this course

@@ -2,7 +2,6 @@ import  { Router } from "express";
 import * as BucketController from "../controller/bucket.controller";
 import * as CourseController from "../controller/course.controller";
 import * as OfferingController from "../controller/offering.controller";
-import * as CourseReviewController from "../controller/coursereview.controller"
 import * as DepartmentController from "../controller/department.controller"
 import * as MajorMinorController from "../controller/majorminor.controller"
 import * as ProfessorController from "../controller/professor.controller"
@@ -16,6 +15,7 @@ import * as PeriodController from "../controller/period.controller"
 import * as ExploreController from "../controller/explore.controller"
 import * as SearchController from "../controller/search.controller"
 import * as WaitlistController from "../controller/waitlist.controller"
+import { OfferingModel } from "../model/offering.model";
 import { CourseModel } from "../model/course.model";
 
 const router = Router();
@@ -227,66 +227,18 @@ router.route('/offerings/:dept/:num/:term/:period')
         }
     })
 
-router.route('/coursereviews')
-    .get(async (req, res) => {
-        try {
-            const result = await CourseReviewController.getAllCourseReviews();
-            console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
+router.route('/coursereviews/:course/:offering')
     .post(async (req, res) => {
         try {
-            console.log('posting review');
-            console.log(req.body);
-            const result = await CourseReviewController.createCourseReview(req.body);
+            await CourseModel.findByIdAndUpdate(req.params.course, 
+                {'$inc': {'reviewCount': 1}}, 
+            )
+            const result = await OfferingController.createCourseReview(req.params.offering, req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
         }
     })
-
-router.route('/coursereviews/:dept/:num')
-    .get(async (req, res) => {
-        try {
-            const result = await CourseReviewController.getCourseReviews(req.params.dept, req.params.num);
-            console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-
-router.route('/coursereviews/:id')
-    .get(async (req, res) => {
-        try {
-            const result = await CourseReviewController.getCourseReview(req.params.id);
-            console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .put(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await CourseReviewController.updateCourseReview(req.body.id, req.body);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .delete(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await CourseReviewController.deleteCourseReview(req.body.id);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    });
 
 router.route('/departments')
 .get(async (req, res) => {

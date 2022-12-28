@@ -1,3 +1,4 @@
+import { CourseModel } from '../model/course.model';
 import { OfferingModel } from '../model/offering.model';
 
 export const getAllOfferings = async () => {
@@ -42,7 +43,7 @@ export const getCourseTermOfferings = async (dept: string, num: string, term: st
 export const getOffering = async (dept: string, num: string, term: string, period: string) => {
     const query = {dept: dept, num: num, term: term, period: period};
     console.log("In getOffering");
-    const offering = await OfferingModel.findOne(query);
+    const offering = await OfferingModel.find(query);
     console.log('offering:::', offering);
     return offering;
 }
@@ -84,4 +85,14 @@ export const deleteOffering = async (dept: string, num: string, term: string, pe
     } catch (err) {
         console.log('Error::' + err);
     }
+}
+
+export const createCourseReview = async (offering: string, courseReview: object) => {
+    try {
+        await(await OfferingModel.findByIdAndUpdate(offering, {'$push': { 'reviews': courseReview } }))
+        
+    } catch (err) {
+        console.log('Error::' + err);
+    }
+    return courseReview;
 }

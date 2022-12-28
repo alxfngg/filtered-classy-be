@@ -1,7 +1,7 @@
 import { CourseModel } from '../model/course.model';
-import { CourseReviewModel } from '../model/coursereview.model';
 import { DepartmentModel } from '../model/department.model';
 import { UserModel } from '../model/user.model';
+import { OfferingModel } from '../model/offering.model';
 
 export const getCourses = async () => {
     console.log("In getCourses");
@@ -41,10 +41,10 @@ export const getCourse = async (dept: string, num: string) => {
     console.log('all courses')
     const course = await CourseModel.findOne({"courseDept": dept, "courseNum": num});
     const users = await UserModel.find({"admin": true});
-    const reviews = await CourseReviewModel.find({"dept": dept, "num": num});
+    const offerings = await OfferingModel.find({"dept": dept, "num": num});
     console.log('course:::', course);
     console.log('users:::', users);
-    return {"course": course, "users": users, "reviews": reviews};
+    return {"course": course, "users": users, "offerings": offerings};
 }
 
 // use the same function for distrib and wc by specifying type
