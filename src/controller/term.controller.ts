@@ -7,9 +7,9 @@ export const getTerms = async () => {
     return terms;
 }
 
-export const getTerm = async (id: string) => {
+export const getTerm = async (code: string) => {
     console.log("In getTerm");
-    const term = await TermModel.find({id: id});
+    const term = await TermModel.findOne({code: code});
     console.log('term:::', term);
     return term;
 }
@@ -27,22 +27,22 @@ export const createTerm = async (term: object) => {
     return data;
 }
 
-export const updateTerm = async (id: string, term: object) => {
+export const updateTerm = async (code: string, term: object) => {
     try {
-        await TermModel.findByIdAndUpdate(id, {
+        await TermModel.findOneAndUpdate({code: code}, {
             term: term,
         }, { new: true }) as object;
-        const updatedTerm: object = await TermModel.findById({ _id: id }) as object;
+        const updatedTerm: object = await TermModel.findOne({ code: code }) as object;
         return updatedTerm;
     } catch (err) {
         console.log('Error::' + err);
     }
 }
 
-export const deleteTerm = async (id: string) => {
+export const deleteTerm = async (code: string) => {
     try {
-        let termDeleted: object = await TermModel.findById(id) as object;
-        let deletedCount: number = await (await TermModel.deleteOne({ _id: id })).deletedCount;
+        let termDeleted: object = await TermModel.findOne({code: code}) as object;
+        let deletedCount: number = await (await TermModel.deleteOne({code: code})).deletedCount;
         if (deletedCount === 1) {
             return { termDeleted };
         }

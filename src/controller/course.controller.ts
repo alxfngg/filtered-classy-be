@@ -1,5 +1,7 @@
 import { CourseModel } from '../model/course.model';
 import { DepartmentModel } from '../model/department.model';
+import { UserModel } from '../model/user.model';
+import { OfferingModel } from '../model/offering.model';
 
 export const getCourses = async () => {
     console.log("In getCourses");
@@ -38,15 +40,11 @@ export const getCourse = async (dept: string, num: string) => {
     console.log("In getCourse:", dept, num);
     console.log('all courses')
     const course = await CourseModel.findOne({"courseDept": dept, "courseNum": num});
+    const users = await UserModel.find({"admin": true});
+    const offerings = await OfferingModel.find({"dept": dept, "num": num});
     console.log('course:::', course);
-    return course;
-}
-
-export const getProfessorCourses = async (profId: string) => {
-    console.log("In getProfessorCourses");
-    const courses = await CourseModel.find({professors: profId});
-    console.log('professor courses:::', courses);
-    return courses;
+    console.log('users:::', users);
+    return {"course": course, "users": users, "offerings": offerings};
 }
 
 // use the same function for distrib and wc by specifying type
@@ -77,22 +75,24 @@ export const createCourse = async (course: object) => {
     return data;
 }
 
-export const updateCourse = async (id: string, course: object) => {
+export const updateCourse = async (dept: string, num: string, course: object) => {
     try {
-        await CourseModel.findByIdAndUpdate(id, {
+        const query = {courseDept: dept, courseNum: num};
+        await CourseModel.findOneAndUpdate(query, {
             course: course,
         }, { new: true }) as object;
-        const updatedCourse: object = await CourseModel.findById({ _id: id }) as object;
+        const updatedCourse: object = await CourseModel.findOne(query) as object;
         return updatedCourse;
     } catch (err) {
         console.log('Error::' + err);
     }
 }
 
-export const deleteCourse = async (id: string) => {
+export const deleteCourse = async (dept: string, num: string) => {
     try {
-        let courseDeleted: object = await CourseModel.findById(id) as object;
-        let deletedCount: number = await (await CourseModel.deleteOne({ _id: id })).deletedCount;
+        const query = {courseDept: dept, courseNum: num};
+        let courseDeleted: object = await CourseModel.findOne(query) as object;
+        let deletedCount: number = await (await CourseModel.deleteOne(query)).deletedCount;
         if (deletedCount === 1) {
             return { courseDeleted };
         }
