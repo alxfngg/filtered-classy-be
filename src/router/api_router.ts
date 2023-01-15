@@ -584,6 +584,35 @@ router.route('/users/:id')
         }
     });
 
+router.route('/students/:id')
+    .get(async (req, res) => {
+        try {
+            const result = await StudentController.getStudent(req.params.id);
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+    .put(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await StudentController.updateStudent(req.body.id, req.body);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+    .delete(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await StudentController.deleteStudent(req.body.id);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    });
+
 router.route('/visibilitygroups')
     .get(async (req, res) => {
         try {
@@ -757,7 +786,7 @@ router.route('/waitlist')
     .get(async (req, res) => {
         try {
             const result = await WaitlistController.getWaitlists();
-            console.log(result);
+            // console.log(result);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
