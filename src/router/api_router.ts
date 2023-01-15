@@ -1,7 +1,6 @@
 import  { Router } from "express";
 import * as BucketController from "../controller/bucket.controller";
 import * as CourseController from "../controller/course.controller";
-import * as OfferingController from "../controller/offering.controller";
 import * as DepartmentController from "../controller/department.controller"
 import * as MajorMinorController from "../controller/majorminor.controller"
 import * as ProfessorController from "../controller/professor.controller"
@@ -15,7 +14,6 @@ import * as PeriodController from "../controller/period.controller"
 import * as ExploreController from "../controller/explore.controller"
 import * as SearchController from "../controller/search.controller"
 import * as WaitlistController from "../controller/waitlist.controller"
-import { OfferingModel } from "../model/offering.model";
 import { CourseModel } from "../model/course.model";
 
 const router = Router();
@@ -152,89 +150,15 @@ router.route('/courses/:dept/:num')
         }
     });
 
-router.route('/offerings')
-    .get(async (req, res) => {
-        try {
-            const result = await OfferingController.getAllOfferings();
-            console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .post(async (req, res) => {
-        try {
-            console.log(req.body);
-            const result = await OfferingController.createOffering(req.body);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-
-router.route('/offerings/:dept')
-    .get(async (req, res) => {
-        try {
-            const result = await OfferingController.getDeptOfferings(req.params.dept);
-            console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-
-router.route('/offerings/term/:term')
-    .get(async (req, res) => {
-        try {
-            const result = await OfferingController.getTermOfferings(req.params.term);
-            console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-
-router.route('/offerings/:dept/:num')
-    .get(async (req, res) => {
-        try {
-            const result = await OfferingController.getCourseOfferings(req.params.dept, req.params.num);
-            console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-
-router.route('/offerings/:dept/:num/:term')
-    .get(async (req, res) => {
-        try {
-            const result = await OfferingController.getCourseTermOfferings(req.params.dept, req.params.num, req.params.term);
-            console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-
-router.route('/offerings/:dept/:num/:term/:period')
-    .get(async (req, res) => {
-        try {
-            const result = await OfferingController.getOffering(req.params.dept, req.params.num, req.params.term, req.params.period);
-            console.log(result);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-
 router.route('/coursereviews/:course/:offering')
     .post(async (req, res) => {
         try {
             await CourseModel.findByIdAndUpdate(req.params.course, 
                 {'$inc': {'reviewCount': 1}}, 
             )
-            const result = await OfferingController.createCourseReview(req.params.offering, req.body);
-            res.json(result);
+            // need a way to add a review to an offering
+            // const result = await OfferingController.createCourseReview(req.params.offering, req.body);
+            // res.json(result);
         } catch (error) {
             res.status(500).json({ error });
         }

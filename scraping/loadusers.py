@@ -5,33 +5,53 @@ db = client.test
 users = db.users
 students = db.students
 
+
 student_objects = [
     {
+        "username": "alex",
+        "email": "alex.feng.23@dartmouth.edu",
+        "admin": True,
         "firstName": "Alex",
         "lastName": "Feng",
-        "email": "alex.feng.23@dartmouth.edu"
     }, 
     {
+        "username": "alyssa",
+        "email": "alyssa.k.anderson.23@dartmouth.edu",
+        "admin": True,
         "firstName": "Alyssa",
         "lastName": "Anderson",
-        "email": "alyssa.k.anderson.23@dartmouth.edu"
     },
     {
+        "username": "gyuri",
+        "email": "gyuri.hwang.23@dartmouth.edu",
+        "admin": True,
         "firstName": "Gyuri",
         "lastName": "Hwang",
-        "email": "gyuri.hwang.23@dartmouth.edu"
     },
     {
+        "username": "henry",
+        "email": "henry.kim.23@dartmouth.edu",
+        "admin": True,
         "firstName": "Henry",
         "lastName": "Kim",
-        "email": "henry.kim.23@dartmouth.edu"
     },
     {
+        "username": "vi",
+        "email": "vi.n.tran.23@dartmouth.edu",
+        "admin": True,
         "firstName": "Vi",
         "lastName": "Tran",
-        "email": "vi.n.23@dartmouth.edu"
     }
 ]
+
+users.insert_many(student_objects)
+
+for user in student_objects:
+    students.insert_one({
+        "user": user['_id'],
+        "classYear": 2023,
+        "majors": ["Computer Science"]
+        })
 
 for student in student_objects:
     user = users.find_one(student)
@@ -48,4 +68,3 @@ for student in student_objects:
             student_id2 = found_student2['_id']
 
             students.find_one_and_update(found_student, {"$push": {'friends': student_id2}})
-    
