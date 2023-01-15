@@ -45,7 +45,6 @@ def parse_timetable():
             nr = values[10]
             key = f"{subject} {number}"
             
-            professor_ids = parse_profs(instructors, subject)
             print('subject is', subject, "num is", number)
             try:
                 course_id = coursecollection.find_one({
@@ -64,7 +63,11 @@ def parse_timetable():
             offering = {
                 'term': term,
                 'period': period,
-                'professors': instructors
+                'professors': instructors,
+                'reviews': [],
+                'waitlistOpen': True,
+                'waitlist': [],
+                'priorityWaitlist': []
             }
            
             coursecollection.update_one({'_id': course_id}, {
