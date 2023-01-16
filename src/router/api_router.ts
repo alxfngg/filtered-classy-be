@@ -786,7 +786,18 @@ router.route('/waitlist')
     .get(async (req, res) => {
         try {
             const result = await WaitlistController.getWaitlists();
-            // console.log(result);
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+
+router.route('/waitlist/:dept/:num')
+    .get(async (req, res) => {
+        try {
+            const result = await WaitlistController.getWaitlist(req.params.dept, req.params.num);
+            console.log(result);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
