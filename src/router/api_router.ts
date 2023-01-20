@@ -804,4 +804,59 @@ router.route('/waitlist/:dept/:num')
         }
     })
 
+router.route('/waitlist/join')
+    .post(async (req, res) => {
+        try {
+            console.log('adding student');
+            const result = await WaitlistController.joinWaitlists(
+                req.body.courseDept, req.body.courseNum,
+                req.body.studentId, req.body.term, req.body.reason);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    }
+)
+
+router.route('/waitlist/addone')
+    .put(async (req, res) => {
+        try {
+            console.log('adding student');
+            const result = await WaitlistController.addToOneWaitlist(
+                req.body.courseDept, req.body.courseNum, req.body.studentId, req.body.term);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    }
+)
+
+router.route('/waitlist/remove')
+    .put(async (req, res) => {
+        try {
+            console.log('removing student');
+            const result = await WaitlistController.removeFromWaitlist(
+                req.body.courseDept, req.body.courseNum, req.body.studentId, req.body.term);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    }
+)
+
+router.route('/waitlist/withdraw')
+    .put(async (req, res) => {
+        try {
+            console.log('withdrawing student');
+            const result = await WaitlistController.withdrawFromWaitlist(
+                req.body.courseDept, req.body.courseNum, req.body.studentId);
+            res.json(result);
+        } catch (error) {
+            console.log("ERROR");
+            console.log(error);
+            res.status(500).json({ error });
+        }
+    }
+)
+
 export default router;
