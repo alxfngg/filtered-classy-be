@@ -53,7 +53,7 @@ export const removeFromWaitlist = async (dept: String, num: String,
         {'courseDept': dept, 'courseNum': num}, 
         {'offerings': {
             'term': term, 
-            '$push': {'waitlist': studentId}
+            $pull: {'waitlist': studentId}
         }}
     )
 }
