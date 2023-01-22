@@ -1,4 +1,4 @@
-import  { Router } from "express";
+import { Router } from "express";
 import * as BucketController from "../controller/bucket.controller";
 import * as CourseController from "../controller/course.controller";
 import * as DepartmentController from "../controller/department.controller"
@@ -15,8 +15,11 @@ import * as ExploreController from "../controller/explore.controller"
 import * as SearchController from "../controller/search.controller"
 import * as WaitlistController from "../controller/waitlist.controller"
 import { CourseModel } from "../model/course.model";
+import * as signS3 from "../services/s3";
 
 const router = Router();
+
+router.get('/sign-s3', signS3);
 
 // get buckets of courses for the major or minor
 router.route('/buckets')
@@ -120,7 +123,7 @@ router.route('/courses/:dept')
             res.status(500).json({ error });
         }
     })
-    
+
 router.route('/courses/:dept/:num')
     .get(async (req, res) => {
         try {
@@ -153,8 +156,8 @@ router.route('/courses/:dept/:num')
 router.route('/coursereviews/:course/:offering')
     .post(async (req, res) => {
         try {
-            await CourseModel.findByIdAndUpdate(req.params.course, 
-                {'$inc': {'reviewCount': 1}}, 
+            await CourseModel.findByIdAndUpdate(req.params.course,
+                { '$inc': { 'reviewCount': 1 } },
             )
             // need a way to add a review to an offering
             // const result = await OfferingController.createCourseReview(req.params.offering, req.body);
@@ -165,24 +168,24 @@ router.route('/coursereviews/:course/:offering')
     })
 
 router.route('/departments')
-.get(async (req, res) => {
-    try {
-        const result = await DepartmentController.getDepartments();
-        console.log(result);
-        res.json(result);
-    } catch (error) {
-        res.status(500).json({ error });
-    }
-})
-.post(async (req, res) => {
-    try {
-        console.log(req.body);
-        const result = await DepartmentController.createDepartment(req.body);
-        res.json(result);
-    } catch (error) {
-        res.status(500).json({ error });
-    }
-})
+    .get(async (req, res) => {
+        try {
+            const result = await DepartmentController.getDepartments();
+            console.log(result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
+    .post(async (req, res) => {
+        try {
+            console.log(req.body);
+            const result = await DepartmentController.createDepartment(req.body);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
 
 router.route('/departments/:code')
     .get(async (req, res) => {
@@ -759,7 +762,7 @@ router.route('/periods/:code')
             res.status(500).json({ error });
         }
     });
-    
+
 router.route('/explore')
     .get(async (req, res) => {
         try {
