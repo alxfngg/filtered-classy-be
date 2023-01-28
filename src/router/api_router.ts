@@ -1,4 +1,5 @@
 import { Router } from "express";
+import multer from 'multer';
 import * as BucketController from "../controller/bucket.controller";
 import * as CourseController from "../controller/course.controller";
 import * as DepartmentController from "../controller/department.controller"
@@ -15,11 +16,18 @@ import * as ExploreController from "../controller/explore.controller"
 import * as SearchController from "../controller/search.controller"
 import * as WaitlistController from "../controller/waitlist.controller"
 import { CourseModel } from "../model/course.model";
-import * as signS3 from "../services/s3";
+import { UploadController } from '../controller/s3.controller';
+import { multerConfig } from '../config/multerConfig';
 
 const router = Router();
 
-router.get('/sign-s3', signS3);
+// s3
+const upload = multer({
+    storage: multerConfig.storage,
+    fileFilter: multerConfig.fileFilter
+});
+router.post("/upload", upload.single('uploaded_file'), UploadController.Upload);
+
 
 // get buckets of courses for the major or minor
 router.route('/buckets')

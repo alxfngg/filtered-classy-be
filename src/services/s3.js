@@ -11,6 +11,8 @@ const signS3 = (req, res) => {
   };
   s3.getSignedUrl('putObject', s3Params, (err, data) => {
     if (err) { res.status(422).end(); }
+    console.log("in s3.js")
+    console.log(s3Params, data)
 
     const returnData = {
       signedRequest: data,
