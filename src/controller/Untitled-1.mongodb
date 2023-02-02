@@ -1,0 +1,31 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use('test');
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+db.courses.updateOne({"courseDept": "COSC", "courseNum": "25.01"},
+    {"$set": {"offerings": [
+        {
+        "term": "22s",
+        "period": "3A",
+        "professors": ["Lorie Loeb", "Natalie Svoboda"],
+        "reviews": [],
+        "waitlistOpen": true,
+        "waitlist": ["ObjectId('63c4424ce18e75a330906128')"],
+        "priorityWaitlist": []
+    },
+        {
+        "term": "22x",
+        "period": "2A",
+        "professors": ["Natalie Svoboda"],
+        "reviews": [],
+        "waitlistOpen": true,
+        "waitlist": [],
+        "priorityWaitlist": ["ObjectId('63c4424ce18e75a330906128')"]
+    }]}}
+);
