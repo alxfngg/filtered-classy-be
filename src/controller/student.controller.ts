@@ -37,7 +37,9 @@ export const getFavProfsStudents = async (id: string) => {
 
 export const getStudent = async (id: string) => {
     console.log("In getStudent");
-    const student = await StudentModel.find({id: id});
+    const student = await StudentModel.find({id: id})
+    .populate('shoppingCart')
+    .populate('currentCourses');
     console.log('student:::', student);
     return student;
 }
