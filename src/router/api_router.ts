@@ -785,7 +785,7 @@ router.route('/explore')
 router.route('/search')
     .get(async (req, res) => {
         try {
-            const result = await SearchController.getSearch();
+            const result = await SearchController.getSearch(String(req.query.query));
             console.log(result);
             res.json(result);
         } catch (error) {
