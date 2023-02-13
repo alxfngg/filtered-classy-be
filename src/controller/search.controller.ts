@@ -10,11 +10,13 @@ export const getSearch = async (searchString: string) => {
     //     return /\d/.test(myString);
     // }
 
-    // if searchString contains numbers, split into numeric (courseNumber) and nonnumeric (courseDept) and query based on strings
-    // see https://stackoverflow.com/questions/49887578/splitting-a-string-with-a-decimal-number-and-some-characters for details
+    // split searchString into numeric (courseNumber) and nonnumeric (courseDept) strings and query based on strings
+    // see https://stackoverflow.com/questions/49887578/splitting-a-string-with-a-decimal-number-and-some-characters for match() details
     const nonnumeric = searchString.match(/[a-zA-Z ]+/ig);
     const numeric = searchString.match(/[\d\.?]+/ig);
-    if (numeric && numeric.length == 1) {
+
+    // if searchString has numeric values search from courseDept + courseNum
+    if (numeric && numeric.length >= 1) {
         // const alpha = searchString.match(/[a-zA-Z]+);
         // const num = searchString.match(/[a-zA-Z]+|[\d\.?]+/ig);
         // if (result) {
@@ -92,7 +94,7 @@ export const getSearch = async (searchString: string) => {
     }
 
     
-    // if searchString doesn't contain any numbers and is not 4 characters long, search from course titles
+    // if searchString doesn't contain any numbers and is not 4 characters long and contains any letters/nonnumerics, search from course titles
     else if (nonnumeric && nonnumeric[0]) {
         const nameSearch = await CourseModel.aggregate(
             [
