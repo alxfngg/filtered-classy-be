@@ -1,19 +1,16 @@
 import { CourseModel } from '../model/course.model';
 import { DepartmentModel } from '../model/department.model';
+import { StudentModel } from '../model/student.model';
 import { UserModel } from '../model/user.model';
 
 export const getCourses = async () => {
-    console.log("In getCourses");
     const courses = await CourseModel.find({});
-    console.log('courses:::', courses);
     return courses;
 }
 
 export const getDeptCourses = async (dept: string) => {
-    console.log("In getDeptCourses");
     const department = await DepartmentModel.findOne({codes: dept});
     const courses = await CourseModel.find({courseDept: dept}).sort({'courseNum': 1}).collation({locale: "en_US", numericOrdering: true});
-    console.log('courses:::', courses);
     return {department, courses};
 }
 
@@ -28,21 +25,27 @@ const shuffleArray = (array: []) => {
   
 
 export const getRandomCourses = async (num: number) => {
-    console.log('In getRandomCourses');
     var selectedCourses = await CourseModel.find({});
     selectedCourses.slice(0, num);
-    console.log('picked courses:::', selectedCourses);
     return selectedCourses;
 }
 
 export const getCourse = async (dept: string, num: string) => {
-    console.log("In getCourse:", dept, num);
-    console.log('all courses')
     const course = await CourseModel.findOne({"courseDept": dept, "courseNum": num});
-    const users = await UserModel.find({"admin": true});
-    console.log('course:::', course);
-    console.log('users:::', users);
-    return {"course": course, "users": users};
+    const users = await StudentModel.find({}).populate('user');
+    // console.log('course:::', course);
+    // console.log('users:::', users);
+    const studentId = '63c4424ce18e75a330906128';
+    const student = await StudentModel.findOne({'_id': studentId}).populate('user')
+    const onWaitlist = await CourseModel.findOne({
+        'courseDept': dept, 
+        'courseNum': num, 
+        '$or': [
+            {'offerings.waitlist': `ObjectId('${studentId}')`},
+            {'offerings.priorityWaitlist': `ObjectId('${studentId}')`}
+        ]
+    }) !== null;
+    return {course, users, student, onWaitlist};
 }
 
 // use the same function for distrib and wc by specifying type
@@ -63,9 +66,6 @@ export const getDistribCourses = async (type: string, distrib: string) => {
 export const createCourse = async (course: object) => {
     let data = {};
     try {
-        console.log("In createCourse");
-        console.log('course in create course is: ', course);
-        console.log(CourseModel);
         data = await CourseModel.create(course);
     } catch (err) {
         console.log('Error::' + err);

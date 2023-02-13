@@ -1,25 +1,18 @@
 import { TermModel } from '../model/term.model';
 
 export const getTerms = async () => {
-    console.log("In getTerms");
     const terms = await TermModel.find({});
-    console.log('terms:::', terms);
     return terms;
 }
 
 export const getTerm = async (code: string) => {
-    console.log("In getTerm");
     const term = await TermModel.findOne({code: code});
-    console.log('term:::', term);
     return term;
 }
 
 export const createTerm = async (term: object) => {
     let data = {};
     try {
-        console.log("In createTerm");
-        console.log('term in create term is: ', term);
-        console.log(TermModel);
         data = await TermModel.create(term);
     } catch (err) {
         console.log('Error::' + err);
