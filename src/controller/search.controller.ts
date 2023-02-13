@@ -2,22 +2,30 @@ import { CourseModel } from '../model/course.model';
 import { DepartmentModel } from '../model/department.model';
 
 export const getSearch = async (searchString: string) => {
-    console.log("In getSearch");
 
     console.log(searchString);
 
     // function to check if a string contains numbers
-    function hasNumber(myString: string) {
-        return /\d/.test(myString);
-    }
+    // function hasNumber(myString: string) {
+    //     return /\d/.test(myString);
+    // }
 
     // if searchString contains numbers, split into numeric (courseNumber) and nonnumeric (courseDept) and query based on strings
     // see https://stackoverflow.com/questions/49887578/splitting-a-string-with-a-decimal-number-and-some-characters for details
-    if (hasNumber(searchString)) {
-        const result = searchString.match(/[a-zA-Z]+|[\d\.?]+/ig);
-        if (result) {
-            const nonnumeric = result[0];
-            const numeric = result[1];
+    const nonnumeric = searchString.match(/[a-zA-Z ]+/ig);
+    const numeric = searchString.match(/[\d\.?]+/ig);
+    if (numeric && numeric.length == 1) {
+        // const alpha = searchString.match(/[a-zA-Z]+);
+        // const num = searchString.match(/[a-zA-Z]+|[\d\.?]+/ig);
+        // if (result) {
+        //     nonnumeric = result[0];
+        //     numeric = result[1].replace(/^0+/, ""); // remove all leading 0s in numeric
+        // }
+
+        const num = numeric[0].replace(/^0+/, ""); // remove all leading 0s in numeric
+
+        if (nonnumeric && nonnumeric[0] && num) {
+            console.log("Searching coursedeptnum");
 
             const deptNumSearch = await CourseModel.aggregate(
                 [
@@ -28,14 +36,14 @@ export const getSearch = async (searchString: string) => {
                           'must': [
                             {
                               'text': {
-                                'query': nonnumeric, 
+                                'query': nonnumeric[0], 
                                 'path': {
                                   'wildcard': '*'
                                 }
                               }
                             }, {
                               'text': {
-                                'query': numeric, 
+                                'query': num, 
                                 'path': {
                                   'wildcard': '*'
                                 }
@@ -49,22 +57,23 @@ export const getSearch = async (searchString: string) => {
             );
 
             return deptNumSearch;
-            
-        }
 
+        }
 
 
     }
 
-    // if searchString is exactly 4 characters, search from departments
-    if (searchString.length == 4) {
+    // if nonnumeric is exactly 3 or 4 characters, search from departments
+    else if (nonnumeric && (nonnumeric[0].length == 4 || nonnumeric[0].length == 3)) {
+        console.log("Searching dept");
+
         const deptSearch = await CourseModel.aggregate(
             [
                 {
                   '$search': {
                     'index': 'coursesearch', 
                     'text': {
-                        'query': searchString,
+                        'query': nonnumeric[0],
                         'path': 'courseDept'
                     }
                   }
@@ -84,28 +93,33 @@ export const getSearch = async (searchString: string) => {
 
     
     // if searchString doesn't contain any numbers and is not 4 characters long, search from course titles
-    const nameSearch = await CourseModel.aggregate(
-        [
-            {
-              '$search': {
-                'index': 'coursesearch', 
-                'autocomplete': {
-                    'query': 'intro to scientific',
-                    'path': 'courseTitle',
-                }
-              }
-            },
-            {
-                '$addFields': {
-                    'score': {
-                        '$meta': 'searchScore'
+    else if (nonnumeric && nonnumeric[0]) {
+        const nameSearch = await CourseModel.aggregate(
+            [
+                {
+                  '$search': {
+                    'index': 'coursesearch', 
+                    'autocomplete': {
+                        'query': nonnumeric[0],
+                        'path': 'courseTitle',
+                    }
+                  }
+                },
+                {
+                    '$addFields': {
+                        'score': {
+                            '$meta': 'searchScore'
+                        }
                     }
                 }
-            }
-          ]
-    );
+              ]
+        );
+        return nameSearch;
+        // console.log(nonnumeric[0]);
+        // console.log("here")
+    }
 
-    return nameSearch;
+    
 
     // const departments = await DepartmentModel.find( {});
     // console.log('courses:::', courses);
