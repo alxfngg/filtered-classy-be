@@ -1,25 +1,18 @@
 import { UserModel } from '../model/user.model';
 
 export const getUsers = async () => {
-    console.log("In getUsers");
     const users = await UserModel.find({});
-    console.log('users:::', users);
     return users;
 }
 
 export const getUser = async (id: string) => {
-    console.log("In getUser");
     const user = await UserModel.find({id: id});
-    console.log('user:::', user);
     return user;
 }
 
 export const createUser = async (user: object) => {
     let data = {};
     try {
-        console.log("In createUser");
-        console.log('user in create user is: ', user);
-        console.log(UserModel);
         data = await UserModel.create(user);
     } catch (err) {
         console.log('Error::' + err);

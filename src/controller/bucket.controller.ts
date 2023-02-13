@@ -3,23 +3,18 @@ import { BucketModel } from '../model/bucket.model';
 export const getBuckets = async () => {
     console.log("In getBuckets");
     const buckets = await BucketModel.find({});
-    console.log('buckets:::', buckets);
     return buckets;
 }
 
 export const getBucket = async (id: string) => {
     console.log("In getBucket");
     const bucket = await BucketModel.findOne({id: id});
-    console.log('bucket:::', bucket);
     return bucket;
 }
 
 export const createBucket = async (bucket: object) => {
     let data = {};
     try {
-        console.log("In createBucket");
-        console.log('bucket in create bucket is: ', bucket);
-        console.log(BucketModel);
         data = await BucketModel.create(bucket);
     } catch (err) {
         console.log('Error::' + err);

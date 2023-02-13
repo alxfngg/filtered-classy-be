@@ -3,19 +3,15 @@ import { DepartmentModel } from '../model/department.model';
 import { ProfessorModel } from '../model/professor.model';
 
 export const getDepartments = async () => {
-    console.log("In getDepartments");
     const departments = await DepartmentModel.find({}).sort({'name': 1});
-    console.log('departments:::', departments);
     return departments;
 }
 
 export const getDepartment = async (code: string) => {
-    console.log("In getDepartment");
     const department = await DepartmentModel.findOne({codes: code});
     const courses = await CourseModel.find({courseDept: code, required:{"$exists": true}}).sort({'courseNum': 1}).collation({locale: "en_US", numericOrdering: true})
     const noPrereqs = await CourseModel.find({courseDept: code, required: null, courseNum: {"$not":{"$regex":"(9[0-9]|[1-2][0-9][0-9])"}}}).sort({'courseNum': 1}).collation({locale: "en_US", numericOrdering: true})
     const professors = await ProfessorModel.find({departments: code}).sort({'name': 1})
-    console.log('department:::', department);
     return {department, courses, noPrereqs, professors};
 }
 
@@ -70,7 +66,6 @@ export const loadDepartments = async () => {
     ]
 
     for (const entry in data) {
-        console.log(data[entry]);
         createDepartment(data[entry]);
     }
 }
@@ -78,9 +73,6 @@ export const loadDepartments = async () => {
 export const createDepartment = async (department: object) => {
     let data = {};
     try {
-        console.log("In createDepartment");
-        console.log('department in create department is: ', department);
-        console.log(DepartmentModel);
         data = await DepartmentModel.create(department);
     } catch (err) {
         console.log('Error::' + err);
