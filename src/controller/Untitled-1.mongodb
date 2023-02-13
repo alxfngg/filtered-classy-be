@@ -8,24 +8,36 @@ use('test');
 
 // The drop() command destroys all data from a collection.
 // Make sure you run it against the correct database and collection.
-db.courses.updateOne({"courseDept": "COSC", "courseNum": "25.01"},
-    {"$set": {"offerings": [
-        {
-        "term": "22s",
-        "period": "3A",
-        "professors": ["Lorie Loeb", "Natalie Svoboda"],
-        "reviews": [],
-        "waitlistOpen": true,
-        "waitlist": ["ObjectId('63c4424ce18e75a330906128')"],
-        "priorityWaitlist": []
-    },
-        {
-        "term": "22x",
-        "period": "2A",
-        "professors": ["Natalie Svoboda"],
-        "reviews": [],
-        "waitlistOpen": true,
-        "waitlist": [],
-        "priorityWaitlist": ["ObjectId('63c4424ce18e75a330906128')"]
-    }]}}
+db.courses.updateOne({"courseDept": "COSC", "courseNum": "52"},
+    {
+        "$set": {"offerings": [
+            {
+                "term": "22s",
+                "period": "2",
+                "professors": ["Tim Tregubov"],
+                "reviews": [],
+                "waitlistOpen": true,
+                "waitlist": [],
+                "priorityWaitlist": []
+            },
+            {
+                "term": "23s",
+                "period": "2",
+                "professors": ["Tim Tregubov"],
+                "reviews": [],
+                "waitlistOpen": true,
+                "waitlist": [],
+                "priorityWaitlist": []
+            }, 
+            {
+                "term": "24s",
+                "professors": ["Tim Tregubov"],
+                "reviews": [],
+                "waitlistOpen": true,
+                "waitlist": [],
+                "priorityWaitlist": []
+            }
+        ]
+    }
+}
 );

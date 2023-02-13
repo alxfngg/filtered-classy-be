@@ -1,25 +1,18 @@
 import { WaitlistEntryModel } from '../model/waitlistentry.model';
 
 export const getWaitlistEntries = async () => {
-    console.log("In getWaitlistEntries");
     const waitlistEntries = await WaitlistEntryModel.find({});
-    console.log('waitlistEntries:::', waitlistEntries);
     return waitlistEntries;
 }
 
 export const getWaitlistEntry = async (id: string) => {
-    console.log("In getWaitlistEntry");
     const waitlistEntry = await WaitlistEntryModel.find({id: id});
-    console.log('waitlistEntry:::', waitlistEntry);
     return waitlistEntry;
 }
 
 export const createWaitlistEntry = async (waitlistEntry: string) => {
     let data = {};
     try {
-        console.log("In createWaitlistEntry");
-        console.log('waitlistEntry in create waitlistEntry is: ', waitlistEntry);
-        console.log(WaitlistEntryModel);
         data = await WaitlistEntryModel.create(waitlistEntry);
     } catch (err) {
         console.log('Error::' + err);

@@ -1,25 +1,18 @@
 import { PeriodModel } from '../model/period.model';
 
 export const getPeriods = async () => {
-    console.log("In getPeriods");
     const periods = await PeriodModel.find({});
-    console.log('periods:::', periods);
     return periods;
 }
 
 export const getPeriod = async (code: string) => {
-    console.log("In getPeriod");
     const period = await PeriodModel.findOne({code: code});
-    console.log('period:::', period);
     return period;
 }
 
 export const createPeriod = async (period: object) => {
     let data = {};
     try {
-        console.log("In createPeriod");
-        console.log('period in create period is: ', period);
-        console.log(PeriodModel);
         data = await PeriodModel.create(period);
     } catch (err) {
         console.log('Error::' + err);
