@@ -6,7 +6,14 @@ export const getUsers = async () => {
 }
 
 export const getUser = async (id: string) => {
-    const user = await UserModel.find({id: id});
+    let user;
+    try {
+        user = await UserModel.findOne({ _id: id }).populate('student').populate('professor');
+        console.log(user)
+    }
+    catch (err) {
+        console.log('Error getting user', err);
+    }
     return user;
 }
 

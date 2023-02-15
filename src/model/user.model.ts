@@ -1,4 +1,4 @@
-import { model, Schema, Model, Document } from 'mongoose';
+import { model, Schema, Model, Document, Types } from 'mongoose';
 import bcrypt from 'bcryptjs';
 
 export interface IUser extends Document {
@@ -9,6 +9,8 @@ export interface IUser extends Document {
   netID: string;
   password: string;
   admin: boolean;
+  professorId: Types.ObjectId[];
+  studentId: Types.ObjectId[];
 
   createDate: Date,
   updatedDate: Date;
@@ -23,6 +25,8 @@ const UserSchema: Schema = new Schema({
   netID: { type: String, required: true },
   password: { type: String, required: true },
   admin: { type: Boolean },
+  professor: { type: Schema.Types.ObjectId, ref: 'Professor' },
+  student: { type: Schema.Types.ObjectId, ref: 'Student' },
 
   createDate: { type: Date, default: Date.now },
   updatedDate: { type: Date, default: Date.now },
@@ -31,26 +35,26 @@ const UserSchema: Schema = new Schema({
 );
 
 UserSchema.pre('save', async function beforeUserSave(next) {
-    // get access to the user model
-    const user = this;
-  
-    if (!user.isModified('password')) return next();
-  
-    try {
-      // salt, hash, then set password to hash
-      const salt = await bcrypt.genSalt(10);
-      const hash = await bcrypt.hash(user.password, salt);
-      user.password = hash;
-      return next();
-    } catch (error: any) {
-      return next(error);
-    }
-  });
-  
-  // note use of named function rather than arrow notation, required here
-  UserSchema.methods.comparePassword = async function comparePassword(candidatePassword: string) {
-    const comparison = await bcrypt.compare(candidatePassword, this.password);
-    return comparison;
-  };
+  // get access to the user model
+  const user = this;
+
+  if (!user.isModified('password')) return next();
+
+  try {
+    // salt, hash, then set password to hash
+    const salt = await bcrypt.genSalt(10);
+    const hash = await bcrypt.hash(user.password, salt);
+    user.password = hash;
+    return next();
+  } catch (error: any) {
+    return next(error);
+  }
+});
+
+// note use of named function rather than arrow notation, required here
+UserSchema.methods.comparePassword = async function comparePassword(candidatePassword: string) {
+  const comparison = await bcrypt.compare(candidatePassword, this.password);
+  return comparison;
+};
 
 export const UserModel: Model<IUser> = model<IUser>('User', UserSchema);
