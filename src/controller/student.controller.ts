@@ -1,5 +1,5 @@
 import { StudentModel } from '../model/student.model';
-import mongoose, { ObjectId } from 'mongoose';
+import { CourseModel } from '../model/course.model';
 
 export const getStudents = async () => {
     const students = await StudentModel.find({});
@@ -27,10 +27,19 @@ export const getFavProfsStudents = async (id: string) => {
 }
 
 export const getStudent = async (id: string) => {
-    const student = await StudentModel.find({id: id})
+    console.log('received', id);
+    const student = await StudentModel.findById(id)
+    .populate('user')
     .populate('shoppingCart')
-    .populate('currentCourses');
-    return student;
+    .populate('currentCourses')
+    .populate('coursesTaken');
+
+    const waitlists = await CourseModel.find({
+        '$or': [{'offerings.waitlist': `ObjectId('${id}')`},
+            {'offerings.priorityWaitlist': `ObjectId('${id}')`}
+        ]
+    })
+    return {student, waitlists};
 }
 
 export const createStudent = async (student: object) => {
@@ -68,16 +77,40 @@ export const deleteStudent = async (id: string) => {
 }
 
 export const markAsTaken = async (studentId: string, courseId: string, taken: string) => {
-    console.log(studentId, courseId, taken);
     try {
         if (taken == 'false') {
-            console.log('false');
             const res = await StudentModel.findByIdAndUpdate(studentId, {$addToSet: {coursesTaken: courseId}}).exec();
+        } else {
+            const res = await StudentModel.findByIdAndUpdate(studentId, {$pull: {coursesTaken: courseId}}).exec();
+        }
+    } catch (err) {
+        console.log('Error::' + err);
+    }
+}
+
+export const currentCourses = async (studentId: string, courseId: string, taking: string) => {
+    try {
+        if (taking == 'false') {
+            console.log('false');
+            const res = await StudentModel.findByIdAndUpdate(studentId, {$addToSet: {currentCourses: courseId}}).exec();
             console.log(res);
         } else {
             console.log('true');
-            const res = await StudentModel.findByIdAndUpdate(studentId, {$pull: {coursesTaken: courseId}}).exec();
+            const res = await StudentModel.findByIdAndUpdate(studentId, {$pull: {currentCourses: courseId}}).exec();
             console.log(res);
+        }
+    } catch (err) {
+        console.log('Error::' + err);
+    }
+}
+
+export const shoppingCart = async (studentId: string, courseId: string, add: string) => {
+    console.log('cart', studentId, courseId, add);
+    try {
+        if (add == 'false') {
+            const res = await StudentModel.findByIdAndUpdate(studentId, {$addToSet: {shoppingCart: courseId}}).exec();
+        } else {
+            const res = await StudentModel.findByIdAndUpdate(studentId, {$pull: {shoppingCart: courseId}}).exec();
         }
     } catch (err) {
         console.log('Error::' + err);

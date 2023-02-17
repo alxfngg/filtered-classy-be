@@ -15,6 +15,7 @@ import * as PeriodController from "../controller/period.controller"
 import * as ExploreController from "../controller/explore.controller"
 import * as SearchController from "../controller/search.controller"
 import * as WaitlistController from "../controller/waitlist.controller"
+import * as ReviewController from "../controller/review.controller"
 import { CourseModel } from "../model/course.model";
 import { UploadController } from '../controller/s3.controller';
 import { multerConfig } from '../config/multerConfig';
@@ -148,10 +149,16 @@ router.route('/courses/:dept/:num')
         }
     });
 
-router.route('/student/:studentId/:courseId/:taken')
+router.route('/student/:studentId/:courseId/:mode/:result')
     .put(async (req, res) => {
         try {
-            await StudentController.markAsTaken(req.params.studentId, req.params.courseId, req.params.taken);
+            if (req.params.mode === 'taken') {
+                await StudentController.markAsTaken(req.params.studentId, req.params.courseId, req.params.result);
+            } else if (req.params.mode === 'cart') {
+                await StudentController.shoppingCart(req.params.studentId, req.params.courseId, req.params.result);
+            } else if (req.params.mode === 'current'){
+                await StudentController.currentCourses(req.params.studentId, req.params.courseId, req.params.result);
+            }
         } catch (error) {
             res.status(500).json({ error });
         }
@@ -163,9 +170,8 @@ router.route('/reviews/:course/:offeringIndex')
             await CourseModel.findByIdAndUpdate(req.params.course,
                 { '$inc': { 'reviewCount': 1 } },
             )
-            // need a way to add a review to an offering
-            // const result = await OfferingController.createCourseReview(req.params.offering, req.body);
-            // res.json(result);
+            const result = await ReviewController.createReview(req.params.course, req.params.offeringIndex, req.body);
+            res.json(result);
         } catch (error) {
             res.status(500).json({ error });
         }
@@ -794,8 +800,18 @@ router.route('/waitlist/withdraw')
         } catch (error) {
             res.status(500).json({ error });
         }
-    }
-    
+    }   
 )
+
+router.route('/home')
+    .get(async (req, res) => {
+        try {
+            const result = await StudentController.getStudent('63c4424ce18e75a330906128');
+            console.log('returning', result);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
 
 export default router;
