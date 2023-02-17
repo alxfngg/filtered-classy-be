@@ -13,7 +13,7 @@ export const getSearch = async (searchInput: string) => {
 
 
     // find using case insensitive regex https://stackoverflow.com/questions/26699885/how-can-i-use-a-regex-variable-in-a-query-for-mongodb
-    const dept = await DepartmentModel.find({ name: new RegExp('^' + searchString + '$', 'i') });
+    const dept = await DepartmentModel.find({ name: new RegExp('^' + alpha + '$', 'i') });
 
     if (dept[0]) {
          
@@ -42,6 +42,7 @@ export const getSearch = async (searchInput: string) => {
         const searchResults = await Promise.all(promises);
         // console.log(searchResults.flat());
         result = searchResults.flat();
+        console.log(result);
     }
 
     
@@ -51,7 +52,7 @@ export const getSearch = async (searchInput: string) => {
     
 
     // if numeric values
-    if (numeric && result.length !== 0) { 
+    if (numeric && result.length === 0) { 
         
         const numQuery = numeric[0].replace(/^0+/, ""); // remove all leading 0s in numeric, 
 
@@ -176,7 +177,7 @@ export const getSearch = async (searchInput: string) => {
 
     // }
 
-    if ((searchString.length == 4 || searchString.length == 3) && !numeric) {
+    if ((searchString.length == 4 || searchString.length == 3) && !numeric && result.length === 0) {
         // console.log("Searching dept");
 
         result = await CourseModel.aggregate(
