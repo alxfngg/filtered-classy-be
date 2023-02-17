@@ -12,6 +12,7 @@ export const getSearch = async (searchInput: string) => {
     const numeric = searchString.match(/[\d\.?]+/ig);
 
 
+    const deptCodes = [];
     // find using case insensitive regex https://stackoverflow.com/questions/26699885/how-can-i-use-a-regex-variable-in-a-query-for-mongodb
     const dept = await DepartmentModel.find({ name: new RegExp('^' + alpha + '$', 'i') });
 
@@ -60,7 +61,9 @@ export const getSearch = async (searchInput: string) => {
         if (alpha) {
             console.log("here");
 
-            const alphQuery = alpha[0];
+            const alphQuery = alpha[0].replace(/\s/g, ''); // remove spaces in alpha
+
+            console.log(alphQuery + "!")
 
             // console.log("Searching coursedeptnum");
             result = await CourseModel.aggregate(
@@ -177,28 +180,33 @@ export const getSearch = async (searchInput: string) => {
 
     // }
 
-    if ((searchString.length == 4 || searchString.length == 3) && !numeric && result.length === 0) {
+    if (!numeric && result.length === 0 && alpha) {
         // console.log("Searching dept");
+        const alphQuery = alpha[0].replace(/\s/g, ''); // remove spaces in alpha
 
-        result = await CourseModel.aggregate(
-            [
-                {
-                    '$search': {
-                    'index': 'coursesearch', 
-                    'text': {
-                        'query': searchString,
-                        'path': 'courseDept'
+        if (alphQuery.length == 4 || alphQuery.length == 3) {
+            
+            result = await CourseModel.aggregate(
+                [
+                    {
+                        '$search': {
+                        'index': 'coursesearch', 
+                        'text': {
+                            'query': alphQuery,
+                            'path': 'courseDept'
+                        }
+                        }
+                    },
+                    {
+                        '$sort': {
+                            'courseNum': 1
+                        }
                     }
-                    }
-                },
-                {
-                    '$sort': {
-                        'courseNum': 1
-                    }
-                }
-    
-                ]
-        );
+        
+                    ]
+            );
+
+        }
     }
 
     if (result.length === 0 && searchString) { 
