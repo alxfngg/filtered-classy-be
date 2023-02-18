@@ -8,13 +8,13 @@ export const getSearch = async (searchInput: string) => {
 
     // split searchString into numeric (courseNumber) and alpha (courseDept) strings and query based on strings
     // see https://stackoverflow.com/questions/49887578/splitting-a-string-with-a-decimal-number-and-some-characters for match() details
-    const alpha = searchString.trim().match(/[a-zA-Z, ]+/ig);
+    const alpha = searchString.match(/[a-zA-Z, ]+/ig);
     const numeric = searchString.match(/[\d\.?]+/ig);
 
     let deptCodes: any[] = [];
 
     if (alpha) {
-        const alphQuery = alpha[0].trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // remove spaces in alpha, escape regex https://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex
+        const alphQuery = alpha[0].trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // remove spaces leading and trailing in alpha, escape regex https://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex
 
         if (alphQuery.length == 4 || alphQuery.length == 3) {
             deptCodes.push(alphQuery);
@@ -50,55 +50,60 @@ export const getSearch = async (searchInput: string) => {
     // if numeric values
     if (numeric) { 
         
-        const numQuery = numeric[0].replace(/^0+/, "").replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '.*'; // remove all leading 0s in numeric,
+        const numQuery = numeric[0].replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/^0+/, "") + '.*'; // escape regex https://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex, remove all leading 0s in numeric
 
         // if numeric and alpha values, search for matching alpha AND numeric
-        if (deptCodes.length !== 0) {
-            console.log("here");
+        if (alpha) {
+            if (deptCodes.length !== 0) {
+                console.log("here");
 
-            const promises = deptCodes.map((deptCode) => {
-                return CourseModel.aggregate(
-                    [
-                        {
-                            '$search': {
-                            'index': 'coursesearch', 
-                            'compound': {
-                                'must': [
-                                {
-                                    'text': {
-                                    'query': deptCode, 
-                                    'path': {
-                                        'wildcard': '*'
+                const promises = deptCodes.map((deptCode) => {
+                    return CourseModel.aggregate(
+                        [
+                            {
+                                '$search': {
+                                'index': 'coursesearch', 
+                                'compound': {
+                                    'must': [
+                                    {
+                                        'text': {
+                                        'query': deptCode, 
+                                        'path': {
+                                            'wildcard': '*'
+                                        }
+                                        }
+                                    }, {
+                                        'regex': {
+                                        'query': numQuery,
+                                        'allowAnalyzedField': true,
+                                        'path': {
+                                            'wildcard': '*'
+                                        }
+                                        }
                                     }
-                                    }
-                                }, {
-                                    'regex': {
-                                    'query': numQuery,
-                                    'allowAnalyzedField': true,
-                                    'path': {
-                                        'wildcard': '*'
-                                    }
-                                    }
+                                    ]
                                 }
-                                ]
+                                }
                             }
-                            }
-                        }
-                        ]
-                );
+                            ]
+                    );
+                
+                });
+        
+                const searchResults = await Promise.all(promises);
+                result = searchResults.flat().sort((a,b) => a.courseNum - b.courseNum); // sort by course number
+
+                // console.log("Searching coursedeptnum");
+
+                // console.log(result);
+
+            }
             
-            });
-    
-            const searchResults = await Promise.all(promises);
-            result = searchResults.flat().sort((a,b) => a.courseNum - b.courseNum); // sort by course number
-
-            // console.log("Searching coursedeptnum");
-
-            // console.log(result);
         }
 
         // if numeric values but no alpha values, search for matching numeric from all courses and sort by courseDept
         else { 
+            console.log(alpha);
             result = await CourseModel.aggregate(
                 [{
                     '$search': {
