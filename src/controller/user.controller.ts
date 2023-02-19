@@ -29,10 +29,7 @@ export const createUser = async (user: object) => {
 
 export const updateUser = async (id: string, user: object) => {
     try {
-        await UserModel.findByIdAndUpdate(id, {
-            user: user,
-        }, { new: true }) as object;
-        const updatedUser: object = await UserModel.findById({ _id: id }) as object;
+        const updatedUser = await UserModel.findByIdAndUpdate({ _id: id }, user, { new: true }) as object;
         return updatedUser;
     } catch (err) {
         console.log('Error::' + err);

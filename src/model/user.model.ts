@@ -11,6 +11,7 @@ export interface IUser extends Document {
   admin: boolean;
   professorId: Types.ObjectId[];
   studentId: Types.ObjectId[];
+  profileImageUrl: string;
 
   createDate: Date,
   updatedDate: Date;
@@ -27,6 +28,7 @@ const UserSchema: Schema = new Schema({
   admin: { type: Boolean },
   professor: { type: Schema.Types.ObjectId, ref: 'Professor' },
   student: { type: Schema.Types.ObjectId, ref: 'Student' },
+  profileImageUrl: { type: String },
 
   createDate: { type: Date, default: Date.now },
   updatedDate: { type: Date, default: Date.now },
