@@ -6,19 +6,16 @@ import cors from 'cors';
 import path from 'path';
 import morgan from 'morgan';
 import { connect, disconnect } from './db.config';
-// import { TaskController } from "./controller/task.controller";
 
 class App {
 
     public app: express.Application;
-    // public taskController: TaskController;
 
     constructor() {
         this.app = express();
         connect();
         this.middleware();
         this.routes();
-        // this.taskController = new TaskController();
     }
 
     // Configure Express middleware.
