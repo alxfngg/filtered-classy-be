@@ -18,6 +18,7 @@ import * as WaitlistController from "../controller/waitlist.controller"
 import { CourseModel } from "../model/course.model";
 import { UploadController } from '../controller/s3.controller';
 import { multerConfig } from '../config/multerConfig';
+import { Request } from "express";
 
 const router = Router();
 
@@ -717,11 +718,24 @@ router.route('/explore')
         }
     })
 
+interface ReqQuery {
+    query: string;
+    distribFilters: Array<string>;
+    wcFilters: Array<string>;
+    nrEligible: boolean;
+    offeredNext: boolean;
+}
 router.route('/search')
-    .get(async (req, res) => {
+    .get(async (req: Request<unknown, unknown, unknown, ReqQuery>, res) => {
         try {
-            const result = await SearchController.getSearch(String(req.query.query));
-            // console.log(result);
+            const result = await SearchController.getSearch(
+                req.query.query, 
+                req.query.distribFilters, 
+                req.query.wcFilters, 
+                req.query.offeredNext, 
+                req.query.nrEligible
+            );
+            // console.log(req.query);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });

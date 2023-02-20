@@ -1,10 +1,13 @@
 import { CourseModel } from '../model/course.model';
 import { DepartmentModel } from '../model/department.model';
 
-export const getSearch = async (searchInput: string) => {
+export const getSearch = async (searchString: string, distribFilters: Array<string>, wcFilters: Array<string>, offeredNext: boolean, nrEligible: boolean) => {
     let result = [];
-    let searchString = searchInput;
-    console.log(searchString)
+    console.log(offeredNext)
+
+    if (!searchString) {
+        result = await CourseModel.find({});
+    }
 
     // split searchString into numeric (courseNumber) and alpha (courseDept) strings and query based on strings
     // see https://stackoverflow.com/questions/49887578/splitting-a-string-with-a-decimal-number-and-some-characters for match() details
@@ -265,6 +268,7 @@ export const getSearch = async (searchInput: string) => {
         );
     }
 
+    // console.log(result)
 
     return result;
 }
