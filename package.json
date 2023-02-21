@@ -6,9 +6,9 @@
   "author": "Vi-N-Tran <Vi.n.tran.23@dartmouth.edu>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev index.ts",
-    "build": "rm -r ./build && tsc",
-    "start": "nodemon"
+    "dev": "ts-node-dev ./src/index.ts",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
   },
   "devDependencies": {
     "cache-loader": "^4.1.0",

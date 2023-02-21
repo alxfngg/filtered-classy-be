@@ -1,5 +1,5 @@
 import { StudentModel } from '../model/student.model';
-import mongoose, { ObjectId } from 'mongoose';
+import { CourseModel } from '../model/course.model';
 
 export const getStudents = async () => {
     const students = await StudentModel.find({});
@@ -7,30 +7,51 @@ export const getStudents = async () => {
 }
 
 export const getCourseStudents = async (id: string) => {
-    const students = await StudentModel.find({coursesTaken: id});
+    const students = await StudentModel.find({ coursesTaken: id });
     return students;
 }
 
 export const getMajorStudents = async (id: string) => {
-    const students = await StudentModel.find({majors: id});
+    const students = await StudentModel.find({ majors: id });
     return students;
 }
 
 export const getMinorStudents = async (id: string) => {
-    const students = await StudentModel.find({minors: id});
+    const students = await StudentModel.find({ minors: id });
     return students;
 }
 
 export const getFavProfsStudents = async (id: string) => {
-    const students = await StudentModel.find({favProfs: id});
+    const students = await StudentModel.find({ favProfs: id });
     return students;
 }
 
 export const getStudent = async (id: string) => {
-    const student = await StudentModel.find({id: id})
-    .populate('shoppingCart')
-    .populate('currentCourses');
-    return student;
+    const student = await StudentModel.findOne({ _id: id })
+        .populate('shoppingCart')
+        .populate('currentCourses')
+        .populate('coursesTaken')
+        .populate({
+            path: 'friends',
+            // Get friends of friends - populate the 'friends' array for every friend
+            populate: { path: 'user' }
+        });
+      const waitlists = await CourseModel.find({
+        '$or': [{'offerings.waitlist': `ObjectId('${id}')`},
+            {'offerings.priorityWaitlist': `ObjectId('${id}')`}
+        ]
+    })
+    return {student, waitlists};
+}
+
+export const getFriends = async (studentId: string) => {
+    const student = await StudentModel.findOne({ _id: studentId })
+        .populate({
+            path: 'friends',
+            // Get friends of friends - populate the 'friends' array for every friend
+            populate: { path: 'user' }
+        });
+    if (student) return student.friends;
 }
 
 export const createStudent = async (student: object) => {
@@ -68,16 +89,36 @@ export const deleteStudent = async (id: string) => {
 }
 
 export const markAsTaken = async (studentId: string, courseId: string, taken: string) => {
-    console.log(studentId, courseId, taken);
     try {
         if (taken == 'false') {
-            console.log('false');
             const res = await StudentModel.findByIdAndUpdate(studentId, {$addToSet: {coursesTaken: courseId}}).exec();
-            console.log(res);
         } else {
-            console.log('true');
             const res = await StudentModel.findByIdAndUpdate(studentId, {$pull: {coursesTaken: courseId}}).exec();
-            console.log(res);
+        }
+    } catch (err) {
+        console.log('Error::' + err);
+    }
+}
+
+export const currentCourses = async (studentId: string, courseId: string, taking: string) => {
+    try {
+        if (taking == 'false') {
+            const res = await StudentModel.findByIdAndUpdate(studentId, {$addToSet: {currentCourses: courseId}}).exec();
+        } else {
+            const res = await StudentModel.findByIdAndUpdate(studentId, {$pull: {currentCourses: courseId}}).exec();
+        }
+    } catch (err) {
+        console.log('Error::' + err);
+    }
+}
+
+export const shoppingCart = async (studentId: string, courseId: string, add: string) => {
+    console.log('cart', studentId, courseId, add);
+    try {
+        if (add == 'false') {
+            const res = await StudentModel.findByIdAndUpdate(studentId, {$addToSet: {shoppingCart: courseId}}).exec();
+        } else {
+            const res = await StudentModel.findByIdAndUpdate(studentId, {$pull: {shoppingCart: courseId}}).exec();
         }
     } catch (err) {
         console.log('Error::' + err);
