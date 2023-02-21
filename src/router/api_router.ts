@@ -575,6 +575,16 @@ router.route('/students/:id')
         }
     });
 
+router.route('/students/friends/:id')
+    .get(async (req, res) => {
+        try {
+            const result = await StudentController.getFriends(req.params.id);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    });
+
 router.route('/visibilitygroups')
     .get(async (req, res) => {
         try {
@@ -759,7 +769,7 @@ router.route('/waitlist/join')
             res.status(500).json({ error });
         }
     }
-)
+    )
 
 router.route('/waitlist/addone')
     .put(async (req, res) => {
@@ -771,7 +781,7 @@ router.route('/waitlist/addone')
             res.status(500).json({ error });
         }
     }
-)
+    )
 
 router.route('/waitlist/remove')
     .put(async (req, res) => {
@@ -783,7 +793,7 @@ router.route('/waitlist/remove')
             res.status(500).json({ error });
         }
     }
-)
+    )
 
 router.route('/waitlist/withdraw')
     .post(async (req, res) => {
@@ -795,7 +805,7 @@ router.route('/waitlist/withdraw')
             res.status(500).json({ error });
         }
     }
-    
-)
+
+    )
 
 export default router;
