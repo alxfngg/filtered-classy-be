@@ -718,13 +718,27 @@ router.route('/explore')
         }
     })
 
+
+type Distrib = {
+    name: string;
+    pastel: string;
+    dark: string;
+}
+
+type WC = {
+    name: string;
+    pastel: string;
+    dark: string;
+}
+
 interface ReqQuery {
     query: string;
-    distribFilters: Array<string>;
-    wcFilters: Array<string>;
+    distribFilters: Array<Distrib>;
+    wcFilters: Array<WC>;
     nrEligible: boolean;
     offeredNext: boolean;
 }
+
 router.route('/search')
     .get(async (req: Request<unknown, unknown, unknown, ReqQuery>, res) => {
         try {

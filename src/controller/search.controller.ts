@@ -1,9 +1,21 @@
 import { CourseModel } from '../model/course.model';
 import { DepartmentModel } from '../model/department.model';
 
-export const getSearch = async (searchString: string, distribFilters: Array<string>, wcFilters: Array<string>, offeredNext: boolean, nrEligible: boolean) => {
+type Distrib = {
+    name: string;
+    pastel: string;
+    dark: string;
+}
+
+type WC = {
+    name: string;
+    pastel: string;
+    dark: string;
+}
+
+export const getSearch = async (searchString: string, distribFilters: Array<Distrib>, wcFilters: Array<WC>, offeredNext: boolean, nrEligible: boolean) => {
     let result = [];
-    console.log(offeredNext)
+    console.log(distribFilters)
 
     if (!searchString) {
         result = await CourseModel.find({});
@@ -270,5 +282,23 @@ export const getSearch = async (searchString: string, distribFilters: Array<stri
 
     // console.log(result)
 
+    
+    if (distribFilters) {
+        const distribNames = distribFilters.map((distrib) => distrib.name);
+        result = result.filter((course) => (ArrIntersect(course.distribs, distribNames).length !== 0));
+    }
+
     return result;
+}
+
+const ArrIntersect = (array1: Array<string>, array2: Array<string> ) => {
+    // console.log(array1);
+    // console.log(array2);
+    if (array1 === null) {
+        array1 = [];
+    }
+    if (array2 === null) {
+        array2 = [];
+    }
+    return array1.filter(value => array2.includes(value));
 }
