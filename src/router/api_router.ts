@@ -19,6 +19,7 @@ import * as ReviewController from "../controller/review.controller"
 import { CourseModel } from "../model/course.model";
 import { UploadController } from '../controller/s3.controller';
 import { multerConfig } from '../config/multerConfig';
+import console from "console";
 
 const router = Router();
 
@@ -540,7 +541,7 @@ router.route('/users/:id')
     })
     .put(async (req, res) => {
         try {
-            const result = await UserController.updateUser(req.body.id, req.body);
+            const result = await UserController.updateUser(req.params.id, req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -575,6 +576,16 @@ router.route('/students/:id')
     .delete(async (req, res) => {
         try {
             const result = await StudentController.deleteStudent(req.body.id);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    });
+
+router.route('/students/friends/:id')
+    .get(async (req, res) => {
+        try {
+            const result = await StudentController.getFriends(req.params.id);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -765,7 +776,7 @@ router.route('/waitlist/join')
             res.status(500).json({ error });
         }
     }
-)
+    )
 
 router.route('/waitlist/addone')
     .put(async (req, res) => {
@@ -777,7 +788,7 @@ router.route('/waitlist/addone')
             res.status(500).json({ error });
         }
     }
-)
+    )
 
 router.route('/waitlist/remove')
     .put(async (req, res) => {
@@ -789,7 +800,7 @@ router.route('/waitlist/remove')
             res.status(500).json({ error });
         }
     }
-)
+    )
 
 router.route('/waitlist/withdraw')
     .post(async (req, res) => {
@@ -802,6 +813,7 @@ router.route('/waitlist/withdraw')
         }
     }   
 )
+
 
 router.route('/home')
     .get(async (req, res) => {

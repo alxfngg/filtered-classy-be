@@ -7,39 +7,51 @@ export const getStudents = async () => {
 }
 
 export const getCourseStudents = async (id: string) => {
-    const students = await StudentModel.find({coursesTaken: id});
+    const students = await StudentModel.find({ coursesTaken: id });
     return students;
 }
 
 export const getMajorStudents = async (id: string) => {
-    const students = await StudentModel.find({majors: id});
+    const students = await StudentModel.find({ majors: id });
     return students;
 }
 
 export const getMinorStudents = async (id: string) => {
-    const students = await StudentModel.find({minors: id});
+    const students = await StudentModel.find({ minors: id });
     return students;
 }
 
 export const getFavProfsStudents = async (id: string) => {
-    const students = await StudentModel.find({favProfs: id});
+    const students = await StudentModel.find({ favProfs: id });
     return students;
 }
 
 export const getStudent = async (id: string) => {
-    console.log('received', id);
-    const student = await StudentModel.findById(id)
-    .populate('user')
-    .populate('shoppingCart')
-    .populate('currentCourses')
-    .populate('coursesTaken');
-
-    const waitlists = await CourseModel.find({
+    const student = await StudentModel.findOne({ _id: id })
+        .populate('shoppingCart')
+        .populate('currentCourses')
+        .populate('coursesTaken');
+        .populate({
+            path: 'friends',
+            // Get friends of friends - populate the 'friends' array for every friend
+            populate: { path: 'user' }
+        });
+      const waitlists = await CourseModel.find({
         '$or': [{'offerings.waitlist': `ObjectId('${id}')`},
             {'offerings.priorityWaitlist': `ObjectId('${id}')`}
         ]
     })
     return {student, waitlists};
+}
+
+export const getFriends = async (studentId: string) => {
+    const student = await StudentModel.findOne({ _id: studentId })
+        .populate({
+            path: 'friends',
+            // Get friends of friends - populate the 'friends' array for every friend
+            populate: { path: 'user' }
+        });
+    if (student) return student.friends;
 }
 
 export const createStudent = async (student: object) => {
@@ -91,13 +103,9 @@ export const markAsTaken = async (studentId: string, courseId: string, taken: st
 export const currentCourses = async (studentId: string, courseId: string, taking: string) => {
     try {
         if (taking == 'false') {
-            console.log('false');
             const res = await StudentModel.findByIdAndUpdate(studentId, {$addToSet: {currentCourses: courseId}}).exec();
-            console.log(res);
         } else {
-            console.log('true');
             const res = await StudentModel.findByIdAndUpdate(studentId, {$pull: {currentCourses: courseId}}).exec();
-            console.log(res);
         }
     } catch (err) {
         console.log('Error::' + err);
