@@ -30,7 +30,7 @@ export const getStudent = async (id: string) => {
     const student = await StudentModel.findOne({ _id: id })
         .populate('shoppingCart')
         .populate('currentCourses')
-        .populate('coursesTaken');
+        .populate('coursesTaken')
         .populate({
             path: 'friends',
             // Get friends of friends - populate the 'friends' array for every friend
