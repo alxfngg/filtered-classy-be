@@ -29,7 +29,6 @@ const UserSchema: Schema = new Schema({
   professor: { type: Schema.Types.ObjectId, ref: 'Professor' },
   student: { type: Schema.Types.ObjectId, ref: 'Student' },
   profileImageUrl: { type: String },
-
   createDate: { type: Date, default: Date.now },
   updatedDate: { type: Date, default: Date.now },
   timestamps: { createDate: Date, updatedDate: Date }
