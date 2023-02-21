@@ -34,7 +34,18 @@ export const getStudent = async (id: string) => {
             path: 'friends',
             // Get friends of friends - populate the 'friends' array for every friend
             populate: { path: 'user' }
-        });
+        })
+        .populate({
+            path: 'coursesRecommended',
+            populate: { path: 'course' }
+        })
+        .populate({
+            path: 'coursesRecommended',
+            populate: {
+                path: 'friend',
+                populate: { path: 'user' }
+            }
+        })
     return student;
 }
 
@@ -60,10 +71,9 @@ export const createStudent = async (student: object) => {
 
 export const updateStudent = async (id: string, student: object) => {
     try {
-        await StudentModel.findByIdAndUpdate(id, {
-            student: student,
-        }, { new: true }) as object;
-        const updatedStudent: object = await StudentModel.findById({ _id: id }) as object;
+        console.log(student);
+        const updatedStudent = await StudentModel.findByIdAndUpdate({ _id: id }, student, { new: true }) as object;
+        console.log("updatedStudent::: ", updatedStudent)
         return updatedStudent;
     } catch (err) {
         console.log('Error::' + err);
