@@ -1,111 +1,273 @@
 import { CourseModel } from '../model/course.model';
 import { DepartmentModel } from '../model/department.model';
 
-export const getSearch = async (searchString: string) => {
+type Distrib = {
+    name: string;
+    pastel: string;
+    dark: string;
+}
 
-    console.log(searchString);
+type WC = {
+    name: string;
+    pastel: string;
+    dark: string;
+}
 
-    // function to check if a string contains numbers
-    // function hasNumber(myString: string) {
-    //     return /\d/.test(myString);
-    // }
+export const getSearch = async (searchString: string, distribFilters: Array<Distrib>, wcFilters: Array<WC>, offeredNext: boolean, nrEligible: boolean) => {
+    let result = [];
+    console.log(distribFilters)
 
-    // split searchString into numeric (courseNumber) and nonnumeric (courseDept) strings and query based on strings
+    if (!searchString) {
+        result = await CourseModel.find({});
+    }
+
+    // split searchString into numeric (courseNumber) and alpha (courseDept) strings and query based on strings
     // see https://stackoverflow.com/questions/49887578/splitting-a-string-with-a-decimal-number-and-some-characters for match() details
-    const nonnumeric = searchString.match(/[a-zA-Z ]+/ig);
+    const alpha = searchString.match(/[a-zA-Z, ]+/ig);
     const numeric = searchString.match(/[\d\.?]+/ig);
 
-    // if searchString has numeric values search from courseDept + courseNum
-    if (numeric && numeric.length >= 1) {
-        // const alpha = searchString.match(/[a-zA-Z]+);
-        // const num = searchString.match(/[a-zA-Z]+|[\d\.?]+/ig);
-        // if (result) {
-        //     nonnumeric = result[0];
-        //     numeric = result[1].replace(/^0+/, ""); // remove all leading 0s in numeric
-        // }
+    let deptCodes: any[] = [];
 
-        const num = numeric[0].replace(/^0+/, ""); // remove all leading 0s in numeric
+    if (alpha) {
+        const alphQuery = alpha[0].trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // remove spaces leading and trailing in alpha, escape regex https://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex
 
-        if (nonnumeric && nonnumeric[0] && num) {
-            console.log("Searching coursedeptnum");
-
-            const deptNumSearch = await CourseModel.aggregate(
-                [
-                    {
-                      '$search': {
-                        'index': 'coursesearch', 
-                        'compound': {
-                          'must': [
-                            {
-                              'text': {
-                                'query': nonnumeric[0], 
-                                'path': {
-                                  'wildcard': '*'
-                                }
-                              }
-                            }, {
-                              'text': {
-                                'query': num, 
-                                'path': {
-                                  'wildcard': '*'
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  ]
-            );
-
-            return deptNumSearch;
-
+        if (alphQuery.length == 4 || alphQuery.length == 3) {
+            deptCodes.push(alphQuery);
         }
 
+        const dept = await DepartmentModel.find({ name: new RegExp('^' + alphQuery + '$', 'i') });
+
+        // console.log(alpha[0].trim());
+
+        if (dept[0]) { // if department exists, concatenate department codes to deptCodes
+            deptCodes = deptCodes.concat(dept[0].codes);
+            console.log(deptCodes)
+        }
+    }
+
+    
+    // // find using departments case insensitive regex https://stackoverflow.com/questions/26699885/how-can-i-use-a-regex-variable-in-a-query-for-mongodb
+    // if (alpha) {
+    //     const dept = await DepartmentModel.find({ name: new RegExp('^' + alpha[0].trim() + '$', 'i') });
+
+    //     if (dept[0]) { // if department exists, concatenate department codes to deptCodes
+    //         deptCodes = deptCodes.concat(dept[0].codes);
+    //         console.log(deptCodes)
+    //     }
+    // }
+
+    
+
+    
+    // console.log(alpha);
+    
+
+    // if numeric values
+    if (numeric) { 
+        
+        const numQuery = numeric[0].replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/^0+/, "") + '.*'; // escape regex https://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex, remove all leading 0s in numeric
+
+        // if numeric and alpha values, search for matching alpha AND numeric
+        if (alpha) {
+            if (deptCodes.length !== 0) {
+                console.log("here");
+
+                const promises = deptCodes.map((deptCode) => {
+                    return CourseModel.aggregate(
+                        [
+                            {
+                                '$search': {
+                                'index': 'coursesearch', 
+                                'compound': {
+                                    'must': [
+                                    {
+                                        'text': {
+                                        'query': deptCode, 
+                                        'path': {
+                                            'wildcard': '*'
+                                        }
+                                        }
+                                    }, {
+                                        'regex': {
+                                        'query': numQuery,
+                                        'allowAnalyzedField': true,
+                                        'path': {
+                                            'wildcard': '*'
+                                        }
+                                        }
+                                    }
+                                    ]
+                                }
+                                }
+                            }
+                            ]
+                    );
+                
+                });
+        
+                const searchResults = await Promise.all(promises);
+                result = searchResults.flat().sort((a,b) => a.courseNum - b.courseNum); // sort by course number
+
+                // console.log("Searching coursedeptnum");
+
+                // console.log(result);
+
+            }
+            
+        }
+
+        // if numeric values but no alpha values, search for matching numeric from all courses and sort by courseDept
+        else { 
+            console.log(alpha);
+            result = await CourseModel.aggregate(
+                [{
+                    '$search': {
+                     'index': 'coursesearch',
+                     'text': {
+                      'query': numQuery,
+                      'path': {
+                       'wildcard': '*'
+                      }
+                     }
+                    }
+                   }, {
+                    '$sort': {
+                     'courseDept': 1
+                    }
+                   }]
+            );
+        }
 
     }
 
-    // if nonnumeric is exactly 3 or 4 characters, search from departments
-    else if (nonnumeric && (nonnumeric[0].length == 4 || nonnumeric[0].length == 3)) {
-        console.log("Searching dept");
+    // if no numeric values but alpha values
+    // else if (alpha) {
+    //     console.log("No numeric but alpha")
 
-        const deptSearch = await CourseModel.aggregate(
+    //     const alphQuery = alpha[0];
+
+    //     // if no numeric values but alpha values with length 3 or 4, search for all courses with matching courseDept and sort by courseNum
+    //     if (alphQuery.length == 4 || alphQuery.length == 3) {
+    //         // console.log("Searching dept");
+    
+    //         result = await CourseModel.aggregate(
+    //             [
+    //                 {
+    //                     '$search': {
+    //                     'index': 'coursesearch', 
+    //                     'text': {
+    //                         'query': alphQuery,
+    //                         'path': 'courseDept'
+    //                     }
+    //                     }
+    //                 },
+    //                 {
+    //                     '$sort': {
+    //                         'courseNum': 1
+    //                     }
+    //                 }
+        
+    //                 ]
+    //         );
+    //     }
+        
+        // if no numeric values but contains alpha values and no results, use autocomplete search for matching courseTitle and sort by searchScore
+        // if (result.length === 0) { 
+        //     // console.log("here");
+
+        //     result = await CourseModel.aggregate(
+        //         [
+        //             {
+        //                 '$search': {
+        //                 'index': 'coursesearch', 
+        //                 'autocomplete': {
+        //                     'query': alphQuery,
+        //                     'path': 'courseTitle',
+        //                 }
+        //                 }
+        //             },
+        //             {
+        //                 '$addFields': {
+        //                     'score': {
+        //                         '$meta': 'searchScore'
+        //                     }
+        //                 }
+        //             }
+        //             ]
+        //     );
+        // }
+
+    // }
+
+    // if (!numeric && result.length === 0 && alpha) {
+    //     // console.log("Searching dept");
+    //     const alphQuery = alpha[0].replace(/\s/g, ''); // remove spaces in alpha
+
+    //     if (alphQuery.length == 4 || alphQuery.length == 3) {
+            
+    //         result = await CourseModel.aggregate(
+    //             [
+    //                 {
+    //                     '$search': {
+    //                     'index': 'coursesearch', 
+    //                     'text': {
+    //                         'query': alphQuery,
+    //                         'path': 'courseDept'
+    //                     }
+    //                     }
+    //                 },
+    //                 {
+    //                     '$sort': {
+    //                         'courseNum': 1
+    //                     }
+    //                 }
+        
+    //                 ]
+    //         );
+
+    //     }
+    // }
+
+    if (deptCodes.length !== 0 && !numeric) {
+         
+        const promises = deptCodes.map((code) => {
+            return CourseModel.aggregate(
             [
                 {
-                  '$search': {
+                    '$search': {
                     'index': 'coursesearch', 
                     'text': {
-                        'query': nonnumeric[0],
+                        'query': code,
                         'path': 'courseDept'
                     }
-                  }
+                    }
                 },
                 {
                     '$sort': {
                         'courseNum': 1
                     }
                 }
-    
-              ]
-        );
+                ]
+            );
+        
+        });
 
-        return deptSearch;
-
+        const searchResults = await Promise.all(promises);
+        result = searchResults.flat();
+        // console.log(result);
     }
 
-    
-    // if searchString doesn't contain any numbers and is not 4 characters long and contains any letters/nonnumerics, search from course titles
-    else if (nonnumeric && nonnumeric[0]) {
-        const nameSearch = await CourseModel.aggregate(
+    if (result.length === 0 && searchString) { 
+        result = await CourseModel.aggregate(
             [
                 {
-                  '$search': {
+                    '$search': {
                     'index': 'coursesearch', 
                     'autocomplete': {
-                        'query': nonnumeric[0],
+                        'query': searchString,
                         'path': 'courseTitle',
                     }
-                  }
+                    }
                 },
                 {
                     '$addFields': {
@@ -114,16 +276,29 @@ export const getSearch = async (searchString: string) => {
                         }
                     }
                 }
-              ]
+                ]
         );
-        return nameSearch;
-        // console.log(nonnumeric[0]);
-        // console.log("here")
     }
 
-    
+    // console.log(result)
 
-    // const departments = await DepartmentModel.find( {});
-    // console.log('courses:::', courses);
-    // return {courses3};
+    
+    if (distribFilters) {
+        const distribNames = distribFilters.map((distrib) => distrib.name);
+        result = result.filter((course) => (ArrIntersect(course.distribs, distribNames).length !== 0));
+    }
+
+    return result;
+}
+
+const ArrIntersect = (array1: Array<string>, array2: Array<string> ) => {
+    // console.log(array1);
+    // console.log(array2);
+    if (array1 === null) {
+        array1 = [];
+    }
+    if (array2 === null) {
+        array2 = [];
+    }
+    return array1.filter(value => array2.includes(value));
 }

@@ -19,6 +19,7 @@ import * as ReviewController from "../controller/review.controller"
 import { CourseModel } from "../model/course.model";
 import { UploadController } from '../controller/s3.controller';
 import { multerConfig } from '../config/multerConfig';
+import { Request } from "express";
 import console from "console";
 
 const router = Router();
@@ -734,14 +735,42 @@ router.route('/explore')
         }
     })
 
+
+type Distrib = {
+    name: string;
+    pastel: string;
+    dark: string;
+}
+
+type WC = {
+    name: string;
+    pastel: string;
+    dark: string;
+}
+
+interface ReqQuery {
+    query: string;
+    distribFilters: Array<Distrib>;
+    wcFilters: Array<WC>;
+    nrEligible: boolean;
+    offeredNext: boolean;
+}
+
 router.route('/search')
-    .get(async (req, res) => {
+    .get(async (req: Request<unknown, unknown, unknown, ReqQuery>, res) => {
         try {
-            const result = await SearchController.getSearch(String(req.query.query));
-            console.log(result);
+            const result = await SearchController.getSearch(
+                req.query.query, 
+                req.query.distribFilters, 
+                req.query.wcFilters, 
+                req.query.offeredNext, 
+                req.query.nrEligible
+            );
+            // console.log(req.query);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
+            console.log(error);
         }
     })
 
