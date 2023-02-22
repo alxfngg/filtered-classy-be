@@ -1,9 +1,15 @@
+import { CourseModel } from "../model/course.model";
 import { ReviewModel } from "../model/review.model";
 
-export const createReview = async (review: object) => {
+export const createReview = async (courseId: string, offeringIndex: string, review: object) => {
     let data = {};
     try {
-        data = await ReviewModel.create(review);
+        const key: string = `offerings.${offeringIndex}.reviews`;
+        var query: { [key: string]: Object; }  = {};
+        query[key] = review;
+        return await CourseModel.findByIdAndUpdate(courseId,
+        { $addToSet: query}
+    );
     } catch (err) {
         console.log('Error::' + err);
     }

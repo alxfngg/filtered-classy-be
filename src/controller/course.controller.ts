@@ -45,7 +45,9 @@ export const getCourse = async (dept: string, num: string) => {
             {'offerings.priorityWaitlist': `ObjectId('${studentId}')`}
         ]
     }) !== null;
-    return {course, users, student, onWaitlist};
+    const key = `ObjectId('${studentId}')`;
+    const wroteReview = await CourseModel.findOne({courseDept: dept, courseNum: num, "offerings.reviews.user": key }) !== null;
+    return {course, users, student, wroteReview, onWaitlist};
 }
 
 // use the same function for distrib and wc by specifying type
