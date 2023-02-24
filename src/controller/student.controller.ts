@@ -73,7 +73,6 @@ export const updateStudent = async (id: string, student: object) => {
     try {
         console.log(student);
         const updatedStudent = await StudentModel.findByIdAndUpdate({ _id: id }, student, { new: true }) as object;
-        console.log("updatedStudent::: ", updatedStudent)
         return updatedStudent;
     } catch (err) {
         console.log('Error::' + err);
