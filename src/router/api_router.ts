@@ -446,7 +446,7 @@ router.route('/students/:id')
     })
     .put(async (req, res) => {
         try {
-            const result = await StudentController.updateStudent(req.body.id, req.body.student);
+            const result = await StudentController.updateStudent(req.params.id, req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -731,7 +731,6 @@ router.route('/search')
     .get(async (req, res) => {
         try {
             const result = await SearchController.getSearch(String(req.query.query));
-            console.log(result);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -804,8 +803,17 @@ router.route('/waitlist/withdraw')
         } catch (error) {
             res.status(500).json({ error });
         }
-    }
+    })
 
-    )
+
+router.route('/home')
+    .get(async (req, res) => {
+        try {
+            const result = await StudentController.getStudent('63c4424ce18e75a330906128');
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+        }
+    })
 
 export default router;

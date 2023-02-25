@@ -34,7 +34,20 @@ export const getStudent = async (id: string) => {
             path: 'friends',
             // Get friends of friends - populate the 'friends' array for every friend
             populate: { path: 'user' }
-        });
+        })
+        .populate({
+            path: 'coursesRecommended',
+            populate: { path: 'course' }
+        })
+        .populate({
+            path: 'coursesRecommended',
+            populate: {
+                path: 'friend',
+                populate: { path: 'user' }
+            }
+        })
+        .populate('shoppingCart')
+        .populate('user')
     return student;
 }
 
