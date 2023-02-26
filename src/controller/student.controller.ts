@@ -27,7 +27,7 @@ export const getFavProfsStudents = async (id: string) => {
 }
 
 export const getStudent = async (id: string) => {
-    const student = await StudentModel.findOne({ _id: id })
+    const student = await StudentModel.findOne({ _id: `ObjectId('${id}')` })
         .populate('shoppingCart')
         .populate('currentCourses')
         .populate('coursesTaken')

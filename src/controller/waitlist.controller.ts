@@ -34,7 +34,8 @@ export const getWaitlist = async (dept: String, num: String) => {
 // add a student's waitlist entry for all terms they are interested in taking the course
 export const joinWaitlists = async (dept: String, num: String, 
     studentId: String, offeringIndices: Array<String>, reason: String) => {
-    await CourseModel.updateOne({'courseDept': dept, 'courseNum': num}, {$push: {"waitlistReasons": {student: studentId, reason: reason}}})
+    const course = await CourseModel.findOne({'courseDept': dept, 'courseNum': num});
+    await StudentModel.findByIdAndUpdate(studentId, {'waitlistReasons': {$push: {"waitlistReasons": {course: course?._id, reason: reason}}}})
     for (const offeringIndex of offeringIndices) {
         addToOneWaitlist(dept, num, studentId, offeringIndex);
     }

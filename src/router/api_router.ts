@@ -130,6 +130,7 @@ router.route('/courses/:dept/:num')
             const result = await CourseController.getCourse(req.params.dept, req.params.num);
             res.json(result);
         } catch (error) {
+            console.log(error);
             res.status(500).json({ error });
         }
     })
@@ -751,6 +752,7 @@ router.route('/waitlist')
             const result = await WaitlistController.getWaitlists();
             res.json(result);
         } catch (error) {
+            console.log('ERROR', error);
             res.status(500).json({ error });
         }
     })
@@ -822,6 +824,19 @@ router.route('/home')
             console.log('returning', result);
             res.json(result);
         } catch (error) {
+            console.log(error);
+            res.status(500).json({ error });
+        }
+    })
+
+router.route('/prof_home/:name')
+    .get(async (req, res) => {
+        try {
+            const result = await ProfessorController.getProfessor(req.params.name);
+            console.log('returning', result);
+            res.json(result);
+        } catch (error) {
+            console.log(error);
             res.status(500).json({ error });
         }
     })

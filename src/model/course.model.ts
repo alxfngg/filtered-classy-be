@@ -9,7 +9,7 @@ export interface ICourse extends Document {
   counts: number[]; // prerequisites for this course
   distribs: string[]; // distribs for this course
   worldCulture: string;
-  offerings: IOffering[];  // terms offered for this course
+  offerings: IOffering[];
   xlists: Types.ObjectId[]; // crosslisted courses
   pe: boolean; // pe for this course
   fys: boolean; // fys for this course
@@ -20,7 +20,6 @@ export interface ICourse extends Document {
   avgDifficulty: number; // avgDifficulty for this course
   avgQuality: number; // avgQuality for this course
   reviewCount: number;  // number of reviews for this course
-  waitlistReasons: {student: string, reason: string}; // waitlist for this course
   reviews: Types.ObjectId[]; // reviews for this course
   syllabi: string[]; // syllabi for this course
 
@@ -38,21 +37,28 @@ const CourseSchema: Schema = new Schema({
   counts: [{ type: Number }], // number of prereqs required
   distribs: [{ type: String }], // distribs for this course
   worldCulture: { type: String }, // worldCulture for this course
-  offerings: [{ type: Object }], // terms offered for this course
+  offerings: [{
+    waitlist: [{
+        type: Schema.Types.ObjectId,
+        ref: 'Student',
+      }],
+    priorityWaitlist: [{
+        type: Schema.Types.ObjectId,
+        ref: 'Student'
+      }]
+  }],
   xlists: [{ type: String }], // crosslisted courses
   pe: { type: Boolean, default: false }, // pe for this course
   fys: { type: Boolean, default: false }, // fys for this course
   language: { type: String, default: false }, // language for this course
   medians: { type: Object }, // medians for this course
   avgMedian: {type: Number},
-//   layupListPage: { type: String, required: true }, // layupListPage for this course
   avgWorkload: { type: Number }, // avgTimeCommitment for this course
   avgDifficulty: { type: Number }, // avgDifficulty for this course
   avgQuality: { type: Number }, // avgQuality for this course
   reviewCount: {type: Number }, // review count for this course
-  waitlistReasons: [{ type: Object}], // waitlist for this course
   reviews: [{ type: Schema.Types.ObjectId, ref: 'Review' }], // reviews for this course
-  syllabi: [{ type: String, required: true }], // syllabi for this course
+  syllabi: [{ type: String }], // syllabi for this course
 
   createDate: { type: Date, default: Date.now },
   updatedDate: { type: Date, default: Date.now },
@@ -61,8 +67,8 @@ const CourseSchema: Schema = new Schema({
 );
 
 interface IOffering {
-    waitlist: string[];
-    priorityWaitlist: string[];
+    waitlist: Types.ObjectId[];
+    priorityWaitlist: Types.ObjectId[];
 }
 
 export const CourseModel: Model<ICourse> = model<ICourse>('Course', CourseSchema);
