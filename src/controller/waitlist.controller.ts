@@ -5,8 +5,8 @@ export const getWaitlists = async () => {
     const studentId = '63c4424ce18e75a330906128';
     const student = await StudentModel.findOne({'_id': studentId}).populate('user')
     const courses = await CourseModel.find({
-        '$or': [{'offerings.waitlist': `ObjectId('${studentId}')`},
-            {'offerings.priorityWaitlist': `ObjectId('${studentId}')`}
+        '$or': [{'offerings.waitlist': studentId},
+            {'offerings.priorityWaitlist': studentId}
         ]
     })
     const students = await StudentModel.find({}).populate('user')
@@ -22,8 +22,8 @@ export const getWaitlist = async (dept: String, num: String) => {
         'courseDept': dept, 
         'courseNum': num, 
         '$or': [
-            {'offerings.waitlist': `ObjectId('${studentId}')`},
-            {'offerings.priorityWaitlist': `ObjectId('${studentId}')`}
+            {'offerings.waitlist': studentId},
+            {'offerings.priorityWaitlist': studentId}
         ]
     }) !== null;
 
@@ -91,4 +91,41 @@ export const withdrawFromWaitlist = async (dept: String, num: String,
         {'courseDept': dept, 'courseNum': num}, 
         { $pull: { "waitlistReasons": studentId } }
     )
+}
+
+export const prioritize = async (dept: String, num: String, 
+    offeringIndex: String, studentId: String, priority: String) => {
+    const key: string = `offerings.${offeringIndex}.waitlist`;
+    const key2: string = `offerings.${offeringIndex}.priorityWaitlist`;
+    var query: { [key: string]: String; }  = {};
+
+    // to prioritize the student, we add them to the priority waitlist and remove them from the regular waitlist
+    if (priority == 'true') {
+        query[key] = studentId;
+        await CourseModel.updateOne(
+            {'courseDept': dept, 'courseNum': num}, 
+            { $addToSet: query}
+        );
+
+        query[key2] = studentId;
+        await CourseModel.updateOne(
+            {'courseDept': dept, 'courseNum': num}, 
+            { $pull: query}
+        );
+    // to unprioritize the student, we remove them from the priority waitlist and add them from the regular waitlist
+    } else {
+        query[key] = studentId;
+        await CourseModel.updateOne(
+            {'courseDept': dept, 'courseNum': num}, 
+            { $pull: query}
+        );
+
+        query[key2] = studentId;
+        query['position'] = '0';
+        await CourseModel.updateOne(
+            {'courseDept': dept, 'courseNum': num}, 
+            { $addToSet: query}
+        );
+    }
+    return await CourseModel.findOne({'courseDept': dept, 'courseNum': num});    
 }

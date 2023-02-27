@@ -154,6 +154,7 @@ router.route('/courses/:dept/:num')
 router.route('/student/:studentId/:courseId/:mode/:result')
     .put(async (req, res) => {
         try {
+            console.log('trying to mark', req.params.mode);
             if (req.params.mode === 'taken') {
                 await StudentController.markAsTaken(req.params.studentId, req.params.courseId, req.params.result);
             } else if (req.params.mode === 'cart') {
@@ -162,6 +163,7 @@ router.route('/student/:studentId/:courseId/:mode/:result')
                 await StudentController.currentCourses(req.params.studentId, req.params.courseId, req.params.result);
             }
         } catch (error) {
+            console.log(error);
             res.status(500).json({ error });
         }
     })
@@ -833,6 +835,19 @@ router.route('/prof_home/:name')
     .get(async (req, res) => {
         try {
             const result = await ProfessorController.getProfessor(req.params.name);
+            res.json(result);
+        } catch (error) {
+            console.log(error);
+            res.status(500).json({ error });
+        }
+    })
+
+router.route('/prioritize/:dept/:num/:offeringIndex/:studentId/:priority')
+    .put(async (req, res) => {
+        console.log('request received by backend')
+        try {
+            const result = await WaitlistController.prioritize(req.params.dept, req.params.num, 
+                req.params.offeringIndex, req.params.studentId, req.params.priority);
             console.log('returning', result);
             res.json(result);
         } catch (error) {

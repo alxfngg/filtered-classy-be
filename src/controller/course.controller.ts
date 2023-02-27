@@ -55,7 +55,6 @@ export const getCourse = async (dept: string, num: string) => {
     }) !== null;
     const key = `ObjectId('${studentId}')`;
     const wroteReview = await CourseModel.findOne({courseDept: dept, courseNum: num, "offerings.reviews.user": key }) !== null;
-    console.log('im returning the course', course);
     return {course, users, student, wroteReview, onWaitlist};
 }
 

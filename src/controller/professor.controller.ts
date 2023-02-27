@@ -14,6 +14,7 @@ export const getDeptProfessors = async (code: string) => {
 export const getProfessor = async (name: string) => {
     const professor = await ProfessorModel.findOne({name: name}).populate('user');
     const courses = await CourseModel.find({'offerings.professors': name})
+    console.log(courses);
     return {professor, courses};
 }
 

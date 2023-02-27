@@ -90,7 +90,7 @@ export const deleteStudent = async (id: string) => {
 
 export const markAsTaken = async (studentId: string, courseId: string, taken: string) => {
     try {
-        if (taken == 'false') {
+        if (taken == 'true') {
             const res = await StudentModel.findByIdAndUpdate(studentId, {$addToSet: {coursesTaken: courseId}}).exec();
         } else {
             const res = await StudentModel.findByIdAndUpdate(studentId, {$pull: {coursesTaken: courseId}}).exec();
@@ -102,7 +102,7 @@ export const markAsTaken = async (studentId: string, courseId: string, taken: st
 
 export const currentCourses = async (studentId: string, courseId: string, taking: string) => {
     try {
-        if (taking == 'false') {
+        if (taking == 'true') {
             const res = await StudentModel.findByIdAndUpdate(studentId, {$addToSet: {currentCourses: courseId}}).exec();
         } else {
             const res = await StudentModel.findByIdAndUpdate(studentId, {$pull: {currentCourses: courseId}}).exec();
