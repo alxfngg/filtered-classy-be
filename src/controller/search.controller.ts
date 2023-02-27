@@ -15,7 +15,7 @@ type WC = {
 
 export const getSearch = async (searchString: string, distribFilters: Array<Distrib>, wcFilters: Array<WC>, offeredNext: boolean, nrEligible: boolean) => {
     let result = [];
-    console.log(distribFilters)
+    // console.log(distribFilters)
 
     if (!searchString) {
         result = await CourseModel.find({});
@@ -31,13 +31,12 @@ export const getSearch = async (searchString: string, distribFilters: Array<Dist
     if (alpha) {
         const alphQuery = alpha[0].trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // remove spaces leading and trailing in alpha, escape regex https://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex
 
-        if (alphQuery.length == 4 || alphQuery.length == 3) {
+        if (alphQuery.length <= 4) {
             deptCodes.push(alphQuery);
         }
 
+        // if query exactly matches full department name, collect department codes
         const dept = await DepartmentModel.find({ name: new RegExp('^' + alphQuery + '$', 'i') });
-
-        // console.log(alpha[0].trim());
 
         if (dept[0]) { // if department exists, concatenate department codes to deptCodes
             deptCodes = deptCodes.concat(dept[0].codes);
@@ -229,6 +228,7 @@ export const getSearch = async (searchString: string, distribFilters: Array<Dist
     // }
 
     if (deptCodes.length !== 0 && !numeric) {
+        console.log(deptCodes + "deptcods")
          
         const promises = deptCodes.map((code) => {
             return CourseModel.aggregate(
@@ -236,11 +236,17 @@ export const getSearch = async (searchString: string, distribFilters: Array<Dist
                 {
                     '$search': {
                     'index': 'coursesearch', 
-                    'text': {
-                        'query': code,
-                        'path': 'courseDept'
+                    'regex': {
+                        'query': code + '.*',
+                        'allowAnalyzedField': true,
+                        'path': 'courseDept',
+                        }
+                    // 'text': {
+                    //     'query': code,
+                    //     'path': 'courseDept'
+                    // }
                     }
-                    }
+                    
                 },
                 {
                     '$sort': {
@@ -253,6 +259,7 @@ export const getSearch = async (searchString: string, distribFilters: Array<Dist
         });
 
         const searchResults = await Promise.all(promises);
+        // console.log(searchResults);
         result = searchResults.flat();
         // console.log(result);
     }
