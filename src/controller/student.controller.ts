@@ -33,7 +33,6 @@ export const getStudent = async (id: string) => {
         .populate('coursesTaken')
         .populate({
             path: 'friends',
-            // Get friends of friends - populate the 'friends' array for every friend
             populate: { path: 'user' }
         })
         .populate({
@@ -47,7 +46,6 @@ export const getStudent = async (id: string) => {
                 populate: { path: 'user' }
             }
         })
-        .populate('shoppingCart')
         .populate('user')
     return student;
 }
@@ -74,10 +72,8 @@ export const createStudent = async (student: object) => {
 
 export const updateStudent = async (id: string, student: object) => {
     try {
-        await StudentModel.findByIdAndUpdate(id, {
-            student: student,
-        }, { new: true }) as object;
-        const updatedStudent: object = await StudentModel.findById({ _id: id }) as object;
+        console.log(student);
+        const updatedStudent = await StudentModel.findByIdAndUpdate({ _id: id }, student, { new: true }) as object;
         return updatedStudent;
     } catch (err) {
         console.log('Error::' + err);
@@ -99,9 +95,9 @@ export const deleteStudent = async (id: string) => {
 export const markAsTaken = async (studentId: string, courseId: string, taken: string) => {
     try {
         if (taken == 'false') {
-            const res = await StudentModel.findByIdAndUpdate(studentId, {$addToSet: {coursesTaken: courseId}}).exec();
+            const res = await StudentModel.findByIdAndUpdate(studentId, { $addToSet: { coursesTaken: courseId } }).exec();
         } else {
-            const res = await StudentModel.findByIdAndUpdate(studentId, {$pull: {coursesTaken: courseId}}).exec();
+            const res = await StudentModel.findByIdAndUpdate(studentId, { $pull: { coursesTaken: courseId } }).exec();
         }
     } catch (err) {
         console.log('Error::' + err);
@@ -111,9 +107,9 @@ export const markAsTaken = async (studentId: string, courseId: string, taken: st
 export const currentCourses = async (studentId: string, courseId: string, taking: string) => {
     try {
         if (taking == 'false') {
-            const res = await StudentModel.findByIdAndUpdate(studentId, {$addToSet: {currentCourses: courseId}}).exec();
+            const res = await StudentModel.findByIdAndUpdate(studentId, { $addToSet: { currentCourses: courseId } }).exec();
         } else {
-            const res = await StudentModel.findByIdAndUpdate(studentId, {$pull: {currentCourses: courseId}}).exec();
+            const res = await StudentModel.findByIdAndUpdate(studentId, { $pull: { currentCourses: courseId } }).exec();
         }
     } catch (err) {
         console.log('Error::' + err);
@@ -124,9 +120,9 @@ export const shoppingCart = async (studentId: string, courseId: string, add: str
     console.log('cart', studentId, courseId, add);
     try {
         if (add == 'false') {
-            const res = await StudentModel.findByIdAndUpdate(studentId, {$addToSet: {shoppingCart: courseId}}).exec();
+            const res = await StudentModel.findByIdAndUpdate(studentId, { $addToSet: { shoppingCart: courseId } }).exec();
         } else {
-            const res = await StudentModel.findByIdAndUpdate(studentId, {$pull: {shoppingCart: courseId}}).exec();
+            const res = await StudentModel.findByIdAndUpdate(studentId, { $pull: { shoppingCart: courseId } }).exec();
         }
     } catch (err) {
         console.log('Error::' + err);
