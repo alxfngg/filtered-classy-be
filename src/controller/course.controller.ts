@@ -41,8 +41,6 @@ export const getCourse = async (dept: string, num: string) => {
         populate: { path: 'user' }
     })
     const users = await StudentModel.find({}).populate('user');
-    // console.log('course:::', course);
-    // console.log('users:::', users);
     const studentId = '63c4424ce18e75a330906128';
     const student = await StudentModel.findOne({'_id': studentId}).populate('user').populate('waitlistReasons')
     const onWaitlist = await CourseModel.findOne({
@@ -60,7 +58,6 @@ export const getCourse = async (dept: string, num: string) => {
 
 // use the same function for distrib and wc by specifying type
 export const getDistribCourses = async (type: string, distrib: string) => {
-    console.log("In getDistribCourses");
     let courses = null;
     if (type.toLowerCase() === "distrib" || type.toLowerCase() === "distribs") {
         courses = await CourseModel.find({distribs: distrib});

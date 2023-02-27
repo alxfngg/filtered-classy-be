@@ -10,7 +10,7 @@ export interface IUser extends Document {
   password: string;
   admin: boolean;
   professorId: Types.ObjectId[];
-  studentId: Types.ObjectId[];
+  student: Types.ObjectId[];
   profileImageUrl: string;
 
   createDate: Date,
