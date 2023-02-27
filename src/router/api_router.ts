@@ -454,7 +454,8 @@ router.route('/students/:id')
     })
     .put(async (req, res) => {
         try {
-            const result = await StudentController.updateStudent(req.body.id, req.body.student);
+            console.log("req body:::", req.body);
+            const result = await StudentController.updateStudent(req.params.id, req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });
@@ -568,7 +569,7 @@ router.route('/students/:id')
     })
     .put(async (req, res) => {
         try {
-            const result = await StudentController.updateStudent(req.body.id, req.body);
+            const result = await StudentController.updateStudent(req.params.id, req.body);
             res.json(result);
         } catch (error) {
             res.status(500).json({ error });

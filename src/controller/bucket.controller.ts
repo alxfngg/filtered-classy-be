@@ -1,13 +1,11 @@
 import { BucketModel } from '../model/bucket.model';
 
 export const getBuckets = async () => {
-    console.log("In getBuckets");
     const buckets = await BucketModel.find({});
     return buckets;
 }
 
 export const getBucket = async (id: string) => {
-    console.log("In getBucket");
     const bucket = await BucketModel.findOne({id: id});
     return bucket;
 }
