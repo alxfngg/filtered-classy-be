@@ -46,6 +46,7 @@ export const getStudent = async (id: string) => {
                 populate: { path: 'user' }
             }
         })
+        .populate('user')
     return student;
 }
 
