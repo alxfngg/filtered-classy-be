@@ -454,7 +454,6 @@ router.route('/students/:id')
     })
     .put(async (req, res) => {
         try {
-            console.log("req body:::", req.body);
             const result = await StudentController.updateStudent(req.params.id, req.body);
             res.json(result);
         } catch (error) {
@@ -841,8 +840,7 @@ router.route('/waitlist/withdraw')
         } catch (error) {
             res.status(500).json({ error });
         }
-    }   
-)
+    })
 
 
 router.route('/home')
