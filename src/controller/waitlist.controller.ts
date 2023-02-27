@@ -95,36 +95,34 @@ export const withdrawFromWaitlist = async (dept: String, num: String,
 
 export const prioritize = async (dept: String, num: String, 
     offeringIndex: String, studentId: String, priority: String) => {
-    const key: string = `offerings.${offeringIndex}.waitlist`;
-    const key2: string = `offerings.${offeringIndex}.priorityWaitlist`;
-    var query: { [key: string]: String; }  = {};
-
     // to prioritize the student, we add them to the priority waitlist and remove them from the regular waitlist
     if (priority == 'true') {
-        query[key] = studentId;
+        const updateQuery = {
+            $addToSet: {
+                [`offerings.${offeringIndex}.priorityWaitlist`]: studentId,
+            },
+            $pull: {
+                [`offerings.${offeringIndex}.waitlist`]: studentId,
+            },
+        };
+    
         await CourseModel.updateOne(
             {'courseDept': dept, 'courseNum': num}, 
-            { $addToSet: query}
+            updateQuery
         );
-
-        query[key2] = studentId;
+    }  else {
+        const updateQuery = {
+            $addToSet: {
+                [`offerings.${offeringIndex}.waitlist`]: studentId,
+            },
+            $pull: {
+                [`offerings.${offeringIndex}.priorityWaitlist`]: studentId,
+            },
+        };
+    
         await CourseModel.updateOne(
-            {'courseDept': dept, 'courseNum': num}, 
-            { $pull: query}
-        );
-    // to unprioritize the student, we remove them from the priority waitlist and add them from the regular waitlist
-    } else {
-        query[key] = studentId;
-        await CourseModel.updateOne(
-            {'courseDept': dept, 'courseNum': num}, 
-            { $pull: query}
-        );
-
-        query[key2] = studentId;
-        query['position'] = '0';
-        await CourseModel.updateOne(
-            {'courseDept': dept, 'courseNum': num}, 
-            { $addToSet: query}
+            {'courseDept': dept, 'courseNum': num},
+            updateQuery
         );
     }
     return await CourseModel.findOne({'courseDept': dept, 'courseNum': num});    

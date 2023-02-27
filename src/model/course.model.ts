@@ -38,6 +38,11 @@ const CourseSchema: Schema = new Schema({
   distribs: [{ type: String }], // distribs for this course
   worldCulture: { type: String }, // worldCulture for this course
   offerings: [{
+    term: { type: String },
+    period: { type: String },
+    professors: [{ type: String }],
+    reviews: [{ type: Object }],
+    waitlistOpen: { type: Boolean },
     waitlist: [{
         type: Schema.Types.ObjectId,
         ref: 'Student',
@@ -67,6 +72,11 @@ const CourseSchema: Schema = new Schema({
 );
 
 interface IOffering {
+    term: String,
+    period: String,
+    professors: String[],
+    reviews: Object[],
+    waitlistOpen: boolean,
     waitlist: Types.ObjectId[];
     priorityWaitlist: Types.ObjectId[];
 }

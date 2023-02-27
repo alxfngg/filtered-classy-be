@@ -846,19 +846,6 @@ router.route('/waitlist/withdraw')
         }
     })
 
-
-router.route('/home')
-    .get(async (req, res) => {
-        try {
-            const result = await StudentController.getStudent('63c4424ce18e75a330906128');
-            console.log('returning', result);
-            res.json(result);
-        } catch (error) {
-            console.log(error);
-            res.status(500).json({ error });
-        }
-    })
-
 router.route('/prof_home/:name')
     .get(async (req, res) => {
         try {
