@@ -31,16 +31,24 @@ export const getRandomCourses = async (num: number) => {
 }
 
 export const getCourse = async (dept: string, num: string) => {
-    const course = await CourseModel.findOne({"courseDept": dept, "courseNum": num});
+    const course = await CourseModel.findOne({"courseDept": dept, "courseNum": num})
+    .populate({ 
+        path: 'offerings.waitlist',
+        populate: { path: 'user' }
+    })
+    .populate({ 
+        path: 'offerings.priorityWaitlist',
+        populate: { path: 'user' }
+    })
     const users = await StudentModel.find({}).populate('user');
     const studentId = '63c4424ce18e75a330906128';
-    const student = await StudentModel.findOne({'_id': studentId}).populate('user')
+    const student = await StudentModel.findOne({'_id': studentId}).populate('user').populate('waitlistReasons')
     const onWaitlist = await CourseModel.findOne({
         'courseDept': dept, 
         'courseNum': num, 
         '$or': [
-            {'offerings.waitlist': `ObjectId('${studentId}')`},
-            {'offerings.priorityWaitlist': `ObjectId('${studentId}')`}
+            {'offerings.waitlist': studentId},
+            {'offerings.priorityWaitlist': studentId}
         ]
     }) !== null;
     const key = `ObjectId('${studentId}')`;

@@ -17,8 +17,8 @@ export interface IStudent extends Document {
   gradeThreshold: number; // grade threshold of the student
   timeCommitment: number; // time commitment of the student
   visibilityGroups: Types.ObjectId[]; // visibility groups of the student 
+  waitlistReasons: {course: Types.ObjectId, reason: string}; // waitlist for this course
   coursesRecommended: [{ course: Types.ObjectId, friend: Types.ObjectId }]; // courses recommended to the student
-
   createDate: Date,
   updatedDate: Date;
   timestamps?: {};
@@ -41,6 +41,7 @@ const StudentSchema: Schema = new Schema({
   gradeThreshold: { type: Number, required: true }, // grade threshold of the student
   timeCommitment: { type: Number, required: true }, // time commitment of the student
   visibilityGroups: [{ type: Schema.Types.ObjectId, ref: 'VisibilityGroup' }], // visibility groups of the student
+  waitlistReasons: [{ type: Object}], // waitlist for this course
   coursesRecommended: [{ course: { type: Schema.Types.ObjectId, ref: 'Course' }, friend: { type: Schema.Types.ObjectId, ref: 'Student' } }], // courses recommended to the student
 
   createDate: { type: Date, default: Date.now },
