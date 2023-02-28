@@ -8,8 +8,18 @@ export const getUsers = async () => {
 export const getUser = async (id: string) => {
     let user;
     try {
-        user = await UserModel.findOne({ _id: id }).populate('student').populate('professor');
-        console.log(user)
+        user = await UserModel.findOne({ _id: id })
+        .populate({
+            path: 'student',
+            populate: [
+            { path: 'coursesTaken'},
+            { path: 'currentCourses'},
+            { path: 'shoppingCart'}
+            ]
+        })
+        .populate('student')
+        .populate('professor')
+        console.log('the user is', user)
     }
     catch (err) {
         console.log('Error getting user', err);
