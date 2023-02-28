@@ -1,5 +1,4 @@
 import { StudentModel } from '../model/student.model';
-import { CourseModel } from '../model/course.model';
 
 export const getStudents = async () => {
     const students = await StudentModel.find({});
@@ -72,7 +71,6 @@ export const createStudent = async (student: object) => {
 
 export const updateStudent = async (id: string, student: object) => {
     try {
-        console.log(student);
         const updatedStudent = await StudentModel.findByIdAndUpdate({ _id: id }, student, { new: true }) as object;
         return updatedStudent;
     } catch (err) {
@@ -117,7 +115,6 @@ export const currentCourses = async (studentId: string, courseId: string, taking
 }
 
 export const shoppingCart = async (studentId: string, courseId: string, add: string) => {
-    console.log('cart', studentId, courseId, add);
     try {
         if (add == 'false') {
             const res = await StudentModel.findByIdAndUpdate(studentId, { $addToSet: { shoppingCart: courseId } }).exec();

@@ -45,7 +45,6 @@ export const joinWaitlists = async (dept: String, num: String,
 export const removeFromWaitlist = async (dept: String, num: String, 
     studentId: String, offeringIndex: String) => {
     const key: string = `offerings.${offeringIndex}.waitlist`;
-    console.log(dept, num, studentId, offeringIndex);
     var query: { [key: string]: String; }  = {};
     query[key] = studentId;
     await CourseModel.updateOne(
@@ -76,7 +75,6 @@ export const addToOneWaitlist = async (dept: String, num: String,
 // remove all of a student's waitlist entries
 export const withdrawFromWaitlist = async (dept: String, num: String, 
     studentId: String) => {
-    console.log(dept, num, studentId);
     await CourseModel.updateMany(
         {'courseDept': dept, 'courseNum': num, "offerings.waitlist": studentId}, 
         { $pull: { "offerings.$.waitlist": studentId } }
