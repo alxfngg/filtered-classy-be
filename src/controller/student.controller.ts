@@ -1,5 +1,4 @@
 import { StudentModel } from '../model/student.model';
-import { CourseModel } from '../model/course.model';
 
 export const getStudents = async () => {
     const students = await StudentModel.find({});
@@ -51,6 +50,7 @@ export const getStudent = async (id: string) => {
 }
 
 export const getFriends = async (studentId: string) => {
+    console.log('in getFriends', studentId);
     const student = await StudentModel.findOne({ _id: studentId })
         .populate({
             path: 'friends',
