@@ -96,7 +96,7 @@ export const withdrawFromWaitlist = async (dept: String, num: String,
 export const prioritize = async (dept: String, num: String, 
     offeringIndex: String, studentId: String, priority: String) => {
     // to prioritize the student, we add them to the priority waitlist and remove them from the regular waitlist
-    if (priority == 'true') {
+    if (priority == 'false') {
         const updateQuery = {
             $addToSet: {
                 [`offerings.${offeringIndex}.priorityWaitlist`]: studentId,
