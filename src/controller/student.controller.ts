@@ -50,7 +50,6 @@ export const getStudent = async (id: string) => {
 }
 
 export const getFriends = async (studentId: string) => {
-    console.log('in getFriends', studentId);
     const student = await StudentModel.findOne({ _id: studentId })
         .populate({
             path: 'friends',
@@ -72,7 +71,6 @@ export const createStudent = async (student: object) => {
 
 export const updateStudent = async (id: string, student: object) => {
     try {
-        console.log(student);
         const updatedStudent = await StudentModel.findByIdAndUpdate({ _id: id }, student, { new: true }) as object;
         return updatedStudent;
     } catch (err) {
@@ -117,7 +115,6 @@ export const currentCourses = async (studentId: string, courseId: string, taking
 }
 
 export const shoppingCart = async (studentId: string, courseId: string, add: string) => {
-    console.log('cart', studentId, courseId, add);
     try {
         if (add == 'false') {
             const res = await StudentModel.findByIdAndUpdate(studentId, { $addToSet: { shoppingCart: courseId } }).exec();
