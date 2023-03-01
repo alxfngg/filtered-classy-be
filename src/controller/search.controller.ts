@@ -253,7 +253,12 @@ export const getSearch = async (searchString: string, distribFilters: Array<Dist
                         'courseNum': 1
                     }
                 }
-                ]
+            ], {
+                collation: {
+                    locale: "en_US",
+                    numericOrdering: true
+                }
+            }
             );
         
         });
