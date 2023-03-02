@@ -592,6 +592,7 @@ router.route('/students/friends/:id')
             const result = await StudentController.getFriends(req.params.id);
             res.json(result);
         } catch (error) {
+            console.log('error fetching friends', error)
             res.status(500).json({ error });
         }
     });
