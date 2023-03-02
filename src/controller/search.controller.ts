@@ -17,9 +17,6 @@ export const getSearch = async (searchString: string, distribFilters: Array<Dist
     let result = [];
     // console.log(distribFilters)
 
-    if (!searchString) {
-        result = await CourseModel.find({});
-    }
 
     // split searchString into numeric (courseNumber) and alpha (courseDept) strings and query based on strings
     // see https://stackoverflow.com/questions/49887578/splitting-a-string-with-a-decimal-number-and-some-characters for match() details
@@ -44,20 +41,6 @@ export const getSearch = async (searchString: string, distribFilters: Array<Dist
         }
     }
 
-    
-    // // find using departments case insensitive regex https://stackoverflow.com/questions/26699885/how-can-i-use-a-regex-variable-in-a-query-for-mongodb
-    // if (alpha) {
-    //     const dept = await DepartmentModel.find({ name: new RegExp('^' + alpha[0].trim() + '$', 'i') });
-
-    //     if (dept[0]) { // if department exists, concatenate department codes to deptCodes
-    //         deptCodes = deptCodes.concat(dept[0].codes);
-    //         console.log(deptCodes)
-    //     }
-    // }
-
-    
-
-    
     // console.log(alpha);
     
 
@@ -139,94 +122,6 @@ export const getSearch = async (searchString: string, distribFilters: Array<Dist
 
     }
 
-    // if no numeric values but alpha values
-    // else if (alpha) {
-    //     console.log("No numeric but alpha")
-
-    //     const alphQuery = alpha[0];
-
-    //     // if no numeric values but alpha values with length 3 or 4, search for all courses with matching courseDept and sort by courseNum
-    //     if (alphQuery.length == 4 || alphQuery.length == 3) {
-    //         // console.log("Searching dept");
-    
-    //         result = await CourseModel.aggregate(
-    //             [
-    //                 {
-    //                     '$search': {
-    //                     'index': 'coursesearch', 
-    //                     'text': {
-    //                         'query': alphQuery,
-    //                         'path': 'courseDept'
-    //                     }
-    //                     }
-    //                 },
-    //                 {
-    //                     '$sort': {
-    //                         'courseNum': 1
-    //                     }
-    //                 }
-        
-    //                 ]
-    //         );
-    //     }
-        
-        // if no numeric values but contains alpha values and no results, use autocomplete search for matching courseTitle and sort by searchScore
-        // if (result.length === 0) { 
-        //     // console.log("here");
-
-        //     result = await CourseModel.aggregate(
-        //         [
-        //             {
-        //                 '$search': {
-        //                 'index': 'coursesearch', 
-        //                 'autocomplete': {
-        //                     'query': alphQuery,
-        //                     'path': 'courseTitle',
-        //                 }
-        //                 }
-        //             },
-        //             {
-        //                 '$addFields': {
-        //                     'score': {
-        //                         '$meta': 'searchScore'
-        //                     }
-        //                 }
-        //             }
-        //             ]
-        //     );
-        // }
-
-    // }
-
-    // if (!numeric && result.length === 0 && alpha) {
-    //     // console.log("Searching dept");
-    //     const alphQuery = alpha[0].replace(/\s/g, ''); // remove spaces in alpha
-
-    //     if (alphQuery.length == 4 || alphQuery.length == 3) {
-            
-    //         result = await CourseModel.aggregate(
-    //             [
-    //                 {
-    //                     '$search': {
-    //                     'index': 'coursesearch', 
-    //                     'text': {
-    //                         'query': alphQuery,
-    //                         'path': 'courseDept'
-    //                     }
-    //                     }
-    //                 },
-    //                 {
-    //                     '$sort': {
-    //                         'courseNum': 1
-    //                     }
-    //                 }
-        
-    //                 ]
-    //         );
-
-    //     }
-    // }
-
     if (deptCodes.length !== 0 && !numeric) {
         console.log(deptCodes + "deptcods")
          
@@ -294,6 +189,12 @@ export const getSearch = async (searchString: string, distribFilters: Array<Dist
 
     // console.log(result)
 
+
+    // if no searchString input but some filter applied, find all courses
+    if (!searchString && (distribFilters || wcFilters || offeredNext || nrEligible)) {
+        console.log('hi');
+        result = await CourseModel.find({});
+    }
     
     if (distribFilters) {
         const distribNames = distribFilters.map((distrib) => distrib.name);
