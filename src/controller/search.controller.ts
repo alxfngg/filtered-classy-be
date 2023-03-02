@@ -1,19 +1,8 @@
 import { CourseModel } from '../model/course.model';
 import { DepartmentModel } from '../model/department.model';
+import { nextTerm } from '../constants/nextTerm';
 
-type Distrib = {
-    name: string;
-    pastel: string;
-    dark: string;
-}
-
-type WC = {
-    name: string;
-    pastel: string;
-    dark: string;
-}
-
-export const getSearch = async (searchString: string, distribFilters: Array<Distrib>, wcFilters: Array<WC>, offeredNext: boolean, nrEligible: boolean) => {
+export const getSearch = async (searchString: string, distribFilters: Array<string>, wcFilters: Array<string>, offeredNext: boolean, nrEligible: boolean) => {
     let result = [];
     // console.log(distribFilters)
 
@@ -37,7 +26,7 @@ export const getSearch = async (searchString: string, distribFilters: Array<Dist
 
         if (dept[0]) { // if department exists, concatenate department codes to deptCodes
             deptCodes = deptCodes.concat(dept[0].codes);
-            console.log(deptCodes)
+            // console.log(deptCodes)
         }
     }
 
@@ -123,7 +112,7 @@ export const getSearch = async (searchString: string, distribFilters: Array<Dist
     }
 
     if (deptCodes.length !== 0 && !numeric) {
-        console.log(deptCodes + "deptcods")
+        // console.log(deptCodes + "deptcods")
          
         const promises = deptCodes.map((code) => {
             return CourseModel.aggregate(
@@ -192,13 +181,25 @@ export const getSearch = async (searchString: string, distribFilters: Array<Dist
 
     // if no searchString input but some filter applied, find all courses
     if (!searchString && (distribFilters || wcFilters || offeredNext || nrEligible)) {
-        console.log('hi');
+        console.log('Getting all courses');
         result = await CourseModel.find({});
     }
     
     if (distribFilters) {
-        const distribNames = distribFilters.map((distrib) => distrib.name);
-        result = result.filter((course) => (ArrIntersect(course.distribs, distribNames).length !== 0));
+        // const distribNames = distribFilters.map((distrib) => distrib.name);
+        result = result.filter((course) => (ArrIntersect(course.distribs, distribFilters).length !== 0));
+    }
+
+    if (wcFilters) {
+        result = result.filter((course) => wcFilters.includes(course.worldCulture));
+    }
+
+    if (offeredNext) {
+        result = result.filter((course) => course.offerings?.some((offering: { term: string; }) => offering.term.toUpperCase() === nextTerm.toUpperCase()))
+    }
+
+    if (nrEligible) {
+        result = result.filter((course) => course.nrEligible)
     }
 
     return result;
@@ -207,10 +208,10 @@ export const getSearch = async (searchString: string, distribFilters: Array<Dist
 const ArrIntersect = (array1: Array<string>, array2: Array<string> ) => {
     // console.log(array1);
     // console.log(array2);
-    if (array1 === null) {
+    if (!array1) {
         array1 = [];
     }
-    if (array2 === null) {
+    if (!array2) {
         array2 = [];
     }
     return array1.filter(value => array2.includes(value));

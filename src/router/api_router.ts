@@ -739,24 +739,12 @@ router.route('/explore')
     })
 
 
-type Distrib = {
-    name: string;
-    pastel: string;
-    dark: string;
-}
-
-type WC = {
-    name: string;
-    pastel: string;
-    dark: string;
-}
-
 interface ReqQuery {
     query: string;
-    distribFilters: Array<Distrib>;
-    wcFilters: Array<WC>;
-    nrEligible: boolean;
-    offeredNext: boolean;
+    distribFilters: Array<string>;
+    wcFilters: Array<string>;
+    nrEligible: string;
+    offeredNext: string;
 }
 
 router.route('/search')
@@ -766,8 +754,8 @@ router.route('/search')
                 req.query.query, 
                 req.query.distribFilters, 
                 req.query.wcFilters, 
-                req.query.offeredNext, 
-                req.query.nrEligible
+                JSON.parse(req.query.offeredNext), 
+                JSON.parse(req.query.nrEligible)
             );
             // console.log(req.query);
             res.json(result);
