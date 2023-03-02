@@ -765,6 +765,34 @@ router.route('/search')
         }
     })
 
+router.route('/searchProfs')
+    .get(async (req: Request<unknown, unknown, unknown, ReqQuery>, res) => {
+        try {
+            const result = await SearchController.getProfSearch(
+                req.query.query, 
+            );
+            // console.log(req.query);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+            console.log(error);
+        }
+    })
+
+router.route('/searchStudents')
+    .get(async (req: Request<unknown, unknown, unknown, ReqQuery>, res) => {
+        try {
+            const result = await SearchController.getStudentSearch(
+                req.query.query, 
+            );
+            // console.log(req.query);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+            console.log(error);
+        }
+    })
+
 router.route('/waitlist')
     .get(async (req, res) => {
         try {

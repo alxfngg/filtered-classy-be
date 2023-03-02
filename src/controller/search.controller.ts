@@ -1,4 +1,6 @@
 import { CourseModel } from '../model/course.model';
+import { ProfessorModel } from '../model/professor.model';
+import { StudentModel } from '../model/student.model';
 import { DepartmentModel } from '../model/department.model';
 import { nextTerm } from '../constants/nextTerm';
 
@@ -215,4 +217,43 @@ const ArrIntersect = (array1: Array<string>, array2: Array<string> ) => {
         array2 = [];
     }
     return array1.filter(value => array2.includes(value));
+}
+
+export const getProfSearch = async (searchString: string) => {
+    let result;
+    if (searchString) {
+        result = await ProfessorModel.aggregate(
+            [
+                {
+                    '$search': {
+                        'index': 'profsearch', 
+                        'autocomplete': {
+                            'query': searchString, 
+                            'path': 'name',
+                        }
+                    }
+                }
+            ]
+        );
+    }
+   
+    return result;
+}
+
+export const getStudentSearch = async (searchString: string) => {
+    const result = await StudentModel.aggregate(
+        [
+            {
+                '$search': {
+                'index': 'coursesearch', 
+                'autocomplete': {
+                    'query': searchString,
+                    'path': 'courseTitle',
+                }
+                }
+            }
+            ]
+    );
+   
+    return result;
 }
