@@ -61,16 +61,24 @@ export const deleteUser = async (id: string) => {
     }
 }
 
-export const login = async (user: object) => {
+export const login = async (user: any) => {
     console.log(user);
     let foundUser;
     try {
-        foundUser = await UserModel.findOne(user);
+        foundUser = await UserModel.findOne({email: user.email});
+        console.log('found user is', foundUser);
+        if (foundUser) {
+            const isMatch = await user.comparePassword(user.password); 
+            if (isMatch) return foundUser;  
+        }
+        return  {
+            "status": 404,
+            "type": "NOT_FOUND",
+            "message": "User not found. Incorrect email or password."
+        };
     } catch (err) {
         console.log('Error::' + err);
     }
-    console.log('found user is', foundUser);
-    return foundUser;
 }
 
 
