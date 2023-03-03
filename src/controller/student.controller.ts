@@ -26,12 +26,11 @@ export const getFavProfsStudents = async (id: string) => {
 }
 
 export const getStudent = async (id: string) => {
+    console.log('id is', id)
     const student = await StudentModel.findOne({ _id: id })
         .populate('shoppingCart')
         .populate('currentCourses')
         .populate('coursesTaken')
-        .populate('majors')
-        .populate('minors')
         .populate({
             path: 'friends',
             populate: { path: 'user' }
@@ -48,6 +47,10 @@ export const getStudent = async (id: string) => {
             }
         })
         .populate('user')
+        .populate('majors')
+        .populate('minors')
+    console.log('studnet is', student)
+
     return student;
 }
 
