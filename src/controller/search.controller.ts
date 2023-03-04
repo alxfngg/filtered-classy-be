@@ -1,6 +1,6 @@
 import { CourseModel } from '../model/course.model';
 import { ProfessorModel } from '../model/professor.model';
-import { StudentModel } from '../model/student.model';
+import { UserModel } from '../model/user.model';
 import { DepartmentModel } from '../model/department.model';
 import { nextTerm } from '../constants/nextTerm';
 
@@ -236,24 +236,59 @@ export const getProfSearch = async (searchString: string) => {
             ]
         );
     }
+
+    // console.log(result)
    
     return result;
 }
 
 export const getStudentSearch = async (searchString: string) => {
-    const result = await StudentModel.aggregate(
-        [
-            {
-                '$search': {
-                'index': 'coursesearch', 
-                'autocomplete': {
-                    'query': searchString,
-                    'path': 'courseTitle',
+    let result;
+    if (searchString) {
+        result = await UserModel.aggregate(
+            [
+                {
+                    '$search': {
+                        'index': 'usersearch', 
+                        'compound': {
+                            'should': [
+                                {
+                                    'autocomplete': {
+                                        'query': searchString, 
+                                        'path': 'firstName'
+                                    }
+                                }, {
+                                    'autocomplete': {
+                                        'query': searchString, 
+                                        'path': 'lastName'
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }, {
+                    '$lookup': {
+                        'from': 'students', 
+                        'localField': 'student', 
+                        'foreignField': '_id', 
+                        'as': 'studentObj'
+                    }
+                }, {
+                    '$lookup': {
+                        'from': 'departments', 
+                        'localField': 'studentObj.majors', 
+                        'foreignField': '_id', 
+                        'as': 'majors'
+                    }
                 }
-                }
-            }
             ]
-    );
+        );
+    }
+    // console.log(result)
+
+    result = result?.filter((user) => !!user.student)
+
+    // console.log(result)
    
     return result;
 }

@@ -200,31 +200,33 @@ router.route('/departments')
         }
     })
 
-router.route('/departments/:code')
+router.route('/departments/:deptID')
     .get(async (req, res) => {
         try {
-            const result = await DepartmentController.getDepartment(req.params.code);
+            // console.log(req.params.deptID)
+            const result = await DepartmentController.getDepartment(req.params.deptID);
             res.json(result);
         } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .put(async (req, res) => {
-        try {
-            const result = await DepartmentController.updateDepartment(req.params.code, req.body);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .delete(async (req, res) => {
-        try {
-            const result = await DepartmentController.deleteDepartment(req.params.code);
-            res.json(result);
-        } catch (error) {
+            console.log(error);
             res.status(500).json({ error });
         }
     });
+    // .put(async (req, res) => {
+    //     try {
+    //         const result = await DepartmentController.updateDepartment(req.params.code, req.body);
+    //         res.json(result);
+    //     } catch (error) {
+    //         res.status(500).json({ error });
+    //     }
+    // })
+    // .delete(async (req, res) => {
+    //     try {
+    //         const result = await DepartmentController.deleteDepartment(req.params.code);
+    //         res.json(result);
+    //     } catch (error) {
+    //         res.status(500).json({ error });
+    //     }
+    // });
 
 router.route('/majorminors')
     .get(async (req, res) => {
