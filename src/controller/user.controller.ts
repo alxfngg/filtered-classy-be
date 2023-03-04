@@ -1,5 +1,6 @@
 import { StudentModel } from '../model/student.model';
 import { UserModel } from '../model/user.model';
+import bcrypt from 'bcryptjs';
 
 export const getUsers = async () => {
     const users = await UserModel.find({});
@@ -61,15 +62,20 @@ export const deleteUser = async (id: string) => {
     }
 }
 
+// ------------- AUTH ------------- //
+
+async function comparePassword(password: string, existingPassword: string) {
+    const comparison = await bcrypt.compare(password, existingPassword);
+    return comparison;
+  };
+
 export const login = async (user: any) => {
-    console.log(user);
     let foundUser;
     try {
-        foundUser = await UserModel.findOne({email: user.email});
-        console.log('found user is', foundUser);
+        foundUser = await UserModel.findOne({username: user.username});
         if (foundUser) {
-            const isMatch = await user.comparePassword(user.password); 
-            if (isMatch) return foundUser;  
+            const isMatch = await comparePassword(user.password, foundUser.password);
+            if (isMatch) return foundUser;
         }
         return  {
             "status": 404,
@@ -78,6 +84,11 @@ export const login = async (user: any) => {
         };
     } catch (err) {
         console.log('Error::' + err);
+        return  {
+            "status": 404,
+            "type": "ERROR_IN_LOGIN",
+            "message": "Error in login."
+        };
     }
 }
 
@@ -103,14 +114,13 @@ export const register = async (userObject: {user: {username: String, email: Stri
             return {errors};
         } else {
             const user =  await UserModel.create(userObject.user);
-            const student = await StudentModel.create(userObject.student);
+            await StudentModel.create(userObject.student);
             const foundStudent = await StudentModel.findOne(userObject.student);
-            console.log(foundStudent?._id);
-            return await UserModel.updateOne(userObject.user, {$set: {student: foundStudent?._id}});
+            const udpatedUser = await UserModel.findByIdAndUpdate(user._id, {$set: {student: foundStudent?._id}});
+            await StudentModel.updateOne(userObject.student, {$set: {user: user?._id}});
+            return udpatedUser;
         }
-
     } catch (err) {
         console.log('Error::' + err);
     }
-    
 }

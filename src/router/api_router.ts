@@ -898,7 +898,6 @@ router.route('/register')
     .post(async (req, res) => {
         try {
             const result = await UserController.register(req.body);
-            console.log('result is', result);
             res.json(result);
         } catch (error) {
             console.log(error);
