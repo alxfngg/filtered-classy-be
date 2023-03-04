@@ -32,17 +32,33 @@ export const getRandomCourses = async (num: number) => {
 
 export const getCourse = async (dept: string, num: string) => {
     const course = await CourseModel.findOne({"courseDept": dept, "courseNum": num})
-    .populate({ 
-        path: 'offerings.waitlist',
-        populate: { path: 'user' }
-    })
-    .populate({ 
-        path: 'offerings.priorityWaitlist',
-        populate: { path: 'user' }
-    })
-    const users = await StudentModel.find({}).populate('user');
+    .populate({
+        path: 'offerings',
+        populate: [
+            {
+                path: 'waitlist',
+                populate: {
+                    path: 'user',
+                    model: 'User',
+                    strictPopulate: false
+                },
+                strictPopulate: false
+            },
+            {
+                path: 'priorityWaitlist',
+                populate: {
+                    path: 'user',
+                    model: 'User',
+                    strictPopulate: false
+                },
+                strictPopulate: false
+            }
+        ],
+        strictPopulate: false
+    });
+    
     const studentId = '63c4424ce18e75a330906128';
-    const student = await StudentModel.findOne({'_id': studentId}).populate('user').populate('waitlistReasons')
+    const student = await StudentModel.findOne({'_id': studentId}).populate('waitlistReasons')
     const onWaitlist = await CourseModel.findOne({
         'courseDept': dept, 
         'courseNum': num, 
@@ -51,9 +67,8 @@ export const getCourse = async (dept: string, num: string) => {
             {'offerings.priorityWaitlist': studentId}
         ]
     }) !== null;
-    const key = `ObjectId('${studentId}')`;
-    const wroteReview = await CourseModel.findOne({courseDept: dept, courseNum: num, "offerings.reviews.user": key }) !== null;
-    return {course, users, student, wroteReview, onWaitlist};
+    const wroteReview = await CourseModel.findOne({courseDept: dept, courseNum: num, "offerings.reviews.user": studentId }) !== null;
+    return {course, student, wroteReview, onWaitlist};
 }
 
 // use the same function for distrib and wc by specifying type

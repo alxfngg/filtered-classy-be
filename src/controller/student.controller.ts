@@ -30,6 +30,8 @@ export const getStudent = async (id: string) => {
         .populate('shoppingCart')
         .populate('currentCourses')
         .populate('coursesTaken')
+        .populate('majors')
+        .populate('minors')
         .populate({
             path: 'friends',
             populate: { path: 'user' }

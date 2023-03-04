@@ -592,6 +592,7 @@ router.route('/students/friends/:id')
             const result = await StudentController.getFriends(req.params.id);
             res.json(result);
         } catch (error) {
+            console.log('error fetching friends', error)
             res.status(500).json({ error });
         }
     });
@@ -886,5 +887,40 @@ router.route('/prioritize/:dept/:num/:offeringIndex/:studentId/:priority')
             res.status(500).json({ error });
         }
     })
+
+router.route('/login')
+    .post(async (req, res) => {
+        try {
+            const result = await UserController.login(req.body);
+            res.json(result);
+        } catch (error) {
+            console.log(error);
+            res.status(500).json({ error });
+        }
+    })
+
+
+router.route('/register')
+    .get(async (req, res) => {
+        try {
+            const depts = await DepartmentController.getDepartments();
+            const status = "new";
+            res.json({depts, status});
+        } catch (error) {
+            console.log(error);
+            res.status(500).json({ error });
+        }
+    })    
+    .post(async (req, res) => {
+        try {
+            const result = await UserController.register(req.body);
+            console.log('result is', result);
+            res.json(result);
+        } catch (error) {
+            console.log(error);
+            res.status(500).json({ error });
+        }
+    })
+
 
 export default router;

@@ -1,3 +1,4 @@
+import { StudentModel } from '../model/student.model';
 import { UserModel } from '../model/user.model';
 
 export const getUsers = async () => {
@@ -13,6 +14,8 @@ export const getUser = async (id: string) => {
         .populate({
             path: 'student',
             populate: [
+            { path: 'majors'},
+            { path: 'minors'},
             { path: 'coursesTaken'},
             { path: 'currentCourses'},
             { path: 'shoppingCart'}
@@ -56,4 +59,50 @@ export const deleteUser = async (id: string) => {
     } catch (err) {
         console.log('Error::' + err);
     }
+}
+
+export const login = async (user: object) => {
+    console.log(user);
+    let foundUser;
+    try {
+        foundUser = await UserModel.findOne(user);
+    } catch (err) {
+        console.log('Error::' + err);
+    }
+    console.log('found user is', foundUser);
+    return foundUser;
+}
+
+
+export const register = async (userObject: {user: {username: String, email: String, netID: String}, student: Object}) => {
+    try {
+        // validate that username, netID, and email are unique
+        const foundUsername = await UserModel.findOne({username: userObject.user.username});
+        const foundNetID = await UserModel.findOne({netID: userObject.user.netID})
+        const foundEmail = await UserModel.findOne({email: userObject.user.email});
+
+        const errors = []
+        if (foundUsername) {
+            errors.push("Username in use");
+        }
+        if (foundNetID) {
+            errors.push("NetID in use");
+        }
+        if (foundEmail) {
+            errors.push("Email in use");
+        }
+        if (errors.length) {
+            return {errors};
+        } else {
+            const user =  await UserModel.create(userObject.user);
+            const student = await StudentModel.create(userObject.student);
+            const foundStudent = await StudentModel.findOne(userObject.student);
+            console.log(foundStudent?._id);
+            return await UserModel.updateOne(userObject.user, {$set: {student: foundStudent?._id}});
+        }
+
+    } catch (err) {
+        console.log('Error::' + err);
+    }
+    
 }
