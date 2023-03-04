@@ -7,12 +7,48 @@ export const getDepartments = async () => {
     return departments;
 }
 
-export const getDepartment = async (code: string) => {
-    const department = await DepartmentModel.findOne({codes: code});
-    const courses = await CourseModel.find({courseDept: code, required:{"$exists": true}}).sort({'courseNum': 1}).collation({locale: "en_US", numericOrdering: true})
-    const noPrereqs = await CourseModel.find({courseDept: code, required: null, courseNum: {"$not":{"$regex":"(9[0-9]|[1-2][0-9][0-9])"}}}).sort({'courseNum': 1}).collation({locale: "en_US", numericOrdering: true})
-    const professors = await ProfessorModel.find({departments: code}).sort({'name': 1})
-    return {department, courses, noPrereqs, professors};
+export const getDepartment = async (deptID: string) => {
+    let professors, courses;
+    // const deptID = '63711f81a288c0797dd7cad1';
+    const dept = await DepartmentModel.findById(deptID);
+    const name = dept?.name
+
+    const deptCodes = dept?.codes;
+
+    if (deptCodes && deptCodes.length !== 0) {
+        // console.log(deptCodes[0])
+        // const course = await CourseModel.find({courseDept: deptCodes[0]}).sort({'courseNum': 1}).collation({locale: "en_US", numericOrdering: true})
+        // console.log(course)
+        const coursesPromises = deptCodes?.map((deptCode) => CourseModel.find({courseDept: deptCode}).sort({'courseNum': 1}).collation({locale: "en_US", numericOrdering: true}))
+        courses = await Promise.all(coursesPromises)
+        courses = courses.flat();
+
+        const profsPromises = deptCodes?.map((deptCode) => ProfessorModel.find({departments: deptCode}).sort({'name': 1}))
+        professors = await Promise.all(profsPromises)
+        professors = professors.flat();
+
+        const resultProfs = [];
+        const map = new Map();
+        for (const prof of professors) {
+            if(!map.has(prof.name)){
+                map.set(prof.name, true);
+                resultProfs.push(prof);
+            }
+        }
+
+        resultProfs.sort((a, b) => a.name.localeCompare(b.name))
+
+        professors = resultProfs
+    }
+
+    // console.log(courses);
+    // console.log(code)
+
+    // const department = await DepartmentModel.findOne({codes: code});
+    // const courses = await CourseModel.find({courseDept: code, required:{"$exists": true}}).sort({'courseNum': 1}).collation({locale: "en_US", numericOrdering: true})
+    // const noPrereqs = await CourseModel.find({courseDept: code, required: null, courseNum: {"$not":{"$regex":"(9[0-9]|[1-2][0-9][0-9])"}}}).sort({'courseNum': 1}).collation({locale: "en_US", numericOrdering: true})
+    // const professors = await ProfessorModel.find({departments: code}).sort({'name': 1})
+    return {professors, courses, name, codes: deptCodes};
 }
 
 export const loadDepartments = async () => {

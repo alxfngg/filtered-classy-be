@@ -1,25 +1,13 @@
 import { CourseModel } from '../model/course.model';
+import { ProfessorModel } from '../model/professor.model';
+import { UserModel } from '../model/user.model';
 import { DepartmentModel } from '../model/department.model';
+import { nextTerm } from '../constants/nextTerm';
 
-type Distrib = {
-    name: string;
-    pastel: string;
-    dark: string;
-}
-
-type WC = {
-    name: string;
-    pastel: string;
-    dark: string;
-}
-
-export const getSearch = async (searchString: string, distribFilters: Array<Distrib>, wcFilters: Array<WC>, offeredNext: boolean, nrEligible: boolean) => {
+export const getSearch = async (searchString: string, distribFilters: Array<string>, wcFilters: Array<string>, offeredNext: boolean, nrEligible: boolean) => {
     let result = [];
     // console.log(distribFilters)
 
-    if (!searchString) {
-        result = await CourseModel.find({});
-    }
 
     // split searchString into numeric (courseNumber) and alpha (courseDept) strings and query based on strings
     // see https://stackoverflow.com/questions/49887578/splitting-a-string-with-a-decimal-number-and-some-characters for match() details
@@ -40,24 +28,10 @@ export const getSearch = async (searchString: string, distribFilters: Array<Dist
 
         if (dept[0]) { // if department exists, concatenate department codes to deptCodes
             deptCodes = deptCodes.concat(dept[0].codes);
-            console.log(deptCodes)
+            // console.log(deptCodes)
         }
     }
 
-    
-    // // find using departments case insensitive regex https://stackoverflow.com/questions/26699885/how-can-i-use-a-regex-variable-in-a-query-for-mongodb
-    // if (alpha) {
-    //     const dept = await DepartmentModel.find({ name: new RegExp('^' + alpha[0].trim() + '$', 'i') });
-
-    //     if (dept[0]) { // if department exists, concatenate department codes to deptCodes
-    //         deptCodes = deptCodes.concat(dept[0].codes);
-    //         console.log(deptCodes)
-    //     }
-    // }
-
-    
-
-    
     // console.log(alpha);
     
 
@@ -139,96 +113,8 @@ export const getSearch = async (searchString: string, distribFilters: Array<Dist
 
     }
 
-    // if no numeric values but alpha values
-    // else if (alpha) {
-    //     console.log("No numeric but alpha")
-
-    //     const alphQuery = alpha[0];
-
-    //     // if no numeric values but alpha values with length 3 or 4, search for all courses with matching courseDept and sort by courseNum
-    //     if (alphQuery.length == 4 || alphQuery.length == 3) {
-    //         // console.log("Searching dept");
-    
-    //         result = await CourseModel.aggregate(
-    //             [
-    //                 {
-    //                     '$search': {
-    //                     'index': 'coursesearch', 
-    //                     'text': {
-    //                         'query': alphQuery,
-    //                         'path': 'courseDept'
-    //                     }
-    //                     }
-    //                 },
-    //                 {
-    //                     '$sort': {
-    //                         'courseNum': 1
-    //                     }
-    //                 }
-        
-    //                 ]
-    //         );
-    //     }
-        
-        // if no numeric values but contains alpha values and no results, use autocomplete search for matching courseTitle and sort by searchScore
-        // if (result.length === 0) { 
-        //     // console.log("here");
-
-        //     result = await CourseModel.aggregate(
-        //         [
-        //             {
-        //                 '$search': {
-        //                 'index': 'coursesearch', 
-        //                 'autocomplete': {
-        //                     'query': alphQuery,
-        //                     'path': 'courseTitle',
-        //                 }
-        //                 }
-        //             },
-        //             {
-        //                 '$addFields': {
-        //                     'score': {
-        //                         '$meta': 'searchScore'
-        //                     }
-        //                 }
-        //             }
-        //             ]
-        //     );
-        // }
-
-    // }
-
-    // if (!numeric && result.length === 0 && alpha) {
-    //     // console.log("Searching dept");
-    //     const alphQuery = alpha[0].replace(/\s/g, ''); // remove spaces in alpha
-
-    //     if (alphQuery.length == 4 || alphQuery.length == 3) {
-            
-    //         result = await CourseModel.aggregate(
-    //             [
-    //                 {
-    //                     '$search': {
-    //                     'index': 'coursesearch', 
-    //                     'text': {
-    //                         'query': alphQuery,
-    //                         'path': 'courseDept'
-    //                     }
-    //                     }
-    //                 },
-    //                 {
-    //                     '$sort': {
-    //                         'courseNum': 1
-    //                     }
-    //                 }
-        
-    //                 ]
-    //         );
-
-    //     }
-    // }
-
     if (deptCodes.length !== 0 && !numeric) {
-        console.log(deptCodes + "deptcods")
+        // console.log(deptCodes + "deptcods")
          
         const promises = deptCodes.map((code) => {
             return CourseModel.aggregate(
@@ -253,7 +139,12 @@ export const getSearch = async (searchString: string, distribFilters: Array<Dist
                         'courseNum': 1
                     }
                 }
-                ]
+            ], {
+                collation: {
+                    locale: "en_US",
+                    numericOrdering: true
+                }
+            }
             );
         
         });
@@ -289,10 +180,28 @@ export const getSearch = async (searchString: string, distribFilters: Array<Dist
 
     // console.log(result)
 
+
+    // if no searchString input but some filter applied, find all courses
+    if (!searchString && (distribFilters || wcFilters || offeredNext || nrEligible)) {
+        console.log('Getting all courses');
+        result = await CourseModel.find({});
+    }
     
     if (distribFilters) {
-        const distribNames = distribFilters.map((distrib) => distrib.name);
-        result = result.filter((course) => (ArrIntersect(course.distribs, distribNames).length !== 0));
+        // const distribNames = distribFilters.map((distrib) => distrib.name);
+        result = result.filter((course) => (ArrIntersect(course.distribs, distribFilters).length !== 0));
+    }
+
+    if (wcFilters) {
+        result = result.filter((course) => wcFilters.includes(course.worldCulture));
+    }
+
+    if (offeredNext) {
+        result = result.filter((course) => course.offerings?.some((offering: { term: string; }) => offering.term.toUpperCase() === nextTerm.toUpperCase()))
+    }
+
+    if (nrEligible) {
+        result = result.filter((course) => course.nrEligible)
     }
 
     return result;
@@ -301,11 +210,85 @@ export const getSearch = async (searchString: string, distribFilters: Array<Dist
 const ArrIntersect = (array1: Array<string>, array2: Array<string> ) => {
     // console.log(array1);
     // console.log(array2);
-    if (array1 === null) {
+    if (!array1) {
         array1 = [];
     }
-    if (array2 === null) {
+    if (!array2) {
         array2 = [];
     }
     return array1.filter(value => array2.includes(value));
+}
+
+export const getProfSearch = async (searchString: string) => {
+    let result;
+    if (searchString) {
+        result = await ProfessorModel.aggregate(
+            [
+                {
+                    '$search': {
+                        'index': 'profsearch', 
+                        'autocomplete': {
+                            'query': searchString, 
+                            'path': 'name',
+                        }
+                    }
+                }
+            ]
+        );
+    }
+
+    // console.log(result)
+   
+    return result;
+}
+
+export const getStudentSearch = async (searchString: string) => {
+    let result;
+    if (searchString) {
+        result = await UserModel.aggregate(
+            [
+                {
+                    '$search': {
+                        'index': 'usersearch', 
+                        'compound': {
+                            'should': [
+                                {
+                                    'autocomplete': {
+                                        'query': searchString, 
+                                        'path': 'firstName'
+                                    }
+                                }, {
+                                    'autocomplete': {
+                                        'query': searchString, 
+                                        'path': 'lastName'
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }, {
+                    '$lookup': {
+                        'from': 'students', 
+                        'localField': 'student', 
+                        'foreignField': '_id', 
+                        'as': 'studentObj'
+                    }
+                }, {
+                    '$lookup': {
+                        'from': 'departments', 
+                        'localField': 'studentObj.majors', 
+                        'foreignField': '_id', 
+                        'as': 'majors'
+                    }
+                }
+            ]
+        );
+    }
+    // console.log(result)
+
+    result = result?.filter((user) => !!user.student)
+
+    // console.log(result)
+   
+    return result;
 }

@@ -200,31 +200,33 @@ router.route('/departments')
         }
     })
 
-router.route('/departments/:code')
+router.route('/departments/:deptID')
     .get(async (req, res) => {
         try {
-            const result = await DepartmentController.getDepartment(req.params.code);
+            // console.log(req.params.deptID)
+            const result = await DepartmentController.getDepartment(req.params.deptID);
             res.json(result);
         } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .put(async (req, res) => {
-        try {
-            const result = await DepartmentController.updateDepartment(req.params.code, req.body);
-            res.json(result);
-        } catch (error) {
-            res.status(500).json({ error });
-        }
-    })
-    .delete(async (req, res) => {
-        try {
-            const result = await DepartmentController.deleteDepartment(req.params.code);
-            res.json(result);
-        } catch (error) {
+            console.log(error);
             res.status(500).json({ error });
         }
     });
+    // .put(async (req, res) => {
+    //     try {
+    //         const result = await DepartmentController.updateDepartment(req.params.code, req.body);
+    //         res.json(result);
+    //     } catch (error) {
+    //         res.status(500).json({ error });
+    //     }
+    // })
+    // .delete(async (req, res) => {
+    //     try {
+    //         const result = await DepartmentController.deleteDepartment(req.params.code);
+    //         res.json(result);
+    //     } catch (error) {
+    //         res.status(500).json({ error });
+    //     }
+    // });
 
 router.route('/majorminors')
     .get(async (req, res) => {
@@ -740,24 +742,12 @@ router.route('/explore')
     })
 
 
-type Distrib = {
-    name: string;
-    pastel: string;
-    dark: string;
-}
-
-type WC = {
-    name: string;
-    pastel: string;
-    dark: string;
-}
-
 interface ReqQuery {
     query: string;
-    distribFilters: Array<Distrib>;
-    wcFilters: Array<WC>;
-    nrEligible: boolean;
-    offeredNext: boolean;
+    distribFilters: Array<string>;
+    wcFilters: Array<string>;
+    nrEligible: string;
+    offeredNext: string;
 }
 
 router.route('/search')
@@ -767,8 +757,36 @@ router.route('/search')
                 req.query.query, 
                 req.query.distribFilters, 
                 req.query.wcFilters, 
-                req.query.offeredNext, 
-                req.query.nrEligible
+                JSON.parse(req.query.offeredNext), 
+                JSON.parse(req.query.nrEligible)
+            );
+            // console.log(req.query);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+            console.log(error);
+        }
+    })
+
+router.route('/searchProfs')
+    .get(async (req: Request<unknown, unknown, unknown, ReqQuery>, res) => {
+        try {
+            const result = await SearchController.getProfSearch(
+                req.query.query, 
+            );
+            // console.log(req.query);
+            res.json(result);
+        } catch (error) {
+            res.status(500).json({ error });
+            console.log(error);
+        }
+    })
+
+router.route('/searchStudents')
+    .get(async (req: Request<unknown, unknown, unknown, ReqQuery>, res) => {
+        try {
+            const result = await SearchController.getStudentSearch(
+                req.query.query, 
             );
             // console.log(req.query);
             res.json(result);
