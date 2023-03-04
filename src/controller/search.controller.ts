@@ -232,12 +232,19 @@ export const getProfSearch = async (searchString: string) => {
                             'path': 'name',
                         }
                     }
+                }, {
+                    '$lookup': {
+                        'from': 'users', 
+                        'localField': 'user', 
+                        'foreignField': '_id', 
+                        'as': 'professorObj'
+                    }
                 }
             ]
         );
     }
 
-    // console.log(result)
+    console.log(result)
    
     return result;
 }
