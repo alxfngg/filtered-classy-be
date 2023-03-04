@@ -1,6 +1,7 @@
 import { model, Schema, Model, Document, Types } from 'mongoose';
 
 export interface IStudent extends Document {
+  user: Types.ObjectId; // user of the student
   classYear: number; // class year of the student
   coursesTaken: Types.ObjectId[]; // courses taken by the student
   currentCourses: Types.ObjectId[]; // courses taken by the student
@@ -22,6 +23,7 @@ export interface IStudent extends Document {
 }
 
 const StudentSchema: Schema = new Schema({
+  user: { type: Schema.Types.ObjectId, ref: 'User' }, // user of the student
   classYear: { type: Number, required: true }, // class year of the student
   coursesTaken: [{ type: Schema.Types.ObjectId, ref: 'Course' }], // courses taken by the student
   currentCourses: [{ type: Schema.Types.ObjectId, ref: 'Course' }], // currentCourses

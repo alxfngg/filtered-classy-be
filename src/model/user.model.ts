@@ -52,10 +52,4 @@ UserSchema.pre('save', async function beforeUserSave(next) {
   }
 });
 
-// note use of named function rather than arrow notation, required here
-UserSchema.methods.comparePassword = async function comparePassword(candidatePassword: string) {
-  const comparison = await bcrypt.compare(candidatePassword, this.password);
-  return comparison;
-};
-
 export const UserModel: Model<IUser> = model<IUser>('User', UserSchema);
