@@ -23,7 +23,7 @@ export const getDepartment = async (deptID: string) => {
         courses = await Promise.all(coursesPromises)
         courses = courses.flat();
 
-        const profsPromises = deptCodes?.map((deptCode) => ProfessorModel.find({departments: deptCode}).sort({'name': 1}))
+        const profsPromises = deptCodes?.map((deptCode) => ProfessorModel.find({departments: deptCode}).populate('user').sort({'name': 1}))
         professors = await Promise.all(profsPromises)
         professors = professors.flat();
 
