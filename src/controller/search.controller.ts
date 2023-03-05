@@ -188,14 +188,12 @@ export const getSearch = async (searchString: string, distribFilters: Array<stri
     }
     
     if (nrEligible) {
-        console.log('nrEligible filtering')
-        result = result.filter((course) => {
-            // console.log(course)
-            if (!!course.nrEligible) {
-                console.log(course)
-                return course;
-            }
-        })
+        console.log('nrEligible filtering');
+        if (!searchString) {
+            result = result.filter((course) => (!!course.toJSON().nrEligible));
+        } else {
+            result = result.filter((course) => (!!course.nrEligible));
+        }
     }
 
     if (distribFilters) {
