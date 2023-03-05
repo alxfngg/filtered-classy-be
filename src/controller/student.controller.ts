@@ -31,6 +31,7 @@ export const getStudent = async (id: string) => {
         .populate('currentCourses')
         .populate('coursesTaken')
         .populate('majors')
+        .populate('minors')
         .populate({
             path: 'friends',
             populate: { path: 'user' }
@@ -38,6 +39,10 @@ export const getStudent = async (id: string) => {
         .populate({
             path: 'friends',
             populate: { path: 'majors' }
+        })
+        .populate({
+            path: 'friends',
+            populate: { path: 'minors' }
         })
         .populate({
             path: 'coursesRecommended',
