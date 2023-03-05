@@ -43,7 +43,7 @@ export const getSearch = async (searchString: string, distribFilters: Array<stri
         // if numeric and alpha values, search for matching alpha AND numeric
         if (alpha) {
             if (deptCodes.length !== 0) {
-                console.log("here");
+                // console.log("here");
 
                 const promises = deptCodes.map((deptCode) => {
                     return CourseModel.aggregate(
@@ -187,6 +187,17 @@ export const getSearch = async (searchString: string, distribFilters: Array<stri
         result = await CourseModel.find({});
     }
     
+    if (nrEligible) {
+        console.log('nrEligible filtering')
+        result = result.filter((course) => {
+            // console.log(course)
+            if (!!course.nrEligible) {
+                console.log(course)
+                return course;
+            }
+        })
+    }
+
     if (distribFilters) {
         // const distribNames = distribFilters.map((distrib) => distrib.name);
         result = result.filter((course) => (ArrIntersect(course.distribs, distribFilters).length !== 0));
@@ -198,11 +209,14 @@ export const getSearch = async (searchString: string, distribFilters: Array<stri
 
     if (offeredNext) {
         result = result.filter((course) => course.offerings?.some((offering: { term: string; }) => offering.term.toUpperCase() === nextTerm.toUpperCase()))
+        // console.log(result)
     }
 
-    if (nrEligible) {
-        result = result.filter((course) => course.nrEligible)
-    }
+    console.log(result)
+
+    
+
+    // console.log(result);
 
     return result;
 }
@@ -290,5 +304,13 @@ export const getStudentSearch = async (searchString: string) => {
 
     // console.log(result)
    
+    return result;
+}
+
+export const getDepartmentSearch = async (searchString: string) => {
+    let result = [];
+        // if query exactly matches full department name, collect department codes
+        result = await DepartmentModel.find({ name: new RegExp('^' + searchString, 'i') }).sort({'name': 1});
+
     return result;
 }
