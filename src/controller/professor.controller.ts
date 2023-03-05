@@ -50,3 +50,17 @@ export const deleteProfessor = async (name: string) => {
         console.log('Error::' + err);
     }
 }
+
+export const cleanupProfNames = async() => {
+    try {
+        const profsToClean = await ProfessorModel.find({name: {$regex: '^ '} });
+        for (const prof of profsToClean) {
+            console.log('prof', prof);
+            const name = prof?.name.substring(1, prof?.name.length);
+            const id = prof?._id
+            await ProfessorModel.findByIdAndUpdate(id, {$set: {name: name}});
+        }
+    } catch (err) {
+        console.log('Error::' + err);
+    }
+}
