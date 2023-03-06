@@ -58,6 +58,13 @@ export const removeFromWaitlist = async (dept: String, num: String,
         {'courseDept': dept, 'courseNum': num}, 
         { $pull: query}
     )
+
+    const key3: string = `offerings.${offeringIndex}.approved`;
+    query[key3] = studentId;
+    await CourseModel.updateOne(
+        {'courseDept': dept, 'courseNum': num}, 
+        { $pull: query}
+    )
 }
 
 // add an extra term on waitlist for those who have already submitted a waitlist request
@@ -84,6 +91,11 @@ export const withdrawFromWaitlist = async (dept: String, num: String,
         {'courseDept': dept, 'courseNum': num, "offerings.priorityWaitlist": studentId}, 
         { $pull: { "offerings.$.priorityWaitlist": studentId } }
     )
+
+    await CourseModel.updateMany(
+        {'courseDept': dept, 'courseNum': num, "offerings.waitlist": studentId}, 
+        { $pull: { "offerings.$.approved": studentId } }
+    );
 
     await CourseModel.updateMany(
         {'courseDept': dept, 'courseNum': num}, 
@@ -123,5 +135,24 @@ export const prioritize = async (dept: String, num: String,
             updateQuery
         );
     }
+    return await CourseModel.findOne({'courseDept': dept, 'courseNum': num});    
+}
+
+export const approve = async (dept: String, num: String, 
+    offeringIndex: String, studentId: String) => {
+        const updateQuery = {
+            $pull: {
+                [`offerings.${offeringIndex}.priorityWaitlist`]: studentId,
+                [`offerings.${offeringIndex}.waitlist`]: studentId,
+            },
+            $addToSet: {
+                [`offerings.${offeringIndex}.approved`]: studentId
+            },
+        };
+    
+        await CourseModel.updateOne(
+            {'courseDept': dept, 'courseNum': num}, 
+            updateQuery
+        );
     return await CourseModel.findOne({'courseDept': dept, 'courseNum': num});    
 }

@@ -52,6 +52,15 @@ export const getCourse = async (dept: string, num: string) => {
                     strictPopulate: false
                 },
                 strictPopulate: false
+            },
+            {
+                path: 'approved',
+                populate: {
+                    path: 'user',
+                    model: 'User',
+                    strictPopulate: false
+                },
+                strictPopulate: false
             }
         ],
         strictPopulate: false

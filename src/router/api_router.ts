@@ -896,7 +896,18 @@ router.route('/prioritize/:dept/:num/:offeringIndex/:studentId/:priority')
         try {
             const result = await WaitlistController.prioritize(req.params.dept, req.params.num, 
                 req.params.offeringIndex, req.params.studentId, req.params.priority);
-            console.log('returning', result);
+            res.json(result);
+        } catch (error) {
+            console.log(error);
+            res.status(500).json({ error });
+        }
+    })
+
+router.route('/approve/:dept/:num/:offeringIndex/:studentId')
+    .put(async (req, res) => {
+        console.log('request received by backend')
+        try {
+            const result = await WaitlistController.approve(req.params.dept, req.params.num, req.params.offeringIndex, req.params.studentId);
             res.json(result);
         } catch (error) {
             console.log(error);

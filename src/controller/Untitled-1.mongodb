@@ -7,6 +7,4 @@
 use('test');
 
 // The drop() command destroys all data from a collection.
-// Make sure you run it against the correct database and collection.
-db.courses.updateMany({},{ "$set": { "offerings.$[].approved": [] } }
-)
+db.courses.updateMany({}, { $set: { 'offerings.$[].approved': [] } })
