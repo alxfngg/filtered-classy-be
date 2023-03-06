@@ -210,7 +210,7 @@ export const getSearch = async (searchString: string, distribFilters: Array<stri
         // console.log(result)
     }
 
-    console.log(result)
+    // console.log(result)
 
     
 
@@ -254,6 +254,11 @@ export const getProfSearch = async (searchString: string) => {
                 }
             ]
         );
+
+        if (result.length === 0) {
+            // console.log('searching depts')
+            result = await ProfessorModel.find({ departments: new RegExp('^' + searchString, 'i') }).populate('user').sort({'name': 1});
+        }
     }
 
     console.log(result)
@@ -314,7 +319,6 @@ export const getStudentSearch = async (searchString: string) => {
 
 export const getDepartmentSearch = async (searchString: string) => {
     let result = [];
-        // if query exactly matches full department name, collect department codes
         result = await DepartmentModel.find({ name: new RegExp('^' + searchString, 'i') }).sort({'name': 1});
 
     return result;
