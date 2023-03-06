@@ -50,7 +50,11 @@ const CourseSchema: Schema = new Schema({
     priorityWaitlist: [{
         type: Schema.Types.ObjectId,
         ref: 'Student'
-      }]
+      }],
+    approved: [{
+        type: Schema.Types.ObjectId,
+        ref: 'Student',
+      }],
   }],
   xlists: [{ type: String }], // crosslisted courses
   pe: { type: Boolean, default: false }, // pe for this course
@@ -79,6 +83,7 @@ interface IOffering {
     waitlistOpen: boolean,
     waitlist: Types.ObjectId[];
     priorityWaitlist: Types.ObjectId[];
+    approved: Types.ObjectId[];
 }
 
 export const CourseModel: Model<ICourse> = model<ICourse>('Course', CourseSchema);
