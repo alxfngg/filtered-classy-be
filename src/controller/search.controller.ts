@@ -257,7 +257,26 @@ export const getProfSearch = async (searchString: string) => {
 
         if (result.length === 0) {
             // console.log('searching depts')
-            result = await ProfessorModel.find({ departments: new RegExp('^' + searchString, 'i') }).sort({'name': 1});
+            result = await ProfessorModel.aggregate(
+                [
+                    {
+                        '$search': {
+                            'index': 'profsearch', 
+                            'regex': {
+                                'query': searchString + ".*", 
+                                'path': 'departments',
+                            }
+                        }
+                    }, {
+                        '$lookup': {
+                            'from': 'users', 
+                            'localField': 'user', 
+                            'foreignField': '_id', 
+                            'as': 'professorObj'
+                        }
+                    }
+                ]
+            );
         }
     }
 
