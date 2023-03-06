@@ -244,9 +244,21 @@ export const getProfSearch = async (searchString: string) => {
                             'path': 'name',
                         }
                     }
+                }, {
+                    '$lookup': {
+                        'from': 'users', 
+                        'localField': 'user', 
+                        'foreignField': '_id', 
+                        'as': 'professorObj'
+                    }
                 }
             ]
         );
+
+        if (result.length === 0) {
+            // console.log('searching depts')
+            result = await ProfessorModel.find({ departments: new RegExp('^' + searchString, 'i') }).sort({'name': 1});
+        }
     }
 
     // console.log(result)
@@ -307,7 +319,6 @@ export const getStudentSearch = async (searchString: string) => {
 
 export const getDepartmentSearch = async (searchString: string) => {
     let result = [];
-        // if query exactly matches full department name, collect department codes
         result = await DepartmentModel.find({ name: new RegExp('^' + searchString, 'i') }).sort({'name': 1});
 
     return result;
